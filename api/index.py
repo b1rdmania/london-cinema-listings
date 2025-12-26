@@ -354,9 +354,9 @@ HTML_TEMPLATE = """
             <p class="subtitle">Independent & repertory cinema screenings</p>
         </header>
 
-        <div class="filters" id="cinema-filters"></div>
-
         <div class="date-nav" id="date-nav"></div>
+
+        <div class="filters" id="cinema-filters"></div>
 
         <div id="screenings">
             <div class="loading">Loading screenings...</div>
