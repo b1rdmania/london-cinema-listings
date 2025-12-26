@@ -1,76 +1,64 @@
 {
   "screenings": [
     {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Shining",
-      "start_time": "2025-12-26T17:00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_4682151.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.795228"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Sentimental Value",
-      "start_time": "2025-12-26T17:15:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_4566866.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.795370"
-    },
-    {
-      "cinema_id": "curzon-hoxton",
-      "cinema_name": "Curzon Hoxton",
-      "film_title": "Sentimental Value",
-      "start_time": "2025-12-26T17:25:00+00:00",
-      "booking_url": "https://www.curzon.com/booking/HOX1-25301",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": "2025-12-26T19:38:00+00:00",
-      "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.657301"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Kill Bill: The Whole Bloody Affair",
-      "start_time": "2025-12-26T17:45:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31624415",
-      "format": null,
-      "screen": null,
-      "end_time": "2025-12-26T22:26:00",
-      "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.545419"
-    },
-    {
-      "cinema_id": "curzon-hoxton",
-      "cinema_name": "Curzon Hoxton",
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
       "film_title": "Marty Supreme",
-      "start_time": "2025-12-26T17:55:00+00:00",
-      "booking_url": "https://www.curzon.com/booking/HOX1-24992",
+      "start_time": "2025-12-26T18:15:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020279/382605",
       "format": null,
-      "screen": "Screen 1",
-      "end_time": "2025-12-26T20:24:00+00:00",
-      "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.657314"
+      "screen": null,
+      "end_time": "2025-12-26T21:10:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389928"
     },
     {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Umbrellas of Cherbourg",
-      "start_time": "2025-12-26T18:00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_4610383.TcsSection_638",
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Sentimental Value",
+      "start_time": "2025-12-26T18:30:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020863/382449",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T21:08:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389948"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Anaconda",
+      "start_time": "2025-12-26T18:45:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020277/382516",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T20:49:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389917"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "The Housemaid",
+      "start_time": "2025-12-26T19:10:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020278/382578",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T21:46:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389907"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Avatar: Fire and Ash",
+      "start_time": "2025-12-26T19:15:00",
+      "booking_url": "https://purchase.everymancinema.com/startticketing/1038/28594",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.795492"
+      "scraped_at": "2025-12-26T18:23:30.332296"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -82,7 +70,55 @@
       "screen": "Screen 3",
       "end_time": "2025-12-26T22:45:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.657318"
+      "scraped_at": "2025-12-26T18:22:47.464019"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Avatar: Fire and Ash",
+      "start_time": "2025-12-26T19:30:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00019701/381587",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T23:12:00",
+      "notes": "3D; Dolby Atmos; HDR by Barco; Biggest Screen",
+      "scraped_at": "2025-12-26T18:23:35.389864"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Marty Supreme",
+      "start_time": "2025-12-26T19:45:00",
+      "booking_url": "https://purchase.everymancinema.com/startticketing/1038/28592",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2025-12-26T18:23:30.332287"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Marty Supreme",
+      "start_time": "2025-12-26T19:45:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020279/380446",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T22:40:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389930"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Anaconda",
+      "start_time": "2025-12-26T19:50:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020277/382677",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T21:54:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389919"
     },
     {
       "cinema_id": "garden-cinema",
@@ -94,7 +130,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.795594"
+      "scraped_at": "2025-12-26T18:23:24.861048"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "The Housemaid",
+      "start_time": "2025-12-26T20:00:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020278/381473",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T22:36:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389911"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -106,7 +154,7 @@
       "screen": null,
       "end_time": "2025-12-26T22:40:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.545973"
+      "scraped_at": "2025-12-26T18:22:52.484202"
     },
     {
       "cinema_id": "garden-cinema",
@@ -118,7 +166,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.795387"
+      "scraped_at": "2025-12-26T18:23:24.861124"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -130,7 +178,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-26T22:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.657320"
+      "scraped_at": "2025-12-26T18:22:47.464028"
     },
     {
       "cinema_id": "garden-cinema",
@@ -142,7 +190,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.795694"
+      "scraped_at": "2025-12-26T18:23:24.861190"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Housemaid",
+      "start_time": "2025-12-26T20:30:00",
+      "booking_url": "https://purchase.everymancinema.com/startticketing/1038/28590",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2025-12-26T18:23:30.332293"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Marty Supreme",
+      "start_time": "2025-12-26T20:45:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020279/382419",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T23:40:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389932"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Avatar: Fire and Ash",
+      "start_time": "2025-12-26T20:50:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00019701/382628",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T00:32:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389884"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -154,7 +238,115 @@
       "screen": "Screen 1",
       "end_time": "2025-12-26T23:34:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.657323"
+      "scraped_at": "2025-12-26T18:22:47.464031"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Sentimental Value",
+      "start_time": "2025-12-26T21:10:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020863/382517",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T23:48:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389950"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Avatar: Fire and Ash",
+      "start_time": "2025-12-26T21:30:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00019701/382606",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T01:12:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389889"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Anaconda",
+      "start_time": "2025-12-26T21:30:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020277/382450",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-26T23:34:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389921"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Avatar: Fire and Ash",
+      "start_time": "2025-12-26T22:10:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00019701/382579",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T01:52:00",
+      "notes": "3D; Laser",
+      "scraped_at": "2025-12-26T18:23:35.389894"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Wicked: For Good",
+      "start_time": "2025-12-26T22:20:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00019580/382678",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T01:03:00",
+      "notes": "Laser",
+      "scraped_at": "2025-12-26T18:23:35.389936"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Avatar: Fire and Ash",
+      "start_time": "2025-12-26T22:55:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00019701/382483",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T02:37:00",
+      "notes": "Laser; Over 18s",
+      "scraped_at": "2025-12-26T18:23:35.389899"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "The Housemaid",
+      "start_time": "2025-12-26T23:00:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020278/382547",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T01:36:00",
+      "notes": "Laser; Over 18s",
+      "scraped_at": "2025-12-26T18:23:35.389913"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Anaconda",
+      "start_time": "2025-12-26T23:35:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020277/382646",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T01:39:00",
+      "notes": "Dolby Atmos; HDR by Barco; Biggest Screen; Over 18s",
+      "scraped_at": "2025-12-26T18:23:35.389924"
+    },
+    {
+      "cinema_id": "vue-islington",
+      "cinema_name": "Vue Islington",
+      "film_title": "Fackham Hall",
+      "start_time": "2025-12-26T23:55:00",
+      "booking_url": "https://www.myvue.com/book-tickets/summary/10032/HO00020850/382451",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T01:57:00",
+      "notes": "Laser; Over 18s",
+      "scraped_at": "2025-12-26T18:23:35.389945"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -166,7 +358,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-27T12:35:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882619"
+      "scraped_at": "2025-12-26T18:22:47.690731"
     },
     {
       "cinema_id": "garden-cinema",
@@ -178,7 +370,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.796056"
+      "scraped_at": "2025-12-26T18:23:24.861498"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -190,7 +382,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:17.574270"
+      "scraped_at": "2025-12-26T18:23:22.035666"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -202,7 +394,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-27T13:54:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882633"
+      "scraped_at": "2025-12-26T18:22:47.690742"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -214,7 +406,19 @@
       "screen": null,
       "end_time": null,
       "notes": "PG*",
-      "scraped_at": "2025-12-26T16:03:18.212260"
+      "scraped_at": "2025-12-26T18:23:22.636027"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Kill Bill: The Whole Bloody Affair",
+      "start_time": "2025-12-27T12:15:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31624371",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T16:56:00",
+      "notes": "35mm",
+      "scraped_at": "2025-12-26T18:22:52.484510"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -226,7 +430,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-27T14:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882636"
+      "scraped_at": "2025-12-26T18:22:47.690745"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -238,7 +442,7 @@
       "screen": null,
       "end_time": "2025-12-27T13:57:00",
       "notes": "Subtitled",
-      "scraped_at": "2025-12-26T16:02:44.546297"
+      "scraped_at": "2025-12-26T18:22:52.484855"
     },
     {
       "cinema_id": "garden-cinema",
@@ -250,7 +454,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.796278"
+      "scraped_at": "2025-12-26T18:23:24.861580"
     },
     {
       "cinema_id": "garden-cinema",
@@ -262,7 +466,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.796504"
+      "scraped_at": "2025-12-26T18:23:24.861653"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -274,7 +478,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-27T16:45:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882638"
+      "scraped_at": "2025-12-26T18:22:47.690747"
     },
     {
       "cinema_id": "garden-cinema",
@@ -286,7 +490,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.796632"
+      "scraped_at": "2025-12-26T18:23:24.861720"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -298,7 +502,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577362"
+      "scraped_at": "2025-12-26T18:23:21.010584"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -310,7 +514,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600581"
+      "scraped_at": "2025-12-26T18:23:23.837493"
     },
     {
       "cinema_id": "rio",
@@ -322,7 +526,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694384"
+      "scraped_at": "2025-12-26T18:22:38.964665"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -334,7 +538,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924191"
+      "scraped_at": "2025-12-26T18:23:24.132791"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -346,7 +550,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-27T17:04:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882640"
+      "scraped_at": "2025-12-26T18:22:47.690749"
     },
     {
       "cinema_id": "rio",
@@ -358,7 +562,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694454"
+      "scraped_at": "2025-12-26T18:22:38.964718"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -370,7 +574,19 @@
       "screen": "Screen 2",
       "end_time": "2025-12-27T18:45:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882643"
+      "scraped_at": "2025-12-26T18:22:47.690751"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Wings of Desire [Der Himmel \u00fcber Berlin]",
+      "start_time": "2025-12-27T15:30:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31623810",
+      "format": null,
+      "screen": null,
+      "end_time": "2025-12-27T17:38:00",
+      "notes": null,
+      "scraped_at": "2025-12-26T18:22:52.485096"
     },
     {
       "cinema_id": "garden-cinema",
@@ -382,7 +598,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.796754"
+      "scraped_at": "2025-12-26T18:23:24.861789"
     },
     {
       "cinema_id": "garden-cinema",
@@ -394,7 +610,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.796858"
+      "scraped_at": "2025-12-26T18:23:24.861852"
     },
     {
       "cinema_id": "rio",
@@ -406,7 +622,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694662"
+      "scraped_at": "2025-12-26T18:22:38.964879"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -418,7 +634,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577373"
+      "scraped_at": "2025-12-26T18:23:21.010593"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -430,7 +646,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:18.651694"
+      "scraped_at": "2025-12-26T18:23:23.095689"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -442,7 +658,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600592"
+      "scraped_at": "2025-12-26T18:23:23.837506"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -454,7 +670,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-27T19:48:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882645"
+      "scraped_at": "2025-12-26T18:22:47.690753"
     },
     {
       "cinema_id": "rio",
@@ -466,7 +682,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694460"
+      "scraped_at": "2025-12-26T18:22:38.964723"
     },
     {
       "cinema_id": "garden-cinema",
@@ -478,7 +694,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.796292"
+      "scraped_at": "2025-12-26T18:23:24.861586"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -490,7 +706,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-27T20:24:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882647"
+      "scraped_at": "2025-12-26T18:22:47.690755"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -502,7 +718,7 @@
       "screen": null,
       "end_time": "2025-12-27T19:21:00",
       "notes": "Subtitled",
-      "scraped_at": "2025-12-26T16:02:44.547114"
+      "scraped_at": "2025-12-26T18:22:52.485374"
     },
     {
       "cinema_id": "garden-cinema",
@@ -514,7 +730,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.796955"
+      "scraped_at": "2025-12-26T18:23:24.861910"
     },
     {
       "cinema_id": "garden-cinema",
@@ -526,7 +742,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.797050"
+      "scraped_at": "2025-12-26T18:23:24.861970"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -538,7 +754,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-27T23:00:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882649"
+      "scraped_at": "2025-12-26T18:22:47.690756"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -550,7 +766,7 @@
       "screen": null,
       "end_time": "2025-12-27T22:53:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.548202"
+      "scraped_at": "2025-12-26T18:22:52.486090"
     },
     {
       "cinema_id": "rio",
@@ -562,7 +778,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694668"
+      "scraped_at": "2025-12-26T18:22:38.964884"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -574,7 +790,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577380"
+      "scraped_at": "2025-12-26T18:23:21.010599"
     },
     {
       "cinema_id": "garden-cinema",
@@ -586,7 +802,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.796305"
+      "scraped_at": "2025-12-26T18:23:24.861592"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -598,7 +814,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600598"
+      "scraped_at": "2025-12-26T18:23:23.837513"
     },
     {
       "cinema_id": "rio",
@@ -610,7 +826,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694467"
+      "scraped_at": "2025-12-26T18:22:38.964727"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -622,7 +838,7 @@
       "screen": null,
       "end_time": "2025-12-27T22:10:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.548803"
+      "scraped_at": "2025-12-26T18:22:52.486523"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -634,7 +850,7 @@
       "screen": null,
       "end_time": null,
       "notes": "18",
-      "scraped_at": "2025-12-26T16:03:16.032546"
+      "scraped_at": "2025-12-26T18:23:20.625904"
     },
     {
       "cinema_id": "garden-cinema",
@@ -646,7 +862,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.797143"
+      "scraped_at": "2025-12-26T18:23:24.862027"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -658,7 +874,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-27T22:53:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882651"
+      "scraped_at": "2025-12-26T18:22:47.690758"
     },
     {
       "cinema_id": "garden-cinema",
@@ -670,7 +886,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.796647"
+      "scraped_at": "2025-12-26T18:23:24.861726"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -682,7 +898,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-27T23:34:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:39.882653"
+      "scraped_at": "2025-12-26T18:22:47.690760"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -694,7 +910,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG*",
-      "scraped_at": "2025-12-26T16:03:16.764797"
+      "scraped_at": "2025-12-26T18:23:21.214846"
     },
     {
       "cinema_id": "garden-cinema",
@@ -706,7 +922,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.797487"
+      "scraped_at": "2025-12-26T18:23:24.862320"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -718,7 +934,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-28T13:34:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111482"
+      "scraped_at": "2025-12-26T18:22:47.918913"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -730,7 +946,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-28T14:45:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111492"
+      "scraped_at": "2025-12-26T18:22:47.918922"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -742,7 +958,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-28T13:58:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111495"
+      "scraped_at": "2025-12-26T18:22:47.918924"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -754,7 +970,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:18.837719"
+      "scraped_at": "2025-12-26T18:23:23.275950"
     },
     {
       "cinema_id": "garden-cinema",
@@ -766,7 +982,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.797581"
+      "scraped_at": "2025-12-26T18:23:24.862381"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -778,7 +994,7 @@
       "screen": null,
       "end_time": "2025-12-28T14:04:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.549231"
+      "scraped_at": "2025-12-26T18:22:52.486823"
     },
     {
       "cinema_id": "garden-cinema",
@@ -790,7 +1006,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.797673"
+      "scraped_at": "2025-12-26T18:23:24.862445"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -802,7 +1018,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577387"
+      "scraped_at": "2025-12-26T18:23:21.010605"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -814,7 +1030,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600605"
+      "scraped_at": "2025-12-26T18:23:23.837520"
     },
     {
       "cinema_id": "garden-cinema",
@@ -826,7 +1042,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.797788"
+      "scraped_at": "2025-12-26T18:23:24.862540"
     },
     {
       "cinema_id": "rio",
@@ -838,7 +1054,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694406"
+      "scraped_at": "2025-12-26T18:22:38.964682"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -850,7 +1066,7 @@
       "screen": null,
       "end_time": "2025-12-28T16:53:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.549450"
+      "scraped_at": "2025-12-26T18:22:52.486969"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -862,7 +1078,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924201"
+      "scraped_at": "2025-12-26T18:23:24.132799"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -874,7 +1090,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-28T16:30:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111497"
+      "scraped_at": "2025-12-26T18:22:47.918927"
     },
     {
       "cinema_id": "garden-cinema",
@@ -886,7 +1102,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.797984"
+      "scraped_at": "2025-12-26T18:23:24.862614"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -898,7 +1114,7 @@
       "screen": null,
       "end_time": "2025-12-28T16:30:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.549685"
+      "scraped_at": "2025-12-26T18:22:52.487125"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -910,7 +1126,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-28T17:14:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111499"
+      "scraped_at": "2025-12-26T18:22:47.918929"
     },
     {
       "cinema_id": "rio",
@@ -922,7 +1138,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694473"
+      "scraped_at": "2025-12-26T18:22:38.964732"
     },
     {
       "cinema_id": "garden-cinema",
@@ -934,7 +1150,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.798102"
+      "scraped_at": "2025-12-26T18:23:24.862671"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -946,7 +1162,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-28T19:00:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111502"
+      "scraped_at": "2025-12-26T18:22:47.918931"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -958,7 +1174,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577393"
+      "scraped_at": "2025-12-26T18:23:21.010610"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -970,7 +1186,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600611"
+      "scraped_at": "2025-12-26T18:23:23.837526"
     },
     {
       "cinema_id": "rio",
@@ -982,7 +1198,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694674"
+      "scraped_at": "2025-12-26T18:22:38.964888"
     },
     {
       "cinema_id": "garden-cinema",
@@ -994,7 +1210,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.798204"
+      "scraped_at": "2025-12-26T18:23:24.862727"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1006,7 +1222,7 @@
       "screen": null,
       "end_time": null,
       "notes": "18",
-      "scraped_at": "2025-12-26T16:03:16.032561"
+      "scraped_at": "2025-12-26T18:23:20.625916"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1018,7 +1234,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.798301"
+      "scraped_at": "2025-12-26T18:23:24.862787"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1030,7 +1246,7 @@
       "screen": null,
       "end_time": "2025-12-28T19:57:00",
       "notes": "70mm",
-      "scraped_at": "2025-12-26T16:02:44.550149"
+      "scraped_at": "2025-12-26T18:22:52.487626"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1042,7 +1258,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.797802"
+      "scraped_at": "2025-12-26T18:23:24.862548"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1054,7 +1270,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-28T19:44:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111504"
+      "scraped_at": "2025-12-26T18:22:47.918933"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1066,7 +1282,7 @@
       "screen": null,
       "end_time": "2025-12-28T19:39:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.551649"
+      "scraped_at": "2025-12-26T18:22:52.488382"
     },
     {
       "cinema_id": "rio",
@@ -1078,7 +1294,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694479"
+      "scraped_at": "2025-12-26T18:22:38.964736"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1090,7 +1306,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-28T20:08:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111505"
+      "scraped_at": "2025-12-26T18:22:47.918935"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1102,7 +1318,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.798397"
+      "scraped_at": "2025-12-26T18:23:24.862845"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1114,7 +1330,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577399"
+      "scraped_at": "2025-12-26T18:23:21.010614"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1126,7 +1342,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.797814"
+      "scraped_at": "2025-12-26T18:23:24.862553"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1138,7 +1354,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:18.651704"
+      "scraped_at": "2025-12-26T18:23:23.095707"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1150,7 +1366,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600617"
+      "scraped_at": "2025-12-26T18:23:23.837533"
     },
     {
       "cinema_id": "rio",
@@ -1162,7 +1378,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694680"
+      "scraped_at": "2025-12-26T18:22:38.964893"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1174,7 +1390,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-28T23:15:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111507"
+      "scraped_at": "2025-12-26T18:22:47.918936"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1186,7 +1402,7 @@
       "screen": null,
       "end_time": "2025-12-28T21:57:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.552039"
+      "scraped_at": "2025-12-26T18:22:52.488845"
     },
     {
       "cinema_id": "rio",
@@ -1198,7 +1414,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": "No Ads",
-      "scraped_at": "2025-12-26T16:02:30.694487"
+      "scraped_at": "2025-12-26T18:22:38.964742"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1210,7 +1426,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-28T23:04:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111510"
+      "scraped_at": "2025-12-26T18:22:47.918938"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1222,7 +1438,7 @@
       "screen": null,
       "end_time": "2025-12-28T22:26:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.553288"
+      "scraped_at": "2025-12-26T18:22:52.489561"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1234,7 +1450,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-28T23:08:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.111512"
+      "scraped_at": "2025-12-26T18:22:47.918940"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1246,7 +1462,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:17.775410"
+      "scraped_at": "2025-12-26T18:23:22.237243"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1258,7 +1474,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-29T13:54:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336806"
+      "scraped_at": "2025-12-26T18:22:48.143363"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1270,7 +1486,7 @@
       "screen": null,
       "end_time": "2025-12-29T22:25:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.553805"
+      "scraped_at": "2025-12-26T18:22:52.489864"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1282,7 +1498,7 @@
       "screen": null,
       "end_time": "2025-12-29T14:21:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.554128"
+      "scraped_at": "2025-12-26T18:22:52.490122"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1294,7 +1510,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-29T15:05:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336820"
+      "scraped_at": "2025-12-26T18:22:48.143373"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1306,7 +1522,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-29T14:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336823"
+      "scraped_at": "2025-12-26T18:22:48.143377"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1318,7 +1534,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577405"
+      "scraped_at": "2025-12-26T18:23:21.010619"
     },
     {
       "cinema_id": "rio",
@@ -1330,7 +1546,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694418"
+      "scraped_at": "2025-12-26T18:22:38.964691"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1342,7 +1558,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-29T17:04:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336826"
+      "scraped_at": "2025-12-26T18:22:48.143379"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1354,7 +1570,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600623"
+      "scraped_at": "2025-12-26T18:23:23.837539"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1366,7 +1582,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.798715"
+      "scraped_at": "2025-12-26T18:23:24.863091"
     },
     {
       "cinema_id": "rio",
@@ -1378,7 +1594,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694493"
+      "scraped_at": "2025-12-26T18:22:38.964747"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1390,7 +1606,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-29T17:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336828"
+      "scraped_at": "2025-12-26T18:22:48.143381"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1402,7 +1618,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.798840"
+      "scraped_at": "2025-12-26T18:23:24.863159"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1414,7 +1630,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-29T19:15:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336830"
+      "scraped_at": "2025-12-26T18:22:48.143383"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1426,7 +1642,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.798933"
+      "scraped_at": "2025-12-26T18:23:24.863218"
     },
     {
       "cinema_id": "rio",
@@ -1438,7 +1654,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694686"
+      "scraped_at": "2025-12-26T18:22:38.964897"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1450,7 +1666,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:18.651711"
+      "scraped_at": "2025-12-26T18:23:23.095715"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1462,7 +1678,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600628"
+      "scraped_at": "2025-12-26T18:23:23.837544"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1474,7 +1690,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.799027"
+      "scraped_at": "2025-12-26T18:23:24.863277"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1486,7 +1702,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924208"
+      "scraped_at": "2025-12-26T18:23:24.132804"
     },
     {
       "cinema_id": "rio",
@@ -1498,7 +1714,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694499"
+      "scraped_at": "2025-12-26T18:22:38.964752"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1510,7 +1726,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-29T20:24:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336832"
+      "scraped_at": "2025-12-26T18:22:48.143385"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1522,7 +1738,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.799121"
+      "scraped_at": "2025-12-26T18:23:24.863333"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1534,7 +1750,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.798729"
+      "scraped_at": "2025-12-26T18:23:24.863097"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1546,7 +1762,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-29T20:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336834"
+      "scraped_at": "2025-12-26T18:22:48.143388"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1558,7 +1774,7 @@
       "screen": null,
       "end_time": "2025-12-29T20:15:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.555111"
+      "scraped_at": "2025-12-26T18:22:52.490879"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1570,7 +1786,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-29T23:25:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336836"
+      "scraped_at": "2025-12-26T18:22:48.143389"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1582,7 +1798,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577410"
+      "scraped_at": "2025-12-26T18:23:21.010624"
     },
     {
       "cinema_id": "rio",
@@ -1594,7 +1810,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694692"
+      "scraped_at": "2025-12-26T18:22:38.964902"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1606,7 +1822,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577416"
+      "scraped_at": "2025-12-26T18:23:21.010629"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1618,7 +1834,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600634"
+      "scraped_at": "2025-12-26T18:23:23.837550"
     },
     {
       "cinema_id": "rio",
@@ -1630,7 +1846,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694505"
+      "scraped_at": "2025-12-26T18:22:38.964756"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1642,7 +1858,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.798741"
+      "scraped_at": "2025-12-26T18:23:24.863102"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1654,7 +1870,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.799215"
+      "scraped_at": "2025-12-26T18:23:24.863392"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1666,7 +1882,7 @@
       "screen": null,
       "end_time": "2025-12-29T23:03:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.555572"
+      "scraped_at": "2025-12-26T18:22:52.491236"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1678,7 +1894,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.799310"
+      "scraped_at": "2025-12-26T18:23:24.863452"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1690,7 +1906,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-29T23:34:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336839"
+      "scraped_at": "2025-12-26T18:22:48.143391"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1702,7 +1918,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-29T23:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.336841"
+      "scraped_at": "2025-12-26T18:22:48.143393"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1714,7 +1930,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-30T13:54:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559893"
+      "scraped_at": "2025-12-26T18:22:48.368454"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1726,7 +1942,7 @@
       "screen": null,
       "end_time": "2025-12-30T13:46:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.555852"
+      "scraped_at": "2025-12-26T18:22:52.491430"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1738,7 +1954,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-30T15:05:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559905"
+      "scraped_at": "2025-12-26T18:22:48.368466"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1750,7 +1966,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.799652"
+      "scraped_at": "2025-12-26T18:23:24.863744"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1762,7 +1978,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-30T14:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559908"
+      "scraped_at": "2025-12-26T18:22:48.368468"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1774,7 +1990,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.799780"
+      "scraped_at": "2025-12-26T18:23:24.863821"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1786,7 +2002,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.799885"
+      "scraped_at": "2025-12-26T18:23:24.863886"
     },
     {
       "cinema_id": "rio",
@@ -1798,7 +2014,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694426"
+      "scraped_at": "2025-12-26T18:22:38.964697"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1810,7 +2026,7 @@
       "screen": null,
       "end_time": "2025-12-30T17:12:00",
       "notes": "70mm",
-      "scraped_at": "2025-12-26T16:02:44.550210"
+      "scraped_at": "2025-12-26T18:22:52.487666"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1822,7 +2038,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-30T17:04:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559911"
+      "scraped_at": "2025-12-26T18:22:48.368470"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1834,7 +2050,7 @@
       "screen": null,
       "end_time": "2025-12-30T16:55:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.556293"
+      "scraped_at": "2025-12-26T18:22:52.491756"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1846,7 +2062,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.799981"
+      "scraped_at": "2025-12-26T18:23:24.863946"
     },
     {
       "cinema_id": "rio",
@@ -1858,7 +2074,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694512"
+      "scraped_at": "2025-12-26T18:22:38.964761"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1870,7 +2086,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-30T17:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559913"
+      "scraped_at": "2025-12-26T18:22:48.368472"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1882,7 +2098,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.800073"
+      "scraped_at": "2025-12-26T18:23:24.864004"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -1894,7 +2110,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-30T19:15:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559915"
+      "scraped_at": "2025-12-26T18:22:48.368474"
     },
     {
       "cinema_id": "rio",
@@ -1906,7 +2122,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694698"
+      "scraped_at": "2025-12-26T18:22:38.964907"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1918,7 +2134,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.800166"
+      "scraped_at": "2025-12-26T18:23:24.864061"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1930,7 +2146,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600640"
+      "scraped_at": "2025-12-26T18:23:23.837556"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1942,7 +2158,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.799665"
+      "scraped_at": "2025-12-26T18:23:24.863750"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1954,7 +2170,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577421"
+      "scraped_at": "2025-12-26T18:23:21.010634"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1966,7 +2182,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.800262"
+      "scraped_at": "2025-12-26T18:23:24.864122"
     },
     {
       "cinema_id": "rio",
@@ -1978,7 +2194,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694518"
+      "scraped_at": "2025-12-26T18:22:38.964765"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1990,7 +2206,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924214"
+      "scraped_at": "2025-12-26T18:23:24.132808"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2002,7 +2218,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-30T20:24:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559917"
+      "scraped_at": "2025-12-26T18:22:48.368476"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2014,7 +2230,7 @@
       "screen": null,
       "end_time": "2025-12-30T19:48:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.556510"
+      "scraped_at": "2025-12-26T18:22:52.491908"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2026,7 +2242,7 @@
       "screen": null,
       "end_time": "2025-12-30T19:55:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.556728"
+      "scraped_at": "2025-12-26T18:22:52.492061"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2038,7 +2254,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-30T20:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559919"
+      "scraped_at": "2025-12-26T18:22:48.368478"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2050,7 +2266,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.799792"
+      "scraped_at": "2025-12-26T18:23:24.863827"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2062,7 +2278,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.800355"
+      "scraped_at": "2025-12-26T18:23:24.864178"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2074,7 +2290,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-30T23:25:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559921"
+      "scraped_at": "2025-12-26T18:22:48.368480"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2086,7 +2302,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577426"
+      "scraped_at": "2025-12-26T18:23:21.010639"
     },
     {
       "cinema_id": "rio",
@@ -2098,7 +2314,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694704"
+      "scraped_at": "2025-12-26T18:22:38.964911"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2110,7 +2326,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:18.651717"
+      "scraped_at": "2025-12-26T18:23:23.095722"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2122,7 +2338,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.799678"
+      "scraped_at": "2025-12-26T18:23:24.863755"
     },
     {
       "cinema_id": "rio",
@@ -2134,7 +2350,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694524"
+      "scraped_at": "2025-12-26T18:22:38.964770"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2146,7 +2362,7 @@
       "screen": null,
       "end_time": "2025-12-30T22:35:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.556962"
+      "scraped_at": "2025-12-26T18:22:52.492240"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2158,7 +2374,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600646"
+      "scraped_at": "2025-12-26T18:23:23.837562"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2170,7 +2386,7 @@
       "screen": null,
       "end_time": "2025-12-30T22:31:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.557296"
+      "scraped_at": "2025-12-26T18:22:52.492448"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2182,7 +2398,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-30T23:34:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559923"
+      "scraped_at": "2025-12-26T18:22:48.368481"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2194,7 +2410,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-30T23:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.559925"
+      "scraped_at": "2025-12-26T18:22:48.368483"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2206,7 +2422,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-31T13:54:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782716"
+      "scraped_at": "2025-12-26T18:22:48.598520"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2218,7 +2434,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-31T14:23:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782727"
+      "scraped_at": "2025-12-26T18:22:48.598528"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2230,7 +2446,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-31T16:00:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782730"
+      "scraped_at": "2025-12-26T18:22:48.598531"
     },
     {
       "cinema_id": "rio",
@@ -2242,7 +2458,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694434"
+      "scraped_at": "2025-12-26T18:22:38.964703"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2254,7 +2470,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.800651"
+      "scraped_at": "2025-12-26T18:23:24.864421"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2266,7 +2482,7 @@
       "screen": null,
       "end_time": "2025-12-31T15:05:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.557540"
+      "scraped_at": "2025-12-26T18:22:52.492657"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2278,7 +2494,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.800771"
+      "scraped_at": "2025-12-26T18:23:24.864491"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2290,7 +2506,7 @@
       "screen": null,
       "end_time": "2025-12-31T15:11:00",
       "notes": "\u00a31 Members",
-      "scraped_at": "2025-12-26T16:02:44.558323"
+      "scraped_at": "2025-12-26T18:22:52.493234"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2302,7 +2518,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-31T17:04:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782732"
+      "scraped_at": "2025-12-26T18:22:48.598533"
     },
     {
       "cinema_id": "rio",
@@ -2314,7 +2530,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694530"
+      "scraped_at": "2025-12-26T18:22:38.964774"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2326,7 +2542,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.800664"
+      "scraped_at": "2025-12-26T18:23:24.864427"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2338,7 +2554,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-31T17:23:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782734"
+      "scraped_at": "2025-12-26T18:22:48.598534"
     },
     {
       "cinema_id": "rio",
@@ -2350,7 +2566,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694710"
+      "scraped_at": "2025-12-26T18:22:38.964916"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2362,7 +2578,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.800866"
+      "scraped_at": "2025-12-26T18:23:24.864552"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2374,7 +2590,7 @@
       "screen": null,
       "end_time": "2025-12-31T18:10:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.558575"
+      "scraped_at": "2025-12-26T18:22:52.493425"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2386,7 +2602,7 @@
       "screen": null,
       "end_time": "2025-12-31T17:53:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.559015"
+      "scraped_at": "2025-12-26T18:22:52.493830"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2398,7 +2614,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.800959"
+      "scraped_at": "2025-12-26T18:23:24.864608"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2410,7 +2626,7 @@
       "screen": "Screen 3",
       "end_time": "2025-12-31T20:15:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782737"
+      "scraped_at": "2025-12-26T18:22:48.598535"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2422,7 +2638,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577431"
+      "scraped_at": "2025-12-26T18:23:21.010643"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2434,7 +2650,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924220"
+      "scraped_at": "2025-12-26T18:23:24.132812"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2446,7 +2662,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.800676"
+      "scraped_at": "2025-12-26T18:23:24.864432"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2458,7 +2674,7 @@
       "screen": "Screen 1",
       "end_time": "2025-12-31T20:24:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782739"
+      "scraped_at": "2025-12-26T18:22:48.598538"
     },
     {
       "cinema_id": "rio",
@@ -2470,7 +2686,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694536"
+      "scraped_at": "2025-12-26T18:22:38.964779"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2482,7 +2698,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600652"
+      "scraped_at": "2025-12-26T18:23:23.837568"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2494,7 +2710,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.801052"
+      "scraped_at": "2025-12-26T18:23:24.864664"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2506,7 +2722,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.801145"
+      "scraped_at": "2025-12-26T18:23:24.864723"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2518,7 +2734,7 @@
       "screen": "Screen 2",
       "end_time": "2025-12-31T20:28:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:40.782741"
+      "scraped_at": "2025-12-26T18:22:48.598540"
     },
     {
       "cinema_id": "rio",
@@ -2530,7 +2746,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance",
-      "scraped_at": "2025-12-26T16:02:30.694799"
+      "scraped_at": "2025-12-26T18:22:38.964979"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2542,7 +2758,7 @@
       "screen": null,
       "end_time": "2025-12-31T20:41:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.559960"
+      "scraped_at": "2025-12-26T18:22:52.494389"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2554,7 +2770,7 @@
       "screen": null,
       "end_time": "2025-12-31T20:35:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.557590"
+      "scraped_at": "2025-12-26T18:22:52.492684"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2566,7 +2782,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.801430"
+      "scraped_at": "2025-12-26T18:23:24.864947"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2578,7 +2794,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.801554"
+      "scraped_at": "2025-12-26T18:23:24.865036"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2590,7 +2806,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.801673"
+      "scraped_at": "2025-12-26T18:23:24.865112"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2602,7 +2818,7 @@
       "screen": null,
       "end_time": "2026-01-01T16:23:00",
       "notes": "35mm; \u00a31 Members",
-      "scraped_at": "2025-12-26T16:02:44.560184"
+      "scraped_at": "2025-12-26T18:22:52.494547"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2614,7 +2830,7 @@
       "screen": "Screen 2",
       "end_time": "2026-01-01T16:28:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004735"
+      "scraped_at": "2025-12-26T18:22:48.830714"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2626,7 +2842,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600658"
+      "scraped_at": "2025-12-26T18:23:23.837574"
     },
     {
       "cinema_id": "rio",
@@ -2638,7 +2854,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694441"
+      "scraped_at": "2025-12-26T18:22:38.964708"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2650,7 +2866,7 @@
       "screen": null,
       "end_time": "2026-01-01T16:30:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.560415"
+      "scraped_at": "2025-12-26T18:22:52.494712"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2662,7 +2878,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577436"
+      "scraped_at": "2025-12-26T18:23:21.010648"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2674,7 +2890,7 @@
       "screen": "Screen 1",
       "end_time": "2026-01-01T17:04:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004747"
+      "scraped_at": "2025-12-26T18:22:48.830722"
     },
     {
       "cinema_id": "rio",
@@ -2686,7 +2902,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694542"
+      "scraped_at": "2025-12-26T18:22:38.964783"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2698,7 +2914,7 @@
       "screen": "Screen 3",
       "end_time": "2026-01-01T18:30:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004750"
+      "scraped_at": "2025-12-26T18:22:48.830725"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2710,7 +2926,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.801566"
+      "scraped_at": "2025-12-26T18:23:24.865043"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2722,7 +2938,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.801763"
+      "scraped_at": "2025-12-26T18:23:24.865173"
     },
     {
       "cinema_id": "rio",
@@ -2734,7 +2950,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694716"
+      "scraped_at": "2025-12-26T18:22:38.964920"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2746,7 +2962,7 @@
       "screen": null,
       "end_time": "2026-01-01T19:13:00",
       "notes": "Subtitled",
-      "scraped_at": "2025-12-26T16:02:44.560711"
+      "scraped_at": "2025-12-26T18:22:52.494928"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2758,7 +2974,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.801854"
+      "scraped_at": "2025-12-26T18:23:24.865234"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2770,7 +2986,7 @@
       "screen": null,
       "end_time": "2026-01-01T18:57:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.561072"
+      "scraped_at": "2025-12-26T18:22:52.495173"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2782,7 +2998,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577441"
+      "scraped_at": "2025-12-26T18:23:21.010653"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2794,7 +3010,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600664"
+      "scraped_at": "2025-12-26T18:23:23.837580"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2806,7 +3022,7 @@
       "screen": "Screen 2",
       "end_time": "2026-01-01T19:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004752"
+      "scraped_at": "2025-12-26T18:22:48.830727"
     },
     {
       "cinema_id": "rio",
@@ -2818,7 +3034,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694548"
+      "scraped_at": "2025-12-26T18:22:38.964788"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2830,7 +3046,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924226"
+      "scraped_at": "2025-12-26T18:23:24.132817"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2842,7 +3058,7 @@
       "screen": "Screen 1",
       "end_time": "2026-01-01T20:24:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004754"
+      "scraped_at": "2025-12-26T18:22:48.830729"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2854,7 +3070,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.801443"
+      "scraped_at": "2025-12-26T18:23:24.864953"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2866,7 +3082,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.801578"
+      "scraped_at": "2025-12-26T18:23:24.865048"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2878,7 +3094,7 @@
       "screen": "Screen 3",
       "end_time": "2026-01-01T22:45:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004757"
+      "scraped_at": "2025-12-26T18:22:48.830731"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2890,7 +3106,7 @@
       "screen": null,
       "end_time": "2026-01-01T22:35:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.561414"
+      "scraped_at": "2025-12-26T18:22:52.495403"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2902,7 +3118,7 @@
       "screen": null,
       "end_time": "2026-01-01T22:00:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.561690"
+      "scraped_at": "2025-12-26T18:22:52.495585"
     },
     {
       "cinema_id": "rio",
@@ -2914,7 +3130,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694725"
+      "scraped_at": "2025-12-26T18:22:38.964925"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2926,7 +3142,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577447"
+      "scraped_at": "2025-12-26T18:23:21.010657"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2938,7 +3154,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600669"
+      "scraped_at": "2025-12-26T18:23:23.837586"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2950,7 +3166,7 @@
       "screen": "Screen 2",
       "end_time": "2026-01-01T22:38:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004759"
+      "scraped_at": "2025-12-26T18:22:48.830732"
     },
     {
       "cinema_id": "rio",
@@ -2962,7 +3178,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694554"
+      "scraped_at": "2025-12-26T18:22:38.964793"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2974,7 +3190,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2025-12-26T16:03:18.400233"
+      "scraped_at": "2025-12-26T18:23:22.853259"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -2986,7 +3202,7 @@
       "screen": "Screen 1",
       "end_time": "2026-01-01T23:34:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.004761"
+      "scraped_at": "2025-12-26T18:22:48.830734"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2998,7 +3214,7 @@
       "screen": null,
       "end_time": "2026-01-02T13:52:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.561909"
+      "scraped_at": "2025-12-26T18:22:52.495737"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3010,7 +3226,7 @@
       "screen": null,
       "end_time": "2026-01-02T13:32:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.552097"
+      "scraped_at": "2025-12-26T18:22:52.488879"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3022,7 +3238,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.802122"
+      "scraped_at": "2025-12-26T18:23:24.865448"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3034,7 +3250,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.802232"
+      "scraped_at": "2025-12-26T18:23:24.865523"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3046,7 +3262,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577452"
+      "scraped_at": "2025-12-26T18:23:21.010662"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3058,7 +3274,7 @@
       "screen": null,
       "end_time": "2026-01-02T17:27:00",
       "notes": "70mm",
-      "scraped_at": "2025-12-26T16:02:44.550269"
+      "scraped_at": "2025-12-26T18:22:52.487696"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3070,7 +3286,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.802338"
+      "scraped_at": "2025-12-26T18:23:24.865590"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3082,7 +3298,7 @@
       "screen": null,
       "end_time": "2026-01-02T16:42:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.562121"
+      "scraped_at": "2025-12-26T18:22:52.495886"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3094,7 +3310,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924231"
+      "scraped_at": "2025-12-26T18:23:24.132821"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3106,7 +3322,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.802443"
+      "scraped_at": "2025-12-26T18:23:24.865665"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3118,7 +3334,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.802246"
+      "scraped_at": "2025-12-26T18:23:24.865529"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3130,7 +3346,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.802547"
+      "scraped_at": "2025-12-26T18:23:24.865733"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3142,7 +3358,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600674"
+      "scraped_at": "2025-12-26T18:23:23.837592"
     },
     {
       "cinema_id": "rio",
@@ -3154,7 +3370,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694561"
+      "scraped_at": "2025-12-26T18:22:38.964797"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3166,7 +3382,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577457"
+      "scraped_at": "2025-12-26T18:23:21.010666"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3178,7 +3394,7 @@
       "screen": null,
       "end_time": "2026-01-02T19:35:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.557648"
+      "scraped_at": "2025-12-26T18:22:52.492715"
     },
     {
       "cinema_id": "rio",
@@ -3190,7 +3406,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694807"
+      "scraped_at": "2025-12-26T18:22:38.964985"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3202,7 +3418,7 @@
       "screen": null,
       "end_time": "2026-01-02T19:43:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.562334"
+      "scraped_at": "2025-12-26T18:22:52.496032"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3214,7 +3430,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.802455"
+      "scraped_at": "2025-12-26T18:23:24.865671"
     },
     {
       "cinema_id": "rio",
@@ -3226,7 +3442,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694731"
+      "scraped_at": "2025-12-26T18:22:38.964929"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3238,7 +3454,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577462"
+      "scraped_at": "2025-12-26T18:23:21.010671"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3250,7 +3466,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600679"
+      "scraped_at": "2025-12-26T18:23:23.837597"
     },
     {
       "cinema_id": "rio",
@@ -3262,7 +3478,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694567"
+      "scraped_at": "2025-12-26T18:22:38.964802"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3274,7 +3490,7 @@
       "screen": null,
       "end_time": "2026-01-02T23:05:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.562565"
+      "scraped_at": "2025-12-26T18:22:52.496196"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3286,7 +3502,7 @@
       "screen": null,
       "end_time": "2026-01-02T22:31:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.562838"
+      "scraped_at": "2025-12-26T18:22:52.496374"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -3298,7 +3514,7 @@
       "screen": "Screen 3",
       "end_time": "2026-01-03T12:42:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:41.481087"
+      "scraped_at": "2025-12-26T18:22:49.513857"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3310,7 +3526,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.802829"
+      "scraped_at": "2025-12-26T18:23:24.865979"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3322,7 +3538,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:17.370913"
+      "scraped_at": "2025-12-26T18:23:21.799387"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3334,7 +3550,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.802926"
+      "scraped_at": "2025-12-26T18:23:24.866047"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3346,7 +3562,7 @@
       "screen": null,
       "end_time": "2026-01-03T13:42:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.563055"
+      "scraped_at": "2025-12-26T18:22:52.496524"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3358,7 +3574,7 @@
       "screen": null,
       "end_time": "2026-01-03T13:53:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.559077"
+      "scraped_at": "2025-12-26T18:22:52.493862"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3370,7 +3586,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.803055"
+      "scraped_at": "2025-12-26T18:23:24.866132"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3382,7 +3598,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:17.175462"
+      "scraped_at": "2025-12-26T18:23:21.609326"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3394,7 +3610,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577467"
+      "scraped_at": "2025-12-26T18:23:21.010676"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3406,7 +3622,7 @@
       "screen": null,
       "end_time": "2026-01-03T16:33:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.563336"
+      "scraped_at": "2025-12-26T18:22:52.496682"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3418,7 +3634,7 @@
       "screen": null,
       "end_time": "2026-01-03T16:59:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.563721"
+      "scraped_at": "2025-12-26T18:22:52.496897"
     },
     {
       "cinema_id": "rio",
@@ -3430,7 +3646,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694738"
+      "scraped_at": "2025-12-26T18:22:38.964934"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3442,7 +3658,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924237"
+      "scraped_at": "2025-12-26T18:23:24.132825"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3454,7 +3670,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.803160"
+      "scraped_at": "2025-12-26T18:23:24.866198"
     },
     {
       "cinema_id": "rio",
@@ -3466,7 +3682,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694814"
+      "scraped_at": "2025-12-26T18:22:38.964990"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3478,7 +3694,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.803254"
+      "scraped_at": "2025-12-26T18:23:24.866260"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3490,7 +3706,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577472"
+      "scraped_at": "2025-12-26T18:23:21.010681"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3502,7 +3718,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.802939"
+      "scraped_at": "2025-12-26T18:23:24.866053"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3514,7 +3730,7 @@
       "screen": null,
       "end_time": "2026-01-03T19:39:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.564075"
+      "scraped_at": "2025-12-26T18:22:52.497111"
     },
     {
       "cinema_id": "rio",
@@ -3526,7 +3742,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694573"
+      "scraped_at": "2025-12-26T18:22:38.964806"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3538,7 +3754,7 @@
       "screen": null,
       "end_time": "2026-01-03T19:12:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.564292"
+      "scraped_at": "2025-12-26T18:22:52.497257"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3550,7 +3766,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.803344"
+      "scraped_at": "2025-12-26T18:23:24.866321"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3562,7 +3778,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600684"
+      "scraped_at": "2025-12-26T18:23:23.837603"
     },
     {
       "cinema_id": "rio",
@@ -3574,7 +3790,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694820"
+      "scraped_at": "2025-12-26T18:22:38.964994"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3586,7 +3802,7 @@
       "screen": null,
       "end_time": "2026-01-03T23:15:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.564550"
+      "scraped_at": "2025-12-26T18:22:52.497475"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3598,7 +3814,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.803067"
+      "scraped_at": "2025-12-26T18:23:24.866138"
     },
     {
       "cinema_id": "rio",
@@ -3610,7 +3826,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694744"
+      "scraped_at": "2025-12-26T18:22:38.964938"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3622,7 +3838,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.802951"
+      "scraped_at": "2025-12-26T18:23:24.866058"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3634,7 +3850,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577478"
+      "scraped_at": "2025-12-26T18:23:21.010686"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3646,7 +3862,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600690"
+      "scraped_at": "2025-12-26T18:23:23.837608"
     },
     {
       "cinema_id": "rio",
@@ -3658,7 +3874,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694579"
+      "scraped_at": "2025-12-26T18:22:38.964817"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3670,7 +3886,7 @@
       "screen": null,
       "end_time": "2026-01-03T22:27:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.564993"
+      "scraped_at": "2025-12-26T18:22:52.497745"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3682,7 +3898,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.987753"
+      "scraped_at": "2025-12-26T18:23:21.411316"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3694,7 +3910,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.803616"
+      "scraped_at": "2025-12-26T18:23:24.866577"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3706,7 +3922,7 @@
       "screen": null,
       "end_time": "2026-01-04T13:21:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2025-12-26T16:02:44.547186"
+      "scraped_at": "2025-12-26T18:22:52.485411"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3718,7 +3934,7 @@
       "screen": null,
       "end_time": "2026-01-04T13:33:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.565204"
+      "scraped_at": "2025-12-26T18:22:52.497889"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3730,7 +3946,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.803713"
+      "scraped_at": "2025-12-26T18:23:24.866641"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3742,7 +3958,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600695"
+      "scraped_at": "2025-12-26T18:23:23.837613"
     },
     {
       "cinema_id": "rio",
@@ -3754,7 +3970,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance",
-      "scraped_at": "2025-12-26T16:02:30.694870"
+      "scraped_at": "2025-12-26T18:22:38.965032"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3766,7 +3982,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.803822"
+      "scraped_at": "2025-12-26T18:23:24.866715"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3778,7 +3994,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.803925"
+      "scraped_at": "2025-12-26T18:23:24.866780"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3790,7 +4006,7 @@
       "screen": null,
       "end_time": "2026-01-04T16:57:00",
       "notes": "70mm",
-      "scraped_at": "2025-12-26T16:02:44.550325"
+      "scraped_at": "2025-12-26T18:22:52.487724"
     },
     {
       "cinema_id": "rio",
@@ -3802,7 +4018,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694826"
+      "scraped_at": "2025-12-26T18:22:38.964999"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3814,7 +4030,7 @@
       "screen": null,
       "end_time": "2026-01-04T15:55:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.565423"
+      "scraped_at": "2025-12-26T18:22:52.498045"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3826,7 +4042,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924243"
+      "scraped_at": "2025-12-26T18:23:24.132829"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3838,7 +4054,7 @@
       "screen": null,
       "end_time": null,
       "notes": "18",
-      "scraped_at": "2025-12-26T16:03:16.032571"
+      "scraped_at": "2025-12-26T18:23:20.625923"
     },
     {
       "cinema_id": "rio",
@@ -3850,7 +4066,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694586"
+      "scraped_at": "2025-12-26T18:22:38.964823"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3862,7 +4078,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577483"
+      "scraped_at": "2025-12-26T18:23:21.010690"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3874,7 +4090,7 @@
       "screen": null,
       "end_time": "2026-01-04T17:44:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.565695"
+      "scraped_at": "2025-12-26T18:22:52.498225"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3886,7 +4102,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.804029"
+      "scraped_at": "2025-12-26T18:23:24.866855"
     },
     {
       "cinema_id": "rio",
@@ -3898,7 +4114,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694750"
+      "scraped_at": "2025-12-26T18:22:38.964943"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3910,7 +4126,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.804133"
+      "scraped_at": "2025-12-26T18:23:24.866922"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3922,7 +4138,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924249"
+      "scraped_at": "2025-12-26T18:23:24.132834"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3934,7 +4150,7 @@
       "screen": null,
       "end_time": "2026-01-04T19:33:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.565934"
+      "scraped_at": "2025-12-26T18:22:52.498488"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3946,7 +4162,7 @@
       "screen": null,
       "end_time": "2026-01-04T19:49:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.566308"
+      "scraped_at": "2025-12-26T18:22:52.498762"
     },
     {
       "cinema_id": "rio",
@@ -3958,7 +4174,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694832"
+      "scraped_at": "2025-12-26T18:22:38.965003"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3970,7 +4186,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.803834"
+      "scraped_at": "2025-12-26T18:23:24.866721"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3982,7 +4198,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.804042"
+      "scraped_at": "2025-12-26T18:23:24.866861"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3994,7 +4210,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577488"
+      "scraped_at": "2025-12-26T18:23:21.010695"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4006,7 +4222,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600700"
+      "scraped_at": "2025-12-26T18:23:23.837619"
     },
     {
       "cinema_id": "rio",
@@ -4018,7 +4234,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694597"
+      "scraped_at": "2025-12-26T18:22:38.964827"
     },
     {
       "cinema_id": "rio",
@@ -4030,7 +4246,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "No Ads",
-      "scraped_at": "2025-12-26T16:02:30.694757"
+      "scraped_at": "2025-12-26T18:22:38.964948"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4042,7 +4258,7 @@
       "screen": null,
       "end_time": "2026-01-04T22:15:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.566532"
+      "scraped_at": "2025-12-26T18:22:52.498920"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4054,7 +4270,7 @@
       "screen": null,
       "end_time": "2026-01-04T22:16:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.566747"
+      "scraped_at": "2025-12-26T18:22:52.499076"
     },
     {
       "cinema_id": "rio",
@@ -4066,7 +4282,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Carers & Babies",
-      "scraped_at": "2025-12-26T16:02:30.694882"
+      "scraped_at": "2025-12-26T18:22:38.965042"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4078,7 +4294,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.128402"
+      "scraped_at": "2025-12-26T18:23:23.500287"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4090,7 +4306,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:17.982458"
+      "scraped_at": "2025-12-26T18:23:22.445807"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4102,7 +4318,7 @@
       "screen": null,
       "end_time": "2026-01-05T13:13:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.566980"
+      "scraped_at": "2025-12-26T18:22:52.499266"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4114,7 +4330,7 @@
       "screen": null,
       "end_time": "2026-01-05T13:40:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.567311"
+      "scraped_at": "2025-12-26T18:22:52.499499"
     },
     {
       "cinema_id": "rio",
@@ -4126,7 +4342,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694604"
+      "scraped_at": "2025-12-26T18:22:38.964832"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4138,7 +4354,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.804370"
+      "scraped_at": "2025-12-26T18:23:24.867137"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4150,7 +4366,7 @@
       "screen": null,
       "end_time": "2026-01-05T17:16:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.567542"
+      "scraped_at": "2025-12-26T18:22:52.499684"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4162,7 +4378,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.804480"
+      "scraped_at": "2025-12-26T18:23:24.867213"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4174,7 +4390,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577493"
+      "scraped_at": "2025-12-26T18:23:21.010699"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4186,7 +4402,7 @@
       "screen": null,
       "end_time": "2026-01-05T16:50:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.567865"
+      "scraped_at": "2025-12-26T18:22:52.499898"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4198,7 +4414,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.804597"
+      "scraped_at": "2025-12-26T18:23:24.867294"
     },
     {
       "cinema_id": "rio",
@@ -4210,7 +4426,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Hard of Hearing",
-      "scraped_at": "2025-12-26T16:02:30.694764"
+      "scraped_at": "2025-12-26T18:22:38.964953"
     },
     {
       "cinema_id": "rio",
@@ -4222,7 +4438,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694838"
+      "scraped_at": "2025-12-26T18:22:38.965008"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4234,7 +4450,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.804382"
+      "scraped_at": "2025-12-26T18:23:24.867143"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4246,7 +4462,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577498"
+      "scraped_at": "2025-12-26T18:23:21.010704"
     },
     {
       "cinema_id": "rio",
@@ -4258,7 +4474,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694610"
+      "scraped_at": "2025-12-26T18:22:38.964836"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4270,7 +4486,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924254"
+      "scraped_at": "2025-12-26T18:23:24.132838"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4282,7 +4498,7 @@
       "screen": null,
       "end_time": "2026-01-05T19:37:00",
       "notes": "35mm; \u00a31 Members",
-      "scraped_at": "2025-12-26T16:02:44.568091"
+      "scraped_at": "2025-12-26T18:22:52.500057"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4294,7 +4510,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600705"
+      "scraped_at": "2025-12-26T18:23:23.837624"
     },
     {
       "cinema_id": "rio",
@@ -4306,7 +4522,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694844"
+      "scraped_at": "2025-12-26T18:22:38.965012"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4318,7 +4534,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.804609"
+      "scraped_at": "2025-12-26T18:23:24.867300"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4330,7 +4546,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577503"
+      "scraped_at": "2025-12-26T18:23:21.010709"
     },
     {
       "cinema_id": "rio",
@@ -4342,7 +4558,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694770"
+      "scraped_at": "2025-12-26T18:22:38.964957"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4354,7 +4570,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.804493"
+      "scraped_at": "2025-12-26T18:23:24.867219"
     },
     {
       "cinema_id": "rio",
@@ -4366,7 +4582,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694616"
+      "scraped_at": "2025-12-26T18:22:38.964841"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4378,7 +4594,7 @@
       "screen": null,
       "end_time": "2026-01-05T22:21:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.568308"
+      "scraped_at": "2025-12-26T18:22:52.500209"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4390,7 +4606,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.804698"
+      "scraped_at": "2025-12-26T18:23:24.867360"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4402,7 +4618,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600710"
+      "scraped_at": "2025-12-26T18:23:23.837630"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4414,7 +4630,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.804979"
+      "scraped_at": "2025-12-26T18:23:24.867646"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4426,7 +4642,7 @@
       "screen": null,
       "end_time": "2026-01-06T13:59:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.568575"
+      "scraped_at": "2025-12-26T18:22:52.500381"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4438,7 +4654,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805107"
+      "scraped_at": "2025-12-26T18:23:24.867743"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4450,7 +4666,7 @@
       "screen": null,
       "end_time": "2026-01-06T14:28:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.568797"
+      "scraped_at": "2025-12-26T18:22:52.500544"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4462,7 +4678,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.804991"
+      "scraped_at": "2025-12-26T18:23:24.867653"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4474,7 +4690,7 @@
       "screen": null,
       "end_time": "2026-01-06T16:57:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.569125"
+      "scraped_at": "2025-12-26T18:22:52.500755"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4486,7 +4702,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.805211"
+      "scraped_at": "2025-12-26T18:23:24.867816"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4498,7 +4714,7 @@
       "screen": null,
       "end_time": "2026-01-06T16:45:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.569412"
+      "scraped_at": "2025-12-26T18:22:52.500939"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4510,7 +4726,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.805302"
+      "scraped_at": "2025-12-26T18:23:24.867877"
     },
     {
       "cinema_id": "rio",
@@ -4522,7 +4738,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694622"
+      "scraped_at": "2025-12-26T18:22:38.964845"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4534,7 +4750,7 @@
       "screen": null,
       "end_time": "2026-01-06T19:45:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.569694"
+      "scraped_at": "2025-12-26T18:22:52.501152"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4546,7 +4762,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577508"
+      "scraped_at": "2025-12-26T18:23:21.010714"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4558,7 +4774,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600715"
+      "scraped_at": "2025-12-26T18:23:23.837635"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4570,7 +4786,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.805392"
+      "scraped_at": "2025-12-26T18:23:24.867939"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4582,7 +4798,7 @@
       "screen": null,
       "end_time": "2026-01-06T19:32:00",
       "notes": "Intro",
-      "scraped_at": "2025-12-26T16:02:44.552157"
+      "scraped_at": "2025-12-26T18:22:52.488912"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4594,7 +4810,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.805482"
+      "scraped_at": "2025-12-26T18:23:24.867999"
     },
     {
       "cinema_id": "rio",
@@ -4606,7 +4822,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694850"
+      "scraped_at": "2025-12-26T18:22:38.965017"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4618,7 +4834,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805003"
+      "scraped_at": "2025-12-26T18:23:24.867660"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4630,7 +4846,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805119"
+      "scraped_at": "2025-12-26T18:23:24.867749"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4642,7 +4858,7 @@
       "screen": null,
       "end_time": "2026-01-06T23:01:00",
       "notes": "Intro",
-      "scraped_at": "2025-12-26T16:02:44.570030"
+      "scraped_at": "2025-12-26T18:22:52.501384"
     },
     {
       "cinema_id": "rio",
@@ -4654,7 +4870,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694776"
+      "scraped_at": "2025-12-26T18:22:38.964962"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4666,7 +4882,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600720"
+      "scraped_at": "2025-12-26T18:23:23.837640"
     },
     {
       "cinema_id": "rio",
@@ -4678,7 +4894,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694628"
+      "scraped_at": "2025-12-26T18:22:38.964849"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4690,7 +4906,7 @@
       "screen": null,
       "end_time": "2026-01-06T23:16:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.570246"
+      "scraped_at": "2025-12-26T18:22:52.501543"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4702,7 +4918,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577513"
+      "scraped_at": "2025-12-26T18:23:21.010718"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4714,7 +4930,7 @@
       "screen": null,
       "end_time": "2026-01-07T13:39:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.570464"
+      "scraped_at": "2025-12-26T18:22:52.501718"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4726,7 +4942,7 @@
       "screen": null,
       "end_time": "2026-01-07T13:46:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.553345"
+      "scraped_at": "2025-12-26T18:22:52.489589"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4738,7 +4954,7 @@
       "screen": null,
       "end_time": "2026-01-07T17:23:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.554681"
+      "scraped_at": "2025-12-26T18:22:52.490505"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4750,7 +4966,7 @@
       "screen": null,
       "end_time": "2026-01-07T17:40:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.561470"
+      "scraped_at": "2025-12-26T18:22:52.495433"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4762,7 +4978,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577518"
+      "scraped_at": "2025-12-26T18:23:21.010723"
     },
     {
       "cinema_id": "rio",
@@ -4774,7 +4990,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694634"
+      "scraped_at": "2025-12-26T18:22:38.964854"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4786,7 +5002,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805699"
+      "scraped_at": "2025-12-26T18:23:24.868182"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4798,7 +5014,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600725"
+      "scraped_at": "2025-12-26T18:23:23.837645"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4810,7 +5026,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805817"
+      "scraped_at": "2025-12-26T18:23:24.868262"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4822,7 +5038,7 @@
       "screen": null,
       "end_time": "2026-01-07T19:34:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2025-12-26T16:02:44.570752"
+      "scraped_at": "2025-12-26T18:22:52.502016"
     },
     {
       "cinema_id": "rio",
@@ -4834,7 +5050,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694856"
+      "scraped_at": "2025-12-26T18:22:38.965021"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4846,7 +5062,7 @@
       "screen": null,
       "end_time": "2026-01-07T19:51:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.571100"
+      "scraped_at": "2025-12-26T18:22:52.502237"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4858,7 +5074,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577523"
+      "scraped_at": "2025-12-26T18:23:21.010727"
     },
     {
       "cinema_id": "rio",
@@ -4870,7 +5086,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694783"
+      "scraped_at": "2025-12-26T18:22:38.964967"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4882,7 +5098,7 @@
       "screen": null,
       "end_time": "2026-01-07T23:09:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.571315"
+      "scraped_at": "2025-12-26T18:22:52.502450"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4894,7 +5110,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805829"
+      "scraped_at": "2025-12-26T18:23:24.868268"
     },
     {
       "cinema_id": "rio",
@@ -4906,7 +5122,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694640"
+      "scraped_at": "2025-12-26T18:22:38.964858"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4918,7 +5134,7 @@
       "screen": null,
       "end_time": "2026-01-07T23:22:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.571597"
+      "scraped_at": "2025-12-26T18:22:52.502633"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4930,7 +5146,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.805712"
+      "scraped_at": "2025-12-26T18:23:24.868187"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4942,7 +5158,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600730"
+      "scraped_at": "2025-12-26T18:23:23.837650"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4954,7 +5170,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.805922"
+      "scraped_at": "2025-12-26T18:23:24.868331"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4966,7 +5182,7 @@
       "screen": null,
       "end_time": "2026-01-08T14:18:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.571901"
+      "scraped_at": "2025-12-26T18:22:52.502909"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4978,7 +5194,7 @@
       "screen": null,
       "end_time": "2026-01-08T16:58:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.548271"
+      "scraped_at": "2025-12-26T18:22:52.486125"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4990,7 +5206,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577528"
+      "scraped_at": "2025-12-26T18:23:21.010732"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -5002,7 +5218,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2025-12-26T16:03:19.924260"
+      "scraped_at": "2025-12-26T18:23:24.132841"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5014,7 +5230,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806140"
+      "scraped_at": "2025-12-26T18:23:24.868525"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -5026,7 +5242,7 @@
       "screen": null,
       "end_time": "2026-01-08T17:22:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.572696"
+      "scraped_at": "2025-12-26T18:22:52.503331"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5038,7 +5254,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806255"
+      "scraped_at": "2025-12-26T18:23:24.868607"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5050,7 +5266,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.806366"
+      "scraped_at": "2025-12-26T18:23:24.868685"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5062,7 +5278,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806268"
+      "scraped_at": "2025-12-26T18:23:24.868613"
     },
     {
       "cinema_id": "rio",
@@ -5074,7 +5290,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694646"
+      "scraped_at": "2025-12-26T18:22:38.964863"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -5086,7 +5302,7 @@
       "screen": null,
       "end_time": "2026-01-08T19:42:00",
       "notes": "4K",
-      "scraped_at": "2025-12-26T16:02:44.572969"
+      "scraped_at": "2025-12-26T18:22:52.503532"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -5098,7 +5314,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577533"
+      "scraped_at": "2025-12-26T18:23:21.010737"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -5110,7 +5326,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600735"
+      "scraped_at": "2025-12-26T18:23:23.837656"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5122,7 +5338,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806152"
+      "scraped_at": "2025-12-26T18:23:24.868531"
     },
     {
       "cinema_id": "rio",
@@ -5134,7 +5350,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694862"
+      "scraped_at": "2025-12-26T18:22:38.965026"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -5146,7 +5362,7 @@
       "screen": null,
       "end_time": "2026-01-08T19:53:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:44.573239"
+      "scraped_at": "2025-12-26T18:22:52.503708"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5158,7 +5374,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.806378"
+      "scraped_at": "2025-12-26T18:23:24.868691"
     },
     {
       "cinema_id": "curzon-hoxton",
@@ -5170,7 +5386,7 @@
       "screen": "Screen 1",
       "end_time": "2026-01-08T20:51:00+00:00",
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:42.778885"
+      "scraped_at": "2025-12-26T18:22:50.955634"
     },
     {
       "cinema_id": "rio",
@@ -5182,7 +5398,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694790"
+      "scraped_at": "2025-12-26T18:22:38.964971"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -5194,7 +5410,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:19.600740"
+      "scraped_at": "2025-12-26T18:23:23.837719"
     },
     {
       "cinema_id": "rio",
@@ -5206,7 +5422,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:02:30.694652"
+      "scraped_at": "2025-12-26T18:22:38.964868"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -5218,7 +5434,7 @@
       "screen": null,
       "end_time": "2026-01-08T23:12:00",
       "notes": "70mm",
-      "scraped_at": "2025-12-26T16:02:44.550384"
+      "scraped_at": "2025-12-26T18:22:52.487751"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -5230,7 +5446,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2025-12-26T16:03:16.577538"
+      "scraped_at": "2025-12-26T18:23:21.010741"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -5242,7 +5458,7 @@
       "screen": null,
       "end_time": "2026-01-08T22:51:00",
       "notes": "35mm",
-      "scraped_at": "2025-12-26T16:02:44.573518"
+      "scraped_at": "2025-12-26T18:22:52.503874"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5254,7 +5470,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806576"
+      "scraped_at": "2025-12-26T18:23:24.868861"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Hamnet",
+      "start_time": "2026-01-09T17:45:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_1982837.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2025-12-26T18:22:38.965049"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5266,7 +5494,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2025-12-26T16:03:20.806692"
+      "scraped_at": "2025-12-26T18:23:24.868935"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5278,7 +5506,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806588"
+      "scraped_at": "2025-12-26T18:23:24.868866"
     },
     {
       "cinema_id": "garden-cinema",
@@ -5290,10 +5518,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2025-12-26T16:03:20.806600"
+      "scraped_at": "2025-12-26T18:23:24.868872"
     }
   ],
-  "generated_at": "2025-12-26T16:03:20.812720",
-  "total_screenings": 441,
-  "cinemas": 5
+  "generated_at": "2025-12-26T18:23:35.434370",
+  "total_screenings": 460,
+  "cinemas": 7,
+  "stats": {
+    "Rio Cinema": 73,
+    "Curzon Hoxton": 65,
+    "Prince Charles Cinema": 91,
+    "Barbican Cinema": 92,
+    "Garden Cinema": 117,
+    "Everyman Broadgate": 3,
+    "Vue Islington": 19
+  }
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-London Cinema Listings - Terminal Interface
+Local Cinema Listings - Terminal Interface
 
 A simple CLI to browse cinema screenings from multiple venues.
 """
@@ -68,15 +68,37 @@ CINEMA_INFO = {
         lat=51.5160,
         lon=-0.1224
     ),
+    "everyman": Cinema(
+        id="everyman-broadgate",
+        name="Everyman Broadgate",
+        address="35 Broadgate Circle",
+        postcode="EC2M 2QS",
+        website="https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/",
+        chain="Everyman",
+        lat=51.5197,
+        lon=-0.0841
+    ),
+    "vue": Cinema(
+        id="vue-islington",
+        name="Vue Islington",
+        address="36 Parkfield Street, Islington",
+        postcode="N1 0PS",
+        website="https://www.myvue.com/cinema/islington",
+        chain="Vue",
+        lat=51.5344,
+        lon=-0.1057
+    ),
 }
 
 # Available scrapers (will be sorted by distance if postcode provided)
 CINEMAS = {
-    "1": ("Rio Cinema (Dalston)", "rio"),
+    "1": ("Rio (Dalston)", "rio"),
     "2": ("Curzon Hoxton", "curzon"),
-    "3": ("Prince Charles Cinema", "prince_charles"),
-    "4": ("Barbican Cinema", "barbican"),
-    "5": ("The Garden Cinema", "garden"),
+    "3": ("Prince Charles", "prince_charles"),
+    "4": ("Barbican", "barbican"),
+    "5": ("Garden Cinema", "garden"),
+    "6": ("Everyman Broadgate", "everyman"),
+    "7": ("Vue Islington", "vue"),
 }
 
 # User's location (set via postcode)
@@ -162,7 +184,7 @@ def print_header():
     """Print the application header."""
     print()
     print("=" * 60)
-    print("  LONDON CINEMA LISTINGS")
+    print("  LOCAL CINEMA LISTINGS")
     print("=" * 60)
     print()
 
@@ -207,6 +229,12 @@ async def get_scraper(scraper_id: str):
     elif scraper_id == "garden":
         from scrapers.garden import GardenScraper
         return GardenScraper()
+    elif scraper_id == "everyman":
+        from scrapers.everyman import EverymanScraper
+        return EverymanScraper()
+    elif scraper_id == "vue":
+        from scrapers.vue import VueScraper
+        return VueScraper()
     return None
 
 

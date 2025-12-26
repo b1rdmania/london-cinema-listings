@@ -1,5 +1,5 @@
 """
-FastAPI web API for London Cinema Listings.
+FastAPI web API for Local Cinema Listings.
 Deployed to Vercel serverless functions.
 """
 
@@ -13,8 +13,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse, JSONResponse
 
 app = FastAPI(
-    title="London Cinema Listings API",
-    description="Aggregated cinema listings from London's best independent cinemas",
+    title="Local Cinema Listings API",
+    description="Aggregated cinema listings from independent cinemas",
     version="0.1.0"
 )
 
@@ -103,6 +103,36 @@ CINEMAS = {
         "bar": True,
         "food": "Restaurant, bar, snacks",
         "notes": "Boutique cinema with restaurant, 16mm projection"
+    },
+    "everyman-broadgate": {
+        "id": "everyman-broadgate",
+        "name": "Everyman Broadgate",
+        "area": "Liverpool Street",
+        "address": "35 Broadgate Circle, London EC2M 2QS",
+        "lat": 51.5197,
+        "lon": -0.0841,
+        "website": "https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/",
+        "screens": 3,
+        "seats": 150,
+        "sound": "Dolby 7.1",
+        "bar": True,
+        "food": "Hot food, cocktails, Spielburger kitchen",
+        "notes": "Premium Everyman venue with sofa seating"
+    },
+    "vue-islington": {
+        "id": "vue-islington",
+        "name": "Vue Islington",
+        "area": "Islington",
+        "address": "36 Parkfield Street, London N1 0PS",
+        "lat": 51.5344,
+        "lon": -0.1057,
+        "website": "https://www.myvue.com/cinema/islington",
+        "screens": 10,
+        "seats": 1800,
+        "sound": "Dolby Atmos (selected screens)",
+        "bar": True,
+        "food": "Nachos, hot dogs, popcorn",
+        "notes": "Large multiplex with Laser projection, 3D screens"
     }
 }
 
@@ -172,7 +202,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>London Cinema Listings</title>
+    <title>Local Cinema Listings</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -631,7 +661,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <header>
-            <h1>London Cinema Listings</h1>
+            <h1>Local Cinema Listings</h1>
             <p class="subtitle">Independent & repertory cinema screenings</p>
         </header>
 
