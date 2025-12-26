@@ -244,6 +244,7 @@ HTML_TEMPLATE = """
             margin-bottom: 1.5rem;
             overflow-x: auto;
             padding-bottom: 0.5rem;
+            justify-content: center;
         }
 
         .date-btn {
