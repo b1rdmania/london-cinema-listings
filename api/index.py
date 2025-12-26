@@ -827,14 +827,7 @@ HTML_TEMPLATE = """
                 if (details.imdb_id) {
                     html += `<a href="https://www.imdb.com/title/${details.imdb_id}" target="_blank" class="imdb-btn">IMDB</a>`;
                 }
-                if (ukProviders?.link) {
-                    html += `<a href="${ukProviders.link}" target="_blank" class="watch-btn">Where to Watch</a>`;
-                }
                 html += '</div>';
-
-                if (watchOptions.length) {
-                    html += `<div class="film-watch-providers">Available on: ${watchOptions.join(', ')}</div>`;
-                }
 
                 document.getElementById('film-popup-content').innerHTML = html;
 
