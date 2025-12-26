@@ -473,19 +473,64 @@ HTML_TEMPLATE = """
             margin-right: 0.5rem;
         }
 
-        .trailer-btn {
+        .film-genres {
+            margin: 0.5rem 0;
+        }
+
+        .genre-tag {
             display: inline-block;
-            padding: 0.5rem 1rem;
-            background: #dc2626;
+            padding: 0.2rem 0.5rem;
+            background: #2a2a2a;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            color: #aaa;
+            margin-right: 0.35rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .film-cast {
+            font-size: 0.85rem;
+            color: #999;
+            margin-bottom: 0.75rem;
+        }
+
+        .film-popup-buttons {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+
+        .trailer-btn, .imdb-btn, .watch-btn {
+            display: inline-block;
+            padding: 0.5rem 0.85rem;
             color: #fff;
             text-decoration: none;
             border-radius: 6px;
-            font-size: 0.85rem;
-            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            font-weight: 500;
         }
 
-        .trailer-btn:hover {
-            background: #b91c1c;
+        .trailer-btn {
+            background: #dc2626;
+        }
+        .trailer-btn:hover { background: #b91c1c; }
+
+        .imdb-btn {
+            background: #f5c518;
+            color: #000;
+        }
+        .imdb-btn:hover { background: #e4b50f; }
+
+        .watch-btn {
+            background: #059669;
+        }
+        .watch-btn:hover { background: #047857; }
+
+        .film-watch-providers {
+            font-size: 0.8rem;
+            color: #888;
+            margin-top: 0.75rem;
         }
 
         .screening-card {
@@ -709,16 +754,17 @@ HTML_TEMPLATE = """
 
                 const movie = searchData.results[0];
 
-                // Get movie details with videos
+                // Get movie details with videos, credits, and watch providers
                 const detailsRes = await fetch(
-                    `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${TMDB_API_KEY}&append_to_response=videos&language=en-GB`
+                    `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${TMDB_API_KEY}&append_to_response=videos,credits,watch/providers&language=en-GB`
                 );
                 const details = await detailsRes.json();
 
-                // Find trailer
+                // Find trailer (prefer Trailer, then Teaser, then any YouTube video)
                 let trailerUrl = null;
                 if (details.videos && details.videos.results) {
                     const trailer = details.videos.results.find(v => v.type === 'Trailer' && v.site === 'YouTube') ||
+                                   details.videos.results.find(v => v.type === 'Teaser' && v.site === 'YouTube') ||
                                    details.videos.results.find(v => v.site === 'YouTube');
                     if (trailer) {
                         trailerUrl = `https://www.youtube.com/watch?v=${trailer.key}`;
@@ -733,20 +779,58 @@ HTML_TEMPLATE = """
                 const runtime = details.runtime ? `${details.runtime} min` : '';
                 const rating = movie.vote_average ? movie.vote_average.toFixed(1) : null;
 
+                // Get genres
+                const genres = details.genres ? details.genres.map(g => g.name).slice(0, 3) : [];
+
+                // Get cast (top 4)
+                const cast = details.credits?.cast?.slice(0, 4).map(c => c.name) || [];
+
+                // Get UK watch providers
+                const ukProviders = details['watch/providers']?.results?.GB;
+                let watchOptions = [];
+                if (ukProviders) {
+                    if (ukProviders.flatrate) watchOptions.push(...ukProviders.flatrate.slice(0, 2).map(p => p.provider_name));
+                    if (ukProviders.rent) watchOptions.push(...ukProviders.rent.slice(0, 2).map(p => `${p.provider_name} (rent)`));
+                }
+
                 let html = '';
                 if (posterUrl) {
                     html += `<img src="${posterUrl}" class="film-poster" alt="${movie.title}">`;
                 }
                 html += `<div class="film-popup-title">${movie.title}</div>`;
                 html += `<div class="film-popup-meta">${[year, runtime].filter(Boolean).join(' · ')}</div>`;
+
+                if (genres.length) {
+                    html += `<div class="film-genres">${genres.map(g => `<span class="genre-tag">${g}</span>`).join('')}</div>`;
+                }
+
                 if (rating) {
                     html += `<span class="film-popup-rating">★ ${rating}</span>`;
                 }
+
+                if (cast.length) {
+                    html += `<div class="film-cast">With: ${cast.join(', ')}</div>`;
+                }
+
                 if (movie.overview) {
                     html += `<p class="film-popup-overview">${movie.overview}</p>`;
                 }
+
+                // Buttons row
+                html += '<div class="film-popup-buttons">';
                 if (trailerUrl) {
-                    html += `<a href="${trailerUrl}" target="_blank" class="trailer-btn">▶ Watch Trailer</a>`;
+                    html += `<a href="${trailerUrl}" target="_blank" class="trailer-btn">▶ Trailer</a>`;
+                }
+                if (details.imdb_id) {
+                    html += `<a href="https://www.imdb.com/title/${details.imdb_id}" target="_blank" class="imdb-btn">IMDB</a>`;
+                }
+                if (ukProviders?.link) {
+                    html += `<a href="${ukProviders.link}" target="_blank" class="watch-btn">Where to Watch</a>`;
+                }
+                html += '</div>';
+
+                if (watchOptions.length) {
+                    html += `<div class="film-watch-providers">Available on: ${watchOptions.join(', ')}</div>`;
                 }
 
                 document.getElementById('film-popup-content').innerHTML = html;
