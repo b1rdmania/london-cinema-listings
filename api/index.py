@@ -27,11 +27,11 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Cinema info
+# Cinema info - ordered by distance from N1 4HU
 CINEMAS = {
     "rio": {
         "id": "rio",
-        "name": "Rio Cinema",
+        "name": "Rio",
         "area": "Dalston",
         "address": "107 Kingsland High St, London E8 2PB",
         "lat": 51.5485,
@@ -59,50 +59,20 @@ CINEMAS = {
         "food": "Hot food, snacks, coffee",
         "notes": "Part of Curzon chain, screens 1-2"
     },
-    "prince-charles-cinema": {
-        "id": "prince-charles-cinema",
-        "name": "Prince Charles Cinema",
-        "area": "Leicester Square",
-        "address": "7 Leicester Place, London WC2H 7BY",
-        "lat": 51.5112,
-        "lon": -0.1304,
-        "website": "https://princecharlescinema.com/",
-        "screens": 2,
-        "seats": 488,
-        "sound": "Dolby 7.1",
-        "bar": False,
-        "food": "Snacks, pick & mix",
-        "notes": "Famous for sing-alongs, double bills, cult films"
-    },
-    "barbican-cinema": {
-        "id": "barbican-cinema",
-        "name": "Barbican Cinema",
-        "area": "Barbican",
-        "address": "Silk Street, London EC2Y 8DS",
-        "lat": 51.5200,
-        "lon": -0.0936,
-        "website": "https://www.barbican.org.uk/whats-on/cinema",
-        "screens": 3,
-        "seats": 288,
-        "sound": "Dolby Atmos (Screen 1)",
+    "vue-islington": {
+        "id": "vue-islington",
+        "name": "Vue Islington",
+        "area": "Islington",
+        "address": "36 Parkfield Street, London N1 0PS",
+        "lat": 51.5344,
+        "lon": -0.1057,
+        "website": "https://www.myvue.com/cinema/islington",
+        "screens": 10,
+        "seats": 1800,
+        "sound": "Dolby Atmos (selected screens)",
         "bar": True,
-        "food": "Restaurant, cafe, bars",
-        "notes": "Part of Barbican Centre arts complex"
-    },
-    "garden-cinema": {
-        "id": "garden-cinema",
-        "name": "The Garden Cinema",
-        "area": "Covent Garden",
-        "address": "39-41 Parker Street, London WC2B 5PQ",
-        "lat": 51.5160,
-        "lon": -0.1224,
-        "website": "https://thegardencinema.co.uk",
-        "screens": 2,
-        "seats": 94,
-        "sound": "Dolby 7.1",
-        "bar": True,
-        "food": "Restaurant, bar, snacks",
-        "notes": "Boutique cinema with restaurant, 16mm projection"
+        "food": "Nachos, hot dogs, popcorn",
+        "notes": "Large multiplex with Laser projection, 3D screens"
     },
     "everyman-broadgate": {
         "id": "everyman-broadgate",
@@ -119,20 +89,50 @@ CINEMAS = {
         "food": "Hot food, cocktails, Spielburger kitchen",
         "notes": "Premium Everyman venue with sofa seating"
     },
-    "vue-islington": {
-        "id": "vue-islington",
-        "name": "Vue Islington",
-        "area": "Islington",
-        "address": "36 Parkfield Street, London N1 0PS",
-        "lat": 51.5344,
-        "lon": -0.1057,
-        "website": "https://www.myvue.com/cinema/islington",
-        "screens": 10,
-        "seats": 1800,
-        "sound": "Dolby Atmos (selected screens)",
+    "barbican-cinema": {
+        "id": "barbican-cinema",
+        "name": "Barbican",
+        "area": "Barbican",
+        "address": "Silk Street, London EC2Y 8DS",
+        "lat": 51.5200,
+        "lon": -0.0936,
+        "website": "https://www.barbican.org.uk/whats-on/cinema",
+        "screens": 3,
+        "seats": 288,
+        "sound": "Dolby Atmos (Screen 1)",
         "bar": True,
-        "food": "Nachos, hot dogs, popcorn",
-        "notes": "Large multiplex with Laser projection, 3D screens"
+        "food": "Restaurant, cafe, bars",
+        "notes": "Part of Barbican Centre arts complex"
+    },
+    "garden-cinema": {
+        "id": "garden-cinema",
+        "name": "Garden",
+        "area": "Covent Garden",
+        "address": "39-41 Parker Street, London WC2B 5PQ",
+        "lat": 51.5160,
+        "lon": -0.1224,
+        "website": "https://thegardencinema.co.uk",
+        "screens": 2,
+        "seats": 94,
+        "sound": "Dolby 7.1",
+        "bar": True,
+        "food": "Restaurant, bar, snacks",
+        "notes": "Boutique cinema with restaurant, 16mm projection"
+    },
+    "prince-charles-cinema": {
+        "id": "prince-charles-cinema",
+        "name": "Prince Charles",
+        "area": "Leicester Square",
+        "address": "7 Leicester Place, London WC2H 7BY",
+        "lat": 51.5112,
+        "lon": -0.1304,
+        "website": "https://princecharlescinema.com/",
+        "screens": 2,
+        "seats": 488,
+        "sound": "Dolby 7.1",
+        "bar": False,
+        "food": "Snacks, pick & mix",
+        "notes": "Famous for sing-alongs, double bills, cult films"
     }
 }
 
@@ -696,7 +696,7 @@ HTML_TEMPLATE = """
         </div>
 
         <footer>
-            <p>Data from <a href="https://riocinema.org.uk">Rio</a>, <a href="https://www.curzon.com/venues/hoxton/">Curzon Hoxton</a>, <a href="https://princecharlescinema.com/">Prince Charles</a>, <a href="https://www.barbican.org.uk/whats-on/cinema">Barbican</a>, <a href="https://thegardencinema.co.uk">Garden Cinema</a></p>
+            <p>Data from <a href="https://riocinema.org.uk">Rio</a>, <a href="https://www.curzon.com/venues/hoxton/">Curzon Hoxton</a>, <a href="https://www.myvue.com/cinema/islington">Vue Islington</a>, <a href="https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/">Everyman Broadgate</a>, <a href="https://www.barbican.org.uk/whats-on/cinema">Barbican</a>, <a href="https://thegardencinema.co.uk">Garden</a>, <a href="https://princecharlescinema.com/">Prince Charles</a></p>
             <p style="margin-top: 0.5rem;"><a href="/api/screenings">API</a> · <a href="https://github.com/b1rdmania/london-cinema-listings">GitHub</a></p>
         </footer>
     </div>
