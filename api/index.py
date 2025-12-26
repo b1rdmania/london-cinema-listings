@@ -631,7 +631,7 @@ HTML_TEMPLATE = """
         let currentCinema = 'all';
         let currentDate = null;
 
-        const TMDB_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MzQ4YmY1MjE5M2E0NjYyYjc0MDU1YzZkZDg4YzI1ZCIsIm5iZiI6MTczNTIyOTQ4OS41NTgsInN1YiI6IjY3NmRiYTgxM2I0YjMxOGNlNmE1ZjJmZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4Y7Ap0AdRNDRYT3R4NjNnOVmCR6i2KfKvCCm_BPGzrs';
+        const TMDB_API_KEY = '5b70f4321b83ac657f3dead793bc93ec';
 
         function showInfo(cinemaId) {
             const cinema = allCinemas[cinemaId];
@@ -693,8 +693,7 @@ HTML_TEMPLATE = """
             try {
                 // Search TMDB for the film
                 const searchRes = await fetch(
-                    `https://api.themoviedb.org/3/search/movie?query=${encodeURIComponent(filmTitle)}&include_adult=false&language=en-GB&page=1`,
-                    { headers: { 'Authorization': `Bearer ${TMDB_API_KEY}` } }
+                    `https://api.themoviedb.org/3/search/movie?api_key=${TMDB_API_KEY}&query=${encodeURIComponent(filmTitle)}&include_adult=false&language=en-GB&page=1`
                 );
                 const searchData = await searchRes.json();
 
@@ -712,8 +711,7 @@ HTML_TEMPLATE = """
 
                 // Get movie details with videos
                 const detailsRes = await fetch(
-                    `https://api.themoviedb.org/3/movie/${movie.id}?append_to_response=videos&language=en-GB`,
-                    { headers: { 'Authorization': `Bearer ${TMDB_API_KEY}` } }
+                    `https://api.themoviedb.org/3/movie/${movie.id}?api_key=${TMDB_API_KEY}&append_to_response=videos&language=en-GB`
                 );
                 const details = await detailsRes.json();
 
