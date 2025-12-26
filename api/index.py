@@ -666,7 +666,26 @@ HTML_TEMPLATE = """
             document.getElementById('cinema-popup').classList.remove('active');
         }
 
+        function cleanFilmTitle(title) {
+            // Remove certificate ratings
+            title = title.replace(/\s*\(?(U|PG|12A?|15|18|TBC|NC-17|R|G|NR)\)?$/i, '');
+            // Remove format tags
+            title = title.replace(/\s*\[?(35mm|70mm|4K|IMAX|3D)\]?/gi, '');
+            // Remove common suffixes
+            title = title.replace(/\s*[-–:]\s*(Preview|Q&A|Intro|Discussion|Special|Director's Cut|Extended|Remaster(ed)?|Anniversary|Restoration|Screening).*$/i, '');
+            // Remove year in parentheses at end
+            title = title.replace(/\s*\(\d{4}\)\s*$/, '');
+            // Remove "Members' Screening:" prefix
+            title = title.replace(/^(Members'? Screening|Preview|Parent & Baby|Relaxed Screening|SCS):\s*/i, '');
+            // Remove subtitle indicators
+            title = title.replace(/\s*\[(subtitled|dubbed)\]/i, '');
+            return title.trim();
+        }
+
         async function showFilmInfo(filmTitle) {
+            const originalTitle = filmTitle;
+            filmTitle = cleanFilmTitle(filmTitle);
+
             document.getElementById('film-popup-overlay').classList.add('active');
             document.getElementById('film-popup').classList.add('active');
             document.getElementById('film-popup-content').innerHTML = '<div class="loading">Loading film info...</div>';
@@ -681,8 +700,9 @@ HTML_TEMPLATE = """
 
                 if (!searchData.results || searchData.results.length === 0) {
                     document.getElementById('film-popup-content').innerHTML = `
-                        <div class="film-popup-title">${filmTitle}</div>
+                        <div class="film-popup-title">${originalTitle}</div>
                         <p style="color:#888;">Film not found on TMDB</p>
+                        <p style="color:#666;font-size:0.8rem;">Searched: "${filmTitle}"</p>
                         <a href="https://www.imdb.com/find/?q=${encodeURIComponent(filmTitle)}" target="_blank" class="popup-link" style="margin-top:1rem;">Search IMDB</a>
                     `;
                     return;
