@@ -258,14 +258,15 @@ HTML_TEMPLATE = """
 
         .info-link {
             font-size: 0.7rem;
-            color: #666;
+            color: #2563eb;
             cursor: pointer;
             text-transform: none;
             letter-spacing: normal;
         }
 
         .info-link:hover {
-            color: #2563eb;
+            color: #60a5fa;
+            text-decoration: underline;
         }
 
         .cinema-popup {
