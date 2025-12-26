@@ -36,7 +36,13 @@ CINEMAS = {
         "address": "107 Kingsland High St, London E8 2PB",
         "lat": 51.5485,
         "lon": -0.0754,
-        "website": "https://riocinema.org.uk"
+        "website": "https://riocinema.org.uk",
+        "screens": 1,
+        "seats": 400,
+        "sound": "Dolby 7.1",
+        "bar": True,
+        "food": "Snacks, popcorn",
+        "notes": "Grade II listed Art Deco building, opened 1915"
     },
     "curzon-hoxton": {
         "id": "curzon-hoxton",
@@ -45,7 +51,13 @@ CINEMAS = {
         "address": "58-60 Hoxton Square, London N1 6PB",
         "lat": 51.5285,
         "lon": -0.0815,
-        "website": "https://www.curzon.com/venues/hoxton/"
+        "website": "https://www.curzon.com/venues/hoxton/",
+        "screens": 2,
+        "seats": 150,
+        "sound": "Dolby Atmos",
+        "bar": True,
+        "food": "Hot food, snacks, coffee",
+        "notes": "Part of Curzon chain, screens 1-2"
     },
     "prince-charles-cinema": {
         "id": "prince-charles-cinema",
@@ -54,7 +66,13 @@ CINEMAS = {
         "address": "7 Leicester Place, London WC2H 7BY",
         "lat": 51.5112,
         "lon": -0.1304,
-        "website": "https://princecharlescinema.com/"
+        "website": "https://princecharlescinema.com/",
+        "screens": 2,
+        "seats": 488,
+        "sound": "Dolby 7.1",
+        "bar": False,
+        "food": "Snacks, pick & mix",
+        "notes": "Famous for sing-alongs, double bills, cult films"
     },
     "barbican-cinema": {
         "id": "barbican-cinema",
@@ -63,7 +81,13 @@ CINEMAS = {
         "address": "Silk Street, London EC2Y 8DS",
         "lat": 51.5200,
         "lon": -0.0936,
-        "website": "https://www.barbican.org.uk/whats-on/cinema"
+        "website": "https://www.barbican.org.uk/whats-on/cinema",
+        "screens": 3,
+        "seats": 288,
+        "sound": "Dolby Atmos (Screen 1)",
+        "bar": True,
+        "food": "Restaurant, cafe, bars",
+        "notes": "Part of Barbican Centre arts complex"
     },
     "garden-cinema": {
         "id": "garden-cinema",
@@ -72,7 +96,13 @@ CINEMAS = {
         "address": "39-41 Parker Street, London WC2B 5PQ",
         "lat": 51.5160,
         "lon": -0.1224,
-        "website": "https://thegardencinema.co.uk"
+        "website": "https://thegardencinema.co.uk",
+        "screens": 2,
+        "seats": 94,
+        "sound": "Dolby 7.1",
+        "bar": True,
+        "food": "Restaurant, bar, snacks",
+        "notes": "Boutique cinema with restaurant, 16mm projection"
     }
 }
 
@@ -354,6 +384,110 @@ HTML_TEMPLATE = """
             color: #fff;
         }
 
+        .popup-details {
+            font-size: 0.85rem;
+            color: #aaa;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+
+        .popup-notes {
+            font-size: 0.8rem;
+            color: #888;
+            font-style: italic;
+            margin-bottom: 1rem;
+        }
+
+        .popup-links {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .popup-link-secondary {
+            background: #333;
+        }
+
+        .popup-link-secondary:hover {
+            background: #444;
+        }
+
+        .film-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            z-index: 1000;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        .film-popup.active {
+            display: block;
+        }
+
+        .film-poster {
+            width: 120px;
+            border-radius: 8px;
+            float: left;
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .film-popup-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .film-popup-meta {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 0.75rem;
+        }
+
+        .film-popup-overview {
+            font-size: 0.9rem;
+            color: #ccc;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+            clear: both;
+        }
+
+        .film-popup-rating {
+            display: inline-block;
+            background: #2563eb;
+            color: #fff;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 0.5rem;
+        }
+
+        .trailer-btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #dc2626;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+        }
+
+        .trailer-btn:hover {
+            background: #b91c1c;
+        }
+
         .screening-card {
             display: flex;
             gap: 1rem;
@@ -468,8 +602,21 @@ HTML_TEMPLATE = """
             <button class="popup-close" onclick="closePopup()">&times;</button>
             <div class="popup-title" id="popup-title"></div>
             <div class="popup-area" id="popup-area"></div>
+            <div class="popup-details" id="popup-details"></div>
             <div class="popup-address" id="popup-address"></div>
-            <a class="popup-link" id="popup-link" href="#" target="_blank">Visit Website</a>
+            <div class="popup-notes" id="popup-notes"></div>
+            <div class="popup-links">
+                <a class="popup-link" id="popup-link" href="#" target="_blank">Website</a>
+                <a class="popup-link popup-link-secondary" id="popup-map" href="#" target="_blank">Map</a>
+            </div>
+        </div>
+
+        <div class="popup-overlay" id="film-popup-overlay" onclick="closeFilmPopup()"></div>
+        <div class="film-popup" id="film-popup">
+            <button class="popup-close" onclick="closeFilmPopup()">&times;</button>
+            <div class="film-popup-content" id="film-popup-content">
+                <div class="loading">Loading film info...</div>
+            </div>
         </div>
 
         <footer>
@@ -484,6 +631,8 @@ HTML_TEMPLATE = """
         let currentCinema = 'all';
         let currentDate = null;
 
+        const TMDB_API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0MzQ4YmY1MjE5M2E0NjYyYjc0MDU1YzZkZDg4YzI1ZCIsIm5iZiI6MTczNTIyOTQ4OS41NTgsInN1YiI6IjY3NmRiYTgxM2I0YjMxOGNlNmE1ZjJmZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4Y7Ap0AdRNDRYT3R4NjNnOVmCR6i2KfKvCCm_BPGzrs';
+
         function showInfo(cinemaId) {
             const cinema = allCinemas[cinemaId];
             if (!cinema) return;
@@ -493,6 +642,21 @@ HTML_TEMPLATE = """
             document.getElementById('popup-address').textContent = cinema.address;
             document.getElementById('popup-link').href = cinema.website;
 
+            // Build details
+            let details = [];
+            if (cinema.screens) details.push(`${cinema.screens} screen${cinema.screens > 1 ? 's' : ''}`);
+            if (cinema.seats) details.push(`${cinema.seats} seats`);
+            if (cinema.sound) details.push(cinema.sound);
+            if (cinema.bar) details.push('Licensed bar');
+            if (cinema.food) details.push(cinema.food);
+            document.getElementById('popup-details').innerHTML = details.join(' · ');
+
+            document.getElementById('popup-notes').textContent = cinema.notes || '';
+
+            // Google Maps link
+            const mapUrl = `https://www.google.com/maps/search/?api=1&query=${cinema.lat},${cinema.lon}`;
+            document.getElementById('popup-map').href = mapUrl;
+
             document.getElementById('popup-overlay').classList.add('active');
             document.getElementById('cinema-popup').classList.add('active');
         }
@@ -500,6 +664,86 @@ HTML_TEMPLATE = """
         function closePopup() {
             document.getElementById('popup-overlay').classList.remove('active');
             document.getElementById('cinema-popup').classList.remove('active');
+        }
+
+        async function showFilmInfo(filmTitle) {
+            document.getElementById('film-popup-overlay').classList.add('active');
+            document.getElementById('film-popup').classList.add('active');
+            document.getElementById('film-popup-content').innerHTML = '<div class="loading">Loading film info...</div>';
+
+            try {
+                // Search TMDB for the film
+                const searchRes = await fetch(
+                    `https://api.themoviedb.org/3/search/movie?query=${encodeURIComponent(filmTitle)}&include_adult=false&language=en-GB&page=1`,
+                    { headers: { 'Authorization': `Bearer ${TMDB_API_KEY}` } }
+                );
+                const searchData = await searchRes.json();
+
+                if (!searchData.results || searchData.results.length === 0) {
+                    document.getElementById('film-popup-content').innerHTML = `
+                        <div class="film-popup-title">${filmTitle}</div>
+                        <p style="color:#888;">Film not found on TMDB</p>
+                        <a href="https://www.imdb.com/find/?q=${encodeURIComponent(filmTitle)}" target="_blank" class="popup-link" style="margin-top:1rem;">Search IMDB</a>
+                    `;
+                    return;
+                }
+
+                const movie = searchData.results[0];
+
+                // Get movie details with videos
+                const detailsRes = await fetch(
+                    `https://api.themoviedb.org/3/movie/${movie.id}?append_to_response=videos&language=en-GB`,
+                    { headers: { 'Authorization': `Bearer ${TMDB_API_KEY}` } }
+                );
+                const details = await detailsRes.json();
+
+                // Find trailer
+                let trailerUrl = null;
+                if (details.videos && details.videos.results) {
+                    const trailer = details.videos.results.find(v => v.type === 'Trailer' && v.site === 'YouTube') ||
+                                   details.videos.results.find(v => v.site === 'YouTube');
+                    if (trailer) {
+                        trailerUrl = `https://www.youtube.com/watch?v=${trailer.key}`;
+                    }
+                }
+
+                const posterUrl = movie.poster_path
+                    ? `https://image.tmdb.org/t/p/w200${movie.poster_path}`
+                    : null;
+
+                const year = movie.release_date ? movie.release_date.substring(0, 4) : '';
+                const runtime = details.runtime ? `${details.runtime} min` : '';
+                const rating = movie.vote_average ? movie.vote_average.toFixed(1) : null;
+
+                let html = '';
+                if (posterUrl) {
+                    html += `<img src="${posterUrl}" class="film-poster" alt="${movie.title}">`;
+                }
+                html += `<div class="film-popup-title">${movie.title}</div>`;
+                html += `<div class="film-popup-meta">${[year, runtime].filter(Boolean).join(' · ')}</div>`;
+                if (rating) {
+                    html += `<span class="film-popup-rating">★ ${rating}</span>`;
+                }
+                if (movie.overview) {
+                    html += `<p class="film-popup-overview">${movie.overview}</p>`;
+                }
+                if (trailerUrl) {
+                    html += `<a href="${trailerUrl}" target="_blank" class="trailer-btn">▶ Watch Trailer</a>`;
+                }
+
+                document.getElementById('film-popup-content').innerHTML = html;
+
+            } catch (err) {
+                document.getElementById('film-popup-content').innerHTML = `
+                    <div class="film-popup-title">${filmTitle}</div>
+                    <p style="color:#888;">Could not load film info</p>
+                `;
+            }
+        }
+
+        function closeFilmPopup() {
+            document.getElementById('film-popup-overlay').classList.remove('active');
+            document.getElementById('film-popup').classList.remove('active');
         }
 
         async function loadData() {
@@ -653,12 +897,10 @@ HTML_TEMPLATE = """
                         else if (firstNote.includes('70mm')) tags += '<span class="tag format-70mm">70mm</span>';
                     }
 
-                    const imdbUrl = 'https://www.imdb.com/find/?q=' + encodeURIComponent(filmTitle);
-
                     html += `
                         <div class="screening-card">
                             <div class="screening-info">
-                                <div class="film-title">${filmTitle}${tags} <a href="${imdbUrl}" target="_blank" class="imdb-link">(imdb)</a></div>
+                                <div class="film-title">${filmTitle}${tags} <span class="info-link" onclick="showFilmInfo('${filmTitle.replace(/'/g, "\\'")}')">(info)</span></div>
                                 <div class="screening-times">${times}</div>
                             </div>
                         </div>
