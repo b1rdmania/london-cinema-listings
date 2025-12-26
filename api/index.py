@@ -712,18 +712,20 @@ HTML_TEMPLATE = """
         }
 
         function cleanFilmTitle(title) {
-            // Remove certificate ratings
-            title = title.replace(/\s*\(?(U|PG|12A?|15|18|TBC|NC-17|R|G|NR)\)?$/i, '');
+            // Remove "Members' Screening:" and similar prefixes first
+            title = title.replace(/^(Members'? Screening|Preview|Parent & Baby|Relaxed Screening|SCS|Seniors'? Screen|Docs?):\s*/i, '');
+            // Remove subtitle/dubbed indicators (with or without brackets)
+            title = title.replace(/\s*[\[(]?(subtitled|dubbed|subbed|sub|dub)[\])]?/gi, '');
+            // Remove certificate ratings anywhere (with or without parens/brackets)
+            title = title.replace(/\s*[\[(]?(U|PG|12A|12|15|18|TBC|NC-17|R|G|NR|PG-13)[\])]?/gi, '');
             // Remove format tags
-            title = title.replace(/\s*\[?(35mm|70mm|4K|IMAX|3D)\]?/gi, '');
+            title = title.replace(/\s*[\[(]?(35mm|70mm|16mm|4K|IMAX|3D|Dolby|Atmos)[\])]?/gi, '');
             // Remove common suffixes
-            title = title.replace(/\s*[-–:]\s*(Preview|Q&A|Intro|Discussion|Special|Director's Cut|Extended|Remaster(ed)?|Anniversary|Restoration|Screening).*$/i, '');
-            // Remove year in parentheses at end
-            title = title.replace(/\s*\(\d{4}\)\s*$/, '');
-            // Remove "Members' Screening:" prefix
-            title = title.replace(/^(Members'? Screening|Preview|Parent & Baby|Relaxed Screening|SCS):\s*/i, '');
-            // Remove subtitle indicators
-            title = title.replace(/\s*\[(subtitled|dubbed)\]/i, '');
+            title = title.replace(/\s*[-–:+]\s*(Preview|Q&A|Intro|Discussion|Special|Director'?s? Cut|Extended|Remaster(ed)?|Anniversary|Restoration|Screening|recorded|live).*$/i, '');
+            // Remove year in parentheses
+            title = title.replace(/\s*\(\d{4}\)\s*/g, '');
+            // Remove trailing punctuation and whitespace
+            title = title.replace(/[\s\-–:,]+$/, '');
             return title.trim();
         }
 
