@@ -251,6 +251,105 @@ HTML_TEMPLATE = """
             margin-bottom: 0.75rem;
             padding-bottom: 0.5rem;
             border-bottom: 1px solid #222;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .info-link {
+            font-size: 0.7rem;
+            color: #666;
+            cursor: pointer;
+            text-transform: none;
+            letter-spacing: normal;
+        }
+
+        .info-link:hover {
+            color: #2563eb;
+        }
+
+        .cinema-popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 1.5rem;
+            z-index: 1000;
+            max-width: 320px;
+            width: 90%;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        .cinema-popup.active {
+            display: block;
+        }
+
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 999;
+        }
+
+        .popup-overlay.active {
+            display: block;
+        }
+
+        .popup-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .popup-area {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 1rem;
+        }
+
+        .popup-address {
+            font-size: 0.9rem;
+            color: #ccc;
+            margin-bottom: 1rem;
+        }
+
+        .popup-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #2563eb;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 0.85rem;
+        }
+
+        .popup-link:hover {
+            background: #1d4ed8;
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            background: none;
+            border: none;
+            color: #666;
+            font-size: 1.25rem;
+            cursor: pointer;
+            padding: 0.25rem;
+        }
+
+        .popup-close:hover {
+            color: #fff;
         }
 
         .screening-card {
@@ -362,6 +461,15 @@ HTML_TEMPLATE = """
             <div class="loading">Loading screenings...</div>
         </div>
 
+        <div class="popup-overlay" id="popup-overlay" onclick="closePopup()"></div>
+        <div class="cinema-popup" id="cinema-popup">
+            <button class="popup-close" onclick="closePopup()">&times;</button>
+            <div class="popup-title" id="popup-title"></div>
+            <div class="popup-area" id="popup-area"></div>
+            <div class="popup-address" id="popup-address"></div>
+            <a class="popup-link" id="popup-link" href="#" target="_blank">Visit Website</a>
+        </div>
+
         <footer>
             <p>Data from <a href="https://riocinema.org.uk">Rio</a>, <a href="https://www.curzon.com/venues/hoxton/">Curzon Hoxton</a>, <a href="https://princecharlescinema.com/">Prince Charles</a>, <a href="https://www.barbican.org.uk/whats-on/cinema">Barbican</a>, <a href="https://thegardencinema.co.uk">Garden Cinema</a></p>
             <p style="margin-top: 0.5rem;"><a href="/api/screenings">API</a> · <a href="https://github.com/b1rdmania/london-cinema-listings">GitHub</a></p>
@@ -370,16 +478,27 @@ HTML_TEMPLATE = """
 
     <script>
         let allScreenings = [];
+        let allCinemas = {};
         let currentCinema = 'all';
         let currentDate = null;
 
-        const cinemaNames = {
-            'rio': 'Rio Cinema',
-            'curzon-hoxton': 'Curzon Hoxton',
-            'prince-charles-cinema': 'Prince Charles',
-            'barbican-cinema': 'Barbican',
-            'garden-cinema': 'Garden Cinema'
-        };
+        function showInfo(cinemaId) {
+            const cinema = allCinemas[cinemaId];
+            if (!cinema) return;
+
+            document.getElementById('popup-title').textContent = cinema.name;
+            document.getElementById('popup-area').textContent = cinema.area;
+            document.getElementById('popup-address').textContent = cinema.address;
+            document.getElementById('popup-link').href = cinema.website;
+
+            document.getElementById('popup-overlay').classList.add('active');
+            document.getElementById('cinema-popup').classList.add('active');
+        }
+
+        function closePopup() {
+            document.getElementById('popup-overlay').classList.remove('active');
+            document.getElementById('cinema-popup').classList.remove('active');
+        }
 
         async function loadData() {
             try {
@@ -392,6 +511,11 @@ HTML_TEMPLATE = """
                 const cinemasData = await cinemasRes.json();
 
                 allScreenings = screeningsData.screenings || [];
+
+                // Store cinema info for popups
+                cinemasData.cinemas.forEach(c => {
+                    allCinemas[c.id] = c;
+                });
 
                 // Build cinema filters
                 const filtersEl = document.getElementById('cinema-filters');
@@ -491,8 +615,12 @@ HTML_TEMPLATE = """
 
             let html = '';
             Object.entries(byCinema).sort().forEach(([cinema, films]) => {
+                // Find cinema ID from first screening
+                const firstFilm = Object.values(films)[0];
+                const cinemaId = firstFilm[0]?.cinema_id || '';
+
                 html += `<div class="screening-group">`;
-                html += `<div class="group-header">${cinema}</div>`;
+                html += `<div class="group-header">${cinema} <span class="info-link" onclick="showInfo('${cinemaId}')">(info)</span></div>`;
 
                 // Sort films by earliest showtime
                 const sortedFilms = Object.entries(films).sort((a, b) => {
