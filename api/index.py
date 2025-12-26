@@ -715,12 +715,15 @@ HTML_TEMPLATE = """
         function cleanFilmTitle(title) {
             // Remove "Members' Screening:" and similar prefixes first
             title = title.replace(/^(Members'? Screening|Preview|Parent & Baby|Relaxed Screening|SCS|Seniors'? Screen|Docs?):\s*/i, '');
-            // Remove subtitle/dubbed indicators (with or without brackets)
-            title = title.replace(/\s*[\[(]?(subtitled|dubbed|subbed|sub|dub)[\])]?/gi, '');
-            // Remove certificate ratings anywhere (with or without parens/brackets)
-            title = title.replace(/\s*[\[(]?(U|PG|12A|12|15|18|TBC|NC-17|R|G|NR|PG-13)[\])]?/gi, '');
-            // Remove format tags
-            title = title.replace(/\s*[\[(]?(35mm|70mm|16mm|4K|IMAX|3D|Dolby|Atmos)[\])]?/gi, '');
+            // Remove subtitle/dubbed indicators (require word boundary or brackets)
+            title = title.replace(/\s*[\[(](subtitled|dubbed|subbed)[\])]/gi, '');
+            title = title.replace(/\s+(?:subtitled|dubbed)$/i, '');
+            // Remove certificate ratings (only at end or in brackets to avoid matching inside words)
+            title = title.replace(/\s*[\[(](U|PG|12A|12|15|18|TBC|NC-17|R|G|NR|PG-13)[\])]/gi, '');
+            title = title.replace(/\s+(?:U|PG|12A|15|18|TBC)$/i, '');
+            // Remove format tags (in brackets or at end)
+            title = title.replace(/\s*[\[(](35mm|70mm|16mm|4K|IMAX|3D|Dolby|Atmos)[\])]/gi, '');
+            title = title.replace(/\s+(?:35mm|70mm|16mm|4K|IMAX|3D)$/i, '');
             // Remove common suffixes
             title = title.replace(/\s*[-–:+]\s*(Preview|Q&A|Intro|Discussion|Special|Director'?s? Cut|Extended|Remaster(ed)?|Anniversary|Restoration|Screening|recorded|live).*$/i, '');
             // Remove year in parentheses
