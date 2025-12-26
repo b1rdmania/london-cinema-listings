@@ -256,15 +256,16 @@ HTML_TEMPLATE = """
             gap: 0.5rem;
         }
 
-        .info-link {
+        .info-link, .imdb-link {
             font-size: 0.7rem;
             color: #2563eb;
             cursor: pointer;
             text-transform: none;
             letter-spacing: normal;
+            text-decoration: none;
         }
 
-        .info-link:hover {
+        .info-link:hover, .imdb-link:hover {
             color: #60a5fa;
             text-decoration: underline;
         }
@@ -652,10 +653,12 @@ HTML_TEMPLATE = """
                         else if (firstNote.includes('70mm')) tags += '<span class="tag format-70mm">70mm</span>';
                     }
 
+                    const imdbUrl = 'https://www.imdb.com/find/?q=' + encodeURIComponent(filmTitle);
+
                     html += `
                         <div class="screening-card">
                             <div class="screening-info">
-                                <div class="film-title">${filmTitle}${tags}</div>
+                                <div class="film-title">${filmTitle}${tags} <a href="${imdbUrl}" target="_blank" class="imdb-link">(imdb)</a></div>
                                 <div class="screening-times">${times}</div>
                             </div>
                         </div>
