@@ -64,6 +64,15 @@ CINEMAS = {
         "lat": 51.5200,
         "lon": -0.0936,
         "website": "https://www.barbican.org.uk/whats-on/cinema"
+    },
+    "garden-cinema": {
+        "id": "garden-cinema",
+        "name": "The Garden Cinema",
+        "area": "Covent Garden",
+        "address": "39-41 Parker Street, London WC2B 5PQ",
+        "lat": 51.5160,
+        "lon": -0.1224,
+        "website": "https://thegardencinema.co.uk"
     }
 }
 
@@ -387,7 +396,7 @@ HTML_TEMPLATE = """
                 <div class="stat-label">Screenings</div>
             </div>
             <div class="stat">
-                <div class="stat-value" id="cinema-count">4</div>
+                <div class="stat-value" id="cinema-count">5</div>
                 <div class="stat-label">Cinemas</div>
             </div>
             <div class="stat">
@@ -407,7 +416,7 @@ HTML_TEMPLATE = """
         </div>
 
         <footer>
-            <p>Data from <a href="https://riocinema.org.uk">Rio</a>, <a href="https://www.curzon.com/venues/hoxton/">Curzon Hoxton</a>, <a href="https://princecharlescinema.com/">Prince Charles</a>, <a href="https://www.barbican.org.uk/whats-on/cinema">Barbican</a></p>
+            <p>Data from <a href="https://riocinema.org.uk">Rio</a>, <a href="https://www.curzon.com/venues/hoxton/">Curzon Hoxton</a>, <a href="https://princecharlescinema.com/">Prince Charles</a>, <a href="https://www.barbican.org.uk/whats-on/cinema">Barbican</a>, <a href="https://thegardencinema.co.uk">Garden Cinema</a></p>
             <p style="margin-top: 0.5rem;"><a href="/api/screenings">API</a> · <a href="https://github.com/b1rdmania/london-cinema-listings">GitHub</a></p>
         </footer>
     </div>
@@ -421,7 +430,8 @@ HTML_TEMPLATE = """
             'rio': 'Rio Cinema',
             'curzon-hoxton': 'Curzon Hoxton',
             'prince-charles-cinema': 'Prince Charles',
-            'barbican-cinema': 'Barbican'
+            'barbican-cinema': 'Barbican',
+            'garden-cinema': 'Garden Cinema'
         };
 
         async function loadData() {
@@ -470,19 +480,24 @@ HTML_TEMPLATE = """
             const dateNav = document.getElementById('date-nav');
             const dates = [...new Set(allScreenings.map(s => s.start_time.split('T')[0]))].sort();
 
-            dates.slice(0, 14).forEach((date, i) => {
-                const d = new Date(date);
-                const dayName = d.toLocaleDateString('en-GB', { weekday: 'short' });
-                const dayNum = d.getDate();
-                const month = d.toLocaleDateString('en-GB', { month: 'short' });
+            const today = new Date().toISOString().split('T')[0];
+            const tomorrow = new Date(Date.now() + 86400000).toISOString().split('T')[0];
 
-                const btn = document.createElement('button');
-                btn.className = 'date-btn';
-                btn.dataset.date = date;
-                btn.innerHTML = `<strong>${dayName}</strong> ${dayNum} ${month}`;
-                btn.onclick = () => filterByDate(date);
-                dateNav.appendChild(btn);
-            });
+            // Create TODAY button
+            const todayBtn = document.createElement('button');
+            todayBtn.className = 'date-btn';
+            todayBtn.dataset.date = today;
+            todayBtn.innerHTML = '<strong>TODAY</strong>';
+            todayBtn.onclick = () => filterByDate(today);
+            dateNav.appendChild(todayBtn);
+
+            // Create TOMORROW button
+            const tomorrowBtn = document.createElement('button');
+            tomorrowBtn.className = 'date-btn';
+            tomorrowBtn.dataset.date = tomorrow;
+            tomorrowBtn.innerHTML = '<strong>TOMORROW</strong>';
+            tomorrowBtn.onclick = () => filterByDate(tomorrow);
+            dateNav.appendChild(tomorrowBtn);
         }
 
         function filterByCinema(cinemaId) {

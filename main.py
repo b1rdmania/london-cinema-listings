@@ -58,6 +58,16 @@ CINEMA_INFO = {
         lat=51.5200,
         lon=-0.0936
     ),
+    "garden": Cinema(
+        id="garden-cinema",
+        name="The Garden Cinema",
+        address="39-41 Parker Street",
+        postcode="WC2B 5PQ",
+        website="https://thegardencinema.co.uk",
+        chain=None,
+        lat=51.5160,
+        lon=-0.1224
+    ),
 }
 
 # Available scrapers (will be sorted by distance if postcode provided)
@@ -66,6 +76,7 @@ CINEMAS = {
     "2": ("Curzon Hoxton", "curzon"),
     "3": ("Prince Charles Cinema", "prince_charles"),
     "4": ("Barbican Cinema", "barbican"),
+    "5": ("The Garden Cinema", "garden"),
 }
 
 # User's location (set via postcode)
@@ -193,6 +204,9 @@ async def get_scraper(scraper_id: str):
     elif scraper_id == "barbican":
         from scrapers.barbican import BarbicanScraper
         return BarbicanScraper()
+    elif scraper_id == "garden":
+        from scrapers.garden import GardenScraper
+        return GardenScraper()
     return None
 
 
