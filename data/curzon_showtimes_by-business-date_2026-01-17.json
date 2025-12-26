@@ -1,0 +1,367 @@
+{
+  "businessDate": "2026-01-17",
+  "showtimes": [
+    {
+      "id": "HOX1-25326",
+      "schedule": {
+        "businessDate": "2026-01-17",
+        "startsAt": "2026-01-17T10:30:00+00:00",
+        "endsAt": "2026-01-17T12:37:00+00:00",
+        "filmStartsAt": "2026-01-17T10:55:00+00:00",
+        "filmEndsAt": "2026-01-17T12:37:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00000226",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000004"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [
+        "FilmAdvanceBookingRule"
+      ],
+      "filmAdvanceBookingRuleId": "HOX1-2-HO00000226"
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00000226",
+        "title": {
+          "text": "Kids Club: Inside Out",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions -Joy, Fear, Anger, Disgust and Sadness -conflict on how best to navigate a new city, house, and school.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions -Joy, Fear, Anger, Disgust and Sadness -conflict on how best to navigate.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000001",
+        "censorRatingNote": {
+          "text": "very mild threat",
+          "translations": []
+        },
+        "releaseDate": "2026-01-17",
+        "runtimeInMinutes": 102,
+        "trailerUrl": "https://www.youtube.com/watch?v=_MC3XuMvsDI",
+        "displayPriority": 50,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000001680",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000005735",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007218",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007856",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007866",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008102",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008851",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008852",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008853",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000011020",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000011021",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000011022",
+            "roles": [
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000007",
+          "0000000025"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "d7d34faa-f17b-45a0-a6f8-7f22ff301297",
+          "corporateId": null
+        },
+        "hopk": "HO00000226",
+        "hoCode": "A000000271",
+        "eventId": null,
+        "distributorName": "Park Circus"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000001680",
+        "name": {
+          "givenName": "Kyle ",
+          "familyName": "MacLachlan",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000005735",
+        "name": {
+          "givenName": "Ronnie",
+          "familyName": "Del Carmen",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007218",
+        "name": {
+          "givenName": "Diane",
+          "familyName": "Lane",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007856",
+        "name": {
+          "givenName": "Bill",
+          "familyName": "Hader",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007866",
+        "name": {
+          "givenName": "Mindy",
+          "familyName": "Kaling",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008102",
+        "name": {
+          "givenName": "Pete",
+          "familyName": "Docter",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008851",
+        "name": {
+          "givenName": "Amy",
+          "familyName": "Poehler",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008852",
+        "name": {
+          "givenName": "Lewis",
+          "familyName": "Black",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008853",
+        "name": {
+          "givenName": "Phyllis",
+          "familyName": "Smith",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000011020",
+        "name": {
+          "givenName": "Richard",
+          "familyName": "Kind",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000011021",
+        "name": {
+          "givenName": "Kaitlyn",
+          "familyName": "Dias",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000011022",
+        "name": {
+          "givenName": "Jonas",
+          "familyName": "Rivera",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000007",
+        "name": {
+          "text": "Family",
+          "translations": []
+        },
+        "description": null
+      },
+      {
+        "id": "0000000025",
+        "name": {
+          "text": "Animation",
+          "translations": []
+        },
+        "description": null
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000001",
+        "classification": {
+          "text": "U",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "U",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000004",
+        "name": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "description": {
+          "text": "A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a \u2018Kids' Club\u2019 screening.",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [
+      {
+        "id": "HOX1-2-HO00000226",
+        "filmId": "HO00000226",
+        "siteId": "HOX1",
+        "bookingPeriods": [
+          {
+            "startsAt": "2024-05-27T06:00:00+01:00",
+            "orderBookingModes": [
+              "Paid",
+              "Unpaid",
+              "UnpaidConfirmed"
+            ],
+            "restriction": "None",
+            "rewardId": null
+          }
+        ]
+      }
+    ],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

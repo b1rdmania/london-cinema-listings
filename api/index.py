@@ -3,18 +3,14 @@ FastAPI web API for London Cinema Listings.
 Deployed to Vercel serverless functions.
 """
 
-from datetime import datetime, timedelta
+from datetime import datetime
 from typing import Optional
 import json
 import os
-import sys
 
 from fastapi import FastAPI, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import HTMLResponse
-
-# Add parent directory to path for imports
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from fastapi.responses import HTMLResponse, JSONResponse
 
 app = FastAPI(
     title="London Cinema Listings API",
@@ -34,8 +30,9 @@ app.add_middleware(
 # Cinema info
 CINEMAS = {
     "rio": {
-        "id": "rio-cinema",
+        "id": "rio",
         "name": "Rio Cinema",
+        "area": "Dalston",
         "address": "107 Kingsland High St, London E8 2PB",
         "lat": 51.5485,
         "lon": -0.0754,
@@ -44,22 +41,25 @@ CINEMAS = {
     "curzon-hoxton": {
         "id": "curzon-hoxton",
         "name": "Curzon Hoxton",
+        "area": "Hoxton",
         "address": "58-60 Hoxton Square, London N1 6PB",
         "lat": 51.5285,
         "lon": -0.0815,
         "website": "https://www.curzon.com/venues/hoxton/"
     },
-    "prince-charles": {
+    "prince-charles-cinema": {
         "id": "prince-charles-cinema",
         "name": "Prince Charles Cinema",
+        "area": "Leicester Square",
         "address": "7 Leicester Place, London WC2H 7BY",
         "lat": 51.5112,
         "lon": -0.1304,
         "website": "https://princecharlescinema.com/"
     },
-    "barbican": {
+    "barbican-cinema": {
         "id": "barbican-cinema",
         "name": "Barbican Cinema",
+        "area": "Barbican",
         "address": "Silk Street, London EC2Y 8DS",
         "lat": 51.5200,
         "lon": -0.0936,
@@ -67,81 +67,67 @@ CINEMAS = {
     }
 }
 
-
-@app.get("/")
-async def root():
-    """API root - returns basic info and links."""
-    return {
-        "name": "London Cinema Listings API",
-        "version": "0.1.0",
-        "endpoints": {
-            "cinemas": "/cinemas",
-            "screenings": "/screenings",
-            "today": "/screenings/today",
-            "docs": "/docs"
-        },
-        "cinemas_available": list(CINEMAS.keys())
-    }
+def load_screenings():
+    """Load screenings from static JSON file."""
+    data_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'screenings.json')
+    try:
+        with open(data_path, 'r') as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {"screenings": [], "generated_at": None, "total_screenings": 0}
 
 
-@app.get("/cinemas")
+@app.get("/api/cinemas")
 async def list_cinemas():
     """List all available cinemas."""
     return {"cinemas": list(CINEMAS.values())}
 
 
-@app.get("/cinemas/{cinema_id}")
-async def get_cinema(cinema_id: str):
-    """Get details for a specific cinema."""
-    if cinema_id not in CINEMAS:
-        return {"error": f"Cinema '{cinema_id}' not found"}
-    return CINEMAS[cinema_id]
-
-
-@app.get("/screenings")
+@app.get("/api/screenings")
 async def get_screenings(
     cinema: Optional[str] = Query(None, description="Filter by cinema ID"),
-    date: Optional[str] = Query(None, description="Filter by date (YYYY-MM-DD)"),
-    days: int = Query(7, description="Number of days ahead to fetch")
+    date: Optional[str] = Query(None, description="Filter by date (YYYY-MM-DD)")
 ):
-    """
-    Get upcoming screenings.
+    """Get upcoming screenings."""
+    data = load_screenings()
+    screenings = data.get('screenings', [])
 
-    Note: In production, this would fetch live data from scrapers.
-    For the demo, returns sample data structure.
-    """
-    # In production, we'd run the scrapers here
-    # For now, return the API structure
+    # Filter by cinema
+    if cinema:
+        screenings = [s for s in screenings if s.get('cinema_id') == cinema]
+
+    # Filter by date
+    if date:
+        screenings = [s for s in screenings if s.get('start_time', '').startswith(date)]
+
     return {
-        "screenings": [],
-        "message": "Live scraping not enabled in serverless mode. Use CLI for live data.",
-        "filters": {
-            "cinema": cinema,
-            "date": date,
-            "days": days
-        },
-        "available_cinemas": list(CINEMAS.keys())
+        "screenings": screenings,
+        "total": len(screenings),
+        "generated_at": data.get('generated_at')
     }
 
 
-@app.get("/screenings/today")
+@app.get("/api/screenings/today")
 async def get_today_screenings(cinema: Optional[str] = None):
     """Get today's screenings."""
     today = datetime.now().strftime("%Y-%m-%d")
-    return await get_screenings(cinema=cinema, date=today, days=1)
+    return await get_screenings(cinema=cinema, date=today)
 
 
-@app.get("/health")
+@app.get("/api/health")
 async def health_check():
     """Health check endpoint."""
     return {"status": "healthy", "timestamp": datetime.now().isoformat()}
 
 
-# Simple HTML frontend
-@app.get("/app", response_class=HTMLResponse)
+# Main HTML frontend
+@app.get("/", response_class=HTMLResponse)
 async def web_app():
-    """Simple HTML frontend."""
-    html = """
+    """Main web frontend."""
+    return HTML_TEMPLATE
+
+
+HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -150,105 +136,443 @@ async def web_app():
     <title>London Cinema Listings</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
+
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: #0a0a0a;
-            color: #e0e0e0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #0d0d0d;
+            color: #e5e5e5;
             min-height: 100vh;
-            padding: 2rem;
+            line-height: 1.5;
         }
-        .container { max-width: 800px; margin: 0 auto; }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid #333;
+        }
+
         h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
+            font-size: 1.75rem;
+            font-weight: 600;
             color: #fff;
+            margin-bottom: 0.5rem;
         }
+
         .subtitle {
             color: #888;
-            margin-bottom: 2rem;
+            font-size: 0.9rem;
         }
-        .cinema-card {
+
+        .filters {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1rem;
             background: #1a1a1a;
             border: 1px solid #333;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 1rem;
+            border-radius: 6px;
+            color: #ccc;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.15s;
         }
-        .cinema-card h2 {
+
+        .filter-btn:hover {
+            background: #252525;
+            border-color: #444;
+        }
+
+        .filter-btn.active {
+            background: #2563eb;
+            border-color: #2563eb;
             color: #fff;
-            font-size: 1.25rem;
-            margin-bottom: 0.5rem;
         }
-        .cinema-card .address {
+
+        .date-nav {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+            overflow-x: auto;
+            padding-bottom: 0.5rem;
+        }
+
+        .date-btn {
+            padding: 0.5rem 0.75rem;
+            background: #1a1a1a;
+            border: 1px solid #333;
+            border-radius: 6px;
+            color: #aaa;
+            font-size: 0.8rem;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: all 0.15s;
+        }
+
+        .date-btn:hover {
+            background: #252525;
+        }
+
+        .date-btn.active {
+            background: #1e3a5f;
+            border-color: #2563eb;
+            color: #fff;
+        }
+
+        .screening-group {
+            margin-bottom: 2rem;
+        }
+
+        .group-header {
+            font-size: 0.75rem;
+            font-weight: 600;
             color: #888;
-            font-size: 0.875rem;
-            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #222;
         }
-        .cinema-card a {
-            color: #4da6ff;
-            text-decoration: none;
-        }
-        .cinema-card a:hover { text-decoration: underline; }
-        .info-box {
-            background: #1a2a1a;
-            border: 1px solid #2a4a2a;
+
+        .screening-card {
+            display: flex;
+            gap: 1rem;
+            padding: 1rem;
+            background: #141414;
+            border: 1px solid #252525;
             border-radius: 8px;
-            padding: 1.5rem;
-            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            transition: all 0.15s;
         }
-        .info-box h3 { color: #6c6; margin-bottom: 0.5rem; }
-        code {
-            background: #2a2a2a;
-            padding: 0.25rem 0.5rem;
-            border-radius: 4px;
-            font-size: 0.875rem;
+
+        .screening-card:hover {
+            background: #1a1a1a;
+            border-color: #333;
         }
-        .api-link {
+
+        .screening-time {
+            min-width: 60px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .screening-info {
+            flex: 1;
+        }
+
+        .film-title {
+            font-weight: 500;
+            color: #fff;
+            margin-bottom: 0.25rem;
+        }
+
+        .screening-meta {
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        .cinema-name {
+            color: #888;
+        }
+
+        .tag {
             display: inline-block;
-            margin-top: 1rem;
-            padding: 0.5rem 1rem;
-            background: #333;
+            padding: 0.15rem 0.4rem;
+            background: #2a2a2a;
+            border-radius: 4px;
+            font-size: 0.7rem;
+            color: #aaa;
+            margin-left: 0.5rem;
+        }
+
+        .tag.format-35mm { background: #3d2800; color: #f5a623; }
+        .tag.format-4k { background: #1a3d1a; color: #4ade80; }
+        .tag.format-70mm { background: #3d1a2e; color: #f472b6; }
+
+        .booking-link {
+            display: inline-block;
+            padding: 0.4rem 0.75rem;
+            background: #2563eb;
             color: #fff;
             text-decoration: none;
             border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            transition: background 0.15s;
         }
-        .api-link:hover { background: #444; }
+
+        .booking-link:hover {
+            background: #1d4ed8;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+        }
+
+        .stats {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: #141414;
+            border-radius: 8px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: #666;
+            text-transform: uppercase;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid #222;
+            text-align: center;
+            font-size: 0.8rem;
+            color: #555;
+        }
+
+        footer a {
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            .filters { flex-direction: column; }
+            .stats { flex-direction: column; gap: 1rem; }
+            .screening-card { flex-direction: column; gap: 0.5rem; }
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>London Cinema Listings</h1>
-        <p class="subtitle">Independent cinema screenings across London</p>
+        <header>
+            <h1>London Cinema Listings</h1>
+            <p class="subtitle">Independent & repertory cinema screenings</p>
+        </header>
 
-        <div id="cinemas"></div>
-
-        <div class="info-box">
-            <h3>CLI Usage</h3>
-            <p>For live screening data, run the CLI locally:</p>
-            <p style="margin-top: 0.5rem;">
-                <code>python main.py</code>
-            </p>
-            <a href="/docs" class="api-link">API Documentation</a>
+        <div class="stats" id="stats">
+            <div class="stat">
+                <div class="stat-value" id="screening-count">-</div>
+                <div class="stat-label">Screenings</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="cinema-count">4</div>
+                <div class="stat-label">Cinemas</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="film-count">-</div>
+                <div class="stat-label">Films</div>
+            </div>
         </div>
+
+        <div class="filters" id="cinema-filters">
+            <button class="filter-btn active" data-cinema="all">All Cinemas</button>
+        </div>
+
+        <div class="date-nav" id="date-nav"></div>
+
+        <div id="screenings">
+            <div class="loading">Loading screenings...</div>
+        </div>
+
+        <footer>
+            <p>Data from <a href="https://riocinema.org.uk">Rio</a>, <a href="https://www.curzon.com/venues/hoxton/">Curzon Hoxton</a>, <a href="https://princecharlescinema.com/">Prince Charles</a>, <a href="https://www.barbican.org.uk/whats-on/cinema">Barbican</a></p>
+            <p style="margin-top: 0.5rem;"><a href="/api/screenings">API</a> · <a href="https://github.com/b1rdmania/london-cinema-listings">GitHub</a></p>
+        </footer>
     </div>
 
     <script>
-        fetch('/cinemas')
-            .then(r => r.json())
-            .then(data => {
-                const container = document.getElementById('cinemas');
-                data.cinemas.forEach(cinema => {
-                    container.innerHTML += `
-                        <div class="cinema-card">
-                            <h2>${cinema.name}</h2>
-                            <p class="address">${cinema.address}</p>
-                            <a href="${cinema.website}" target="_blank">Visit website &rarr;</a>
+        let allScreenings = [];
+        let currentCinema = 'all';
+        let currentDate = null;
+
+        const cinemaNames = {
+            'rio': 'Rio Cinema',
+            'curzon-hoxton': 'Curzon Hoxton',
+            'prince-charles-cinema': 'Prince Charles',
+            'barbican-cinema': 'Barbican'
+        };
+
+        async function loadData() {
+            try {
+                const [screeningsRes, cinemasRes] = await Promise.all([
+                    fetch('/api/screenings'),
+                    fetch('/api/cinemas')
+                ]);
+
+                const screeningsData = await screeningsRes.json();
+                const cinemasData = await cinemasRes.json();
+
+                allScreenings = screeningsData.screenings || [];
+
+                // Update stats
+                document.getElementById('screening-count').textContent = allScreenings.length;
+                const uniqueFilms = new Set(allScreenings.map(s => s.film_title));
+                document.getElementById('film-count').textContent = uniqueFilms.size;
+
+                // Build cinema filters
+                const filtersEl = document.getElementById('cinema-filters');
+                cinemasData.cinemas.forEach(cinema => {
+                    const btn = document.createElement('button');
+                    btn.className = 'filter-btn';
+                    btn.dataset.cinema = cinema.id;
+                    btn.textContent = cinema.name;
+                    btn.onclick = () => filterByCinema(cinema.id);
+                    filtersEl.appendChild(btn);
+                });
+
+                // Build date nav
+                buildDateNav();
+
+                // Set default to today
+                const today = new Date().toISOString().split('T')[0];
+                currentDate = today;
+
+                renderScreenings();
+            } catch (err) {
+                document.getElementById('screenings').innerHTML =
+                    '<div class="empty-state">Error loading screenings. Please try again.</div>';
+            }
+        }
+
+        function buildDateNav() {
+            const dateNav = document.getElementById('date-nav');
+            const dates = [...new Set(allScreenings.map(s => s.start_time.split('T')[0]))].sort();
+
+            dates.slice(0, 14).forEach((date, i) => {
+                const d = new Date(date);
+                const dayName = d.toLocaleDateString('en-GB', { weekday: 'short' });
+                const dayNum = d.getDate();
+                const month = d.toLocaleDateString('en-GB', { month: 'short' });
+
+                const btn = document.createElement('button');
+                btn.className = 'date-btn';
+                btn.dataset.date = date;
+                btn.innerHTML = `<strong>${dayName}</strong> ${dayNum} ${month}`;
+                btn.onclick = () => filterByDate(date);
+                dateNav.appendChild(btn);
+            });
+        }
+
+        function filterByCinema(cinemaId) {
+            currentCinema = cinemaId;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.cinema === cinemaId);
+            });
+            renderScreenings();
+        }
+
+        function filterByDate(date) {
+            currentDate = date;
+            document.querySelectorAll('.date-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.date === date);
+            });
+            renderScreenings();
+        }
+
+        function renderScreenings() {
+            let filtered = allScreenings;
+
+            if (currentCinema !== 'all') {
+                filtered = filtered.filter(s => s.cinema_id === currentCinema);
+            }
+
+            if (currentDate) {
+                filtered = filtered.filter(s => s.start_time.startsWith(currentDate));
+            }
+
+            // Highlight active date
+            document.querySelectorAll('.date-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.date === currentDate);
+            });
+
+            const container = document.getElementById('screenings');
+
+            if (filtered.length === 0) {
+                container.innerHTML = '<div class="empty-state">No screenings found for this selection.</div>';
+                return;
+            }
+
+            // Group by cinema
+            const grouped = {};
+            filtered.forEach(s => {
+                const key = s.cinema_name;
+                if (!grouped[key]) grouped[key] = [];
+                grouped[key].push(s);
+            });
+
+            let html = '';
+            Object.entries(grouped).sort().forEach(([cinema, screenings]) => {
+                html += `<div class="screening-group">`;
+                html += `<div class="group-header">${cinema}</div>`;
+
+                screenings.sort((a, b) => a.start_time.localeCompare(b.start_time)).forEach(s => {
+                    const time = new Date(s.start_time).toLocaleTimeString('en-GB', {
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+
+                    let tags = '';
+                    if (s.notes) {
+                        if (s.notes.includes('35mm')) tags += '<span class="tag format-35mm">35mm</span>';
+                        else if (s.notes.includes('4K')) tags += '<span class="tag format-4k">4K</span>';
+                        else if (s.notes.includes('70mm')) tags += '<span class="tag format-70mm">70mm</span>';
+                        else if (s.notes) tags += `<span class="tag">${s.notes}</span>`;
+                    }
+
+                    html += `
+                        <div class="screening-card">
+                            <div class="screening-time">${time}</div>
+                            <div class="screening-info">
+                                <div class="film-title">${s.film_title}${tags}</div>
+                                <div class="screening-meta">
+                                    ${s.screen ? s.screen + ' · ' : ''}
+                                    <a href="${s.booking_url}" target="_blank" class="booking-link">Book</a>
+                                </div>
+                            </div>
                         </div>
                     `;
                 });
+
+                html += '</div>';
             });
+
+            container.innerHTML = html;
+        }
+
+        loadData();
     </script>
 </body>
 </html>
-    """
-    return html
+"""

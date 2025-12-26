@@ -1,0 +1,163 @@
+{
+  "businessDate": "2026-01-29",
+  "showtimes": [
+    {
+      "id": "HOX1-25196",
+      "schedule": {
+        "businessDate": "2026-01-29",
+        "startsAt": "2026-01-29T18:20:00+00:00",
+        "endsAt": "2026-01-29T20:00:00+00:00",
+        "filmStartsAt": "2026-01-29T18:45:00+00:00",
+        "filmEndsAt": "2026-01-29T20:00:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-1-7",
+      "filmId": "HO00006727",
+      "siteId": "HOX1",
+      "screenId": "HOX1-1",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000009"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00006727",
+        "title": {
+          "text": "Cinemile Podcast: Live!",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "After the Meet-Cute: What Happened to Romcoms?\r\n\r\nWe all love Romcoms. But they are almost extinct in cinemas. In this live show, the hosts will chat about the history of romcoms, their favourites, forgotten gems, and the migration from cinemas to TV screens for the genre. Plus, interactive chats with the audience about YOUR best and worst romcoms.\r\n\r\nHosted by The Cinemile Podcast \u2014 married duo Dave and Cathy, known for their funny, honest walk-home chats about the movies \u2014 with special guest Helen O\u2019Hara, legendary film journalist and Empire podcast co-host.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "Married duo Dave and Cathy, known for their funny, honest walk-home chats about the movies discuss... What Happened to Romcoms?",
+          "translations": []
+        },
+        "censorRatingId": "0000000004",
+        "censorRatingNote": null,
+        "releaseDate": "2026-01-29",
+        "runtimeInMinutes": 75,
+        "trailerUrl": null,
+        "displayPriority": 5,
+        "castAndCrew": [],
+        "genreIds": [
+          "0000000034"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": null,
+          "corporateId": null
+        },
+        "hopk": "HO00006727",
+        "hoCode": "A000008303",
+        "eventId": null,
+        "distributorName": "Golden Hour"
+      }
+    ],
+    "castAndCrew": [],
+    "genres": [
+      {
+        "id": "0000000034",
+        "name": {
+          "text": "Romantic Comedy",
+          "translations": []
+        },
+        "description": null
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "0000000004",
+        "classification": {
+          "text": "NC",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "NC",
+          "translations": []
+        },
+        "ageRestriction": null
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000009",
+        "name": {
+          "text": "Screening followed by a Q&A",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Q&A",
+          "translations": []
+        },
+        "description": {
+          "text": "Q&A",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-1",
+        "name": {
+          "text": "Screen 1",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

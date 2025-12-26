@@ -1,0 +1,336 @@
+{
+  "businessDate": "2026-01-24",
+  "showtimes": [
+    {
+      "id": "HOX1-25327",
+      "schedule": {
+        "businessDate": "2026-01-24",
+        "startsAt": "2026-01-24T10:30:00+00:00",
+        "endsAt": "2026-01-24T12:31:00+00:00",
+        "filmStartsAt": "2026-01-24T10:55:00+00:00",
+        "filmEndsAt": "2026-01-24T12:31:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00005634",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000004"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00005634",
+        "title": {
+          "text": "Kids Club: Inside Out 2",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "Disney and Pixar\u2019s \u201cInside Out 2\u201d returns to the mind of newly minted teenager Riley just as headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who\u2019ve long been running a successful operation \nby all accounts, aren\u2019t sure how to feel when Anxiety shows up. And it looks like she\u2019s not alone. Maya Hawke lends her voice to Anxiety, alongside Amy Poehler as the voice of Joy. The voice cast also includes Lewis Black, Phyllis Smith, Tony Hale, Liza Lapira, Ayo Edebiri, Ad\u00e8le Exarchopoulos, Paul\nWalter Hauser, Kensington Tallman, Lilimar, Diane Lane, Kyle MacLachlan, Sumayyah Nuriddin-Green, Grace Lu and Yvette Nicole Brown. Directed by Kelsey Mann and produced by Mark Nielsen with a screenplay by Meg LeFauve and Dave Holstein, \u201cInside Out 2\u201d features a score by Andrea Datzman.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "The little voices inside Riley\u2019s head know her inside and out\u2014but next summer, everything changes when Disney and Pixar\u2019s \u201cInside Out 2\u201d introduces a new Emotion: Anxiety",
+          "translations": []
+        },
+        "censorRatingId": "HO00000001",
+        "censorRatingNote": {
+          "text": "very mild threat, language, upsetting scenes, violence, rude humour",
+          "translations": []
+        },
+        "releaseDate": "2026-01-24",
+        "runtimeInMinutes": 96,
+        "trailerUrl": "https://www.youtube.com/watch?v=EzEZVTaXE6E",
+        "displayPriority": 50,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000000267",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000002191",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000005284",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000005701",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000006239",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008851",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008852",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008853",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008854",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008855",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000008856",
+            "roles": [
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000003",
+          "0000000007"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": null,
+          "corporateId": null
+        },
+        "hopk": "HO00005634",
+        "hoCode": "A000006969",
+        "eventId": null,
+        "distributorName": "Park Circus"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000000267",
+        "name": {
+          "givenName": "Paul Walter",
+          "familyName": "Hauser",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000002191",
+        "name": {
+          "givenName": "Tony",
+          "familyName": "Hale",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000005284",
+        "name": {
+          "givenName": "Ad\u00e8le ",
+          "familyName": "Exarchopoulos",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000005701",
+        "name": {
+          "givenName": "Maya",
+          "familyName": "Hawke",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000006239",
+        "name": {
+          "givenName": "Ayo",
+          "familyName": "Edebiri",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008851",
+        "name": {
+          "givenName": "Amy",
+          "familyName": "Poehler",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008852",
+        "name": {
+          "givenName": "Lewis",
+          "familyName": "Black",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008853",
+        "name": {
+          "givenName": "Phyllis",
+          "familyName": "Smith",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008854",
+        "name": {
+          "givenName": "Liza",
+          "familyName": "Lapira",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008855",
+        "name": {
+          "givenName": "Kelsey",
+          "familyName": "Mann",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000008856",
+        "name": {
+          "givenName": "Mark",
+          "familyName": "Nielsen",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000003",
+        "name": {
+          "text": "Comedy",
+          "translations": []
+        },
+        "description": {
+          "text": "Comedy",
+          "translations": []
+        }
+      },
+      {
+        "id": "0000000007",
+        "name": {
+          "text": "Family",
+          "translations": []
+        },
+        "description": null
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000001",
+        "classification": {
+          "text": "U",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "U",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000004",
+        "name": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "description": {
+          "text": "A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a \u2018Kids' Club\u2019 screening.",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

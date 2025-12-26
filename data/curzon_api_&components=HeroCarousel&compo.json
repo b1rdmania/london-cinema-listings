@@ -1,0 +1,360 @@
+{
+  "name": "Hoxton",
+  "urlSegment": "hoxton",
+  "url": "/venues/hoxton/",
+  "nodeId": 1805,
+  "alias": "cinema",
+  "createDate": "2024-08-13T14:57:42+01:00",
+  "updateDate": "2025-12-22T15:32:35+00:00",
+  "versions": {
+    "": "https://www.curzon.com/venues/hoxton/"
+  },
+  "robotsNoIndex": false,
+  "robotsNoFollow": false,
+  "masterCanonicalUrl": null,
+  "excludeCanonicalUrl": false,
+  "seoImage": null,
+  "metaKeywords": "",
+  "metaDescription": "Find out what's on at Curzon Cinema in Hoxton. Check out the latest blockbuster movies, new Indie film releases and the best of world cinema out now.",
+  "seoPageTitle": "Curzon Hoxton Cinema Showtimes & Film Listings",
+  "oGType": "",
+  "twitterCard": "",
+  "seoUrl": "",
+  "oGLocale": "",
+  "excludeFromXmlSitemap": false,
+  "excludeFromSiteSearch": false,
+  "pageTitle": "Curzon Hoxton Cinema Showtimes & Film Listings",
+  "hideTitle": false,
+  "grid": [],
+  "redirectDetailsElement": {
+    "redirect": false,
+    "permanent": false
+  },
+  "components": {
+    "CompositeFilterDisplayText": {
+      "filterTitleLabel": "Filter",
+      "genreFilterLabel": "Genre",
+      "attributeFilterLabel": "Experience",
+      "categoryFilterLabel": "Category",
+      "eventFilterLabel": "Event",
+      "billingPeriodFilterLabel": "Billing period",
+      "billingRecurrenceFilterLabel": "Billing type",
+      "subscriptionFilterLabel": "Subscription",
+      "modalTriggerButtonLabel": "Filter by",
+      "accordionHeaderClearFiltersButtonLabel": "Clear filters",
+      "modalCancelButtonLabel": "Cancel",
+      "modalApplyButtonLabel": "Apply",
+      "modalClearFiltersButtonLabel": "Clear",
+      "selectFiltersMessage": "Select filters to update results",
+      "resultCountMessage": "${count} film result(s) found"
+    },
+    "DateShowtimePickerDisplayText": {
+      "nextShowtimeForSiteOnDateMessage": [
+        {
+          "text": "This movie is not available on this date. Next screening is on the "
+        },
+        {
+          "text": "${nextScreeningDate|d|Do of MMMM}"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "lastShowtimeForSiteOnDateMessage": [
+        {
+          "text": "This movie is not available on this date. Last screening is on the "
+        },
+        {
+          "text": "${lastScreeningDate|d|Do of MMMM}"
+        },
+        {
+          "text": "."
+        }
+      ],
+      "allFilmsToggleLabel": "Show all films",
+      "showtimeUnavailableAdvanceBookingPeriodNotificationFormat": "Coming soon. Tickets on sale at ${siteName} from ${startsAt|d|Do of MMMM, h:mm A}. Please come back later.",
+      "showtimeUnavailableAdvanceBookingPeriodTodayNotificationFormat": "Coming soon. Tickets on sale at ${siteName} today from ${startsAt|d|h:mm A}. Please come back later.",
+      "commonAttributesListLabel": "All Showtimes",
+      "attributeLegendLabel": "Showtime Attributes",
+      "attributeLegendViewButtonLabel": "What do these mean?",
+      "attributeLegendModalHelpText": [],
+      "runtimeLabel": "Runtime",
+      "noSitesSelectedTitle": "No cinemas selected.",
+      "noSitesSelectedMessage": "Where would you like to see the movie?",
+      "noShowtimesForFilterMessage": "There are no showtimes that match the selected filters.",
+      "noShowtimesForFilterClearButtonLabel": "Clear filters",
+      "noShowtimesForFilmMessage": "There are no showtimes on this date for '${selectedFilmTitle}' at your selected cinemas.\nPlease select another cinema.",
+      "noShowtimesGenericMessage": "There are no showtimes on this date at your selected cinemas.\nPlease select another cinema.",
+      "noShowtimesForSiteAndFilmMessage": "This movie is no longer available at this location.",
+      "noShowtimesTitle": "No showtimes available.",
+      "noShowtimesForAnyDateMessage": "Please try another selection.",
+      "advanceBookingPeriodForSiteNotificationFormat": "Tickets on sale at ${siteName} from ${startsAt|d|Do of MMMM, h:mm A}.",
+      "advanceBookingPeriodForSiteTodayNotificationFormat": "Tickets on sale at ${siteName} today from ${startsAt|d|h:mm A}.",
+      "failedToLoadDataTitle": "Sorry, something went wrong.",
+      "failedToLoadDataMessage": "Refresh your browser to try loading your selections again.",
+      "filmActionLinkText": "Show full details",
+      "playTrailerButtonLabel": "Play trailer",
+      "failedToLoadTrailerTitle": "Sorry, something went wrong.",
+      "failedToLoadTrailerRetryButtonLabel": "Retry",
+      "datePickerTodayDateFormat": [
+        {
+          "text": "Today"
+        }
+      ],
+      "showtimeTimeFormat": "h:mm",
+      "showtimeAmPmFormat": "A",
+      "businessDateFormat": "${businessDate|d|dddd D MMMM}",
+      "datePickerDateFormat": [
+        {
+          "text": "${date|d|ddd}"
+        },
+        {
+          "text": "${date|d|D}"
+        },
+        {
+          "text": "${date|d|MMM}"
+        }
+      ],
+      "filmSynopsisLabel": "Synopsis",
+      "sitesDropdownPlaceholder": "Select an venue"
+    },
+    "EventShowtimePickerDisplayText": {
+      "noEventSelectedTitle": "No event selected",
+      "noEventSelectedMessage": "Please select an event",
+      "eventsDropdownPlaceholder": "Select an event"
+    },
+    "HeroCarousel": [
+      {
+        "image": {
+          "mobile": "/media/vz1o04xa/hoxton3.jpg?width=393&height=169&v=1dba25ace9c55b0",
+          "tablet": "/media/vz1o04xa/hoxton3.jpg?width=782&height=315&v=1dba25ace9c55b0",
+          "desktop": "/media/vz1o04xa/hoxton3.jpg?width=1216&height=523&v=1dba25ace9c55b0",
+          "alt": ""
+        },
+        "textHeading": "WELCOME TO CURZON HOXTON",
+        "actionLink": {
+          "name": "take a tour",
+          "target": "_blank",
+          "url": "https://tours.360virtualtours.co.uk/curzon/hoxton/"
+        },
+        "actionLinkBackgroundColor": {
+          "color": "f8a4d8",
+          "label": "pink"
+        }
+      },
+      {
+        "image": {
+          "mobile": "/media/px2iem4l/st-mungos-web.jpg?width=393&height=169&v=1dc44fc6573af80",
+          "tablet": "/media/px2iem4l/st-mungos-web.jpg?width=782&height=315&v=1dc44fc6573af80",
+          "desktop": "/media/px2iem4l/st-mungos-web.jpg?width=1216&height=523&v=1dc44fc6573af80",
+          "alt": ""
+        },
+        "textHeading": "Support St Mungo's on your Curzon cinema visit",
+        "actionLink": {
+          "name": "FIND OUT MORE",
+          "url": "https://www.curzon.com/charity/"
+        },
+        "actionLinkBackgroundColor": {
+          "color": "f8a4d8",
+          "label": "pink"
+        }
+      },
+      {
+        "image": {
+          "mobile": "/media/pjsj0oss/pepperoni.jpg?width=393&height=169&v=1daf1d80a3f4700",
+          "tablet": "/media/pjsj0oss/pepperoni.jpg?width=782&height=315&v=1daf1d80a3f4700",
+          "desktop": "/media/pjsj0oss/pepperoni.jpg?width=1216&height=523&v=1daf1d80a3f4700",
+          "alt": ""
+        },
+        "textHeading": "Food and drink",
+        "actionLink": {
+          "name": "View Menu",
+          "target": "_blank",
+          "url": "/media/dfrbophq/menu-1_oct2025_updated.pdf"
+        },
+        "actionLinkBackgroundColor": {
+          "color": "f8a4d8",
+          "label": "pink"
+        }
+      },
+      {
+        "image": {
+          "mobile": "/media/u1tpev4b/ph-hoxton.jpg?width=393&height=169&v=1dba25ae5092620",
+          "tablet": "/media/u1tpev4b/ph-hoxton.jpg?width=782&height=315&v=1dba25ae5092620",
+          "desktop": "/media/u1tpev4b/ph-hoxton.jpg?width=1216&height=523&v=1dba25ae5092620",
+          "alt": ""
+        },
+        "textHeading": "HIRE THIS SPACE",
+        "actionLink": {
+          "name": "CONTACT US",
+          "url": "/private-hire/"
+        },
+        "actionLinkBackgroundColor": {
+          "color": "f8a4d8",
+          "label": "pink"
+        }
+      },
+      {
+        "image": {
+          "mobile": "/media/325huqma/hoxton4.jpg?width=393&height=169&v=1dba25af4242f10",
+          "tablet": "/media/325huqma/hoxton4.jpg?width=782&height=315&v=1dba25af4242f10",
+          "desktop": "/media/325huqma/hoxton4.jpg?width=1216&height=523&v=1dba25af4242f10",
+          "alt": ""
+        },
+        "textHeading": "WELCOME TO CURZON HOXTON"
+      },
+      {
+        "image": {
+          "mobile": "/media/3cep3bof/hoxton1.jpg?width=393&height=169&v=1dba25b07f5bb30",
+          "tablet": "/media/3cep3bof/hoxton1.jpg?width=782&height=315&v=1dba25b07f5bb30",
+          "desktop": "/media/3cep3bof/hoxton1.jpg?width=1216&height=523&v=1dba25b07f5bb30",
+          "alt": ""
+        },
+        "textHeading": "GET DIRECTIONS",
+        "actionLink": {
+          "name": "VIEW ON MAP",
+          "url": "https://www.google.com/maps/place/Curzon+Hoxton/@51.5284744,-0.0858911,16.13z/data=!4m5!3m4!1s0x48761ca4e83a4dd1:0xd56636633a20126b!8m2!3d51.5288918!4d-0.0837871"
+        }
+      }
+    ]
+  },
+  "cinemaLocationDetailsElement": {
+    "venueCardImage": {
+      "mobile": "/media/20gmcxgg/cinema-venues-_hoxton.jpg?width=300&height=160&v=1db998942762590",
+      "alt": ""
+    },
+    "addressLine1": "55 Pitfield St",
+    "city": "London",
+    "postcode": "N1 6BU",
+    "nearestStationName": "Hoxton",
+    "nearestStationType": "national-rail"
+  },
+  "vistaCinema": {
+    "key": "HOX1",
+    "value": "Hoxton"
+  },
+  "informationTabAccordions": [
+    {
+      "heading": "Opening times",
+      "body": "<p><strong>Monday to Saturday:</strong> The cinema opens 30 minutes before the first show's programme begins and closes at midnight.</p>\n<p><strong>Sunday:</strong> Closes at 11.30pm.</p>\n<p><em>Please be aware opening and closing times may be subject to change.</em></p>"
+    },
+    {
+      "heading": "Screen info",
+      "body": "<p><strong>Screen 1<br></strong>119 seats, 2 wheelchair spaces</p>\n<p><strong>Screen 2<br></strong>66 seats, 2 wheelchair spaces</p>\n<p><strong>Screen 3<br></strong>60 seats, 2 wheelchair spaces</p>"
+    },
+    {
+      "heading": "Accessibility",
+      "body": "<p>All screens are accessible by lift, and each one has two wheelchair spaces. The lift has a maximum weight limit of 410 kg. There is a wheelchair-accessible bathroom.</p>\n<p>Audio Description and hearing-assist headsets are available on request.</p>"
+    },
+    {
+      "heading": "Food and Drink",
+      "body": "<p>Fresh coffee, teas and pastries alongside an all day menu of pizza and bar food with vegan and vegetarian options available. The drinks menu includes a wide selection of cocktails, wine, craft beer and soft drinks.</p>\n<p><span style=\"text-decoration: underline;\"><a rel=\"noopener\" href=\"/media/dfrbophq/menu-1_oct2025_updated.pdf\" target=\"_blank\" title=\"Menu 1 Oct2025 Updated\">See our full menu here.</a></span></p>"
+    },
+    {
+      "heading": "HAPPY HOUR INFORMATION",
+      "body": "<p>At this venue Happy Hour is 5pm to 10pm every day, 2 for \u00a316 on all cocktails.</p>"
+    },
+    {
+      "heading": "Private hires",
+      "body": "<p>Our screens are available to rent for your private functions, email <a href=\"mailto:privatehires@curzon.com\" title=\"Email private hires\"><span style=\"text-decoration: underline;\">privatehires@curzon.com</span></a> for more information.</p>\n<p>To find out more, visit our <a href=\"https://www.curzon.com/private-hire/hoxton/\" title=\"Hoxton Private Hires\"><span style=\"text-decoration: underline;\">Private Hires page</span>.</a></p>"
+    },
+    {
+      "heading": "Social Media",
+      "body": "<p>Instagram: <span style=\"text-decoration: underline;\"><a rel=\"noopener\" href=\"https://www.instagram.com/curzonhoxton?igsh=MWd0MWIxa3BmbzZ6ZQ==\" target=\"_blank\" title=\"Curzon Hoxton Instagram\" data-anchor=\"?igsh=MWd0MWIxa3BmbzZ6ZQ==\">curzonhoxton</a></span></p>"
+    }
+  ],
+  "informationTabDescription": "<p>Located just off Old Street roundabout, Curzon Hoxton is a thoroughly modern east-London venue with an all-encompassing programme. Its striking minimalist design \u2013 as evidenced in its inviting ground-floor caf\u00e9 \u2013 showcases the beauty of natural materials, and the three screening rooms boast front-seat recliners for endless comfort.</p>",
+  "menuTabAccordions": [
+    {
+      "heading": "Pizza",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 382px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Margherita (V)</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a311.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Pepperoni &amp; Honey</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a312.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">'Nduja</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a312.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Goat's Cheese &amp; Caramelised Onion (V)</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a312.80</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Mushroom &amp; Truffle Oil (V)</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a312.80</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Vegan Margherita (Vg)</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a311.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Vegan Mushroom &amp; Truffle Oil (Vg)</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a312.80</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Tomato &amp; Pesto Flatbread (Vg)</td>\n<td style=\"width: 39.8654%; text-align: right; height: 18.5px;\">\u00a38.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Garlic Flatbread (V)</td>\n<td style=\"width: 39.8654%; height: 18.5px; text-align: right;\">\u00a37.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px;\">Cheesy Garlic Flatbread (V)</td>\n<td style=\"width: 39.8654%; height: 18.5px; text-align: right;\">\u00a38.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 60.1346%; height: 18.5px; text-align: left;\">Dip</td>\n<td style=\"width: 39.8654%; height: 18.5px; text-align: right;\">\u00a31.85</td>\n</tr>\n<tr style=\"height: 21.5px;\">\n<td style=\"width: 60.1346%; height: 21.5px;\">Extra topping</td>\n<td style=\"width: 39.8654%; height: 21.5px; text-align: right;\">\u00a32.00</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "sharing plates 3 FOR \u00a316",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 203.5px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Nocellara Olives (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a34.75</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Padr\u00f3n Peppers (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a36.25</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Guacamole &amp; Tortilla Chips (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a36.25</td>\n</tr>\n<tr>\n<td style=\"width: 49.3728%;\">Salsa &amp; Tortilla Chips (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right;\">\u00a36.25</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Hummus &amp; Flatbread (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a36.25</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Salt &amp; Pepper Squid</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a36.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Crispy Chicken Fillets</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a36.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">French Fries (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a34.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Truffle Fries (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a34.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Cheesy Fries (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a34.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Chilli Fries</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a36.50</td>\n</tr>\n<tr>\n<td style=\"width: 49.3728%;\">Mini Potato Posties (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right;\">\u00a34.50</td>\n</tr>\n<tr>\n<td style=\"width: 49.3728%;\">Truffle Mini Potato Posties (V)</td>\n<td style=\"width: 49.3728%; text-align: right;\">\u00a34.95</td>\n</tr>\n<tr>\n<td style=\"width: 49.3728%;\">Cheesy Mini Potato Posties (V)</td>\n<td style=\"width: 49.3728%; text-align: right;\">\u00a34.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Halloumi Fries (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a36.50</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "hot dogs & nachos",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 92.5px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Gourmet Hot Dog</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a38.75</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Vegan Hot Dog (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a38.75</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Chilli Hot Dog</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a39.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Nachos (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a39.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Chilli Nachos</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a310.95</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Snacks",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 74px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Jude's Ice Cream</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Snacks</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">from \u00a34.25</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Popcorn (Vg) Large | Small</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a36.00 | \u00a35.00</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Cakes & Cookies",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 72px;\">\n<tbody>\n<tr style=\"height: 18px;\">\n<td style=\"width: 49.3728%; height: 18px;\">Selection of cakes, traybakes &amp; cookies</td>\n<td style=\"width: 49.3728%; height: 18px; text-align: right;\">from \u00a33.10</td>\n</tr>\n<tr style=\"height: 18px;\">\n<td style=\"width: 49.3728%; height: 18px;\">Coffee &amp; Cake Deal (Monday - Friday before 5PM)</td>\n<td style=\"width: 49.3728%; height: 18px; text-align: right;\">\u00a36.50</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Cocktails & Spirits",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 630.25px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\"><strong><span style=\"text-decoration: underline;\">COCKTAILS</span></strong></td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">all \u00a311.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Amaretto Sour (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Cosmopolitan (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Espresso Martini (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Margarita (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mojito (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mojito (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Negroni (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Picante (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Porto Tonico</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Tom Collins (Vg)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Whiskey Sour (V)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>SPRITZ</strong></span></td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">all \u00a310.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Aperol (V)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Campari (V)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Allora (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Hugo (V)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>G&amp;T</strong></span></td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">all \u00a310.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Elderflower (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mirabeau Ros\u00e9 (V)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Rhubarb &amp; raspberry (Vg)</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Pineapple</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px; text-align: left;\">\u00a0</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>ALCOHOL FREE (Vg)</strong></span></td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 19.75px;\">\n<td style=\"width: 49.3728%; height: 19.75px;\">Shirley Temple</td>\n<td style=\"width: 49.3728%; text-align: right; height: 19.75px;\">\u00a37.75</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Crodino Spritz</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a37.75</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Margarita</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a310.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mojito</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a310.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Tom Collins\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a310.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Spirits Selection</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">from \u00a35.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mixers</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a32.20</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Wine",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 540px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>WHITE</strong></span></td>\n<td style=\"width: 13.6445%; height: 18.5px;\">175ml</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">250ml</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">Bottle</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Chenin Blanc, Kudu Plains (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a36.80</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a38.60</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a324.00</td>\n</tr>\n<tr style=\"height: 37px;\">\n<td style=\"width: 61.4004%; height: 37px;\">Pinot Grigio, La Maglia Rosa Delle Venezie (Vg)</td>\n<td style=\"width: 13.6445%; height: 37px;\">\u00a38.50</td>\n<td style=\"width: 12.3878%; height: 37px;\">\u00a310.30</td>\n<td style=\"width: 12.5673%; height: 37px;\">\u00a328.60</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Vinho Verde Branco, Conde Villar (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a38.70</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a310.50</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a329.20</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Chardonnay, Lorosco Reserva (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a38.80</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a310.60</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a329.80</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Organic Fiano, Zensa (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a39.50</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a311.50</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a334.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Sauvignon Blanc, Spy Valley</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a310.50</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a312.30</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a335.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>RED</strong></span></td>\n<td style=\"width: 13.6445%; height: 18.5px;\">175ml</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">250ml</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">Bottle</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Sangiovese, Ponte Miliano (V)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a36.80</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a38.60</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a324.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Merlot, Alto Bajot (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a38.00</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a39.80</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a327.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Rioja Crianza, Castillo Viento (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a38.70</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a310.50</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a329.80</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Malbec, Tilia (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a39.00</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a310.80</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a330.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Organic Primitivo, Zensa (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a39.50</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a311.50</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a334.00</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 61.4004%; height: 22px;\">Cabernet Sauvignon, Journey's End (Vg)\u00a0</td>\n<td style=\"width: 13.6445%; height: 22px;\">\u00a310.50</td>\n<td style=\"width: 12.3878%; height: 22px;\">\u00a312.30</td>\n<td style=\"width: 12.5673%; height: 22px;\">\u00a335.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>ROS\u00c9</strong></span></td>\n<td style=\"width: 13.6445%; height: 18.5px;\">175ml</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">250ml</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">Bottle</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Vinho Verde Ros\u00e9, Conde Villar (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a36.80</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a38.60</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a324.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Organic Ros\u00e9, Zensa (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a38.10</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a39.90</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a328.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Chateau Roubine La Vie En Rose (V)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a313.80</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a315.60</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a345.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>SPARKLING</strong></span></td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">125ml</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">Bottle</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Prosecco Extra Seco, Vaporetto</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a38.50</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a335.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Prosecco Ros\u00e9, Jeio</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a38.50</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a335.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 61.4004%; height: 18.5px;\">Leslie's Brut, Balfour (Vg)</td>\n<td style=\"width: 13.6445%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.3878%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 12.5673%; height: 18.5px;\">\u00a342.00</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Beer (Vg)",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 137px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Draught Pint | Half Pint</td>\n<td style=\"width: 49.3728%; height: 18.5px; text-align: right;\">\u00a36.75 | \u00a33.40</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Asahi Super Dry 500ml</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a37.30</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Hitachino Nest White Ale 330ml</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a36.25</td>\n</tr>\n<tr style=\"height: 22.5px;\">\n<td style=\"width: 49.3728%; height: 22.5px;\">Guest Craft Beer 330ml\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 22.5px;\">from \u00a36.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Cornish Orchards Cider 500ml</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a36.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Asahi Super Dry 0.0% \u00a0330ml</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a35.75</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 49.3728%; height: 22px;\">Days Pale Ale 0.0% 330ml</td>\n<td style=\"width: 49.3728%; text-align: right; height: 22px;\">\u00a35.75</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Shakes and Smoothies",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 259px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>SHAKES (V)</strong></span></td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">all \u00a36.50</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Oreo</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Vanilla</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Chocolate</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Strawberry</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Coffee</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mocha</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Chai</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Add a shot of Baileys</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">+ \u00a34.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\"><span style=\"text-decoration: underline;\"><strong>SMOOTHIES (Vg)</strong></span></td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">all \u00a36.20</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Blackberry, Raspberry &amp; Strawberry</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Mango, Passion Fruit &amp; Pineapple\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Strawberry &amp; Banana</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a0</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Hot Drinks (V)",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 240.5px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Selection of Teas (Vg)</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.10</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Americano (Iced available)</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.70</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Cappuccino</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.80</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Latte (Iced available)</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Flat White</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Mocha (Iced available)</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a34.00</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Chai Latte</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Hot Chocolate</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">Add syrup</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">+ \u00a30.45</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 50.1002%; height: 18.5px;\">&nbsp;</td>\n<td style=\"width: 50.1002%; text-align: right; height: 18.5px;\">&nbsp;</td>\n</tr>\n<tr style=\"height: 37px;\">\n<td style=\"width: 50.1002%; height: 37px;\">Oat alternative (Vg) and decaf available</td>\n<td style=\"width: 50.1002%; text-align: right; height: 37px;\">&nbsp;</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+      "heading": "Soft Drinks (Vg)",
+      "body": "<table border=\"1\" style=\"border-collapse: collapse; width: 100%; height: 203.5px;\">\n<tbody>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Water</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a32.95</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Coca-Cola</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Fanta Orange</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Sprite Zero\u00a0</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a33.90</td>\n</tr>\n<tr style=\"height: 37px;\">\n<td style=\"width: 49.3728%; height: 37px;\">Cawston Press Sparkling (Selection)</td>\n<td style=\"width: 49.3728%; text-align: right; height: 37px;\">\u00a33.85</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Lemonaid</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a34.20</td>\n</tr>\n<tr style=\"height: 18.5px;\">\n<td style=\"width: 49.3728%; height: 18.5px;\">Juice (Selection) 250ml</td>\n<td style=\"width: 49.3728%; text-align: right; height: 18.5px;\">\u00a32.75</td>\n</tr>\n</tbody>\n</table>"
+    }
+  ],
+  "menuTabDescription": "<p>Fresh coffee, teas and cakes alongside an all day menu of pizza and bar food with vegan and vegetarian options available. The drinks menu includes a wide selection of cocktails, wine, craft beer and soft drinks.</p>",
+  "gettingHereImageLink": {
+    "name": "Get directions",
+    "target": "_blank",
+    "url": "https://www.google.com/maps/place/Curzon+Hoxton/@51.5284744,-0.0858911,16.13z/data=!4m5!3m4!1s0x48761ca4e83a4dd1:0xd56636633a20126b!8m2!3d51.5288918!4d-0.0837871"
+  },
+  "gettingHereCTALink": {
+    "name": "Get directions",
+    "target": "_blank",
+    "url": "https://www.google.com/maps/place/Curzon+Hoxton/@51.5284744,-0.0858911,16.13z/data=!4m5!3m4!1s0x48761ca4e83a4dd1:0xd56636633a20126b!8m2!3d51.5288918!4d-0.0837871"
+  },
+  "gettingHereHeading": "Getting Here",
+  "gettingHereImage": {
+    "fromLeft": 50.0,
+    "fromTop": 50.0,
+    "url": "/media/vakhuqv3/hoxton-map.png",
+    "alt": ""
+  },
+  "gettingHereInfoText": "",
+  "addressLine1": "55 Pitfield St",
+  "addressLine2": "",
+  "addressLine3": "",
+  "city": "London",
+  "postcode": " N1 6BU",
+  "nearestStationName": "Hoxton",
+  "nearestStationType": "underground",
+  "cinemaSpecificBannerText": "",
+  "foodAndBeverageEnabled": false,
+  "ancestorComponents": {
+    "Cinemas": {
+      "DateShowtimePickerConfig": {
+        "filmSynopsisLength": "Longest",
+        "showAttributeLegend": false,
+        "allFilmsToggleInitialValue": false,
+        "showSiteDetails": false,
+        "showFilmDetails": true,
+        "showOnMessage": false,
+        "showPlayTrailerButton": true,
+        "showScreenName": false,
+        "showCustomFilmActions": false,
+        "showFilmActionLink": false,
+        "showDatePicker": true,
+        "showAllFilmsToggle": false,
+        "initialValueAllFilmsToggle": false
+      }
+    }
+  }
+}

@@ -1,0 +1,313 @@
+{
+  "businessDate": "2026-01-08",
+  "showtimes": [
+    {
+      "id": "HOX1-25266",
+      "schedule": {
+        "businessDate": "2026-01-08",
+        "startsAt": "2026-01-08T18:20:00+00:00",
+        "endsAt": "2026-01-08T20:51:00+00:00",
+        "filmStartsAt": "2026-01-08T18:45:00+00:00",
+        "filmEndsAt": "2026-01-08T20:51:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-1-7",
+      "filmId": "HO00006677",
+      "siteId": "HOX1",
+      "screenId": "HOX1-1",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000008"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00006677",
+        "title": {
+          "text": "Hamnet",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "From Academy Award\u00ae winning writer/director Chlo\u00e9 Zhao, HAMNET tells the powerful love story that inspired the creation of Shakespeare\u2019s timeless masterpiece, Hamlet.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "From Academy Award\u00ae winning writer/director Chlo\u00e9 Zhao, HAMNET tells the powerful love story that inspired the creation of Shakespeare\u2019s timeless masterpiece, Hamlet.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000004",
+        "censorRatingNote": {
+          "text": "distressing scenes, brief moderate sex",
+          "translations": []
+        },
+        "releaseDate": "2026-01-09",
+        "runtimeInMinutes": 126,
+        "trailerUrl": "https://www.youtube.com/watch?v=Y9Tv9wGPxIw",
+        "displayPriority": 3,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000000175",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000001040",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000001087",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000002138",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000002310",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000004702",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000004703",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000005314",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007765",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000012800",
+            "roles": [
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000002"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "c566d7dc-50bb-4d55-984b-c4c65751933e",
+          "corporateId": null
+        },
+        "hopk": "HO00006677",
+        "hoCode": "A000008241",
+        "eventId": null,
+        "distributorName": "Universal Pictures"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000000175",
+        "name": {
+          "givenName": "Chlo\u00e9 ",
+          "familyName": "Zhao",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000001040",
+        "name": {
+          "givenName": "Joe",
+          "familyName": "Alwyn",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000001087",
+        "name": {
+          "givenName": "Jessie",
+          "familyName": "Buckley",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000002138",
+        "name": {
+          "givenName": "Steven",
+          "familyName": "Spielberg",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000002310",
+        "name": {
+          "givenName": "Paul",
+          "familyName": "Mescal",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000004702",
+        "name": {
+          "givenName": "Sam",
+          "familyName": "Mendes",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000004703",
+        "name": {
+          "givenName": "Pippa",
+          "familyName": "Harris",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000005314",
+        "name": {
+          "givenName": "Emily",
+          "familyName": "Watson",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007765",
+        "name": {
+          "givenName": "Liza",
+          "familyName": "Marshall",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000012800",
+        "name": {
+          "givenName": "Nicolas",
+          "familyName": "Gonda",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000002",
+        "name": {
+          "text": "Drama",
+          "translations": []
+        },
+        "description": {
+          "text": "Drama",
+          "translations": []
+        }
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000004",
+        "classification": {
+          "text": "12A",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "12A",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000008",
+        "name": {
+          "text": "Special Preview",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Preview",
+          "translations": []
+        },
+        "description": {
+          "text": "Special Preview Screening",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-1",
+        "name": {
+          "text": "Screen 1",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

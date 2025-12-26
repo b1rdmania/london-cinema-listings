@@ -1,0 +1,264 @@
+{
+  "businessDate": "2026-01-14",
+  "showtimes": [
+    {
+      "id": "HOX1-25267",
+      "schedule": {
+        "businessDate": "2026-01-14",
+        "startsAt": "2026-01-14T18:00:00+00:00",
+        "endsAt": "2026-01-14T20:44:00+00:00",
+        "filmStartsAt": "2026-01-14T18:25:00+00:00",
+        "filmEndsAt": "2026-01-14T20:44:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00006689",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000008"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00006689",
+        "title": {
+          "text": "No Other Choice",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "After being unemployed for several years, a man devises a unique plan to secure a new job: eliminate his competition.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "After being unemployed for several years, a man devises a unique plan to secure a new job: eliminate his competition.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000006",
+        "censorRatingNote": null,
+        "releaseDate": "2026-01-23",
+        "runtimeInMinutes": 139,
+        "trailerUrl": null,
+        "displayPriority": 3,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000012169",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000012827",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000012828",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000012829",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000012830",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000012831",
+            "roles": [
+              "Director",
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000002",
+          "0000000026"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "9ecc0908-a983-42f7-9591-6f8d73d7488b",
+          "corporateId": null
+        },
+        "hopk": "HO00006689",
+        "hoCode": "A000008255",
+        "eventId": null,
+        "distributorName": "MUBI"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000012169",
+        "name": {
+          "givenName": "Lee",
+          "familyName": "Byung-hun",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000012827",
+        "name": {
+          "givenName": "Son",
+          "familyName": "Ye-jin",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000012828",
+        "name": {
+          "givenName": "Yoo",
+          "familyName": "Yeon-Seok",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000012829",
+        "name": {
+          "givenName": "Yeom",
+          "familyName": "Hye-ran",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000012830",
+        "name": {
+          "givenName": "Lee",
+          "familyName": "Sung-Min",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000012831",
+        "name": {
+          "givenName": "Park",
+          "familyName": "Chan-wook",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000002",
+        "name": {
+          "text": "Drama",
+          "translations": []
+        },
+        "description": {
+          "text": "Drama",
+          "translations": []
+        }
+      },
+      {
+        "id": "0000000026",
+        "name": {
+          "text": "Crime",
+          "translations": []
+        },
+        "description": null
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000006",
+        "classification": {
+          "text": "15",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "15",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000008",
+        "name": {
+          "text": "Special Preview",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Preview",
+          "translations": []
+        },
+        "description": {
+          "text": "Special Preview Screening",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

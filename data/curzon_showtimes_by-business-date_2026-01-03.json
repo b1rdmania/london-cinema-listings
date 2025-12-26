@@ -1,0 +1,308 @@
+{
+  "businessDate": "2026-01-03",
+  "showtimes": [
+    {
+      "id": "HOX1-25324",
+      "schedule": {
+        "businessDate": "2026-01-03",
+        "startsAt": "2026-01-03T10:30:00+00:00",
+        "endsAt": "2026-01-03T12:42:00+00:00",
+        "filmStartsAt": "2026-01-03T10:55:00+00:00",
+        "filmEndsAt": "2026-01-03T12:42:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00005128",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000004"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00005128",
+        "title": {
+          "text": "Kids Club: Wreck-It Ralph",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "Wreck-It Ralph longs to be as beloved as his game's perfect Good Guy, Fix-It Felix. Problem is, nobody loves a Bad Guy. But they do love heroes... so when a modern, first-person shooter game arrives featuring tough-as-nails Sergeant Calhoun, Ralph sees it as his ticket to heroism and happiness. He sneaks into the game with a simple plan -- win a medal -- but soon wrecks everything, and accidentally unleashes a deadly enemy that threatens every game in the arcade. Ralph's only hope? Vanellope von Schweetz, a young troublemaking \"glitch\" from a candy-coated cart racing game who might just be the one to teach Ralph what it means to be a Good Guy. But will he realize he is good enough to become a hero before it's \"Game Over\" for the entire arcade?",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "A video game villain wants to be a hero and sets out to fulfill his dream, but his quest brings havoc to the whole arcade where he lives.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000002",
+        "censorRatingNote": {
+          "text": "Contains mild violence",
+          "translations": []
+        },
+        "releaseDate": "2026-01-03",
+        "runtimeInMinutes": 107,
+        "trailerUrl": null,
+        "displayPriority": 50,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000001027",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000001979",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000004481",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007016",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007862",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007863",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007864",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007865",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007866",
+            "roles": [
+              "Actor"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000003",
+          "0000000007"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "6c0578d6-f134-4565-88dd-63eabf0427d6",
+          "corporateId": null
+        },
+        "hopk": "HO00005128",
+        "hoCode": "A000006375",
+        "eventId": null,
+        "distributorName": "Walt Disney Studios Motion Pictures - UK"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000001027",
+        "name": {
+          "givenName": "Rich",
+          "familyName": "Moore",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000001979",
+        "name": {
+          "givenName": "Clark",
+          "familyName": "Spencer",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000004481",
+        "name": {
+          "givenName": "Alan",
+          "familyName": "Tudyk",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007016",
+        "name": {
+          "givenName": "John C. ",
+          "familyName": "Reilly",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007862",
+        "name": {
+          "givenName": "Jack ",
+          "familyName": "McBrayer",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007863",
+        "name": {
+          "givenName": "Ed",
+          "familyName": "O'Neill",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007864",
+        "name": {
+          "givenName": "Sarah",
+          "familyName": "Silverman",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007865",
+        "name": {
+          "givenName": "Jane",
+          "familyName": "Lynch",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007866",
+        "name": {
+          "givenName": "Mindy",
+          "familyName": "Kaling",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000003",
+        "name": {
+          "text": "Comedy",
+          "translations": []
+        },
+        "description": {
+          "text": "Comedy",
+          "translations": []
+        }
+      },
+      {
+        "id": "0000000007",
+        "name": {
+          "text": "Family",
+          "translations": []
+        },
+        "description": null
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000002",
+        "classification": {
+          "text": "PG",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "PG",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000004",
+        "name": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "description": {
+          "text": "A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a \u2018Kids' Club\u2019 screening.",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

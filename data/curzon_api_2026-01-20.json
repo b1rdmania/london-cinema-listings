@@ -1,0 +1,293 @@
+{
+  "businessDate": "2026-01-20",
+  "showtimes": [
+    {
+      "id": "HOX1-25322",
+      "schedule": {
+        "businessDate": "2026-01-20",
+        "startsAt": "2026-01-20T18:20:00+00:00",
+        "endsAt": "2026-01-20T20:30:00+00:00",
+        "filmStartsAt": "2026-01-20T18:45:00+00:00",
+        "filmEndsAt": "2026-01-20T20:30:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00006744",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000017",
+        "0000000008"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00006744",
+        "title": {
+          "text": "The President's Cake",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "In 1990s Iraq, 9-year-old Lamia must bake Saddam Hussein's birthday cake. She scrambles to find ingredients for this compulsory task while facing potential punishment if she fails.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "In 1990s Iraq, 9-year-old Lamia must bake Saddam Hussein's birthday cake. She scrambles to find ingredients for this compulsory task while facing potential punishment.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000004",
+        "censorRatingNote": {
+          "text": "infrequent strong language, child sexual abuse references, sexual threat",
+          "translations": []
+        },
+        "releaseDate": "2026-02-13",
+        "runtimeInMinutes": 105,
+        "trailerUrl": null,
+        "displayPriority": 4,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000013032",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013033",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013034",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013035",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013036",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013037",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013038",
+            "roles": [
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000002"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "c3f9e69f-135a-4ae8-b118-abe75933b390",
+          "corporateId": null
+        },
+        "hopk": "HO00006744",
+        "hoCode": "A000008322",
+        "eventId": null,
+        "distributorName": "Curzon"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000013032",
+        "name": {
+          "givenName": "Banin",
+          "familyName": "Ahmad Nayef",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013033",
+        "name": {
+          "givenName": "Sajad",
+          "familyName": "Mohamad Qasem",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013034",
+        "name": {
+          "givenName": "Waheed",
+          "familyName": "Thabet Khreibat",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013035",
+        "name": {
+          "givenName": "Rahim",
+          "familyName": "AlHaj",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013036",
+        "name": {
+          "givenName": "Hasan",
+          "familyName": "Hadi",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013037",
+        "name": {
+          "givenName": "Leah",
+          "familyName": "Chen Baker",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013038",
+        "name": {
+          "givenName": "Yanal",
+          "familyName": "Kassay",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000002",
+        "name": {
+          "text": "Drama",
+          "translations": []
+        },
+        "description": {
+          "text": "Drama",
+          "translations": []
+        }
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000004",
+        "classification": {
+          "text": "12A",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "12A",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000017",
+        "name": {
+          "text": "Members preview",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Members",
+          "translations": []
+        },
+        "description": {
+          "text": "Members' only preview screening / Members' Priority Booking.",
+          "translations": []
+        },
+        "importantMessage": {
+          "text": "Members' only preview screening / Members' Priority Booking.",
+          "translations": []
+        },
+        "displayPriority": 100,
+        "isPromoted": false
+      },
+      {
+        "id": "0000000008",
+        "name": {
+          "text": "Special Preview",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Preview",
+          "translations": []
+        },
+        "description": {
+          "text": "Special Preview Screening",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

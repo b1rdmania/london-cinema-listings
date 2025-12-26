@@ -1,0 +1,347 @@
+{
+  "businessDate": "2026-01-10",
+  "showtimes": [
+    {
+      "id": "HOX1-25325",
+      "schedule": {
+        "businessDate": "2026-01-10",
+        "startsAt": "2026-01-10T10:30:00+00:00",
+        "endsAt": "2026-01-10T12:40:00+00:00",
+        "filmStartsAt": "2026-01-10T10:55:00+00:00",
+        "filmEndsAt": "2026-01-10T12:40:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00005121",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000004"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00005121",
+        "title": {
+          "text": "Kids Club: Coco",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "Despite his family\u2019s baffling generations-old ban on music, Miguel (voice of newcomer Anthony Gonzalez) dreams of becoming an accomplished musician like his idol, Ernesto de la Cruz (voice of Benjamin Bratt). Desperate to prove his talent, Miguel finds himself in the stunning and colourful Land of the Dead following a mysterious chain of events. Along the way, he meets charming trickster Hector (voice of Gael Garc\u00eda Bernal), and together, they set off on an extraordinary journey to unlock the real story behind Miguel's family history.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "Coco follows a 12-year-old boy named Miguel who sets off a chain of events relating to a century-old mystery, leading to an extraordinary family reunion.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000002",
+        "censorRatingNote": {
+          "text": "Mild threat, violence",
+          "translations": []
+        },
+        "releaseDate": "2026-01-10",
+        "runtimeInMinutes": 105,
+        "trailerUrl": "https://www.youtube.com/watch?v=l0tOaN5Xb7k",
+        "displayPriority": 50,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000000388",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000000942",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007845",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007846",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007847",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007848",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007849",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007850",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007851",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007852",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007853",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000007854",
+            "roles": [
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000007",
+          "0000000025"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "98443c15-5c6a-4067-97f5-11de392511fa",
+          "corporateId": null
+        },
+        "hopk": "HO00005121",
+        "hoCode": "A000006366",
+        "eventId": null,
+        "distributorName": "Park Circus"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000000388",
+        "name": {
+          "givenName": "Gael ",
+          "familyName": "Garc\u00eda Bernal",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000000942",
+        "name": {
+          "givenName": "Gabriel",
+          "familyName": "Iglesias",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007845",
+        "name": {
+          "givenName": "Benjamin",
+          "familyName": "Bratt",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007846",
+        "name": {
+          "givenName": "Renee ",
+          "familyName": "Victor",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007847",
+        "name": {
+          "givenName": "Alanna",
+          "familyName": "Ubach",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007848",
+        "name": {
+          "givenName": "Anthony",
+          "familyName": "Gonzalez",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007849",
+        "name": {
+          "givenName": "Jamie",
+          "familyName": "Camil",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007850",
+        "name": {
+          "givenName": "Alfonso",
+          "familyName": "Arau",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007851",
+        "name": {
+          "givenName": "Herbert",
+          "familyName": "Siguenza",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007852",
+        "name": {
+          "givenName": "Lee ",
+          "familyName": "Unkrich",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007853",
+        "name": {
+          "givenName": "Adrian ",
+          "familyName": "Molina",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000007854",
+        "name": {
+          "givenName": "Darla K.",
+          "familyName": "Anderson",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000007",
+        "name": {
+          "text": "Family",
+          "translations": []
+        },
+        "description": null
+      },
+      {
+        "id": "0000000025",
+        "name": {
+          "text": "Animation",
+          "translations": []
+        },
+        "description": null
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000002",
+        "classification": {
+          "text": "PG",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "PG",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000004",
+        "name": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Kids Club",
+          "translations": []
+        },
+        "description": {
+          "text": "A regular screening for parents or guardians with children between 1 and 12 years of age. Adults without a child will not be allowed to purchase a ticket to a \u2018Kids' Club\u2019 screening.",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}

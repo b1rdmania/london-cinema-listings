@@ -1,0 +1,1248 @@
+{
+  "componentChunkName": "component---gatsby-modules-gatsby-theme-pages-src-templates-page-index-tsx",
+  "path": "/",
+  "result": {
+    "data": {
+      "settings": {
+        "adsLocation": [],
+        "adsDisplay": null
+      },
+      "page": {
+        "id": "V2Vic2l0ZU1hbmFnZXJQYWdlOjYzZWQ4YWU1LTU5N2QtNDIxZi05ZDhhLTg1MjNiMjA3Y2U4Yg==",
+        "name": "Home",
+        "type": "HOMEPAGE",
+        "hasBodyOnly": false,
+        "metaContent": {
+          "title": "Cinema & Film Listings",
+          "imageUrl": null,
+          "description": "Experience cinema redefined with Everyman - films in a warm, friendly atmosphere with amazing food & drink options and comfy sofa seating. Get your tickets online today!\t\t"
+        },
+        "parentType": null,
+        "relatedEntity": null,
+        "childPages": [],
+        "parent": null,
+        "widgets": [
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6YmRjYzU2NmYtNGM2ZC00MTNjLTk5YjYtOTE0YTI4ZDEwZjNh",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "NONE"
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ZTZmZGY1ZTYtNzAzZi00NGRlLThhZDItYTQzMmZiMzQwYTBh",
+            "__typename": "WidgetSection",
+            "sectionShape": {
+              "border": false,
+              "backgroundColor": "TRANSPARENT",
+              "fullWidth": false,
+              "wrapperSize": "FULL",
+              "containerSize": "FULL",
+              "widgets": [
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ZTU5M2UwOTUtZjM3Ny00YTRmLWEzMjYtZDBiNzI4ODcyODY2",
+                  "heroCarouselShape": {
+                    "autoRotate": true,
+                    "display": "FLOATING",
+                    "heroCarousel": {
+                      "id": "V2Vic2l0ZU1hbmFnZXJIZXJvQ2Fyb3VzZWw6ZmYxYjY4ZDktMDU5MC00OTMyLTk4MDAtMzI2MDM0ZWZlZTA3",
+                      "name": "Homepage Hero Carousel",
+                      "items": [
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "1000007317"
+                            },
+                            "event": null,
+                            "caption": "Marty Supreme",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://all.web.img.acsta.net/img/0d/7d/0d7dfee552b2aa4423aaf0e26885eb9d.jpg",
+                              "alt": "Marty Supreme"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "317403"
+                            },
+                            "event": null,
+                            "caption": "The Housemaid",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/2b5a250dc8bc0b3934507a4a8d87dfc6.jpg",
+                              "alt": "The Housemaid"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "187247"
+                            },
+                            "event": null,
+                            "caption": "Avatar: Fire and Ash",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://all.web.img.acsta.net/img/ba/ab/baab8e4d2f28403289ea05147a2b7f9d.jpg",
+                              "alt": "Avatar: Fire and Ash"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "298726"
+                            },
+                            "event": null,
+                            "caption": "Sentimental Value",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/85279e1bf8f78e0ba7268bdc9ba9674e.jpeg",
+                              "alt": "Sentimental Value"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "293331"
+                            },
+                            "event": null,
+                            "caption": "The SpongeBob Movie: Search for SquarePants",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/134659b0eab083683b829102ce5a6683.jpg",
+                              "alt": "The SpongeBob Movie: Search for SquarePants"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "303957"
+                            },
+                            "event": null,
+                            "caption": "Wicked: For Good",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/2de2c283468691f53d49076799a763fc.jpg",
+                              "alt": "Wicked: For Good"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "1000036925"
+                            },
+                            "event": null,
+                            "caption": "Range Rover Presents: Hamnet",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/b4ba670bd66b145c9331beaa9fb53b84.jpg",
+                              "alt": "Range Rover Presents: Hamnet"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "277428"
+                            },
+                            "event": null,
+                            "caption": "Zootropolis 2",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/e4cb357e664af0dce8bc3a1c3da2e36a.jpg",
+                              "alt": "Zootopia 2"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "280693"
+                            },
+                            "event": null,
+                            "caption": "Anaconda",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/7f673478948892f70695e5923756aca9.jpg",
+                              "alt": "Anaconda"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "1000013390"
+                            },
+                            "event": null,
+                            "caption": "Song Sung Blue",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/7d4b8bfc3e3554a3fce7e17c4952dfdd.jpg",
+                              "alt": "Song Sung Blue"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "1000000966"
+                            },
+                            "event": null,
+                            "caption": "28 Years Later: The Bone Temple",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/c07ddba6412144c70a91bc1b82b20bc9.jpg",
+                              "alt": "28 Years Later: The Bone Temple"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        },
+                        {
+                          "type": "WebsiteManagerHeroCarouselItemCustom",
+                          "dynamicMovies": null,
+                          "dynamicEvents": null,
+                          "custom": {
+                            "__typename": "WebsiteManagerHeroCarouselItemCustom",
+                            "movie": {
+                              "id": "1000036829"
+                            },
+                            "event": null,
+                            "caption": "Members\u2019 Preview: H is for Hawk",
+                            "subCaption": null,
+                            "image": {
+                              "src": "https://cms-assets.webediamovies.pro/production/279/192d0b16514abb36be686dc2ee534d49.jpeg",
+                              "alt": "Members\u2019 Preview: H is for Hawk"
+                            },
+                            "button": {
+                              "label": null,
+                              "link": null
+                            },
+                            "locations": null,
+                            "entityType": "MOVIE"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "__typename": "WidgetHeroCarousel"
+                }
+              ]
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6YjU2NTdjYTEtMjJiNy00ZTIxLWFjMjAtN2I5N2QxOWZlYTc5",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "SMALL"
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6OGY2NDBkZTctZjA0Zi00ZGUyLTliZWEtZmY2YjZlMWE3NGFh",
+            "__typename": "WidgetSection",
+            "sectionShape": {
+              "border": false,
+              "backgroundColor": "TRANSPARENT",
+              "fullWidth": false,
+              "wrapperSize": "STANDARD",
+              "containerSize": "STANDARD",
+              "widgets": [
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6NmZhMDFjYjQtN2RiZC00ZjhmLWJmNWMtOTNhMmE2YjU3YTQ4",
+                  "__typename": "WidgetCards",
+                  "cardsShape": {
+                    "display": "GRID",
+                    "cards": [
+                      {
+                        "image": {
+                          "path": "https://cms-assets.webediamovies.pro/production/279/371f7aede78ba7d6da9ef24d929cac83.jpg",
+                          "probe": {
+                            "width": 545,
+                            "height": 337,
+                            "ratio": 1.6172106824925816
+                          }
+                        },
+                        "imageAlt": "The Housemaid",
+                        "title": null,
+                        "body": null,
+                        "color": "ACCENT",
+                        "link": {
+                          "value": "https://www.everymancinema.com/film-listing/317403-the-housemaid",
+                          "type": "EXTERNAL"
+                        },
+                        "button": null
+                      },
+                      {
+                        "image": {
+                          "path": "https://cms-assets.webediamovies.pro/production/279/d2558174da38bb6b1b885b67840f527c.jpg",
+                          "probe": {
+                            "width": 545,
+                            "height": 337,
+                            "ratio": 1.6172106824925816
+                          }
+                        },
+                        "imageAlt": "Avatar: Fire & Ash",
+                        "title": null,
+                        "body": null,
+                        "color": "ACCENT",
+                        "link": {
+                          "value": "https://www.everymancinema.com/film-listing/187247-avatar-fire-and-ash",
+                          "type": "EXTERNAL"
+                        },
+                        "button": null
+                      }
+                    ],
+                    "columns": 2,
+                    "carouselDensity": "MEDIUM",
+                    "carouselAutoPlay": true,
+                    "carouselControls": true
+                  }
+                },
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6NGJkNjExYjEtNzY2Mi00MmQ2LWFkYzEtNGJlMmU5NmYyZDc0",
+                  "__typename": "WidgetSpacer",
+                  "spacerShape": {
+                    "size": "TINY"
+                  }
+                },
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6OWE4YjRjMjAtMzllNy00ZGMxLTlkNDQtZDA2ZDE3ZmIwNmVj",
+                  "__typename": "WidgetCards",
+                  "cardsShape": {
+                    "display": "COMPOSITION",
+                    "cards": [
+                      {
+                        "image": {
+                          "path": "https://cms-assets.webediamovies.pro/production/279/0188c1e51b769ef8164d24929689b03f.jpg",
+                          "probe": {
+                            "width": 736,
+                            "height": 568,
+                            "ratio": 1.295774647887324
+                          }
+                        },
+                        "imageAlt": "Marty Supreme",
+                        "title": null,
+                        "body": null,
+                        "color": "ACCENT",
+                        "link": {
+                          "value": "https://www.everymancinema.com/film-listing/1000007317-marty-supreme",
+                          "type": "EXTERNAL"
+                        },
+                        "button": null
+                      },
+                      {
+                        "image": {
+                          "path": "https://cms-assets.webediamovies.pro/production/279/46b7b4d6da2ce243a549933f84734500.jpg",
+                          "probe": {
+                            "width": 736,
+                            "height": 568,
+                            "ratio": 1.295774647887324
+                          }
+                        },
+                        "imageAlt": "The Spongebob Movie: Search for Squarepants",
+                        "title": null,
+                        "body": null,
+                        "color": "PRIMARY",
+                        "link": {
+                          "value": "https://www.everymancinema.com/film-listing/293331-the-spongebob-movie-search-for-squarepants",
+                          "type": "EXTERNAL"
+                        },
+                        "button": null
+                      },
+                      {
+                        "image": {
+                          "path": "https://cms-assets.webediamovies.pro/production/279/199a4ef0be58150dff1a91770f3c56c2.jpg",
+                          "probe": {
+                            "width": 736,
+                            "height": 568,
+                            "ratio": 1.295774647887324
+                          }
+                        },
+                        "imageAlt": "Sentimental Value",
+                        "title": null,
+                        "body": null,
+                        "color": "ACCENT",
+                        "link": {
+                          "value": "https://www.everymancinema.com/film-listing/1000036094-emirates-preview-sentimental-value",
+                          "type": "EXTERNAL"
+                        },
+                        "button": null
+                      }
+                    ],
+                    "columns": 5,
+                    "carouselDensity": "MINIMUM",
+                    "carouselAutoPlay": true,
+                    "carouselControls": true
+                  }
+                },
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6MWNlNjhhZWUtODY3ZS00YmUxLWJhNDQtYTQxY2JjYTkzNzQz",
+                  "__typename": "WidgetSpacer",
+                  "spacerShape": {
+                    "size": "SMALL"
+                  }
+                },
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6MDJmOGY4MDUtMTA0MS00OTJlLWE4NTUtNDYxNzhmYzI3ZDNj",
+                  "__typename": "WidgetImageWithCaption",
+                  "imageWithCaptionShape": {
+                    "displayImageFirst": false,
+                    "imageRef": {
+                      "url": "https://cms-assets.webediamovies.pro/production/279/024fbdbb81fefb1b8fc6c393a47b5ce3.jpg",
+                      "alt": "Christmas with Everyman",
+                      "probe": {
+                        "width": 1200,
+                        "height": 650,
+                        "ratio": 1.8461538461538463
+                      }
+                    },
+                    "complementaryImageRef": null,
+                    "text": "<p>The magic of Christmas is back at Everyman, along with our <strong>gift cards</strong> and <strong>memberships</strong>. Give someone (or yourself) the gift of a year of cinema. Stuck for ideas? Our themed gift cards also make perfect stocking fillers.<br><br>If you&rsquo;re after nostalgic throwbacks and 35mm favourites, join us at Screen on the Green for our festive takeover: <a href=\"https://www.everymancinema.com/christmas-on-the-green/\"><strong><span style=\"text-decoration: underline;\">Christmas on the Green</span></strong></a>.</p>",
+                    "textBackgroundColor": "ACCENT",
+                    "title": "Christmas with Everyman",
+                    "button": {
+                      "label": "Find out more",
+                      "link": {
+                        "value": "https://gifts.everymancinema.com",
+                        "type": "EXTERNAL"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6OGVjYjZhMTUtYjcxMS00MGI1LWI2MzgtNzhlNjliZmU0OTJk",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "TINY"
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ZDFiNDE5YTEtN2E1Yi00MWYxLTk5YzktY2FjZGU5YWVkNWVi",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "SMALL"
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6YzZlOTkxYmMtNmIzYy00MDAyLTg2MmUtZDgxYmI1MjQ2MzM4",
+            "__typename": "WidgetSection",
+            "sectionShape": {
+              "border": false,
+              "backgroundColor": "HIGHLIGHT",
+              "fullWidth": false,
+              "wrapperSize": "FULL",
+              "containerSize": "STANDARD",
+              "widgets": [
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6MWM0ZjQyMDgtNmVhMS00MTY1LWJkOTMtYTBjMWE3ZjliMmJh",
+                  "__typename": "WidgetSpacer",
+                  "spacerShape": {
+                    "size": "NONE"
+                  }
+                },
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6YmU4YTE4NTEtMjNmYy00Yzk3LWExYTQtOGU2N2RhMzNiNjJm",
+                  "__typename": "WidgetMovies",
+                  "moviesShape": {
+                    "display": "carousel",
+                    "layout": null,
+                    "tabs": [
+                      {
+                        "label": "More films",
+                        "dataset": "MOVIES_WITH_SHOWTIMES",
+                        "datasetTagFilters": null,
+                        "movieCategoryIds": [],
+                        "periodSelectors": [
+                          "CURRENT_PLAYWEEK",
+                          "NEXT_PLAYWEEK_1"
+                        ],
+                        "periodExclusions": [],
+                        "options": [],
+                        "moreLink": {
+                          "label": "",
+                          "page": "",
+                          "url": "",
+                          "anchor": ""
+                        }
+                      },
+                      {
+                        "label": "Events",
+                        "dataset": "EVENT_RELATED",
+                        "datasetTagFilters": null,
+                        "movieCategoryIds": [],
+                        "periodSelectors": [
+                          "CURRENT_PLAYWEEK",
+                          "CURRENT_PLAYWEEK_REMAINING_DAYS",
+                          "BEYOND_NEXT_PLAYWEEK_1"
+                        ],
+                        "periodExclusions": [],
+                        "options": [],
+                        "moreLink": {
+                          "label": "",
+                          "page": "",
+                          "url": "",
+                          "anchor": ""
+                        }
+                      },
+                      {
+                        "label": "Coming Soon",
+                        "dataset": "COMING_SOON_EDITOR",
+                        "datasetTagFilters": null,
+                        "movieCategoryIds": [],
+                        "periodSelectors": [
+                          "BEYOND_NEXT_SEVEN_DAYS"
+                        ],
+                        "periodExclusions": [],
+                        "options": [],
+                        "moreLink": {
+                          "label": "",
+                          "page": "",
+                          "url": "",
+                          "anchor": ""
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ZDVjZDlhOWUtNTM2Zi00NmEyLTg5MmEtMmU2OWUwMjkxNzIx",
+                  "__typename": "WidgetSpacer",
+                  "spacerShape": {
+                    "size": "NONE"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6NWI5ODJiYzktYjg0MC00OWY5LTkzY2YtYzY2OGJiM2I3OTY4",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "SMALL"
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6MjQzZmVjNmQtNzg3OS00NmE2LTk1YWQtMDQwMjczNmZiN2Mz",
+            "__typename": "WidgetColumns",
+            "columnsShape": {
+              "border": false,
+              "backgroundColor": "TRANSPARENT",
+              "fullWidth": false,
+              "wrapperSize": "FULL",
+              "containerSize": "STANDARD",
+              "columnSizes": [
+                70,
+                30
+              ],
+              "options": [],
+              "columns": [
+                {
+                  "widgets": [
+                    {
+                      "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ZThmMGFiYWQtMDYzYS00Njc4LTllMDEtNjQyODZlNDg5Yjcx",
+                      "__typename": "WidgetSpacer",
+                      "spacerShape": {
+                        "size": "TINY"
+                      }
+                    },
+                    {
+                      "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6YzQwN2ExZWMtZjc3Ny00NDM5LWJkY2UtZDI3ZDI1ZDA4YTg5",
+                      "__typename": "WidgetHeading",
+                      "headingShape": {
+                        "type": "h2",
+                        "text": "The Everyman experience",
+                        "alignment": "left"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "widgets": [
+                    {
+                      "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6NTRhZTc0MWYtYWM2Ny00MzNmLWE0OGUtZjExYzA3N2U0NDli",
+                      "__typename": "WidgetFreeText",
+                      "freeTextShape": {
+                        "html": "<p style=\"text-align:right\"><br /><a href=\"/events\">Find out about our next event \u2192</a></p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6MTEwN2FjOGQtNTEwZS00OWM5LWEwOWItMzlmNTRmYmQ2YjNl",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "SMALL"
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ODBmMzNjM2UtM2NmYy00ZjkxLTkxYzEtNzA2OTA5OGRmOWJj",
+            "__typename": "WidgetSection",
+            "sectionShape": {
+              "border": false,
+              "backgroundColor": "TRANSPARENT",
+              "fullWidth": false,
+              "wrapperSize": "STANDARD",
+              "containerSize": "STANDARD",
+              "widgets": [
+                {
+                  "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6ZjlkODU2OTUtZTcwNC00NDQxLTg1MDMtZjE3OGI3ZDE2NmUz",
+                  "__typename": "WidgetGallery",
+                  "galleryShape": {
+                    "aspectRatio": 1,
+                    "displayImageMode": "GRID",
+                    "displayImageColumns": 5,
+                    "displayOptionsZoomable": true,
+                    "pictures": [
+                      {
+                        "alt": "Luca Premiere",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/a3bda95dbb79d81cada2e1fba507b895.jpg",
+                        "linkTo": "https://www.everymancinema.com/events",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Luca premier",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/ea332b3403cd21f2332dafbfc23c7e1b.jpg",
+                        "linkTo": "https://www.everymancinema.com/events",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Whiteley opening",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/0294fbbfb97cc8c5e47c7bf9d16c36ab.jpg",
+                        "linkTo": "https://www.everymancinema.com/events",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Luca Premier",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/cb2a9acc76940402428dad4e773939ec.jpg",
+                        "linkTo": "https://www.instagram.com/everymancinema/",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Michael B Jordan",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/309071b4818640e51e6d13a3aed85169.jpg",
+                        "linkTo": "https://www.instagram.com/everymancinema/",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "The Roses",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/7ac2bb0b4f0cace0a648543490c54815.jpg",
+                        "linkTo": "https://www.instagram.com/everymancinema/",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Ken Loach",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/31c0af4cdb23e877e21eba30ed8479c4.jpg",
+                        "linkTo": "https://www.instagram.com/everymancinema/",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Food and Drink at Everyman",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/0aa85f9910fe5e08afa989d3e650208c.jpg",
+                        "linkTo": "https://www.everymancinema.com/everyman-food-and-drink/",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "JME",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/545561706521314f7e697b321d823f3a.jpg",
+                        "linkTo": "https://www.everymancinema.com/events",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      },
+                      {
+                        "alt": "Yinka Ilori at the Grove",
+                        "src": "https://cms-assets.webediamovies.pro/production/279/ceb5e5318e6fbcbf0c132e6cd88e91d0.jpg",
+                        "linkTo": "https://www.everymancinema.com/events",
+                        "probe": {
+                          "ratio": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": "V2Vic2l0ZU1hbmFnZXJXaWRnZXQ6OWIxNWM3MDEtYzdhNC00Njc3LThmY2ItOGZiMmQ1MTE5NTNj",
+            "__typename": "WidgetSpacer",
+            "spacerShape": {
+              "size": "MEDIUM"
+            }
+          }
+        ]
+      },
+      "event": null,
+      "theater": null,
+      "movie": null,
+      "movieUnion": null
+    },
+    "pageContext": {
+      "pagePath": "/",
+      "pageId": "V2Vic2l0ZU1hbmFnZXJQYWdlOjYzZWQ4YWU1LTU5N2QtNDIxZi05ZDhhLTg1MjNiMjA3Y2U4Yg==",
+      "pageType": "HOMEPAGE",
+      "movieId": "",
+      "theaterId": "",
+      "eventId": "",
+      "websiteId": "V2Vic2l0ZU1hbmFnZXJXZWJzaXRlOmIyNWQwN2RkLTczYTYtNDg1Ny1iODAzLWZiMmMyM2NiYjFkYQ==",
+      "isSingleLocation": false,
+      "circuitId": 101077,
+      "intl": {
+        "country": {
+          "code": "uk",
+          "iso31661A2": "GB",
+          "iso31661A3": "GBR"
+        },
+        "locale": {
+          "long": "en-GB",
+          "short": "en"
+        },
+        "messages": {
+          "attributes.attributes-info.large-trigger-label": "Attribute info",
+          "attributes.attributes-info.trigger-aria-label": "More information for available attributes and amenities in these showtimes.",
+          "closure-message.closed-perm-message": "Theater closed permanently.",
+          "closure-message.closed-temp-message": "Theater closed temporarily.",
+          "closure-message.closed-time-message": "We are closed from {startsAt} to {endsAt}.",
+          "contact-form.checkbox.fax-label": "Contact by fax",
+          "contact-form.error-message": "An error has occured, please retry in a few moments.",
+          "contact-form.error.field-required-label": "This field is required",
+          "contact-form.error.invalid-email-label": "This field must be a valid email",
+          "contact-form.field.email-label": "Email",
+          "contact-form.field.location-label": "Location",
+          "contact-form.field.message-label": "Message",
+          "contact-form.field.name-label": "Name",
+          "contact-form.send-button-label": "Send message",
+          "contact-form.success-message": "Your message has been sent, thank you!",
+          "date-selector.next-month-label": "Next month",
+          "date-selector.prev-month-label": "Previous month",
+          "date-selector.toggle-date-picker-label": "Toggle date picker",
+          "events.empty-state-message": "There are no events at the selected location",
+          "events.empty-state-single-location-message": "There are no events scheduled",
+          "events.event.end-at-label": "To: {date}",
+          "events.event.related-movies.participating-locations-label": "Participating locations",
+          "events.event.same-day-period-label": "{date}, from {startTime} to {endTime}",
+          "events.event.same-day-period-no-start-time-label": "{date}, until {endTime}",
+          "events.event.start-at-label": "From: {date}",
+          "events.main-event-label": "Main Event",
+          "events.read-more-link": "See details",
+          "events.related-movie.no-showtimes-message": "No showtimes found for this date",
+          "events.show-all-events-label": "Show all",
+          "events.type-selector.all-events-label": "All events",
+          "events.type-selector.helper-text": "Select a type to filter available events",
+          "events.type-selector.trigger-prefix-label": "Filter by:",
+          "featured-movies.movie.info-and-showtimes-label": "Info & Showtimes",
+          "form.recaptch-branding.protected-by-recaptch-message": "This site is protected by reCAPTCHA and the Google <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> apply.",
+          "header.location-selector.showtimes-for-label": "Showtimes for:",
+          "header.location-selector.your-theater-label": "Your theater:",
+          "header.skip-navigation-label": "Skip to main content",
+          "hero-carousel.baseboard.event-info-label": "More Info",
+          "hero-carousel.baseboard.get-tickets-label": "Get Tickets",
+          "localization.widget.directions-button-label": "Get directions",
+          "localization.widget.title-label": "How to find us",
+          "loyalty.access.logged-in-panel.logout-title": "Log out",
+          "loyalty.access.logged-out-panel.join-title": "Join",
+          "loyalty.access.logged-out-panel.login-title": "Login",
+          "loyalty.activation.error.field-required-label": "This field is required",
+          "loyalty.activation.field.email-label": "Email",
+          "loyalty.activation.field.register-label": "Submit",
+          "loyalty.add-to-wallet.add-to-apple-wallet-title": "Add to Apple Wallet",
+          "loyalty.add-to-wallet.add-to-google-wallet-message": "Add to Google Wallet",
+          "loyalty.card.add-card.card-name-label": "Card name (optional)",
+          "loyalty.card.add-card.card-number-label": "Card number",
+          "loyalty.card.add-card.submit-label": "Add the card",
+          "loyalty.card.add-card.success-message": "The card was added successfully",
+          "loyalty.card.add-card.web-key-label": "Web key",
+          "loyalty.card.card-number-label": "Your card number: <strong>{cardNumber}</strong>",
+          "loyalty.card.manual-cards.add-card-label": "Add a card",
+          "loyalty.confirm-activation.close-label": "Close",
+          "loyalty.confirm-activation.generic-error-message": "Error activating account",
+          "loyalty.confirm-activation.success-message": "Your account has been activated. You can now log in.",
+          "loyalty.cypher-message.code-1015": "You need to change your password",
+          "loyalty.cypher-message.code-1019": "Your account is blocked",
+          "loyalty.cypher-message.code-1020": "This card is already active",
+          "loyalty.cypher-message.code-26": "Your account is not activated",
+          "loyalty.cypher-message.code-29": "Your email is not associated with a member",
+          "loyalty.cypher-message.code-30": "Member not found. Make sure your username is correct",
+          "loyalty.cypher-message.code-31": "Incorrect password",
+          "loyalty.cypher-message.code-34": "This email is already associated to a member",
+          "loyalty.cypher-message.code-46": "Your account has expired",
+          "loyalty.cypher-message.code-51": "Invalid gift card",
+          "loyalty.cypher-message.code-57": "Invalid reset code",
+          "loyalty.cypher-message.code-58": "Incorrect password",
+          "loyalty.cypher-message.code-60": "This email is already associated to a member",
+          "loyalty.cypher-message.code-62": "Activation link is either invalid or has expired",
+          "loyalty.cypher-message.code-72": "This movie can't be added to your watchlist yet",
+          "loyalty.cypher-message.code-76": "Your account is already active",
+          "loyalty.cypher-message.code-84": "Password should meet complexity rules",
+          "loyalty.cypher-message.code-84-with-details": "Your password is not strong enough. It must contain at least 8 characters, 1 lowercase letter, 1 uppercase letter, 1 number, and 1 special character.",
+          "loyalty.cypher-message.code-85": "Invalid activation info",
+          "loyalty.cypher-message.code-number": "(Code: {code})",
+          "loyalty.email-verification.intro-message": "Before we get started, please verify your email.",
+          "loyalty.email-verification.submit-generic-error-message": "Error sending verification email",
+          "loyalty.email-verification.submit-label": "Send verification email",
+          "loyalty.email-verification.submit-success-message": "We sent you a verification email. Please check your inbox.",
+          "loyalty.favorite-theater.generic-error-message": "An error has occured while retrieving your favorite theaters.",
+          "loyalty.favorite-theater.main-theater-error-message": "An error has occured.",
+          "loyalty.forgot-password.field.email-label": "Email",
+          "loyalty.forgot-password.field.go-back-label": "Go back to login",
+          "loyalty.forgot-password.field.submit-label": "Reset password",
+          "loyalty.forgot-password.generic-error-message": "Error sending reset password email",
+          "loyalty.forgot-password.success-title": "Check your inbox and follow the reset password steps",
+          "loyalty.forgot-password.too-many-requests-error-message": "Error - Too many requests",
+          "loyalty.forgot-username.field.email-label": "Email",
+          "loyalty.forgot-username.field.go-back-label": "Go back to login",
+          "loyalty.forgot-username.field.submit-label": "Send me my username",
+          "loyalty.forgot-username.generic-error-message": "Error sending username reminder email",
+          "loyalty.forgot-username.success-title": "Check your inbox for your username reminder",
+          "loyalty.form.field.gender.female-label": "Female",
+          "loyalty.form.field.gender.male-label": "Male",
+          "loyalty.form.field.gender.other-label": "Other",
+          "loyalty.form.field.gender.undisclosed-label": "Prefer not to say",
+          "loyalty.gift-card-balance-checker.error.field-length-label": "Must contain 16 digits",
+          "loyalty.gift-card-balance-checker.error.field-numeric-label": "Must be a number",
+          "loyalty.gift-card-balance-checker.error.field-required-label": "This field is required",
+          "loyalty.gift-card-balance-checker.expired-balance-message": "Remaining expired balance: {value}",
+          "loyalty.gift-card-balance-checker.expired-on-message": "This card expired on: {date}",
+          "loyalty.gift-card-balance-checker.expires-on-message": "This card expires on: {date}",
+          "loyalty.gift-card-balance-checker.field.gift-card-number-label": "Gift card",
+          "loyalty.gift-card-balance-checker.field.submit-label": "Check balance",
+          "loyalty.gift-card-balance-checker.generic-error-message": "Could not check balance, check gift card number and retry",
+          "loyalty.gift-card-balance-checker.remaining-balance-message": "Remaining balance is: {value}",
+          "loyalty.gift-cards-list.buy-now-label": "Buy now",
+          "loyalty.login.error.field-required-label": "This field is required",
+          "loyalty.login.error.invalid-email-label": "This field must be a valid email",
+          "loyalty.login.field.forgot-password-label": "I forgot my password",
+          "loyalty.login.field.forgot-username-label": "I forgot my username",
+          "loyalty.login.field.login-id-label": "Email",
+          "loyalty.login.field.password-label": "Password",
+          "loyalty.login.field.submit-label": "Log in",
+          "loyalty.login.generic-error-message": "Could not log in, check your email and password and retry",
+          "loyalty.order-history.date-label": "Date",
+          "loyalty.order-history.details-label": "Details",
+          "loyalty.order-history.empty-state-message": "No orders to display",
+          "loyalty.order-history.location-label": "Location",
+          "loyalty.order-history.movie-ticket.booking-ref-label": "Booking Ref",
+          "loyalty.order-history.movie-ticket.date-label": "Date",
+          "loyalty.order-history.movie-ticket.screen-label": "Screen",
+          "loyalty.order-history.movie-ticket.seats-label": "Seats",
+          "loyalty.order-history.movie-ticket.start-label": "Start",
+          "loyalty.order-history.movie-ticket.theater-label": "Theater",
+          "loyalty.order-history.movie.cancel-booking-label": "Cancel Booking",
+          "loyalty.order-history.movie.location-message": "At: {location}",
+          "loyalty.order-history.movie.refunded-label": "Refunded",
+          "loyalty.order-history.movie.tickets-message": "<value>{count}</value> {count, plural, one {ticket} other {tickets}} for <value>{time}</value>",
+          "loyalty.order-history.movie.view-ticket-label": "View Ticket",
+          "loyalty.order-history.points-label": "Points",
+          "loyalty.order-history.upcoming-movies.empty-state-message": "You have no upcoming bookings.",
+          "loyalty.order-history.value-label": "Value",
+          "loyalty.profile.about-you-title": "About You",
+          "loyalty.profile.contact-details-title": "Contact Details",
+          "loyalty.profile.delete-button-message": "Delete",
+          "loyalty.profile.delete-close-message": "OK",
+          "loyalty.profile.deletion-cancel-message": "Cancel",
+          "loyalty.profile.deletion-complete-message": "Your deletion request has been taken into account",
+          "loyalty.profile.deletion-header-message": "Delete your account?",
+          "loyalty.profile.deletion-warning-message": "All your data will be deleted",
+          "loyalty.profile.error.bad-date-label": "Date must be in the past.",
+          "loyalty.profile.error.field-required-label": "This field is required",
+          "loyalty.profile.error.invalid-email-label": "This field must be a valid email",
+          "loyalty.profile.error.invalid-phone-label": "This field must be a valid phone number",
+          "loyalty.profile.field.date-of-birth-label": "Date of birth",
+          "loyalty.profile.field.email-label": "Email",
+          "loyalty.profile.field.first-name-label": "First name",
+          "loyalty.profile.field.gender-label": "Gender (Optional)",
+          "loyalty.profile.field.last-name-label": "Last name",
+          "loyalty.profile.field.phone-number-label": "Phone no.",
+          "loyalty.profile.field.send-newsletter-label": "I agree to receive marketing emails.",
+          "loyalty.profile.field.terms-and-conditions-label": "I agree to the Terms & Conditions of the Rewards program.",
+          "loyalty.profile.generic-error-message": "An error has occured, check your info and retry",
+          "loyalty.profile.generic-success-message": "Your info has been updated",
+          "loyalty.profile.save-update-label": "Save & Update",
+          "loyalty.redirect.call-to-action-label": "Click here if it does not work",
+          "loyalty.redirect.redirect-message": "You will be redirected in a few seconds...",
+          "loyalty.reset-password.field.confirm-password-label": "Confirm Password",
+          "loyalty.reset-password.field.go-back-label": "Go back to login",
+          "loyalty.reset-password.field.password-label": "Password",
+          "loyalty.reset-password.field.submit-label": "Reset Password",
+          "loyalty.reset-password.generic-error-message": "Error resetting password",
+          "loyalty.reset-password.success-title": "Your password has been reset",
+          "loyalty.rewards-list.accept-terms-message": "Je confirme vouloir echanger mes points contre ce cadeau et j'accepte les conditions g\u00e9n\u00e9rales d'utilisation.",
+          "loyalty.rewards-list.available-label": "Qty. Available",
+          "loyalty.rewards-list.back-to-list": "Retour \u00e0 la liste de cadeaux",
+          "loyalty.rewards-list.close-label": "Fermer",
+          "loyalty.rewards-list.confirm-redemption-desc-message": "Vous allez recevoir un e-mail pour confirmer votre \u00e9change de {quantity} points contre {reward}.",
+          "loyalty.rewards-list.confirm-redemption-label": "Valider l'\u00e9change",
+          "loyalty.rewards-list.confirm-redemption-title": "Ouvrez votre bo\u00eete mail",
+          "loyalty.rewards-list.empty-state-message": "No rewards to display",
+          "loyalty.rewards-list.exchange-item.generic-error-message": "Error redeeming reward. Please try again later or contact us if the issue persists.",
+          "loyalty.rewards-list.insufficient-credit-message": "Insufficient credit to obtain this gift voucher.",
+          "loyalty.rewards-list.insufficient-points-message": "Malheureusement votre solde de points est insuffisant.",
+          "loyalty.rewards-list.more-points-needed-message": "{points} de plus",
+          "loyalty.rewards-list.name-label": "Name",
+          "loyalty.rewards-list.no-rewards-in-theater-message": "Aucun cadeau disponible dans le cin\u00e9ma s\u00e9lectionn\u00e9.",
+          "loyalty.rewards-list.order-expired-message": "Echange cadeau invalide, d\u00e9j\u00e0 effectu\u00e9 ou d\u00e9lai expir\u00e9",
+          "loyalty.rewards-list.order-not-found-desc-message": "Cette commande n'existe pas ou a d\u00e9j\u00e0 \u00e9t\u00e9 valid\u00e9e",
+          "loyalty.rewards-list.order-not-found-title": "Commande introuvable",
+          "loyalty.rewards-list.order-validated-desc-message": "Vous allez recevoir un email de confirmation de commande \u00e0 l'adresse saisie dans votre profil. Merci de votre fid\u00e9lit\u00e9.",
+          "loyalty.rewards-list.order-validated-title": "Votre commande est valid\u00e9e !",
+          "loyalty.rewards-list.out-of-stock-en": "Out of stock",
+          "loyalty.rewards-list.out-of-stock-label": "\u00c9puis\u00e9",
+          "loyalty.rewards-list.points-balance-title": "Mes points",
+          "loyalty.rewards-list.points-short-label": "PTS",
+          "loyalty.rewards-list.quantity": "Quantit\u00e9",
+          "loyalty.rewards-list.redeem-label": "\u00c9changer",
+          "loyalty.rewards-list.register-address-message": "Ce cadeau vous sera envoy\u00e9 par voie postale, <link>enregistrez votre adresse et num\u00e9ro de t\u00e9l\u00e9phone</link> pour que nous puissions vous l'envoyer.",
+          "loyalty.rewards-list.rewards-list-title": "Catalogue de cadeaux",
+          "loyalty.rewards-list.select-theater-message": "S\u00e9lectionnez un cin\u00e9ma pour voir les cadeaux.",
+          "loyalty.signup.about-you-title": "About You",
+          "loyalty.signup.activate-account-header-title": "Signed up at the theater?",
+          "loyalty.signup.activate-account-label": "Activate my account",
+          "loyalty.signup.activation-code-label": "Activation code",
+          "loyalty.signup.card-number-label": "Card number",
+          "loyalty.signup.contact-details-title": "Contact Details",
+          "loyalty.signup.create-password-title": "Create Password",
+          "loyalty.signup.error.bad-date-label": "Date must be in the past.",
+          "loyalty.signup.error.bad-password-label": "Password must meet requirements.",
+          "loyalty.signup.error.field-required-label": "This field is required",
+          "loyalty.signup.error.invalid-email-label": "This field must be a valid email",
+          "loyalty.signup.error.invalid-phone-label": "This field must be a valid phone number",
+          "loyalty.signup.error.legal-age-message": "You must be at least {age} years old",
+          "loyalty.signup.error.match-email-label": "Emails must match.",
+          "loyalty.signup.error.match-password-label": "Passwords must match.",
+          "loyalty.signup.error.must-be-checked-label": "This field must be checked.",
+          "loyalty.signup.error.must-choose-one-label": "Must choose at least one.",
+          "loyalty.signup.existing-user-error-message": "This member already exists.",
+          "loyalty.signup.field.confirm-password-label": "Confirm password",
+          "loyalty.signup.field.date-of-birth-label": "Date of birth",
+          "loyalty.signup.field.date-of-birth-with-legal-age-label": "Date of birth (Eligibility: {age} years and older)",
+          "loyalty.signup.field.email-label": "Email",
+          "loyalty.signup.field.first-name-label": "First name",
+          "loyalty.signup.field.gender-label": "Gender (Optional)",
+          "loyalty.signup.field.last-name-label": "Last name",
+          "loyalty.signup.field.password-label": "Create password",
+          "loyalty.signup.field.phone-number-label": "Phone no.",
+          "loyalty.signup.field.send-newsletter-label": "I agree to receive marketing emails.",
+          "loyalty.signup.field.terms-and-conditions-label": "I agree to the <link>Terms and conditions</link> of the Rewards program",
+          "loyalty.signup.generic-error-message": "Could not sign up, check your info and retry",
+          "loyalty.signup.register-label": "Sign up",
+          "loyalty.signup.success-message": "Check your inbox for further details",
+          "loyalty.signup.success-title": "Your account has been created",
+          "loyalty.signup.with-card-label": "I already have a card",
+          "loyalty.signup.without-card-label": "I don't have a card",
+          "loyalty.tapos-activation.error-message": "Error activating account",
+          "loyalty.tapos-activation.field.submit-label": "Submit",
+          "loyalty.tapos-activation.field.validation-token-label": "Verification code",
+          "loyalty.tapos-activation.form-title": "Check your email for verification code",
+          "loyalty.watchlist.add-to-watchlist-upsell-message": "To add a movie to your wish list, <connect-link>log in</connect-link> or <register-link>register</register-link>",
+          "loyalty.watchlist.available-message": "Your watchlist films currently showing or on pre-sale.",
+          "loyalty.watchlist.available-title": "Currently on sale",
+          "loyalty.watchlist.empty-title": "No movies",
+          "loyalty.watchlist.item.buy-tickets-label": "Buy tickets",
+          "loyalty.watchlist.item.click-to-remove-label": "Click to remove from your watch list",
+          "loyalty.watchlist.item.not-playing-label": "Not playing",
+          "loyalty.watchlist.item.release-date-title": "Release date",
+          "loyalty.watchlist.item.tap-to-remove-label": "Tap to remove from your watch list",
+          "loyalty.watchlist.unavailable-message": "Films on your list that are not yet or no longer showing",
+          "loyalty.watchlist.unavailable-title": "In my list",
+          "loyalty.watchlist.upsell-modal.upsell-label": "Register",
+          "loyalty.welcome-message.cash-balance-message": "You have <value>{amount}</value>.",
+          "loyalty.welcome-message.goal-progress-max-message": "Offrez-vous {gift}",
+          "loyalty.welcome-message.goal-progress-message": "{gift} disponible dans <strong>{points}</strong> points",
+          "loyalty.welcome-message.greeting-message": "Hi {name},",
+          "loyalty.welcome-message.greeting-no-comma-message": "Hi {name}",
+          "loyalty.welcome-message.points-and-expiration-message": "Your <value>{amount}</value> points expire on <value>{expiryDate}</value>.",
+          "loyalty.welcome-message.points-balance-message": "You have <value>{amount}</value> points.",
+          "loyalty.welcome-message.tickets-balance-message": "You have <value>{amount}</value> available {amount, plural, one {ticket} other {tickets}}.",
+          "loyalty.welcome-message.visits-balance-message": "You visited us <value>{amount}</value> {amount, plural, one {time} other {times}}.",
+          "movie-card.film-by-label": "A film by {director}",
+          "movie-card.trailer-label": "Trailer",
+          "movie-categories.automatic.new": "New",
+          "movie-categories.automatic.preview": "Premiere",
+          "movie-grid.movie.no-movies-label": "No movies correspond to your selection",
+          "movie-grid.movie.shaw-all-label": "Show all",
+          "movie-page.movie-details.showtimes-shortcut-label": "Showtimes",
+          "movie-page.movie-details.synopsis.read-less-label": "Hide",
+          "movie-page.movie-details.synopsis.read-more-label": "Read",
+          "movie-page.movie-tech-details.casting-label": "Cast:",
+          "movie-page.movie-tech-details.co-direction-label": "Co-directors:",
+          "movie-page.movie-tech-details.direction-label": "Director:",
+          "movie-page.movie-tech-details.genre-label": "Genre:",
+          "movie-page.page-description-message": "Browse showtimes and purchase your tickets online for {movieTitle} at {siteName}",
+          "movie-page.page-title": "{movieTitle} Showtimes & Tickets",
+          "movie-page.schedule-title": "{movieTitle} showtimes",
+          "movie-page.schedule.nearby-theaters-title": "Also showing at these nearby theaters",
+          "movies.carousel.event.info-label": "See details",
+          "movies.carousel.movie.buy-tickets-label": "Buy Tickets",
+          "movies.carousel.movie.info-and-showtimes-label": "Info & Showtimes",
+          "movies.carousel.movie.info-label": "Movie info",
+          "movies.carousel.movie.trailer-label": "Trailer",
+          "movies.carousel.no-movies-label": "No movies correspond to your selection",
+          "movies.movie.runtime-label": "{hours} hr {minutes} min",
+          "movies.stack.no-movies-label": "No movies correspond to your selection",
+          "newsletter-subscription-form.error-message": "An error has occured, please retry in a few moments.",
+          "newsletter-subscription-form.error.field-required-label": "This field is required",
+          "newsletter-subscription-form.error.invalid-email-label": "This field must be a valid email",
+          "newsletter-subscription-form.field.email-label": "Email",
+          "newsletter-subscription-form.field.list-label": "List",
+          "newsletter-subscription-form.send-button-label": "Subscribe",
+          "newsletter-subscription-form.success-message": "Your subscription has been taken into account, thank you!",
+          "quick-buy.buy-tickets-at-title": "Buy tickets at",
+          "quick-buy.close-label": "Close",
+          "quick-buy.close-showtimes-label": "Close",
+          "quick-buy.open-label": "Quick buy",
+          "quick-buy.pick-label": "Pick",
+          "quick-buy.see-showtimes-label": "See showtimes",
+          "quick-buy.showing-title": "Showing: {day}{date}",
+          "quick-buy.showing-today-title": "Today",
+          "quick-buy.showing-tomorrow-title": "Tomorrow",
+          "schedule.movie.showtimes.empty-state-message": "No showtimes",
+          "schedule.movie.showtimes.showtime.audio-version.dubbed-label": "Dubbed",
+          "schedule.movie.showtimes.showtime.audio-version.local-label": "Local",
+          "schedule.movie.showtimes.showtime.audio-version.original-label": "OV",
+          "schedule.movie.showtimes.today-label": "Today",
+          "schedule.movie.showtimes.tomorrow-label": "Tomorrow",
+          "schedule.no-theater-placeholder-message": "Select a theater to see showtimes",
+          "schedule.periods.7-days-label": "7 days",
+          "schedule.periods.another-date-label": "Another date",
+          "schedule.periods.next-week-label": "Next Week",
+          "schedule.periods.today-label": "Today",
+          "schedule.periods.tomorrow-label": "Tomorrow",
+          "schedule.periods.week-label": "Week",
+          "schedule.theater-selector-prefix-label": "At:",
+          "schedule.toolbar.coming-soon-label": "Coming soon",
+          "schedule.toolbar.now-playing-label": "Now playing",
+          "search.generic-results-count-label": "{count, plural, =0 {# result} one {# result} other {# results}}",
+          "search.input-placeholder-label": "Search for movie...",
+          "search.results-count-label": "{count, plural, =0 {# movies} one {# movie} other {# movies}}",
+          "search.results-prefix-message": "Your search at {location}",
+          "secondary-menu.privacy-policy-call-to-action-label": "Privacy settings",
+          "shared.movie-collection.active-showtimes-label": "With active showtimes",
+          "shared.movie-collection.beyond-next-playweek-3-label": "Beyond the week following the one after next",
+          "shared.movie-collection.beyond-next-playweek-label": "Beyond next week",
+          "shared.movie-collection.beyond-next-seven-days-label": "Beyond next 7 days",
+          "shared.movie-collection.coming-soon-editor-label": "Coming soon",
+          "shared.movie-collection.current-day-label": "Today",
+          "shared.movie-collection.current-playweek-label": "This week",
+          "shared.movie-collection.current-playweek-remaining-days-label": "This week",
+          "shared.movie-collection.event-related-label": "Event related",
+          "shared.movie-collection.has-premiere-label": "Premiere",
+          "shared.movie-collection.manually-added-label": "Manualy added",
+          "shared.movie-collection.next-day-label": "Tomorrow",
+          "shared.movie-collection.next-playweek-1-label": "Next week",
+          "shared.movie-collection.next-playweek-2-label": "The week following the one after next",
+          "shared.movie-collection.next-playweek-3-label": "The week following the one after next",
+          "shared.movie-collection.next-playweek-undetermined-label": "Coming soon",
+          "shared.movie-collection.next-playweeks-label": "Next weeks",
+          "shared.movie-collection.next-seven-days-label": "Next 7 days",
+          "shared.movie-collection.previous-playweek-label": "Last week",
+          "shared.movie-events.more-link-label": "Read more",
+          "shared.outbound-link.new-window-label": "(Opens in a new window)",
+          "shared.parsed-html.cookie-policy-label": "Cookie Policy",
+          "shared.parsed-html.privacy-policy-label": "Privacy Policy",
+          "showtimes-grid.empty-state-coming-soon-message": "There are no movies coming soon",
+          "showtimes-grid.empty-state-now-playing-message": "There are no showtimes on the selected time period",
+          "showtimes-grid.movie-card.movie-tech-details.casting-label": "Cast:",
+          "showtimes-grid.movie-card.movie-tech-details.direction-label": "Director:",
+          "showtimes-grid.movie-card.movie-tech-details.genre-label": "Genre:",
+          "showtimes-grid.movie-card.watch-trailer-label": "Watch trailer",
+          "showtimes-grid.movie-schedule.embargo-message": "Check back later to buy tickets",
+          "showtimes-grid.next-showtimes-message": "Next showtimes on {date}",
+          "showtimes-grid.schedule.shared-attributes-label": "All showtimes",
+          "showtimes-grid.schedule.standard-showtimes-label": "Standard showtimes",
+          "showtimes-grid.showtime.almost-full-label": "Almost full",
+          "showtimes-grid.showtime.sold-out-label": "Sold out",
+          "showtimes-table.cert-title": "Cert",
+          "showtimes-table.cinema-label": "Cinema",
+          "showtimes-table.empty-label": "Empty table",
+          "showtimes-table.enddate-label": "End date",
+          "showtimes-table.feature-title": "Feature",
+          "showtimes-table.startdate-label": "Start date",
+          "showtimes-table.wrongDates-label": "Start date can't be after the end date. Please check",
+          "smart-banner.app-store-message": "On the App Store",
+          "smart-banner.google-play-message": "In Google Play",
+          "smart-banner.view-label": "View",
+          "social-links.nav-aria-label": "Social media",
+          "tag-selector.all-showtimes-label": "All showtimes",
+          "tag-selector.helper-text": "Tap an attribute to filter available showtimes",
+          "tag-selector.trigger-prefix-label": "Filter by:",
+          "theater-selector.all-theaters-label": "Please select a location",
+          "theater-selector.clear-theater-selection-label": "Deselect location",
+          "theater-selector.closed-label": "Closed",
+          "theater-selector.next-opening-on": "Opens: {date}",
+          "theater-selector.no-showtimes-label": "Unavailable at",
+          "theater-selector.reopens-on": "Reopens on {date}",
+          "theater-selector.search-results-label": "{count} {count, plural, one {result} other {results}}",
+          "theater-selector.search-theater-placeholder-label": "Search",
+          "theater-selector.unselect-theater-label": "Please select a location",
+          "theater-selector.use-my-location-label": "Use my location",
+          "theaters.card.theater.details-label": "More details",
+          "theaters.theater.page.features-title": "Experiences and features at this theater",
+          "theaters.theater.page.prices-title": "Ticket prices",
+          "trackers.didomi.preferences.privacy-image-alt-title": "Privacy management by Didomi - open in a new tab",
+          "video-player.not-supported-message": "Your browser does not support HTML5 video.",
+          "widget.accessibility-info.displayed-message": "<p>We believe that {theaterName} site should be accessible to all people and comply with the requirements of the Web Content Accessibility Guidelines.</p><p>Embracing these standards is an ongoing effort. We are committed to improve our site to meet the WCAG 2.1 AA guidelines. If you have questions about its compliance or need help with its processes, please contact us.</p>",
+          "widget.apple-music.albums-label": "Albums",
+          "widget.apple-music.playlists-label": "Playlists",
+          "widget.copyright-takedown-form.legal-message": "<p>If you choose to request removal of content by submitting an infringement notification, please remember that you are initiating a legal process.</p><p>Do not make false claims. Misuse of this process may result in the suspension of your account or other legal consequences.</p><button>DMCA Take Down Request</button>",
+          "widget.event.related-movies.playing-at": "Playing at {theaterName}"
+        }
+      },
+      "betaFeaturesEnabled": false,
+      "useLiveMovieData": true
+    }
+  },
+  "staticQueryHashes": [
+    "1384106730",
+    "1575531621",
+    "1899495325",
+    "1933878441",
+    "2059914843",
+    "2107300390",
+    "2491296294",
+    "2506275789",
+    "2744905544",
+    "2888872790",
+    "3360083659",
+    "3362424247",
+    "3509975915",
+    "551167854",
+    "906269967"
+  ],
+  "slicesMap": {}
+}

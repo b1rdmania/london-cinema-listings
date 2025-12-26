@@ -1,0 +1,278 @@
+[
+  {
+    "id": "28201",
+    "title": "The Godfather: Part II",
+    "runtime": 12000,
+    "genres": "Detective, Drama",
+    "__typename": "Movie",
+    "altId": [
+      "71112"
+    ],
+    "coDirectors": {
+      "nodes": [],
+      "__typename": "CreditsPager"
+    },
+    "quadImages": [],
+    "poster": "https://cms-assets.webediamovies.pro/production/279/3d4397da893d04ba9614a4fa2667a2cc.jpg",
+    "images": [
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861224.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861223.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861222.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861221.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861220.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18660527.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18660525.jpg",
+        "__typename": "Image"
+      },
+      {
+        "url": "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18660524.jpg",
+        "__typename": "Image"
+      }
+    ],
+    "directors": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "person": {
+            "firstName": "Francis Ford",
+            "lastName": "Coppola",
+            "__typename": "Person"
+          }
+        }
+      ]
+    },
+    "cast": {
+      "__typename": "CreditsPager",
+      "nodes": [
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Al",
+            "lastName": "Pacino",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Robert",
+            "lastName": "De Niro",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Diane",
+            "lastName": "Keaton",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Kathleen",
+            "lastName": "Beller",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Ignazio",
+            "lastName": "Pappalardo",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Roman",
+            "lastName": "Coppola",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sofia",
+            "lastName": "Coppola",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "John",
+            "lastName": "Megna",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Gary",
+            "lastName": "Kurtz",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        },
+        {
+          "__typename": "MovieCredit",
+          "actor": {
+            "firstName": "Sho",
+            "lastName": "Kosugi",
+            "__typename": "Person"
+          },
+          "originalVoiceActor": null,
+          "localizedVoiceActor": null
+        }
+      ]
+    },
+    "locale": {
+      "title": "The Godfather: Part II",
+      "synopsis": "Continuing saga of the Corleone family as they move to Nevada and make the casino business their major income source under the leadership of the increasingly paranoid and malevolent Michael, whose reign as the \"Don\" is juxtaposed against the parallel tale of his father's escape from Sicily as a young boy and his subsequent rise to power in New York's Lower East Side during the turn-of-the-century.",
+      "__typename": "MovieLocalized",
+      "sdTrailers": [],
+      "hdTrailers": [],
+      "poster": {
+        "url": "https://all.web.img.acsta.net/img/24/7f/247f39bec2d5eb54c44eb870b1aec5a0.jpg",
+        "__typename": "Image"
+      },
+      "cmsAssets": {
+        "__typename": "CMSAsset",
+        "images": []
+      }
+    },
+    "embargoes": [],
+    "releases": [
+      {
+        "releasedAt": "2022-03-04T00:00:00.000Z",
+        "__typename": "Release",
+        "distributors": [
+          {
+            "id": "13760",
+            "name": "Paramount Pictures UK",
+            "__typename": "Company"
+          }
+        ],
+        "localRatings": [],
+        "rating": {
+          "advisory": "strong bloody violence, language",
+          "__typename": "Rating",
+          "certificate": "15"
+        }
+      },
+      {
+        "releasedAt": "2026-01-08T00:00:00.000Z",
+        "__typename": "Release",
+        "localRatings": [],
+        "distributors": [
+          {
+            "id": "13760",
+            "name": "Paramount Pictures UK",
+            "__typename": "Company"
+          }
+        ],
+        "rating": {
+          "advisory": "strong violence, bloody images, domestic abuse",
+          "__typename": "Rating",
+          "certificate": "15"
+        }
+      }
+    ],
+    "exhibitor": {
+      "title": null,
+      "poster": "https://cms-assets.webediamovies.pro/production/279/3d4397da893d04ba9614a4fa2667a2cc.jpg",
+      "synopsis": "Selected by the Executives Branch, Everyman presents: The Godfather: Part II\n\nContinuing saga of the Corleone family as they move to Nevada and make the casino business their major income source under the leadership of the increasingly paranoid and malevolent Michael, whose reign as the \"Don\" is juxtaposed against the parallel tale of his father's escape from Sicily as a young boy and his subsequent rise to power in New York's Lower East Side during the turn-of-the-century.\n\nThe Godfather: Part II\u202fis often cited as the rare example of a sequel that equals or even surpasses the original. Both a sequel and a prequel, the film extends the tragic story of Michael Corleone and his family into the late 1950s while looking back at young Vito (Robert De Niro in an Oscar-winning performance) and his experience as an immigrant in New York, in a gorgeously crafted production rich with novelistic detail.\u202f\n\nPresented in 4k, the feature returns to the big screen at Everyman The Whiteley on Thursday.",
+      "__typename": "MovieLocalizedOverride",
+      "images": [
+        {
+          "type": "DEFAULT_STILL",
+          "url": "https://cms-assets.webediamovies.pro/production/279/425d9104a62854175d49ad9e7f0d4e42.jpg",
+          "__typename": "BOAppImage"
+        }
+      ]
+    },
+    "originalTitle": "The Godfather: Part II",
+    "synopsis": "Selected by the Executives Branch, Everyman presents: The Godfather: Part II\n\nContinuing saga of the Corleone family as they move to Nevada and make the casino business their major income source under the leadership of the increasingly paranoid and malevolent Michael, whose reign as the \"Don\" is juxtaposed against the parallel tale of his father's escape from Sicily as a young boy and his subsequent rise to power in New York's Lower East Side during the turn-of-the-century.\n\nThe Godfather: Part II\u202fis often cited as the rare example of a sequel that equals or even surpasses the original. Both a sequel and a prequel, the film extends the tragic story of Michael Corleone and his family into the late 1950s while looking back at young Vito (Robert De Niro in an Oscar-winning performance) and his experience as an immigrant in New York, in a gorgeously crafted production rich with novelistic detail.\u202f\n\nPresented in 4k, the feature returns to the big screen at Everyman The Whiteley on Thursday.",
+    "certificate": "15",
+    "casting": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Diane Keaton",
+      "Kathleen Beller",
+      "Ignazio Pappalardo",
+      "Roman Coppola",
+      "Sofia Coppola",
+      "John Megna",
+      "Gary Kurtz",
+      "Sho Kosugi"
+    ],
+    "direction": [
+      "Francis Ford Coppola"
+    ],
+    "coDirection": [],
+    "pictures": [
+      "https://cms-assets.webediamovies.pro/production/279/425d9104a62854175d49ad9e7f0d4e42.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861224.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861223.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861222.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861221.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18861220.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18660527.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18660525.jpg",
+      "https://all.web.img.acsta.net/medias/nmedia/18/35/24/16/18660524.jpg"
+    ],
+    "heroImages": [
+      "https://cms-assets.webediamovies.pro/production/279/425d9104a62854175d49ad9e7f0d4e42.jpg"
+    ],
+    "release": "2022-03-04T00:00:00.000Z",
+    "advisory": "strong bloody violence, language",
+    "trailer": {
+      "SD": null,
+      "HD": null
+    },
+    "localizations": [],
+    "studio": {
+      "name": "Paramount Pictures UK"
+    }
+  }
+]

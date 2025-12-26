@@ -1,0 +1,265 @@
+{
+  "businessDate": "2026-01-27",
+  "showtimes": [
+    {
+      "id": "HOX1-25323",
+      "schedule": {
+        "businessDate": "2026-01-27",
+        "startsAt": "2026-01-27T18:20:00+00:00",
+        "endsAt": "2026-01-27T20:18:00+00:00",
+        "filmStartsAt": "2026-01-27T18:45:00+00:00",
+        "filmEndsAt": "2026-01-27T20:18:00+00:00",
+        "inSeatItemDelivery": null
+      },
+      "isSoldOut": false,
+      "seatLayoutId": "HOX1-3-6",
+      "filmId": "HO00006745",
+      "siteId": "HOX1",
+      "screenId": "HOX1-3",
+      "areaCategories": [
+        {
+          "areaCategoryId": "HOX1-0000000001",
+          "isAllocatedSeating": true
+        }
+      ],
+      "attributeIds": [
+        "0000000017",
+        "0000000008"
+      ],
+      "isAllocatedSeating": true,
+      "requires3dGlasses": false,
+      "eventId": null,
+      "restrictions": [],
+      "filmAdvanceBookingRuleId": null
+    }
+  ],
+  "relatedData": {
+    "sites": [
+      {
+        "id": "HOX1",
+        "name": {
+          "text": "Hoxton",
+          "translations": []
+        },
+        "location": {
+          "latitude": 51.529,
+          "longitude": -0.0837
+        },
+        "contactDetails": {
+          "phoneNumbers": [],
+          "email": "",
+          "address": {
+            "line1": "55 Pitfield Street,",
+            "line2": "London,",
+            "city": "N1 6BU"
+          }
+        },
+        "ianaTimeZoneName": "Europe/London"
+      }
+    ],
+    "films": [
+      {
+        "id": "HO00006745",
+        "title": {
+          "text": "My Father\u2019s Shadow",
+          "translations": []
+        },
+        "synopsis": {
+          "text": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's daily struggles as political unrest threatens their journey home.",
+          "translations": []
+        },
+        "shortSynopsis": {
+          "text": "Two young brothers explore Lagos with their estranged father during the 1993 Nigerian election crisis, witnessing both the city's magnitude and their father's struggles.",
+          "translations": []
+        },
+        "censorRatingId": "HO00000004",
+        "censorRatingNote": {
+          "text": "moderate threat",
+          "translations": []
+        },
+        "releaseDate": "2026-02-06",
+        "runtimeInMinutes": 93,
+        "trailerUrl": "https://www.youtube.com/watch?v=50ICTaEuQxg",
+        "displayPriority": 4,
+        "castAndCrew": [
+          {
+            "castAndCrewMemberId": "0000013192",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013193",
+            "roles": [
+              "Actor"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013194",
+            "roles": [
+              "Director"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013195",
+            "roles": [
+              "Producer"
+            ]
+          },
+          {
+            "castAndCrewMemberId": "0000013196",
+            "roles": [
+              "Producer"
+            ]
+          }
+        ],
+        "genreIds": [
+          "0000000002"
+        ],
+        "externalIds": {
+          "moviexchangeReleaseId": "c8f79f0e-fcf0-49a9-860e-76adb056b711",
+          "corporateId": null
+        },
+        "hopk": "HO00006745",
+        "hoCode": "A000008323",
+        "eventId": null,
+        "distributorName": "MUBI"
+      }
+    ],
+    "castAndCrew": [
+      {
+        "id": "0000013192",
+        "name": {
+          "givenName": "Sope",
+          "familyName": "Dirisu",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013193",
+        "name": {
+          "givenName": "Efon",
+          "familyName": "Wini",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013194",
+        "name": {
+          "givenName": "Akinola",
+          "familyName": "Davies",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013195",
+        "name": {
+          "givenName": "Rachel",
+          "familyName": "Dargavel",
+          "middleName": null
+        }
+      },
+      {
+        "id": "0000013196",
+        "name": {
+          "givenName": "Funmbi",
+          "familyName": "Ogunbanwo",
+          "middleName": null
+        }
+      }
+    ],
+    "genres": [
+      {
+        "id": "0000000002",
+        "name": {
+          "text": "Drama",
+          "translations": []
+        },
+        "description": {
+          "text": "Drama",
+          "translations": []
+        }
+      }
+    ],
+    "censorRatings": [
+      {
+        "id": "HO00000004",
+        "classification": {
+          "text": "12A",
+          "translations": []
+        },
+        "classificationDescription": {
+          "text": "12A",
+          "translations": []
+        },
+        "ageRestriction": {
+          "minimumAge": 0
+        }
+      }
+    ],
+    "attributes": [
+      {
+        "id": "0000000017",
+        "name": {
+          "text": "Members preview",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Members",
+          "translations": []
+        },
+        "description": {
+          "text": "Members' only preview screening / Members' Priority Booking.",
+          "translations": []
+        },
+        "importantMessage": {
+          "text": "Members' only preview screening / Members' Priority Booking.",
+          "translations": []
+        },
+        "displayPriority": 100,
+        "isPromoted": false
+      },
+      {
+        "id": "0000000008",
+        "name": {
+          "text": "Special Preview",
+          "translations": []
+        },
+        "shortName": {
+          "text": "Preview",
+          "translations": []
+        },
+        "description": {
+          "text": "Special Preview Screening",
+          "translations": []
+        },
+        "importantMessage": null,
+        "displayPriority": 100,
+        "isPromoted": false
+      }
+    ],
+    "screens": [
+      {
+        "id": "HOX1-3",
+        "name": {
+          "text": "Screen 3",
+          "translations": []
+        }
+      }
+    ],
+    "events": [],
+    "filmAdvanceBookingRules": [],
+    "areaCategories": [
+      {
+        "id": "HOX1-0000000001",
+        "name": {
+          "text": "Standard",
+          "translations": []
+        },
+        "hopk": "0000000000",
+        "isAllocatedSeating": true,
+        "isInSeatItemDeliveryAvailable": false
+      }
+    ]
+  }
+}
