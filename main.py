@@ -96,7 +96,7 @@ CINEMAS = {
     "2": ("Curzon Hoxton", "curzon"),
     "3": ("Prince Charles", "prince_charles"),
     "4": ("Barbican", "barbican"),
-    "5": ("Garden Cinema", "garden"),
+    "5": ("Garden", "garden"),
     "6": ("Everyman Broadgate", "everyman"),
     "7": ("Vue Islington", "vue"),
 }
