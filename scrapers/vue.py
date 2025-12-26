@@ -85,23 +85,24 @@ class VueScraper(BaseScraper):
                 all_screenings.extend(screenings)
                 print(f"  Today: {len(screenings)} screenings")
 
-            # Try to get more dates
+            # Fetch remaining dates via browser fetch (API requires auth)
             if self.showing_dates and len(self.showing_dates) > 1:
                 for date_info in self.showing_dates[1:min(days_ahead, len(self.showing_dates))]:
-                    date_str = date_info.get('date', '')
+                    date_str = date_info.get('showingDate', '') or date_info.get('date', '')
                     if not date_str:
                         continue
 
                     try:
-                        # Click on date or navigate to date-specific URL
-                        date_url = f"{self.BASE_URL}/cinema/islington/whats-on?date={date_str[:10]}"
-                        self.showings_data = None
+                        # Use browser's fetch to make authenticated API call
+                        api_url = f"https://www.myvue.com/api/microservice/showings/cinemas/{self.CINEMA_ID}/films?showingDate={date_str}&minEmbargoLevel=3&includesSession=true&includeSessionAttributes=true"
 
-                        await page.goto(date_url, wait_until='networkidle', timeout=30000)
-                        await page.wait_for_timeout(1500)
+                        data = await page.evaluate(f'''async () => {{
+                            const resp = await fetch("{api_url}");
+                            return await resp.json();
+                        }}''')
 
-                        if self.showings_data and self.showings_data.get('result'):
-                            screenings = self._parse_showings(self.showings_data['result'])
+                        if data and data.get('result'):
+                            screenings = self._parse_showings(data['result'])
                             all_screenings.extend(screenings)
                             print(f"  {date_str[:10]}: {len(screenings)} screenings")
                     except Exception as e:
