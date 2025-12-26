@@ -269,13 +269,6 @@ HTML_TEMPLATE = """
             border-color: #333;
         }
 
-        .screening-time {
-            min-width: 60px;
-            font-size: 1rem;
-            font-weight: 600;
-            color: #fff;
-        }
-
         .screening-info {
             flex: 1;
         }
@@ -283,16 +276,29 @@ HTML_TEMPLATE = """
         .film-title {
             font-weight: 500;
             color: #fff;
-            margin-bottom: 0.25rem;
+            margin-bottom: 0.5rem;
         }
 
-        .screening-meta {
-            font-size: 0.8rem;
-            color: #777;
+        .screening-times {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
         }
 
-        .cinema-name {
-            color: #888;
+        .time-link {
+            display: inline-block;
+            padding: 0.35rem 0.6rem;
+            background: #1e3a5f;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background 0.15s;
+        }
+
+        .time-link:hover {
+            background: #2563eb;
         }
 
         .tag {
@@ -308,22 +314,6 @@ HTML_TEMPLATE = """
         .tag.format-35mm { background: #3d2800; color: #f5a623; }
         .tag.format-4k { background: #1a3d1a; color: #4ade80; }
         .tag.format-70mm { background: #3d1a2e; color: #f472b6; }
-
-        .booking-link {
-            display: inline-block;
-            padding: 0.4rem 0.75rem;
-            background: #2563eb;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            transition: background 0.15s;
-        }
-
-        .booking-link:hover {
-            background: #1d4ed8;
-        }
 
         .loading {
             text-align: center;
@@ -364,9 +354,7 @@ HTML_TEMPLATE = """
             <p class="subtitle">Independent & repertory cinema screenings</p>
         </header>
 
-        <div class="filters" id="cinema-filters">
-            <button class="filter-btn active" data-cinema="all">All Cinemas</button>
-        </div>
+        <div class="filters" id="cinema-filters"></div>
 
         <div class="date-nav" id="date-nav"></div>
 
@@ -493,42 +481,53 @@ HTML_TEMPLATE = """
                 return;
             }
 
-            // Group by cinema
-            const grouped = {};
+            // Group by cinema, then by film
+            const byCinema = {};
             filtered.forEach(s => {
-                const key = s.cinema_name;
-                if (!grouped[key]) grouped[key] = [];
-                grouped[key].push(s);
+                if (!byCinema[s.cinema_name]) byCinema[s.cinema_name] = {};
+                if (!byCinema[s.cinema_name][s.film_title]) byCinema[s.cinema_name][s.film_title] = [];
+                byCinema[s.cinema_name][s.film_title].push(s);
             });
 
             let html = '';
-            Object.entries(grouped).sort().forEach(([cinema, screenings]) => {
+            Object.entries(byCinema).sort().forEach(([cinema, films]) => {
                 html += `<div class="screening-group">`;
                 html += `<div class="group-header">${cinema}</div>`;
 
-                screenings.sort((a, b) => a.start_time.localeCompare(b.start_time)).forEach(s => {
-                    const time = new Date(s.start_time).toLocaleTimeString('en-GB', {
-                        hour: '2-digit',
-                        minute: '2-digit'
-                    });
+                // Sort films by earliest showtime
+                const sortedFilms = Object.entries(films).sort((a, b) => {
+                    const aTime = Math.min(...a[1].map(s => new Date(s.start_time).getTime()));
+                    const bTime = Math.min(...b[1].map(s => new Date(s.start_time).getTime()));
+                    return aTime - bTime;
+                });
 
+                sortedFilms.forEach(([filmTitle, screenings]) => {
+                    // Sort screenings by time
+                    screenings.sort((a, b) => a.start_time.localeCompare(b.start_time));
+
+                    // Build times list
+                    const times = screenings.map(s => {
+                        const time = new Date(s.start_time).toLocaleTimeString('en-GB', {
+                            hour: '2-digit',
+                            minute: '2-digit'
+                        });
+                        return `<a href="${s.booking_url}" target="_blank" class="time-link">${time}</a>`;
+                    }).join(' ');
+
+                    // Get tags from first screening
                     let tags = '';
-                    if (s.notes) {
-                        if (s.notes.includes('35mm')) tags += '<span class="tag format-35mm">35mm</span>';
-                        else if (s.notes.includes('4K')) tags += '<span class="tag format-4k">4K</span>';
-                        else if (s.notes.includes('70mm')) tags += '<span class="tag format-70mm">70mm</span>';
-                        else if (s.notes) tags += `<span class="tag">${s.notes}</span>`;
+                    const firstNote = screenings[0].notes;
+                    if (firstNote) {
+                        if (firstNote.includes('35mm')) tags += '<span class="tag format-35mm">35mm</span>';
+                        else if (firstNote.includes('4K')) tags += '<span class="tag format-4k">4K</span>';
+                        else if (firstNote.includes('70mm')) tags += '<span class="tag format-70mm">70mm</span>';
                     }
 
                     html += `
                         <div class="screening-card">
-                            <div class="screening-time">${time}</div>
                             <div class="screening-info">
-                                <div class="film-title">${s.film_title}${tags}</div>
-                                <div class="screening-meta">
-                                    ${s.screen ? s.screen + ' · ' : ''}
-                                    <a href="${s.booking_url}" target="_blank" class="booking-link">Book</a>
-                                </div>
+                                <div class="film-title">${filmTitle}${tags}</div>
+                                <div class="screening-times">${times}</div>
                             </div>
                         </div>
                     `;
