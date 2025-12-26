@@ -17,7 +17,7 @@ from datetime import datetime, timedelta
 from typing import Optional
 from playwright.async_api import async_playwright
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london
 
 
 # Vue Islington venue info
@@ -147,11 +147,13 @@ class VueScraper(BaseScraper):
                             continue
 
                         start_time = datetime.fromisoformat(start_time_str)
+                        start_time = to_london(start_time)
 
                         end_time = None
                         end_time_str = session.get('endTime')
                         if end_time_str:
                             end_time = datetime.fromisoformat(end_time_str)
+                            end_time = to_london(end_time)
 
                         # Build booking URL
                         booking_path = session.get('bookingUrl', '')

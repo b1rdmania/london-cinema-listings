@@ -31,7 +31,7 @@ app.add_middleware(
 CINEMAS = {
     "rio": {
         "id": "rio",
-        "name": "Rio",
+        "name": "Rio Cinema",
         "area": "Dalston",
         "address": "107 Kingsland High St, London E8 2PB",
         "lat": 51.5485,
@@ -91,7 +91,7 @@ CINEMAS = {
     },
     "barbican-cinema": {
         "id": "barbican-cinema",
-        "name": "Barbican",
+        "name": "Barbican Cinema",
         "area": "Barbican",
         "address": "Silk Street, London EC2Y 8DS",
         "lat": 51.5200,
@@ -106,7 +106,7 @@ CINEMAS = {
     },
     "garden-cinema": {
         "id": "garden-cinema",
-        "name": "Garden",
+        "name": "The Garden Cinema",
         "area": "Covent Garden",
         "address": "39-41 Parker Street, London WC2B 5PQ",
         "lat": 51.5160,
@@ -121,7 +121,7 @@ CINEMAS = {
     },
     "prince-charles-cinema": {
         "id": "prince-charles-cinema",
-        "name": "Prince Charles",
+        "name": "Prince Charles Cinema",
         "area": "Leicester Square",
         "address": "7 Leicester Place, London WC2H 7BY",
         "lat": 51.5112,
@@ -704,8 +704,10 @@ HTML_TEMPLATE = """
     <script>
         let allScreenings = [];
         let allCinemas = {};
+        let cinemaOrder = [];  // Maintains distance order from API
         let currentCinema = 'all';
         let currentDate = null;
+        let currentWeekDate = null;
 
         const TMDB_API_KEY = '5b70f4321b83ac657f3dead793bc93ec';
 
@@ -889,7 +891,8 @@ HTML_TEMPLATE = """
 
                 allScreenings = screeningsData.screenings || [];
 
-                // Store cinema info for popups
+                // Store cinema info for popups (preserve distance order)
+                cinemaOrder = cinemasData.cinemas.map(c => c.name);
                 cinemasData.cinemas.forEach(c => {
                     allCinemas[c.id] = c;
                 });
@@ -941,6 +944,14 @@ HTML_TEMPLATE = """
             tomorrowBtn.innerHTML = '<strong>TOMORROW</strong>';
             tomorrowBtn.onclick = () => filterByDate(tomorrow);
             dateNav.appendChild(tomorrowBtn);
+
+            // Create NEXT 7 DAYS button
+            const weekBtn = document.createElement('button');
+            weekBtn.className = 'date-btn';
+            weekBtn.dataset.date = 'week';
+            weekBtn.innerHTML = '<strong>NEXT 7 DAYS</strong>';
+            weekBtn.onclick = () => filterByDate('week');
+            dateNav.appendChild(weekBtn);
         }
 
         function filterByCinema(cinemaId) {
@@ -956,7 +967,52 @@ HTML_TEMPLATE = """
             document.querySelectorAll('.date-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.date === date);
             });
+
+            // Show/hide week date selector
+            const weekDates = document.getElementById('week-dates');
+            if (date === 'week') {
+                showWeekDateSelector();
+            } else if (weekDates) {
+                weekDates.style.display = 'none';
+            }
+
             renderScreenings();
+        }
+
+        function showWeekDateSelector() {
+            let weekDates = document.getElementById('week-dates');
+            if (!weekDates) {
+                weekDates = document.createElement('div');
+                weekDates.id = 'week-dates';
+                weekDates.className = 'date-nav';
+                weekDates.style.marginTop = '0.5rem';
+                document.getElementById('date-nav').after(weekDates);
+            }
+            weekDates.style.display = 'flex';
+            weekDates.innerHTML = '';
+
+            // Get next 7 days
+            const today = new Date();
+            for (let i = 0; i < 7; i++) {
+                const date = new Date(today);
+                date.setDate(today.getDate() + i);
+                const dateStr = date.toISOString().split('T')[0];
+                const dayName = date.toLocaleDateString('en-GB', { weekday: 'short' });
+                const dayNum = date.getDate();
+
+                const btn = document.createElement('button');
+                btn.className = 'date-btn' + (i === 0 ? ' active' : '');
+                btn.dataset.weekdate = dateStr;
+                btn.innerHTML = `${dayName} ${dayNum}`;
+                btn.onclick = () => {
+                    document.querySelectorAll('#week-dates .date-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentWeekDate = dateStr;
+                    renderScreenings();
+                };
+                weekDates.appendChild(btn);
+            }
+            currentWeekDate = today.toISOString().split('T')[0];
         }
 
         function renderScreenings() {
@@ -966,12 +1022,15 @@ HTML_TEMPLATE = """
                 filtered = filtered.filter(s => s.cinema_id === currentCinema);
             }
 
-            if (currentDate) {
+            // Handle date filtering
+            if (currentDate === 'week' && currentWeekDate) {
+                filtered = filtered.filter(s => s.start_time.startsWith(currentWeekDate));
+            } else if (currentDate && currentDate !== 'week') {
                 filtered = filtered.filter(s => s.start_time.startsWith(currentDate));
             }
 
             // Highlight active date
-            document.querySelectorAll('.date-btn').forEach(btn => {
+            document.querySelectorAll('#date-nav > .date-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.date === currentDate);
             });
 
@@ -991,7 +1050,13 @@ HTML_TEMPLATE = """
             });
 
             let html = '';
-            Object.entries(byCinema).sort().forEach(([cinema, films]) => {
+            // Sort cinemas by distance order (from API)
+            const sortedCinemas = Object.entries(byCinema).sort((a, b) => {
+                const aIdx = cinemaOrder.indexOf(a[0]);
+                const bIdx = cinemaOrder.indexOf(b[0]);
+                return (aIdx === -1 ? 999 : aIdx) - (bIdx === -1 ? 999 : bIdx);
+            });
+            sortedCinemas.forEach(([cinema, films]) => {
                 // Find cinema ID from first screening
                 const firstFilm = Object.values(films)[0];
                 const cinemaId = firstFilm[0]?.cinema_id || '';

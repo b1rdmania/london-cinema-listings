@@ -23,7 +23,7 @@ from typing import Optional
 import httpx
 from bs4 import BeautifulSoup
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london, now_london
 
 
 # Prince Charles Cinema venue info
@@ -89,8 +89,7 @@ class PrinceCharlesScraper(BaseScraper):
 
                 # Filter to requested date range if needed
                 if days_ahead:
-                    cutoff = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
-                    from datetime import timedelta
+                    cutoff = now_london().replace(hour=0, minute=0, second=0, microsecond=0)
                     cutoff_end = cutoff + timedelta(days=days_ahead)
                     screenings = [
                         s for s in screenings
@@ -242,8 +241,8 @@ class PrinceCharlesScraper(BaseScraper):
             return screenings
 
         current_date = None
-        current_year = datetime.now().year
-        current_month = datetime.now().month
+        current_year = now_london().year
+        current_month = now_london().month
 
         for elem in perf_outer.find_all(['div', 'li', 'ul']):
             # Date heading (e.g. "Friday 26th December")
@@ -268,10 +267,11 @@ class PrinceCharlesScraper(BaseScraper):
                 time_text = time_span.get_text(strip=True)
                 booking_url = book_btn.get('href', '')
 
-                # Parse time
+                # Parse time and convert to London timezone
                 start_time = self._parse_time(time_text, current_date)
                 if not start_time:
                     continue
+                start_time = to_london(start_time)
 
                 # Get format tags (4K, 35mm, etc)
                 format_tags = self._extract_format_tags(elem)
@@ -286,7 +286,6 @@ class PrinceCharlesScraper(BaseScraper):
                 # Calculate end time if we have runtime
                 end_time = None
                 if film_data.get('runtime'):
-                    from datetime import timedelta
                     end_time = start_time + timedelta(minutes=film_data['runtime'])
 
                 screening = Screening(

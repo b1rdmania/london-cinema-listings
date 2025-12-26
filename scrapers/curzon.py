@@ -19,7 +19,7 @@ from datetime import datetime, timedelta
 from typing import Optional
 from playwright.async_api import async_playwright
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london, now_london
 
 
 # Curzon Hoxton venue info
@@ -109,7 +109,7 @@ class CurzonScraper(BaseScraper):
             if not dates:
                 # Fall back to next N days
                 dates = [
-                    (datetime.now() + timedelta(days=i)).strftime('%Y-%m-%d')
+                    (now_london() + timedelta(days=i)).strftime('%Y-%m-%d')
                     for i in range(days_ahead)
                 ]
 
@@ -284,10 +284,12 @@ class CurzonScraper(BaseScraper):
                 # Use film start time if available
                 start_time_str = film_starts_at or starts_at
                 start_time = datetime.fromisoformat(start_time_str.replace('Z', '+00:00'))
+                start_time = to_london(start_time)
 
                 end_time = None
                 if ends_at:
                     end_time = datetime.fromisoformat(ends_at.replace('Z', '+00:00'))
+                    end_time = to_london(end_time)
 
                 # Get screen
                 screen_id = showtime.get('screenId', '')

@@ -21,7 +21,7 @@ from typing import Optional
 
 import httpx
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london, now_london
 
 
 # Barbican Cinema venue info
@@ -55,7 +55,7 @@ class BarbicanScraper(BaseScraper):
         defaults to 30 to capture more upcoming screenings.
         """
         screenings = []
-        now = datetime.now()
+        now = now_london()
         cutoff = now + timedelta(days=days_ahead)
 
         async with httpx.AsyncClient(
@@ -88,7 +88,7 @@ class BarbicanScraper(BaseScraper):
     async def get_films(self) -> list[Film]:
         """Get list of films currently showing at Barbican."""
         films = []
-        now = datetime.now()
+        now = now_london()
         cutoff = now + timedelta(days=60)
 
         async with httpx.AsyncClient(
@@ -154,7 +154,10 @@ class BarbicanScraper(BaseScraper):
 
                 try:
                     first_dt = datetime.fromisoformat(first_dt_str.replace('Z', ''))
+                    first_dt = to_london(first_dt)
                     last_dt = datetime.fromisoformat(last_dt_str.replace('Z', '')) if last_dt_str else first_dt
+                    if last_dt_str:
+                        last_dt = to_london(last_dt)
 
                     # Skip if entirely in the past
                     if last_dt < start_date:
@@ -249,9 +252,10 @@ class BarbicanScraper(BaseScraper):
 
                 try:
                     start_time = datetime.fromisoformat(start_str.replace('Z', ''))
+                    start_time = to_london(start_time)
 
                     # Skip past or too-far-future instances
-                    if start_time < datetime.now():
+                    if start_time < now_london():
                         continue
                     if start_time > cutoff:
                         continue

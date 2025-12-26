@@ -26,7 +26,7 @@ from datetime import datetime, timedelta
 from typing import Optional
 import httpx
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london, now_london
 
 
 # Rio Cinema venue info
@@ -88,7 +88,7 @@ class RioScraper(BaseScraper):
             events = events_data.get('Events', [])
             print(f"Found {len(events)} films in embedded JSON")
 
-            cutoff_date = datetime.now() + timedelta(days=days_ahead)
+            cutoff_date = now_london() + timedelta(days=days_ahead)
 
             for event in events:
                 try:
@@ -181,8 +181,9 @@ class RioScraper(BaseScraper):
                 if not (start_date and start_time):
                     continue
 
-                # Parse datetime
+                # Parse datetime and make London timezone-aware
                 dt = datetime.strptime(f"{start_date} {start_time}", "%Y-%m-%d %H%M")
+                dt = to_london(dt)
 
                 # Skip if past cutoff
                 if dt > cutoff_date:

@@ -20,7 +20,7 @@ from datetime import datetime, timedelta
 from typing import Optional
 from playwright.async_api import async_playwright
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london, now_london
 
 
 # Everyman Broadgate venue info
@@ -71,7 +71,7 @@ class EverymanScraper(BaseScraper):
                     date_options.append((btn, text.strip()))
 
             # Scrape "Today" first (default view)
-            today = datetime.now().date()
+            today = now_london().date()
             today_screenings = await self._extract_showtimes(page, today)
             all_screenings.extend(today_screenings)
             print(f"  Today: {len(today_screenings)} screenings")
@@ -176,6 +176,7 @@ class EverymanScraper(BaseScraper):
                     hour = int(time_match.group(1))
                     minute = int(time_match.group(2))
                     start_time = datetime.combine(date, datetime.min.time().replace(hour=hour, minute=minute))
+                    start_time = to_london(start_time)
 
                     screenings.append(Screening(
                         cinema_id=self.cinema.id,
@@ -192,7 +193,7 @@ class EverymanScraper(BaseScraper):
     async def _extract_showtimes_with_dates(self, page) -> list[Screening]:
         """Extract showtimes from a view that might show multiple dates."""
         screenings = []
-        today = datetime.now().date()
+        today = now_london().date()
 
         # Similar extraction but try to detect date context
         data = await page.evaluate('''() => {
@@ -248,10 +249,11 @@ class EverymanScraper(BaseScraper):
                     # Default to today, adjust if time has passed
                     screening_date = today
                     test_time = datetime.combine(screening_date, datetime.min.time().replace(hour=hour, minute=minute))
-                    if test_time < datetime.now():
+                    if test_time < now_london().replace(tzinfo=None):
                         screening_date = today + timedelta(days=1)
 
                     start_time = datetime.combine(screening_date, datetime.min.time().replace(hour=hour, minute=minute))
+                    start_time = to_london(start_time)
 
                     screenings.append(Screening(
                         cinema_id=self.cinema.id,

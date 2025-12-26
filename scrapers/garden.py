@@ -24,7 +24,7 @@ from typing import Optional
 from bs4 import BeautifulSoup
 import httpx
 
-from .base import BaseScraper, Screening, Film, Cinema
+from .base import BaseScraper, Screening, Film, Cinema, to_london, now_london
 
 
 # Garden Cinema venue info
@@ -63,8 +63,8 @@ class GardenScraper(BaseScraper):
             response = await client.get(self.BASE_URL)
             soup = BeautifulSoup(response.text, 'lxml')
 
-            cutoff_date = datetime.now() + timedelta(days=days_ahead)
-            current_year = datetime.now().year
+            cutoff_date = now_london() + timedelta(days=days_ahead)
+            current_year = now_london().year
 
             # Find all date blocks
             date_blocks = soup.find_all('div', class_='date-block')
@@ -167,6 +167,7 @@ class GardenScraper(BaseScraper):
                     screening_date,
                     datetime.min.time().replace(hour=hour, minute=minute)
                 )
+                start_time = to_london(start_time)
             except:
                 continue
 
@@ -192,7 +193,7 @@ class GardenScraper(BaseScraper):
     def _parse_date(self, date_str: str, current_year: int) -> datetime.date:
         """Parse a date string like 'Friday 26 December'."""
         if not date_str:
-            return datetime.now().date()
+            return now_london().date()
 
         # Remove day name
         date_str = re.sub(r'^(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)\s*', '', date_str, flags=re.I)
@@ -203,13 +204,13 @@ class GardenScraper(BaseScraper):
             parsed = datetime.strptime(date_str, "%d %B")
             result = parsed.replace(year=current_year)
             # If date is in the past (more than a day ago), assume next year
-            if result.date() < datetime.now().date() - timedelta(days=1):
+            if result.date() < now_london().date() - timedelta(days=1):
                 result = result.replace(year=current_year + 1)
             return result.date()
         except ValueError:
             pass
 
-        return datetime.now().date()
+        return now_london().date()
 
     async def get_films(self) -> list[Film]:
         """Get list of films currently showing."""
