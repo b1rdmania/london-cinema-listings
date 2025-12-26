@@ -337,32 +337,6 @@ HTML_TEMPLATE = """
             color: #666;
         }
 
-        .stats {
-            display: flex;
-            gap: 2rem;
-            justify-content: center;
-            margin-bottom: 2rem;
-            padding: 1rem;
-            background: #141414;
-            border-radius: 8px;
-        }
-
-        .stat {
-            text-align: center;
-        }
-
-        .stat-value {
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #fff;
-        }
-
-        .stat-label {
-            font-size: 0.75rem;
-            color: #666;
-            text-transform: uppercase;
-        }
-
         footer {
             margin-top: 3rem;
             padding-top: 1.5rem;
@@ -389,21 +363,6 @@ HTML_TEMPLATE = """
             <h1>London Cinema Listings</h1>
             <p class="subtitle">Independent & repertory cinema screenings</p>
         </header>
-
-        <div class="stats" id="stats">
-            <div class="stat">
-                <div class="stat-value" id="screening-count">-</div>
-                <div class="stat-label">Screenings</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value" id="cinema-count">5</div>
-                <div class="stat-label">Cinemas</div>
-            </div>
-            <div class="stat">
-                <div class="stat-value" id="film-count">-</div>
-                <div class="stat-label">Films</div>
-            </div>
-        </div>
 
         <div class="filters" id="cinema-filters">
             <button class="filter-btn active" data-cinema="all">All Cinemas</button>
@@ -445,11 +404,6 @@ HTML_TEMPLATE = """
                 const cinemasData = await cinemasRes.json();
 
                 allScreenings = screeningsData.screenings || [];
-
-                // Update stats
-                document.getElementById('screening-count').textContent = allScreenings.length;
-                const uniqueFilms = new Set(allScreenings.map(s => s.film_title));
-                document.getElementById('film-count').textContent = uniqueFilms.size;
 
                 // Build cinema filters
                 const filtersEl = document.getElementById('cinema-filters');
