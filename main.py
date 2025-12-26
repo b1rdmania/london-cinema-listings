@@ -90,15 +90,15 @@ CINEMA_INFO = {
     ),
 }
 
-# Available scrapers (will be sorted by distance if postcode provided)
+# Available scrapers - ordered by distance from N1 4HU
 CINEMAS = {
     "1": ("Rio (Dalston)", "rio"),
     "2": ("Curzon Hoxton", "curzon"),
-    "3": ("Prince Charles", "prince_charles"),
-    "4": ("Barbican", "barbican"),
-    "5": ("Garden", "garden"),
-    "6": ("Everyman Broadgate", "everyman"),
-    "7": ("Vue Islington", "vue"),
+    "3": ("Vue Islington", "vue"),
+    "4": ("Everyman Broadgate", "everyman"),
+    "5": ("Barbican", "barbican"),
+    "6": ("Garden", "garden"),
+    "7": ("Prince Charles", "prince_charles"),
 }
 
 # User's location (set via postcode)
