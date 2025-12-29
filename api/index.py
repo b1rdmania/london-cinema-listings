@@ -707,7 +707,6 @@ HTML_TEMPLATE = """
         let cinemaOrder = [];  // Maintains distance order from API
         let currentCinema = 'all';
         let currentDate = null;
-        let currentWeekDate = null;
 
         const TMDB_API_KEY = '5b70f4321b83ac657f3dead793bc93ec';
 
@@ -944,14 +943,6 @@ HTML_TEMPLATE = """
             tomorrowBtn.innerHTML = '<strong>TOMORROW</strong>';
             tomorrowBtn.onclick = () => filterByDate(tomorrow);
             dateNav.appendChild(tomorrowBtn);
-
-            // Create NEXT 7 DAYS button
-            const weekBtn = document.createElement('button');
-            weekBtn.className = 'date-btn';
-            weekBtn.dataset.date = 'week';
-            weekBtn.innerHTML = '<strong>NEXT 7 DAYS</strong>';
-            weekBtn.onclick = () => filterByDate('week');
-            dateNav.appendChild(weekBtn);
         }
 
         function filterByCinema(cinemaId) {
@@ -967,52 +958,7 @@ HTML_TEMPLATE = """
             document.querySelectorAll('.date-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.date === date);
             });
-
-            // Show/hide week date selector
-            const weekDates = document.getElementById('week-dates');
-            if (date === 'week') {
-                showWeekDateSelector();
-            } else if (weekDates) {
-                weekDates.style.display = 'none';
-            }
-
             renderScreenings();
-        }
-
-        function showWeekDateSelector() {
-            let weekDates = document.getElementById('week-dates');
-            if (!weekDates) {
-                weekDates = document.createElement('div');
-                weekDates.id = 'week-dates';
-                weekDates.className = 'date-nav';
-                weekDates.style.marginTop = '0.5rem';
-                document.getElementById('date-nav').after(weekDates);
-            }
-            weekDates.style.display = 'flex';
-            weekDates.innerHTML = '';
-
-            // Get next 7 days
-            const today = new Date();
-            for (let i = 0; i < 7; i++) {
-                const date = new Date(today);
-                date.setDate(today.getDate() + i);
-                const dateStr = date.toISOString().split('T')[0];
-                const dayName = date.toLocaleDateString('en-GB', { weekday: 'short' });
-                const dayNum = date.getDate();
-
-                const btn = document.createElement('button');
-                btn.className = 'date-btn' + (i === 0 ? ' active' : '');
-                btn.dataset.weekdate = dateStr;
-                btn.innerHTML = `${dayName} ${dayNum}`;
-                btn.onclick = () => {
-                    document.querySelectorAll('#week-dates .date-btn').forEach(b => b.classList.remove('active'));
-                    btn.classList.add('active');
-                    currentWeekDate = dateStr;
-                    renderScreenings();
-                };
-                weekDates.appendChild(btn);
-            }
-            currentWeekDate = today.toISOString().split('T')[0];
         }
 
         function renderScreenings() {
@@ -1023,14 +969,12 @@ HTML_TEMPLATE = """
             }
 
             // Handle date filtering
-            if (currentDate === 'week' && currentWeekDate) {
-                filtered = filtered.filter(s => s.start_time.startsWith(currentWeekDate));
-            } else if (currentDate && currentDate !== 'week') {
+            if (currentDate) {
                 filtered = filtered.filter(s => s.start_time.startsWith(currentDate));
             }
 
             // Highlight active date
-            document.querySelectorAll('#date-nav > .date-btn').forEach(btn => {
+            document.querySelectorAll('.date-btn').forEach(btn => {
                 btn.classList.toggle('active', btn.dataset.date === currentDate);
             });
 
