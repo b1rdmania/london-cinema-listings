@@ -74,21 +74,6 @@ CINEMAS = {
         "food": "Nachos, hot dogs, popcorn",
         "notes": "Large multiplex with Laser projection, 3D screens"
     },
-    "everyman-broadgate": {
-        "id": "everyman-broadgate",
-        "name": "Everyman Broadgate",
-        "area": "Liverpool Street",
-        "address": "35 Broadgate Circle, London EC2M 2QS",
-        "lat": 51.5197,
-        "lon": -0.0841,
-        "website": "https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/",
-        "screens": 3,
-        "seats": 150,
-        "sound": "Dolby 7.1",
-        "bar": True,
-        "food": "Hot food, cocktails, Spielburger kitchen",
-        "notes": "Premium Everyman venue with sofa seating"
-    },
     "barbican-cinema": {
         "id": "barbican-cinema",
         "name": "Barbican Cinema",
@@ -133,6 +118,21 @@ CINEMAS = {
         "bar": False,
         "food": "Snacks, pick & mix",
         "notes": "Famous for sing-alongs, double bills, cult films"
+    },
+    "everyman-broadgate": {
+        "id": "everyman-broadgate",
+        "name": "Everyman Broadgate",
+        "area": "Liverpool Street",
+        "address": "35 Broadgate Circle, London EC2M 2QS",
+        "lat": 51.5197,
+        "lon": -0.0841,
+        "website": "https://www.everymancinema.com/venues-list/x11nt-everyman-broadgate/",
+        "screens": 3,
+        "seats": 150,
+        "sound": "Dolby 7.1",
+        "bar": True,
+        "food": "Hot food, cocktails, Spielburger kitchen",
+        "notes": "Premium Everyman venue with sofa seating"
     }
 }
 
