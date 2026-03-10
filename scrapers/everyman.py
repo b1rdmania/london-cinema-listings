@@ -137,7 +137,7 @@ class EverymanScraper(BaseScraper):
                 let times = [];
                 let depth = 0;
 
-                while (container && depth < 10 && times.length === 0) {
+                while (container && depth < 4 && times.length === 0) {
                     const links = container.querySelectorAll('a[href*="purchase"]');
                     times = [...links].map(a => ({
                         time: a.getAttribute('aria-label') || a.textContent.trim(),
@@ -208,7 +208,7 @@ class EverymanScraper(BaseScraper):
                 let times = [];
                 let depth = 0;
 
-                while (container && depth < 10 && times.length === 0) {
+                while (container && depth < 4 && times.length === 0) {
                     const links = container.querySelectorAll('a[href*="purchase"]');
                     times = [...links].map(a => ({
                         time: a.getAttribute('aria-label') || a.textContent.trim(),
