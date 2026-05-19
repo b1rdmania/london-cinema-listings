@@ -1,1060 +1,16 @@
 {
   "screenings": [
     {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "C&B: The Christophers",
-      "start_time": "2026-05-18T11:00:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554797.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "Carers & Babies; Carers &amp; Babies",
-      "scraped_at": "2026-05-18T10:55:00.736527+01:00"
-    },
-    {
       "cinema_id": "everyman-broadgate",
       "cinema_name": "Everyman Broadgate",
       "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T11:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fea5a7ee-0d8c-53bc-ac52-5b46b77703da",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831749+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T11:30:00+01:00",
+      "start_time": "2026-05-19T11:30:00+01:00",
       "booking_url": "https://purchase.everymancinema.com/launch/ticketing/59d3a398-8db5-5cc2-9838-8db846dda3c2",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518582+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T11:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b63d6d6b-1693-55c5-b044-3246d8fa1f09",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831739+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T11:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c824173c-4fc3-5435-be78-a65e36f19329",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518555+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Seventh Seal",
-      "start_time": "2026-05-18T12:00:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625902",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-18T13:37:00+01:00",
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.237811+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T12:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c8244c48-9cd8-535f-84e3-c767edc9cd4f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518506+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Angel Heart",
-      "start_time": "2026-05-18T12:15:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625901",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-18T14:08:00+01:00",
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.238203+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Beyond: Primavera",
-      "start_time": "2026-05-18T12:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/33e6563e-6942-5fc6-ba8e-e0d38378f703",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831787+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Project Hail Mary",
-      "start_time": "2026-05-18T12:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e7f05e42-a3b9-5c4c-8567-435949ca1881",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518758+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Project Hail Mary",
-      "start_time": "2026-05-18T12:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/70938b13-8e38-5ca8-bb66-8a3866f895ca",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518763+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T12:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e20468ca-04c3-535c-b493-a46745085b0f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518500+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T13:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/10f67a6d-98f6-54ec-9fbf-f55d3697876e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518787+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T14:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7414d3d5-02de-54b6-ba3c-c19a77b4dcf1",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518825+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T14:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/30e9056b-f4dd-5bd4-a548-94dc51148d41",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518809+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Kokuho",
-      "start_time": "2026-05-18T14:25:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5556024.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.902858+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "Classic Matinee: HARD TRUTHS",
-      "start_time": "2026-05-18T14:30:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2266575.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "No Ads",
-      "scraped_at": "2026-05-18T10:55:00.736600+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Blade Runner 2049",
-      "start_time": "2026-05-18T14:30:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625903",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-18T17:13:00+01:00",
-      "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.238564+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T14:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4e177d27-77b4-5ed7-885a-58e014685026",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831764+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T14:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b9132cd6-61d5-55a1-ab69-2ac8d9a774d5",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518511+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T14:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/1f1d3468-1741-5bfb-a698-fdc2a5e7bd17",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518637+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Orphan",
-      "start_time": "2026-05-18T14:45:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5460958.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.903051+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Deer Hunter",
-      "start_time": "2026-05-18T14:50:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625900",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-18T17:53:00+01:00",
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.238905+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "ROMER\u00cdA",
-      "start_time": "2026-05-18T15:00:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554753.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736635+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Project Hail Mary",
-      "start_time": "2026-05-18T15:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/6419c658-bbb2-5dbf-b088-acfb6068240e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831782+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T15:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4ca34b17-2914-5875-9f2d-c890c2a44869",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518560+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T15:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/72a0ec3a-95b4-543f-9e14-3100b673693e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518603+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
-      "start_time": "2026-05-18T15:40:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/the-devil-wears-prada-2-12a-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844820+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T15:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ac5ba0c7-de73-5f95-bb09-5ba0b08372cd",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518592+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Hokum",
-      "start_time": "2026-05-18T15:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/20d88aca-2ae3-504d-bf6c-3a2faaedc1c5",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518729+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "The Christophers (15) (AD)",
-      "start_time": "2026-05-18T15:50:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/the-christophers-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-05-18T10:56:26.090366+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T16:00:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5452053.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.903241+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T16:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4d47ef3e-b001-582a-9629-96bba6ef5b4a",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518571+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T16:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fec0049d-f282-54f1-91fb-5fc7b05398ca",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518670+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T16:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/54898a75-67e2-5fcc-9e47-1285b5b4ec35",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518792+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T17:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/82c61958-a34c-5a44-b02b-4de204227151",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518649+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T17:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b652e372-f66b-5eda-837f-67cb1dd2ec4e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518830+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T17:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8cf73355-42d9-5227-9016-75c05fb0feea",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831753+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T17:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/26fc0c0f-8c0b-514e-899f-fb544da363e6",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518493+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T17:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9b0539f6-2036-552f-92b7-ef68f97c2a1e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518814+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Stranger",
-      "start_time": "2026-05-18T17:30:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5555978.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.903401+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Wake in Fright",
-      "start_time": "2026-05-18T17:50:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5452055.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.903561+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Hokum",
-      "start_time": "2026-05-18T18:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/61973174-ddf8-5688-acc0-a37193c0a4fa",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831773+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T18:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/55c8b52c-e3de-5b22-b058-bb929deee7c3",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518517+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T18:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d1742198-73d4-55ed-ad94-4460534e0d13",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518608+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Obsession",
-      "start_time": "2026-05-18T18:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9ac545b1-f283-527f-aa9a-0592327bcd7d",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518683+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Throwback: Top Gun (40th Anniversary)",
-      "start_time": "2026-05-18T18:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/81b2ed73-5b4a-5da6-a17e-78b35ae4a7d1",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518855+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "Rose of Nevada",
-      "start_time": "2026-05-18T18:10:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554755.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736711+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Relaxed Screening: Sirat",
-      "start_time": "2026-05-18T18:10:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/relaxed-screening-sirat-15",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-05-18T10:56:24.561843+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
-      "start_time": "2026-05-18T18:10:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/the-devil-wears-prada-2-12a-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844836+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "La ci\u00e9naga",
-      "start_time": "2026-05-18T18:10:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5302786.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.903703+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Kill Bill: The Whole Bloody Affair",
-      "start_time": "2026-05-18T18:15:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625904",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-18T22:56:00+01:00",
-      "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.239254+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "THE CHRISTOPHERS",
-      "start_time": "2026-05-18T18:20:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554749.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "Hard of Hearing; Hard of Hearing",
-      "scraped_at": "2026-05-18T10:55:00.736758+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "The Christophers (15) (AD)",
-      "start_time": "2026-05-18T18:20:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/the-christophers-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-05-18T10:56:26.090381+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T18:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/eda38e3d-1f98-522e-a253-efb86ffecadb",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831724+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T18:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/79586006-974b-5b21-af0c-1ffa14076f07",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518665+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Weekend",
-      "start_time": "2026-05-18T18:35:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625899",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-18T20:11:00+01:00",
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.239692+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Members' Preview: Power Ballad",
-      "start_time": "2026-05-18T18:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7ca96a41-2d9f-593a-8a2f-569a4fbfc817",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518677+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Finding Emily",
-      "start_time": "2026-05-18T18:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7c6ac1ed-b4fb-5323-8536-6d0749722b80",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518780+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T19:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/aec0d7c9-85a1-5d6e-af3f-47b1868900b6",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518587+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T19:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c8876216-96b3-5971-803c-b66ddb276e28",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518566+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T19:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/24104d6f-0da8-5c84-93e7-b6d351b4d415",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518798+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Orphan",
-      "start_time": "2026-05-18T20:00:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5460956.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.903076+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T20:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d3ba6de1-0fc3-5d01-8cb9-600b0af525bc",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831768+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T20:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/eecb5c5a-b9fa-504f-8ac7-4430bc5a315e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518654+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T20:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/a4fdb0c5-cd82-5a47-b7bd-afe9825583e5",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518835+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T20:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d7943ee7-54e7-52d2-81ce-b6928b75d30e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518819+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Orphan",
-      "start_time": "2026-05-18T20:25:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/orphan-15",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-05-18T10:56:22.623109+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Christophers",
-      "start_time": "2026-05-18T20:30:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5452057.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.903262+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T20:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c049bdea-1451-5333-b2ff-1ba1a69bdaa5",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831758+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T20:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3a668ecb-f60e-5401-9626-930f712ae8ce",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518577+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T20:35:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554751.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736842+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "THE CHRISTOPHERS",
-      "start_time": "2026-05-18T20:40:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554757.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736773+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Rose of Nevada (15) (AD)",
-      "start_time": "2026-05-18T20:40:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/rose-of-nevada-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-05-18T10:56:25.489753+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
-      "start_time": "2026-05-18T20:45:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/18/the-devil-wears-prada-2-12a-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844847+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T20:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/52153159-ddaa-588b-a37d-4a97a19d8bb1",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518643+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Finding Emily",
-      "start_time": "2026-05-18T20:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3a517ff2-413c-5a5e-9165-c1c0bee2f0f9",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518769+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Finding Emily",
-      "start_time": "2026-05-18T20:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5e9c591f-81bd-52a0-8e13-6a51f0d4dbd7",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518775+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Throwback: Do The Right Thing",
-      "start_time": "2026-05-18T20:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/68afbac3-e57a-51bc-9261-aa5e0a0e2556",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518862+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Hokum",
-      "start_time": "2026-05-18T21:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/866c3f1d-d4c5-59be-9ca4-826ec5839c95",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:36.831777+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Obsession",
-      "start_time": "2026-05-18T21:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/add9797c-0d80-5c87-ade5-cde719dd7705",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518700+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Hokum",
-      "start_time": "2026-05-18T21:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ebb82610-2263-532f-bee7-85a1f22ada47",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518734+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "The Devil Wears Prada 2",
-      "start_time": "2026-05-18T21:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b6076d05-a73d-55d8-854e-a192e06aa565",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518597+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Michael",
-      "start_time": "2026-05-18T21:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0db8fc4a-e845-5959-808a-40eeea195632",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518659+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Star Wars: The Mandalorian and Grogu",
-      "start_time": "2026-05-18T22:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5b032842-47ac-5e48-90ca-a9ca1b73a709",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518803+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Obsession",
-      "start_time": "2026-05-18T23:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/558a36b5-ebf7-5549-a73d-2c333cae2c74",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518689+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Obsession",
-      "start_time": "2026-05-18T23:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/2a791cb3-e6c3-5935-8f5c-dda297c87cf6",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518695+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Hokum",
-      "start_time": "2026-05-18T23:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/639a6a96-3e0b-52fa-81da-7c6624e77e13",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-05-18T10:56:40.518739+01:00"
+      "scraped_at": "2026-05-19T10:37:33.276662+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1066,7 +22,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466824+01:00"
+      "scraped_at": "2026-05-19T10:37:29.585978+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1078,7 +34,19 @@
       "screen": null,
       "end_time": "2026-05-19T13:33:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.240267+01:00"
+      "scraped_at": "2026-05-19T10:36:35.924957+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Christophers",
+      "start_time": "2026-05-19T12:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c8244c48-9cd8-535f-84e3-c767edc9cd4f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276602+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1090,7 +58,7 @@
       "screen": null,
       "end_time": "2026-05-19T13:44:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.240594+01:00"
+      "scraped_at": "2026-05-19T10:36:35.925377+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1102,7 +70,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.904268+01:00"
+      "scraped_at": "2026-05-19T10:37:20.660531+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Project Hail Mary",
+      "start_time": "2026-05-19T12:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/70938b13-8e38-5ca8-bb66-8a3866f895ca",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276818+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1114,7 +94,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.904450+01:00"
+      "scraped_at": "2026-05-19T10:37:20.660735+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1126,7 +106,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466842+01:00"
+      "scraped_at": "2026-05-19T10:37:29.586000+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1138,7 +118,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.904595+01:00"
+      "scraped_at": "2026-05-19T10:37:20.660885+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T13:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/282beb78-aeed-5a71-a9e5-98460aadde71",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276903+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T13:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/10f67a6d-98f6-54ec-9fbf-f55d3697876e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276842+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1150,7 +154,7 @@
       "screen": null,
       "end_time": "2026-05-19T17:08:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.240957+01:00"
+      "scraped_at": "2026-05-19T10:36:35.925797+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1162,7 +166,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466836+01:00"
+      "scraped_at": "2026-05-19T10:37:29.585993+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T14:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/30e9056b-f4dd-5bd4-a548-94dc51148d41",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276863+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Christophers",
+      "start_time": "2026-05-19T14:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b9132cd6-61d5-55a1-ab69-2ac8d9a774d5",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276608+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1174,7 +202,7 @@
       "screen": null,
       "end_time": "2026-05-19T16:53:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.241626+01:00"
+      "scraped_at": "2026-05-19T10:36:35.926844+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1186,7 +214,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.904766+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661056+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1198,7 +226,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466851+01:00"
+      "scraped_at": "2026-05-19T10:37:29.586010+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T15:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/72a0ec3a-95b4-543f-9e14-3100b673693e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276684+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1210,7 +250,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.904949+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661197+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1222,7 +262,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466860+01:00"
+      "scraped_at": "2026-05-19T10:37:29.586020+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T15:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ac5ba0c7-de73-5f95-bb09-5ba0b08372cd",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276673+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1234,7 +286,79 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.905148+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661356+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T16:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4d47ef3e-b001-582a-9629-96bba6ef5b4a",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276651+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-19T16:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fec0049d-f282-54f1-91fb-5fc7b05398ca",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276740+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T16:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/a74d8ab3-d2dc-5384-b308-605757216109",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276909+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T16:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/54898a75-67e2-5fcc-9e47-1285b5b4ec35",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276847+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-19T17:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/82c61958-a34c-5a44-b02b-4de204227151",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276718+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T17:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b652e372-f66b-5eda-837f-67cb1dd2ec4e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276879+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1246,7 +370,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:25.489768+01:00"
+      "scraped_at": "2026-05-19T10:37:17.909406+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T17:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9b0539f6-2036-552f-92b7-ef68f97c2a1e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276868+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1258,7 +394,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.905186+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661377+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1270,7 +406,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.905369+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661529+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1282,7 +418,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466814+01:00"
+      "scraped_at": "2026-05-19T10:37:29.585963+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1294,7 +430,7 @@
       "screen": null,
       "end_time": "2026-05-19T19:38:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.242489+01:00"
+      "scraped_at": "2026-05-19T10:36:35.927760+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1306,7 +442,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:22.623124+01:00"
+      "scraped_at": "2026-05-19T10:37:15.362972+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1318,7 +454,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.905565+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661673+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Christophers",
+      "start_time": "2026-05-19T18:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/55c8b52c-e3de-5b22-b058-bb929deee7c3",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276614+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T18:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d1742198-73d4-55ed-ad94-4460534e0d13",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276690+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Obsession",
+      "start_time": "2026-05-19T18:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9ac545b1-f283-527f-aa9a-0592327bcd7d",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276754+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1330,7 +502,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844857+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744512+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1342,7 +514,7 @@
       "screen": null,
       "end_time": "2026-05-19T19:37:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.243370+01:00"
+      "scraped_at": "2026-05-19T10:36:35.928659+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1354,7 +526,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466865+01:00"
+      "scraped_at": "2026-05-19T10:37:29.586025+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1366,7 +538,43 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736784+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327348+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-19T18:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/79586006-974b-5b21-af0c-1ffa14076f07",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276735+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Members' Preview: Power Ballad",
+      "start_time": "2026-05-19T18:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7ca96a41-2d9f-593a-8a2f-569a4fbfc817",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276747+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Finding Emily",
+      "start_time": "2026-05-19T18:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7c6ac1ed-b4fb-5323-8536-6d0749722b80",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276835+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1378,7 +586,31 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736913+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327544+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T19:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/aec0d7c9-85a1-5d6e-af3f-47b1868900b6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276668+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T19:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0a94c9a6-b103-5262-b5ff-500bc16f87fb",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276914+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1390,7 +622,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:21.966712+01:00"
+      "scraped_at": "2026-05-19T10:37:14.737718+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1402,7 +634,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.904290+01:00"
+      "scraped_at": "2026-05-19T10:37:20.660566+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1414,7 +646,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466846+01:00"
+      "scraped_at": "2026-05-19T10:37:29.586005+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T19:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/24104d6f-0da8-5c84-93e7-b6d351b4d415",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276852+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1426,7 +670,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.905745+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661819+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-19T20:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/eecb5c5a-b9fa-504f-8ac7-4430bc5a315e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276724+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T20:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/a4fdb0c5-cd82-5a47-b7bd-afe9825583e5",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276885+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1438,7 +706,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466832+01:00"
+      "scraped_at": "2026-05-19T10:37:29.585988+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T20:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d7943ee7-54e7-52d2-81ce-b6928b75d30e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276874+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1450,7 +730,19 @@
       "screen": null,
       "end_time": "2026-05-19T22:53:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.243713+01:00"
+      "scraped_at": "2026-05-19T10:36:35.929003+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T20:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3a668ecb-f60e-5401-9626-930f712ae8ce",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276657+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1462,7 +754,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736858+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327563+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1474,7 +766,7 @@
       "screen": null,
       "end_time": "2026-05-19T22:53:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.244141+01:00"
+      "scraped_at": "2026-05-19T10:36:35.929449+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1486,7 +778,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:26.090392+01:00"
+      "scraped_at": "2026-05-19T10:37:18.782326+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1498,7 +790,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844865+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744527+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1510,7 +802,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.905924+01:00"
+      "scraped_at": "2026-05-19T10:37:20.661973+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1522,7 +814,139 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:38.466855+01:00"
+      "scraped_at": "2026-05-19T10:37:29.586014+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Finding Emily",
+      "start_time": "2026-05-19T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3a517ff2-413c-5a5e-9165-c1c0bee2f0f9",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276824+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Finding Emily",
+      "start_time": "2026-05-19T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5e9c591f-81bd-52a0-8e13-6a51f0d4dbd7",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276830+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Throwback: Do The Right Thing",
+      "start_time": "2026-05-19T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/68afbac3-e57a-51bc-9261-aa5e0a0e2556",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276935+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Obsession",
+      "start_time": "2026-05-19T21:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/add9797c-0d80-5c87-ade5-cde719dd7705",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276770+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Hokum",
+      "start_time": "2026-05-19T21:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ebb82610-2263-532f-bee7-85a1f22ada47",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276793+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-19T21:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b6076d05-a73d-55d8-854e-a192e06aa565",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276679+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-19T21:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0db8fc4a-e845-5959-808a-40eeea195632",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276730+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Star Wars: The Mandalorian and Grogu",
+      "start_time": "2026-05-19T22:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5b032842-47ac-5e48-90ca-a9ca1b73a709",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276858+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Obsession",
+      "start_time": "2026-05-19T23:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/558a36b5-ebf7-5549-a73d-2c333cae2c74",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276759+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Obsession",
+      "start_time": "2026-05-19T23:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/2a791cb3-e6c3-5935-8f5c-dda297c87cf6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276765+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Hokum",
+      "start_time": "2026-05-19T23:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ed1739d1-ab9c-5f32-a08f-4c87b5e2eae7",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:33.276799+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1534,7 +958,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U*",
-      "scraped_at": "2026-05-18T10:56:23.424474+01:00"
+      "scraped_at": "2026-05-19T10:37:16.155679+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1546,7 +970,19 @@
       "screen": null,
       "end_time": "2026-05-20T14:33:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.244746+01:00"
+      "scraped_at": "2026-05-19T10:36:35.930075+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-20T11:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c824173c-4fc3-5435-be78-a65e36f19329",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233320+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1558,7 +994,31 @@
       "screen": null,
       "end_time": "2026-05-20T13:20:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.245817+01:00"
+      "scraped_at": "2026-05-19T10:36:35.931153+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Project Hail Mary",
+      "start_time": "2026-05-20T12:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e7f05e42-a3b9-5c4c-8567-435949ca1881",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233348+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Christophers",
+      "start_time": "2026-05-20T12:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e20468ca-04c3-535c-b493-a46745085b0f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233312+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1570,7 +1030,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.906406+01:00"
+      "scraped_at": "2026-05-19T10:37:20.662472+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1582,7 +1042,19 @@
       "screen": null,
       "end_time": "2026-05-20T17:08:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.246223+01:00"
+      "scraped_at": "2026-05-19T10:36:35.931576+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-20T14:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/1f1d3468-1741-5bfb-a698-fdc2a5e7bd17",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233334+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1594,7 +1066,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.906562+01:00"
+      "scraped_at": "2026-05-19T10:37:20.662612+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-20T15:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4ca34b17-2914-5875-9f2d-c890c2a44869",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233324+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1606,7 +1090,7 @@
       "screen": null,
       "end_time": "2026-05-20T17:04:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.246671+01:00"
+      "scraped_at": "2026-05-19T10:36:35.932038+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1618,7 +1102,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.906721+01:00"
+      "scraped_at": "2026-05-19T10:37:20.662775+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Hokum",
+      "start_time": "2026-05-20T15:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/20d88aca-2ae3-504d-bf6c-3a2faaedc1c5",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233342+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1630,7 +1126,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.906884+01:00"
+      "scraped_at": "2026-05-19T10:37:20.662953+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Christophers",
+      "start_time": "2026-05-20T17:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/26fc0c0f-8c0b-514e-899f-fb544da363e6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233301+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1642,7 +1150,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.906742+01:00"
+      "scraped_at": "2026-05-19T10:37:20.662796+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1654,7 +1162,7 @@
       "screen": null,
       "end_time": "2026-05-20T19:31:00+01:00",
       "notes": "Q&A",
-      "scraped_at": "2026-05-18T10:55:32.247175+01:00"
+      "scraped_at": "2026-05-19T10:36:35.932548+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1666,7 +1174,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:24.980927+01:00"
+      "scraped_at": "2026-05-19T10:37:17.327452+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Throwback: Top Gun (40th Anniversary)",
+      "start_time": "2026-05-20T18:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/81b2ed73-5b4a-5da6-a17e-78b35ae4a7d1",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233353+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1678,7 +1198,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736656+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327629+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1690,7 +1210,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:26.090402+01:00"
+      "scraped_at": "2026-05-19T10:37:18.782341+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1702,7 +1222,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844875+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744538+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1714,7 +1234,7 @@
       "screen": null,
       "end_time": "2026-05-20T19:51:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.247501+01:00"
+      "scraped_at": "2026-05-19T10:36:35.932858+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1726,7 +1246,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.736934+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327670+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1738,7 +1258,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.907021+01:00"
+      "scraped_at": "2026-05-19T10:37:20.663093+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Devil Wears Prada 2",
+      "start_time": "2026-05-20T19:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c8876216-96b3-5971-803c-b66ddb276e28",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233328+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1750,7 +1282,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.907178+01:00"
+      "scraped_at": "2026-05-19T10:37:20.663254+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1762,7 +1294,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:22.623134+01:00"
+      "scraped_at": "2026-05-19T10:37:15.362986+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1774,7 +1306,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15*",
-      "scraped_at": "2026-05-18T10:56:23.717146+01:00"
+      "scraped_at": "2026-05-19T10:37:16.420677+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1786,7 +1318,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736795+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327383+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1798,7 +1330,7 @@
       "screen": null,
       "end_time": "2026-05-20T23:20:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.247838+01:00"
+      "scraped_at": "2026-05-19T10:36:35.933217+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1810,7 +1342,19 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844883+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744548+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Michael",
+      "start_time": "2026-05-20T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/52153159-ddaa-588b-a37d-4a97a19d8bb1",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:31.233338+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1822,7 +1366,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736873+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327575+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1834,7 +1378,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.907313+01:00"
+      "scraped_at": "2026-05-19T10:37:20.663392+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1846,7 +1390,7 @@
       "screen": null,
       "end_time": "2026-05-20T22:32:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.248682+01:00"
+      "scraped_at": "2026-05-19T10:36:35.933904+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1858,7 +1402,7 @@
       "screen": null,
       "end_time": "2026-05-21T14:40:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.250158+01:00"
+      "scraped_at": "2026-05-19T10:36:35.935005+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1870,7 +1414,7 @@
       "screen": null,
       "end_time": "2026-05-21T17:00:00+01:00",
       "notes": "70mm",
-      "scraped_at": "2026-05-18T10:55:32.250579+01:00"
+      "scraped_at": "2026-05-19T10:36:35.935402+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1882,7 +1426,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.907803+01:00"
+      "scraped_at": "2026-05-19T10:37:20.663901+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1894,7 +1438,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:26.090413+01:00"
+      "scraped_at": "2026-05-19T10:37:18.782351+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1906,7 +1450,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844892+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744557+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1918,7 +1462,7 @@
       "screen": null,
       "end_time": "2026-05-21T17:12:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.251523+01:00"
+      "scraped_at": "2026-05-19T10:36:35.936352+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1930,7 +1474,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.907959+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664058+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1942,7 +1486,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.908132+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664232+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1954,7 +1498,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.908287+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664391+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1966,7 +1510,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:25.489779+01:00"
+      "scraped_at": "2026-05-19T10:37:17.909421+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1978,7 +1522,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:22.623143+01:00"
+      "scraped_at": "2026-05-19T10:37:15.362996+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1990,7 +1534,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736680+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327644+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2002,7 +1546,7 @@
       "screen": null,
       "end_time": "2026-05-21T19:34:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.251830+01:00"
+      "scraped_at": "2026-05-19T10:36:35.936662+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2014,7 +1558,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844900+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744567+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2026,7 +1570,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.908425+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664533+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2038,7 +1582,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736807+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327401+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2050,7 +1594,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.908573+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664671+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2062,7 +1606,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:21.966727+01:00"
+      "scraped_at": "2026-05-19T10:37:14.737732+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2074,7 +1618,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.907979+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664078+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2086,7 +1630,7 @@
       "screen": null,
       "end_time": "2026-05-21T22:14:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.252147+01:00"
+      "scraped_at": "2026-05-19T10:36:35.937008+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2098,7 +1642,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736887+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327596+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2110,7 +1654,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.908706+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664806+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2122,7 +1666,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:26.090422+01:00"
+      "scraped_at": "2026-05-19T10:37:18.782360+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2134,7 +1678,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:26.844910+01:00"
+      "scraped_at": "2026-05-19T10:37:19.744576+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2146,7 +1690,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736724+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327697+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2158,7 +1702,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.908151+01:00"
+      "scraped_at": "2026-05-19T10:37:20.664252+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2170,7 +1714,7 @@
       "screen": null,
       "end_time": "2026-05-22T13:40:00+01:00",
       "notes": "35mm; Subtitled",
-      "scraped_at": "2026-05-18T10:55:32.253087+01:00"
+      "scraped_at": "2026-05-19T10:36:35.937949+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2182,7 +1726,7 @@
       "screen": null,
       "end_time": "2026-05-22T13:59:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.253390+01:00"
+      "scraped_at": "2026-05-19T10:36:35.938264+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2194,7 +1738,7 @@
       "screen": null,
       "end_time": "2026-05-22T16:51:00+01:00",
       "notes": "Unreserved",
-      "scraped_at": "2026-05-18T10:55:32.253720+01:00"
+      "scraped_at": "2026-05-19T10:36:35.938587+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2206,7 +1750,43 @@
       "screen": null,
       "end_time": "2026-05-22T16:59:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.254035+01:00"
+      "scraped_at": "2026-05-19T10:36:35.938931+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-22T15:30:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/22/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744585+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-22T15:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592542.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.665278+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Rose of Nevada (15) (AD)",
+      "start_time": "2026-05-22T15:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/22/rose-of-nevada-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:17.909433+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2218,7 +1798,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.909108+01:00"
+      "scraped_at": "2026-05-19T10:37:20.665419+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2230,7 +1810,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.909243+01:00"
+      "scraped_at": "2026-05-19T10:37:20.665558+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2242,7 +1822,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736955+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327821+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2254,7 +1834,7 @@
       "screen": null,
       "end_time": "2026-05-22T22:51:00+01:00",
       "notes": "35mm / DCP",
-      "scraped_at": "2026-05-18T10:55:32.254465+01:00"
+      "scraped_at": "2026-05-19T10:36:35.939371+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2266,7 +1846,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.909383+01:00"
+      "scraped_at": "2026-05-19T10:37:20.665701+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-22T18:10:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572827.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327414+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-22T18:10:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/22/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744594+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2278,7 +1882,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.909529+01:00"
+      "scraped_at": "2026-05-19T10:37:20.665838+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2290,7 +1894,7 @@
       "screen": null,
       "end_time": "2026-05-22T20:00:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.254772+01:00"
+      "scraped_at": "2026-05-19T10:36:35.939700+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2302,7 +1906,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.909666+01:00"
+      "scraped_at": "2026-05-19T10:37:20.665990+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2314,7 +1918,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.909805+01:00"
+      "scraped_at": "2026-05-19T10:37:20.666136+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2326,7 +1930,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737024+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327979+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2338,7 +1942,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737045+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328006+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2350,7 +1954,19 @@
       "screen": null,
       "end_time": "2026-05-22T22:33:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.255069+01:00"
+      "scraped_at": "2026-05-19T10:36:35.940032+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-22T20:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/22/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744602+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2362,7 +1978,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Family Friendly; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737142+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328115+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2374,7 +1990,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-05-18T10:56:21.624037+01:00"
+      "scraped_at": "2026-05-19T10:37:14.136586+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2386,7 +2002,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-05-18T10:56:27.910210+01:00"
+      "scraped_at": "2026-05-19T10:37:20.666701+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2398,7 +2014,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:22.907251+01:00"
+      "scraped_at": "2026-05-19T10:37:15.642910+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2410,7 +2026,7 @@
       "screen": null,
       "end_time": "2026-05-23T13:18:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.255367+01:00"
+      "scraped_at": "2026-05-19T10:36:35.940343+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2422,7 +2038,19 @@
       "screen": null,
       "end_time": "2026-05-23T13:59:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.255687+01:00"
+      "scraped_at": "2026-05-19T10:36:35.940659+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-23T12:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592558.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.666838+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2434,7 +2062,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.910354+01:00"
+      "scraped_at": "2026-05-19T10:37:20.666996+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2446,7 +2074,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737061+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328022+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2458,7 +2086,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.910532+01:00"
+      "scraped_at": "2026-05-19T10:37:20.667160+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2470,7 +2098,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737167+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328141+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2482,7 +2110,7 @@
       "screen": null,
       "end_time": "2026-05-23T15:20:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.255987+01:00"
+      "scraped_at": "2026-05-19T10:36:35.940984+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2494,7 +2122,55 @@
       "screen": null,
       "end_time": "2026-05-23T16:41:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.256313+01:00"
+      "scraped_at": "2026-05-19T10:36:35.941330+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-23T14:40:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/23/kokuho-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:14.737742+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-23T15:15:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572855.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327712+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-23T15:20:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/23/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744610+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Eagles of the Republic",
+      "start_time": "2026-05-23T15:25:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/23/eagles-of-the-republic-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:13.620878+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2506,7 +2182,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.910668+01:00"
+      "scraped_at": "2026-05-19T10:37:20.667298+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2518,7 +2194,7 @@
       "screen": null,
       "end_time": "2026-05-23T17:33:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.256814+01:00"
+      "scraped_at": "2026-05-19T10:36:35.941818+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2530,7 +2206,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.910801+01:00"
+      "scraped_at": "2026-05-19T10:37:20.667434+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Romer\u00eda",
+      "start_time": "2026-05-23T16:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592560.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.667570+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-23T17:15:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572851.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327427+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2542,7 +2242,7 @@
       "screen": null,
       "end_time": "2026-05-23T19:38:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.257129+01:00"
+      "scraped_at": "2026-05-19T10:36:35.942162+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2554,7 +2254,31 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736971+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327838+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-23T18:00:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/23/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744619+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-23T18:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592556.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.667704+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2566,7 +2290,31 @@
       "screen": null,
       "end_time": "2026-05-23T20:03:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.257750+01:00"
+      "scraped_at": "2026-05-19T10:36:35.942793+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Our Land",
+      "start_time": "2026-05-23T19:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592562.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.667838+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-23T19:45:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572853.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327439+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2578,7 +2326,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.910374+01:00"
+      "scraped_at": "2026-05-19T10:37:20.667017+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-23T20:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572857.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327728+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2590,7 +2350,19 @@
       "screen": null,
       "end_time": "2026-05-23T23:08:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.259445+01:00"
+      "scraped_at": "2026-05-19T10:36:35.944424+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-23T20:35:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/23/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744627+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2602,7 +2374,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.910933+01:00"
+      "scraped_at": "2026-05-19T10:37:20.667986+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2614,7 +2386,7 @@
       "screen": null,
       "end_time": "2026-05-23T22:55:00+01:00",
       "notes": "Subtitled",
-      "scraped_at": "2026-05-18T10:55:32.260111+01:00"
+      "scraped_at": "2026-05-19T10:36:35.945121+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2626,7 +2398,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:22.265542+01:00"
+      "scraped_at": "2026-05-19T10:37:15.015844+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2638,7 +2410,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-05-18T10:56:27.911327+01:00"
+      "scraped_at": "2026-05-19T10:37:20.668532+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2650,7 +2422,7 @@
       "screen": null,
       "end_time": "2026-05-24T15:30:00+01:00",
       "notes": "70mm",
-      "scraped_at": "2026-05-18T10:55:32.250672+01:00"
+      "scraped_at": "2026-05-19T10:36:35.935493+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2662,7 +2434,43 @@
       "screen": null,
       "end_time": "2026-05-24T13:35:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.261064+01:00"
+      "scraped_at": "2026-05-19T10:36:35.946118+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Hen",
+      "start_time": "2026-05-24T12:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592582.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.668677+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-24T12:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592574.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.668832+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-24T13:50:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/24/kokuho-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:14.737750+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2674,7 +2482,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737192+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328165+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2686,7 +2494,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.736985+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327852+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2698,7 +2506,31 @@
       "screen": null,
       "end_time": "2026-05-24T16:07:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.261365+01:00"
+      "scraped_at": "2026-05-19T10:36:35.946429+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-24T14:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/24/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744636+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "La Grazia",
+      "start_time": "2026-05-24T15:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592580.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.668980+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2710,7 +2542,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.911481+01:00"
+      "scraped_at": "2026-05-19T10:37:20.669128+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2722,7 +2554,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.911619+01:00"
+      "scraped_at": "2026-05-19T10:37:20.669269+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "AM\u00c9LIE",
+      "start_time": "2026-05-24T15:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572929.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.328188+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Eagles of the Republic",
+      "start_time": "2026-05-24T15:35:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/24/eagles-of-the-republic-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:13.620914+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2734,7 +2590,7 @@
       "screen": null,
       "end_time": "2026-05-24T18:31:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.261719+01:00"
+      "scraped_at": "2026-05-19T10:36:35.946761+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2746,7 +2602,7 @@
       "screen": null,
       "end_time": "2026-05-24T18:40:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.262205+01:00"
+      "scraped_at": "2026-05-19T10:36:35.947279+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2758,7 +2614,19 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737077+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328038+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-24T17:20:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/24/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744644+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2770,7 +2638,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.911757+01:00"
+      "scraped_at": "2026-05-19T10:37:20.669415+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Rose of Nevada (15) (AD)",
+      "start_time": "2026-05-24T17:25:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/24/rose-of-nevada-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:17.909443+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-24T18:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592578.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.669557+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-24T18:10:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572875.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327451+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2782,7 +2686,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.911892+01:00"
+      "scraped_at": "2026-05-19T10:37:20.669695+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2794,7 +2698,19 @@
       "screen": null,
       "end_time": "2026-05-24T22:30:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.262590+01:00"
+      "scraped_at": "2026-05-19T10:36:35.947661+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "ORPHAN",
+      "start_time": "2026-05-24T19:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554828.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327867+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2806,7 +2722,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.912027+01:00"
+      "scraped_at": "2026-05-19T10:37:20.668697+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2818,19 +2734,31 @@
       "screen": null,
       "end_time": "2026-05-24T22:23:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.244837+01:00"
+      "scraped_at": "2026-05-19T10:36:35.930169+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-24T20:00:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/24/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744652+01:00"
     },
     {
       "cinema_id": "rio",
       "cinema_name": "Rio Cinema",
-      "film_title": "ORPHAN",
-      "start_time": "2026-05-24T20:00:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554828.TcsSection_1299",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-24T20:25:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572877.TcsSection_936",
       "format": null,
-      "screen": "Screen 2",
+      "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737000+01:00"
+      "scraped_at": "2026-05-19T10:36:22.327743+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2842,7 +2770,7 @@
       "screen": null,
       "end_time": "2026-05-25T21:58:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.263413+01:00"
+      "scraped_at": "2026-05-19T10:36:35.948531+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2854,7 +2782,7 @@
       "screen": null,
       "end_time": "2026-05-25T12:22:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.264084+01:00"
+      "scraped_at": "2026-05-19T10:36:35.949199+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2866,7 +2794,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-05-18T10:56:27.912366+01:00"
+      "scraped_at": "2026-05-19T10:37:20.670222+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2878,7 +2806,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:25.748888+01:00"
+      "scraped_at": "2026-05-19T10:37:18.190475+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2890,7 +2818,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:23.156989+01:00"
+      "scraped_at": "2026-05-19T10:37:15.888946+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Eagles of the Republic",
+      "start_time": "2026-05-25T12:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5461121.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.670371+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2902,19 +2842,19 @@
       "screen": null,
       "end_time": "2026-05-25T14:18:00+01:00",
       "notes": "Subtitled",
-      "scraped_at": "2026-05-18T10:55:32.264407+01:00"
+      "scraped_at": "2026-05-19T10:36:35.949520+01:00"
     },
     {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
-      "film_title": "Eagles of the Republic",
-      "start_time": "2026-05-25T13:15:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5461121.TcsSection_3060731",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-25T13:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592683.TcsSection_971",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.912524+01:00"
+      "scraped_at": "2026-05-19T10:37:20.670538+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2926,7 +2866,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.912676+01:00"
+      "scraped_at": "2026-05-19T10:37:20.670702+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "ORPHAN",
+      "start_time": "2026-05-25T14:25:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572887.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327882+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-25T14:50:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/25/kokuho-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:14.737758+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "AM\u00c9LIE",
+      "start_time": "2026-05-25T15:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572931.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.328204+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2938,7 +2914,31 @@
       "screen": null,
       "end_time": "2026-05-25T16:52:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.264738+01:00"
+      "scraped_at": "2026-05-19T10:36:35.949832+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Orphan",
+      "start_time": "2026-05-25T15:25:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592611.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.670860+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-25T15:30:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/25/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744661+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2950,7 +2950,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.912809+01:00"
+      "scraped_at": "2026-05-19T10:37:20.671009+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2962,7 +2962,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737096+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328055+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2974,7 +2974,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.912941+01:00"
+      "scraped_at": "2026-05-19T10:37:20.671143+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2986,7 +2986,79 @@
       "screen": null,
       "end_time": "2026-05-25T19:44:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.265135+01:00"
+      "scraped_at": "2026-05-19T10:36:35.950260+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-25T17:45:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572881.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "Hard of Hearing; Hard of Hearing",
+      "scraped_at": "2026-05-19T10:36:22.327463+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-25T18:10:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/25/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744669+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-25T18:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592605.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.671281+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-25T19:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592607.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.670557+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-25T19:35:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572885.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327759+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-25T20:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572883.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327474+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2998,7 +3070,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.912544+01:00"
+      "scraped_at": "2026-05-19T10:37:20.670392+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3010,7 +3082,31 @@
       "screen": null,
       "end_time": "2026-05-25T22:55:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.265581+01:00"
+      "scraped_at": "2026-05-19T10:36:35.950677+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-25T20:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/25/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744677+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Hen",
+      "start_time": "2026-05-25T20:50:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592681.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.670721+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3022,7 +3118,7 @@
       "screen": null,
       "end_time": "2026-05-26T13:57:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.266091+01:00"
+      "scraped_at": "2026-05-19T10:36:35.951197+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3034,7 +3130,43 @@
       "screen": null,
       "end_time": "2026-05-26T14:04:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.266598+01:00"
+      "scraped_at": "2026-05-19T10:36:35.951669+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Hen",
+      "start_time": "2026-05-26T13:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592700.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.671761+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-26T13:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592635.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.671930+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Orphan",
+      "start_time": "2026-05-26T14:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592633.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.672065+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3046,7 +3178,7 @@
       "screen": null,
       "end_time": "2026-05-26T17:00:00+01:00",
       "notes": "Subtitled",
-      "scraped_at": "2026-05-18T10:55:32.260200+01:00"
+      "scraped_at": "2026-05-19T10:36:35.945210+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3058,7 +3190,19 @@
       "screen": null,
       "end_time": "2026-05-26T17:33:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.266923+01:00"
+      "scraped_at": "2026-05-19T10:36:35.952018+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "The Stranger",
+      "start_time": "2026-05-26T17:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592637.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.672202+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3070,7 +3214,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.913222+01:00"
+      "scraped_at": "2026-05-19T10:37:20.672340+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "ORPHAN",
+      "start_time": "2026-05-26T18:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572899.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327915+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3082,7 +3238,7 @@
       "screen": null,
       "end_time": "2026-05-26T19:35:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.267332+01:00"
+      "scraped_at": "2026-05-19T10:36:35.952427+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3094,7 +3250,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.913359+01:00"
+      "scraped_at": "2026-05-19T10:37:20.672480+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-26T18:10:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/26/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744685+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-26T18:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572895.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327484+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3106,7 +3286,31 @@
       "screen": null,
       "end_time": "2026-05-26T20:08:00+01:00",
       "notes": "\u00a31 Members",
-      "scraped_at": "2026-05-18T10:55:32.267748+01:00"
+      "scraped_at": "2026-05-19T10:36:35.952822+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-26T20:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592629.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.672616+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Romer\u00eda",
+      "start_time": "2026-05-26T20:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592627.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.672755+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3118,7 +3322,7 @@
       "screen": null,
       "end_time": "2026-05-26T22:50:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.268074+01:00"
+      "scraped_at": "2026-05-19T10:36:35.953163+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3130,7 +3334,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.913509+01:00"
+      "scraped_at": "2026-05-19T10:37:20.671782+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-26T20:35:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572897.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327776+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-26T20:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/26/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744693+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NORTHERN SOUL: STILL BURNING",
+      "start_time": "2026-05-26T20:50:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572901.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.328072+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3142,7 +3382,7 @@
       "screen": null,
       "end_time": "2026-05-26T22:39:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.252235+01:00"
+      "scraped_at": "2026-05-19T10:36:35.937097+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3154,7 +3394,7 @@
       "screen": null,
       "end_time": "2026-05-27T14:15:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.268494+01:00"
+      "scraped_at": "2026-05-19T10:36:35.953569+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3166,7 +3406,19 @@
       "screen": null,
       "end_time": "2026-05-27T14:24:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.268918+01:00"
+      "scraped_at": "2026-05-19T10:36:35.954000+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-27T14:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592656.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.673146+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3178,7 +3430,7 @@
       "screen": null,
       "end_time": "2026-05-27T16:51:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.269322+01:00"
+      "scraped_at": "2026-05-19T10:36:35.954407+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3190,7 +3442,19 @@
       "screen": null,
       "end_time": "2026-05-27T17:22:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.269730+01:00"
+      "scraped_at": "2026-05-19T10:36:35.954816+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Our Land",
+      "start_time": "2026-05-27T15:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592658.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.673283+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3202,7 +3466,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.913755+01:00"
+      "scraped_at": "2026-05-19T10:37:20.673417+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Orphan",
+      "start_time": "2026-05-27T17:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592654.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.673552+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-27T17:35:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592646.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.673688+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3214,7 +3502,19 @@
       "screen": null,
       "end_time": "2026-05-27T22:00:00+01:00",
       "notes": "70mm",
-      "scraped_at": "2026-05-18T10:55:32.250761+01:00"
+      "scraped_at": "2026-05-19T10:36:35.935579+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-27T18:10:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/27/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744701+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3226,7 +3526,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737112+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328088+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3238,7 +3538,7 @@
       "screen": null,
       "end_time": "2026-05-27T19:59:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.270038+01:00"
+      "scraped_at": "2026-05-19T10:36:35.955145+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3250,7 +3550,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737219+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328230+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3262,7 +3562,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.913889+01:00"
+      "scraped_at": "2026-05-19T10:37:20.673824+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "ORPHAN",
+      "start_time": "2026-05-27T20:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572905.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327933+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-27T20:45:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572903.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327495+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3274,7 +3598,19 @@
       "screen": null,
       "end_time": "2026-05-27T22:17:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.248805+01:00"
+      "scraped_at": "2026-05-19T10:36:35.933994+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-27T20:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/27/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744709+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3286,7 +3622,7 @@
       "screen": null,
       "end_time": "2026-05-28T14:02:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.270353+01:00"
+      "scraped_at": "2026-05-19T10:36:35.955467+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3298,7 +3634,7 @@
       "screen": null,
       "end_time": "2026-05-28T14:28:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.270783+01:00"
+      "scraped_at": "2026-05-19T10:36:35.955884+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3310,7 +3646,19 @@
       "screen": null,
       "end_time": "2026-05-28T16:34:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.271258+01:00"
+      "scraped_at": "2026-05-19T10:36:35.956388+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "La Grazia",
+      "start_time": "2026-05-28T15:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592674.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.674232+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3322,7 +3670,19 @@
       "screen": null,
       "end_time": "2026-05-28T17:36:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.271585+01:00"
+      "scraped_at": "2026-05-19T10:36:35.956703+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-28T15:30:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/28/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744717+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3334,7 +3694,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.914193+01:00"
+      "scraped_at": "2026-05-19T10:37:20.674378+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Rose of Nevada (15) (AD)",
+      "start_time": "2026-05-28T15:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/28/rose-of-nevada-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-05-19T10:37:17.909452+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "ORPHAN",
+      "start_time": "2026-05-28T17:40:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572912.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327950+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3346,7 +3730,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.914212+01:00"
+      "scraped_at": "2026-05-19T10:37:20.674398+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3358,7 +3742,7 @@
       "screen": null,
       "end_time": "2026-05-28T19:41:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.271927+01:00"
+      "scraped_at": "2026-05-19T10:36:35.957067+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3370,7 +3754,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.914347+01:00"
+      "scraped_at": "2026-05-19T10:37:20.674536+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-28T18:10:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/28/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744725+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3382,7 +3778,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.914493+01:00"
+      "scraped_at": "2026-05-19T10:37:20.674671+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3394,7 +3790,7 @@
       "screen": null,
       "end_time": "2026-05-28T19:55:00+01:00",
       "notes": "Subtitled",
-      "scraped_at": "2026-05-18T10:55:32.272558+01:00"
+      "scraped_at": "2026-05-19T10:36:35.957672+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3406,7 +3802,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737250+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328266+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3418,7 +3814,31 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737280+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328293+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Kokuho",
+      "start_time": "2026-05-28T20:20:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592672.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.674805+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Rose of Nevada",
+      "start_time": "2026-05-28T20:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572914.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327791+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3430,7 +3850,7 @@
       "screen": null,
       "end_time": "2026-05-28T22:13:00+01:00",
       "notes": "4K; Q&A",
-      "scraped_at": "2026-05-18T10:55:32.273167+01:00"
+      "scraped_at": "2026-05-19T10:36:35.958294+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3442,7 +3862,43 @@
       "screen": null,
       "end_time": "2026-05-28T22:48:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.273538+01:00"
+      "scraped_at": "2026-05-19T10:36:35.958651+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "The Devil Wears Prada 2 (12A) (AD)",
+      "start_time": "2026-05-28T20:45:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/05/28/the-devil-wears-prada-2-12a-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "12A",
+      "scraped_at": "2026-05-19T10:37:19.744735+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "The Stranger",
+      "start_time": "2026-05-28T20:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592702.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.674956+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE CHRISTOPHERS",
+      "start_time": "2026-05-28T20:50:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2572910.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.327506+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3454,7 +3910,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-05-18T10:56:27.914878+01:00"
+      "scraped_at": "2026-05-19T10:37:20.675357+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3466,7 +3922,7 @@
       "screen": null,
       "end_time": "2026-05-29T13:20:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.274223+01:00"
+      "scraped_at": "2026-05-19T10:36:35.959348+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3478,7 +3934,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-05-18T10:56:24.286979+01:00"
+      "scraped_at": "2026-05-19T10:37:16.928319+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3490,7 +3946,7 @@
       "screen": null,
       "end_time": "2026-05-29T14:10:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.274720+01:00"
+      "scraped_at": "2026-05-19T10:36:35.959834+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3502,7 +3958,7 @@
       "screen": null,
       "end_time": "2026-05-29T16:45:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.247927+01:00"
+      "scraped_at": "2026-05-19T10:36:35.933308+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3514,7 +3970,7 @@
       "screen": null,
       "end_time": "2026-05-29T16:59:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.275112+01:00"
+      "scraped_at": "2026-05-19T10:36:35.960258+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3526,7 +3982,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.915014+01:00"
+      "scraped_at": "2026-05-19T10:37:20.675497+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3538,7 +3994,7 @@
       "screen": null,
       "end_time": "2026-05-29T19:41:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.275605+01:00"
+      "scraped_at": "2026-05-19T10:36:35.960672+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3550,7 +4006,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.915148+01:00"
+      "scraped_at": "2026-05-19T10:37:20.675633+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3562,7 +4018,7 @@
       "screen": null,
       "end_time": "2026-05-29T19:46:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.276098+01:00"
+      "scraped_at": "2026-05-19T10:36:35.961166+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3574,7 +4030,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737306+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328326+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3586,7 +4042,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.915305+01:00"
+      "scraped_at": "2026-05-19T10:37:20.675789+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3598,7 +4054,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.915475+01:00"
+      "scraped_at": "2026-05-19T10:37:20.675961+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3610,7 +4066,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737476+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328469+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3622,19 +4078,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.915608+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Room",
-      "start_time": "2026-05-29T20:40:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625864",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-05-29T22:19:00+01:00",
-      "notes": "Unreserved",
-      "scraped_at": "2026-05-18T10:55:32.276505+01:00"
+      "scraped_at": "2026-05-19T10:37:20.676099+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3646,7 +4090,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737325+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328343+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3658,7 +4102,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.915325+01:00"
+      "scraped_at": "2026-05-19T10:37:20.675810+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3670,7 +4114,7 @@
       "screen": null,
       "end_time": "2026-05-29T23:00:00+01:00",
       "notes": "Unreserved",
-      "scraped_at": "2026-05-18T10:55:32.276981+01:00"
+      "scraped_at": "2026-05-19T10:36:35.961997+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3682,7 +4126,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2026-05-18T10:56:21.361211+01:00"
+      "scraped_at": "2026-05-19T10:37:13.871739+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3694,7 +4138,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-05-18T10:56:27.916058+01:00"
+      "scraped_at": "2026-05-19T10:37:20.676571+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3706,7 +4150,7 @@
       "screen": null,
       "end_time": "2026-05-30T13:42:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.277285+01:00"
+      "scraped_at": "2026-05-19T10:36:35.962306+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3718,7 +4162,7 @@
       "screen": null,
       "end_time": "2026-05-30T16:30:00+01:00",
       "notes": "70mm",
-      "scraped_at": "2026-05-18T10:55:32.250849+01:00"
+      "scraped_at": "2026-05-19T10:36:35.935665+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3730,7 +4174,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.916192+01:00"
+      "scraped_at": "2026-05-19T10:37:20.676708+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3742,7 +4186,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.916325+01:00"
+      "scraped_at": "2026-05-19T10:37:20.676847+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3754,7 +4198,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15*",
-      "scraped_at": "2026-05-18T10:56:21.095145+01:00"
+      "scraped_at": "2026-05-19T10:37:13.355374+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3766,7 +4210,7 @@
       "screen": null,
       "end_time": "2026-05-30T17:14:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.277612+01:00"
+      "scraped_at": "2026-05-19T10:36:35.962618+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3778,7 +4222,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737343+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328359+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3790,7 +4234,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.916476+01:00"
+      "scraped_at": "2026-05-19T10:37:20.676998+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3802,7 +4246,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737505+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328495+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3814,7 +4258,7 @@
       "screen": null,
       "end_time": "2026-05-30T19:12:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.277952+01:00"
+      "scraped_at": "2026-05-19T10:36:35.962967+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3826,7 +4270,7 @@
       "screen": null,
       "end_time": "2026-05-30T19:58:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.278348+01:00"
+      "scraped_at": "2026-05-19T10:36:35.963474+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3838,7 +4282,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.916611+01:00"
+      "scraped_at": "2026-05-19T10:37:20.677134+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3850,7 +4294,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.916762+01:00"
+      "scraped_at": "2026-05-19T10:37:20.677286+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3862,7 +4306,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737362+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328375+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3874,7 +4318,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.916914+01:00"
+      "scraped_at": "2026-05-19T10:37:20.677442+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3886,7 +4330,7 @@
       "screen": null,
       "end_time": "2026-05-31T07:58:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.263515+01:00"
+      "scraped_at": "2026-05-19T10:36:35.948619+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3898,7 +4342,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.917051+01:00"
+      "scraped_at": "2026-05-19T10:37:20.677581+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3910,7 +4354,7 @@
       "screen": null,
       "end_time": "2026-05-30T22:23:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.257837+01:00"
+      "scraped_at": "2026-05-19T10:36:35.942881+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3922,7 +4366,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.916782+01:00"
+      "scraped_at": "2026-05-19T10:37:20.677306+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3934,7 +4378,7 @@
       "screen": null,
       "end_time": "2026-05-31T07:46:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.278737+01:00"
+      "scraped_at": "2026-05-19T10:36:35.963865+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3946,7 +4390,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-05-18T10:56:27.917455+01:00"
+      "scraped_at": "2026-05-19T10:37:20.678004+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3958,7 +4402,7 @@
       "screen": null,
       "end_time": "2026-05-31T14:45:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-05-18T10:55:32.262677+01:00"
+      "scraped_at": "2026-05-19T10:36:35.947751+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3970,7 +4414,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737529+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328525+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3982,7 +4426,7 @@
       "screen": null,
       "end_time": "2026-05-31T13:43:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.279130+01:00"
+      "scraped_at": "2026-05-19T10:36:35.964281+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3994,7 +4438,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737549+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328547+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4006,7 +4450,7 @@
       "screen": null,
       "end_time": "2026-05-31T16:08:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.279445+01:00"
+      "scraped_at": "2026-05-19T10:36:35.964597+01:00"
     },
     {
       "cinema_id": "rio",
@@ -4018,7 +4462,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737380+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328392+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4030,7 +4474,7 @@
       "screen": null,
       "end_time": "2026-05-31T16:42:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.279851+01:00"
+      "scraped_at": "2026-05-19T10:36:35.965017+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4042,7 +4486,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-05-18T10:56:24.024683+01:00"
+      "scraped_at": "2026-05-19T10:37:16.669022+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4054,7 +4498,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.917601+01:00"
+      "scraped_at": "2026-05-19T10:37:20.678147+01:00"
     },
     {
       "cinema_id": "rio",
@@ -4066,7 +4510,19 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-05-18T10:55:00.737577+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328576+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Backrooms",
+      "start_time": "2026-05-31T16:20:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5593596.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.678295+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4078,7 +4534,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.917735+01:00"
+      "scraped_at": "2026-05-19T10:37:20.678451+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4090,7 +4546,7 @@
       "screen": null,
       "end_time": "2026-05-31T19:10:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.280250+01:00"
+      "scraped_at": "2026-05-19T10:36:35.965434+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4102,7 +4558,7 @@
       "screen": null,
       "end_time": "2026-05-31T19:35:00+01:00",
       "notes": "Subtitled",
-      "scraped_at": "2026-05-18T10:55:32.260286+01:00"
+      "scraped_at": "2026-05-19T10:36:35.945301+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4114,7 +4570,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.917870+01:00"
+      "scraped_at": "2026-05-19T10:37:20.678595+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4126,7 +4582,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.918009+01:00"
+      "scraped_at": "2026-05-19T10:37:20.678743+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4138,7 +4594,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.918147+01:00"
+      "scraped_at": "2026-05-19T10:37:20.678315+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4150,7 +4606,7 @@
       "screen": null,
       "end_time": "2026-05-31T22:18:00+01:00",
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:32.241713+01:00"
+      "scraped_at": "2026-05-19T10:36:35.926978+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4162,7 +4618,7 @@
       "screen": null,
       "end_time": "2026-05-31T22:21:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-05-18T10:55:32.280764+01:00"
+      "scraped_at": "2026-05-19T10:36:35.965964+01:00"
     },
     {
       "cinema_id": "rio",
@@ -4174,7 +4630,43 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:55:00.737400+01:00"
+      "scraped_at": "2026-05-19T10:36:22.328407+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "La Haine",
+      "start_time": "2026-06-01T12:30:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31626047",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T14:08:00+01:00",
+      "notes": "4K",
+      "scraped_at": "2026-05-19T10:36:35.927853+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Persepolis",
+      "start_time": "2026-06-01T12:45:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31626046",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T14:20:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:35.966364+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Bullet in the Head",
+      "start_time": "2026-06-01T15:00:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31624494",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T17:11:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:35.960754+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4186,55 +4678,103 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.918528+01:00"
+      "scraped_at": "2026-05-19T10:37:20.679137+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Klute",
+      "start_time": "2026-06-01T15:20:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31626045",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T17:13:00+01:00",
+      "notes": "35mm",
+      "scraped_at": "2026-05-19T10:36:35.966673+01:00"
     },
     {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
       "film_title": "Cronos",
-      "start_time": "2026-06-01T15:30:00+01:00",
+      "start_time": "2026-06-01T15:20:00+01:00",
       "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5523485.TcsSection_971",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.918667+01:00"
+      "scraped_at": "2026-05-19T10:37:20.679274+01:00"
     },
     {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Backrooms",
-      "start_time": "2026-06-01T15:45:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5494987.TcsSection_3060731",
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "BACKROOMS",
+      "start_time": "2026-06-01T15:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554856.TcsSection_936",
       "format": null,
-      "screen": null,
+      "screen": "Screen 1",
       "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.918835+01:00"
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.328424+01:00"
     },
     {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
       "film_title": "Backrooms",
-      "start_time": "2026-06-01T17:30:00+01:00",
+      "start_time": "2026-06-01T17:20:00+01:00",
       "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5494989.TcsSection_638",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.918855+01:00"
+      "scraped_at": "2026-05-19T10:37:20.679434+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Flirting with Disaster",
+      "start_time": "2026-06-01T18:00:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31626273",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T19:33:00+01:00",
+      "notes": "\u00a31 Members",
+      "scraped_at": "2026-05-19T10:36:35.967004+01:00"
     },
     {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
-      "film_title": "Portrait of a Lady on Fire",
+      "film_title": "Mystery Of The First Temple",
       "start_time": "2026-06-01T18:00:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5494032.TcsSection_3060731",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5592914.TcsSection_971",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.919009+01:00"
+      "scraped_at": "2026-05-19T10:37:20.679590+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Lawrence of Arabia",
+      "start_time": "2026-06-01T18:30:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31625809",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T22:30:00+01:00",
+      "notes": "70mm",
+      "scraped_at": "2026-05-19T10:36:35.935750+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "SXSW London - Virginia Woolf's Night and Day (18) (World Premiere)",
+      "start_time": "2026-06-01T19:30:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/06/01/sxsw-london-virginia-woolf-s-night-and-day-18-world-premiere",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "18",
+      "scraped_at": "2026-05-19T10:37:18.444277+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4246,7 +4786,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-05-18T10:56:27.919146+01:00"
+      "scraped_at": "2026-05-19T10:37:20.679727+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "BACKROOMS",
+      "start_time": "2026-06-01T20:25:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2554858.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:22.328439+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Cabaret",
+      "start_time": "2026-06-01T20:25:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31626275",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-06-01T22:28:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-05-19T10:36:35.967325+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4258,19 +4822,91 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-05-18T10:56:27.918874+01:00"
+      "scraped_at": "2026-05-19T10:37:20.679453+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Backrooms",
+      "start_time": "2026-06-02T14:35:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5494995.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-05-19T10:37:20.680126+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Zama",
+      "start_time": "2026-06-02T15:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5302801.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.680287+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Bullet in the Head",
+      "start_time": "2026-06-02T17:35:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5523628.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.680424+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Relatos salvajes (Wild Tales)",
+      "start_time": "2026-06-02T18:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5572243.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.680560+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Adam's Rib",
+      "start_time": "2026-06-02T20:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5413940.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-05-19T10:37:20.680694+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Backrooms",
+      "start_time": "2026-06-02T20:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5494993.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-05-19T10:37:20.680149+01:00"
     }
   ],
-  "generated_at": "2026-05-18T09:57:41.006177",
-  "total_screenings": 355,
+  "generated_at": "2026-05-19T09:38:33.853153",
+  "total_screenings": 408,
   "cinemas": 7,
   "stats": {
-    "Rio Cinema": 45,
+    "Rio Cinema": 62,
     "Curzon Hoxton": 0,
     "Prince Charles Cinema": 103,
-    "Barbican Cinema": 38,
-    "Garden Cinema": 100,
-    "Everyman Broadgate": 69,
+    "Barbican Cinema": 58,
+    "Garden Cinema": 125,
+    "Everyman Broadgate": 60,
     "Vue Islington": 0
   }
 }
