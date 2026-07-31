@@ -151,14 +151,34 @@ CINEMAS = {
     }
 }
 
+# Venues whose listings are generated outside the main GitHub Action and
+# merged in here. BFI IMAX sits behind Cloudflare, which blocks GitHub's
+# runners but not a residential connection, so it is scraped locally by
+# scripts/update_bfi_imax.py and committed as its own file.
+SIDECAR_FILES = ('bfi_imax_screenings.json',)
+
+
 def load_screenings():
-    """Load screenings from static JSON file."""
-    data_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'screenings.json')
+    """Load screenings from the generated JSON, plus any sidecar venue files."""
+    data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data')
+
     try:
-        with open(data_path, 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        return {"screenings": [], "generated_at": None, "total_screenings": 0}
+        with open(os.path.join(data_dir, 'screenings.json'), 'r') as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = {"screenings": [], "generated_at": None, "total_screenings": 0}
+
+    for filename in SIDECAR_FILES:
+        try:
+            with open(os.path.join(data_dir, filename), 'r') as f:
+                sidecar = json.load(f)
+        except (FileNotFoundError, json.JSONDecodeError):
+            continue
+        data['screenings'].extend(sidecar.get('screenings', []))
+
+    data['screenings'].sort(key=lambda s: s.get('start_time') or '')
+    data['total_screenings'] = len(data['screenings'])
+    return data
 
 
 @app.get("/api/cinemas")
