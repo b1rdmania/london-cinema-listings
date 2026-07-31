@@ -39,6 +39,8 @@ from zoneinfo import ZoneInfo
 
 from playwright.async_api import async_playwright
 
+from scrapers.bfi_imax import launch_browser
+
 BASE_URL = "https://whatson.bfi.org.uk/imax/Online/default.asp"
 LONDON = ZoneInfo("Europe/London")
 
@@ -86,7 +88,7 @@ async def _settle_cloudflare(page, timeout_s: int = 45) -> bool:
 async def fetch_performances(article_id: str, headless: bool = True) -> list[dict]:
     """Return every performance for an article as a list of dicts."""
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=headless, channel="chrome")
+        browser = await launch_browser(p)
         context = await browser.new_context(user_agent=USER_AGENT, locale="en-GB")
         page = await context.new_page()
         try:

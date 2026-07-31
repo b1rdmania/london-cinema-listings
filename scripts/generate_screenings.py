@@ -23,6 +23,7 @@ from scrapers.barbican import BarbicanScraper
 from scrapers.garden import GardenScraper
 from scrapers.everyman import EverymanScraper
 from scrapers.vue import VueScraper
+from scrapers.bfi_imax import BFIImaxScraper
 
 
 SCRAPERS = [
@@ -31,9 +32,14 @@ SCRAPERS = [
     ("Prince Charles Cinema", PrinceCharlesScraper()),
     ("Barbican Cinema", BarbicanScraper()),
     ("Garden Cinema", GardenScraper()),
+    ("BFI IMAX", BFIImaxScraper()),
     ("Everyman Broadgate", EverymanScraper()),
     ("Vue Islington", VueScraper()),
 ]
+
+# Venues that legitimately return zero screenings when everything is sold out,
+# so an empty result should not be reported as a failure.
+MAY_BE_EMPTY = {"BFI IMAX"}
 
 
 async def run_scraper(name: str, scraper, days_ahead: int = 14) -> list:
@@ -100,7 +106,12 @@ async def main():
     print("SUMMARY")
     print("="*60)
     for name, count in stats.items():
-        status = "OK" if count > 0 else "FAILED"
+        if count > 0:
+            status = "OK"
+        elif name in MAY_BE_EMPTY:
+            status = "OK (nothing on sale)"
+        else:
+            status = "FAILED"
         print(f"  {name}: {count} screenings [{status}]")
     print(f"\n  TOTAL: {len(output)} screenings")
     print(f"  Output: {output_path}")

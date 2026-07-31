@@ -119,6 +119,21 @@ CINEMAS = {
         "food": "Snacks, pick & mix",
         "notes": "Famous for sing-alongs, double bills, cult films"
     },
+    "bfi-imax": {
+        "id": "bfi-imax",
+        "name": "BFI IMAX",
+        "area": "Waterloo",
+        "address": "1 Charlie Chaplin Walk, London SE1 8XR",
+        "lat": 51.5110,
+        "lon": -0.1136,
+        "website": "https://whatson.bfi.org.uk/imax/Online/",
+        "screens": 1,
+        "seats": 454,
+        "sound": "IMAX 12-channel",
+        "bar": True,
+        "food": "Bar, snacks",
+        "notes": "UK's largest screen (20m x 26m), IMAX 70mm and laser projection"
+    },
     "everyman-broadgate": {
         "id": "everyman-broadgate",
         "name": "Everyman Broadgate",
