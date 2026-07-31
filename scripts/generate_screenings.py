@@ -42,8 +42,14 @@ SCRAPERS = [
 MAY_BE_EMPTY = {"BFI IMAX"}
 
 
-async def run_scraper(name: str, scraper, days_ahead: int = 14) -> list:
-    """Run a single scraper with error handling."""
+async def run_scraper(name: str, scraper, days_ahead: int = 14):
+    """
+    Run a single scraper with error handling.
+
+    Returns the list of screenings, or None if the scraper raised. None and []
+    mean different things: None is a failure, [] is a successful run that found
+    nothing on sale. Collapsing the two hides outages behind an empty listing.
+    """
     print(f"\n{'='*50}")
     print(f"Scraping {name}...")
     print('='*50)
@@ -54,7 +60,7 @@ async def run_scraper(name: str, scraper, days_ahead: int = 14) -> list:
         return screenings
     except Exception as e:
         print(f"  ERROR: {e}")
-        return []
+        return None
 
 
 async def main():
@@ -67,8 +73,13 @@ async def main():
     all_screenings = []
     stats = {}
 
+    failures = []
     for name, scraper in SCRAPERS:
         screenings = await run_scraper(name, scraper)
+        if screenings is None:
+            failures.append(name)
+            stats[name] = 0
+            continue
         stats[name] = len(screenings)
         all_screenings.extend(screenings)
 
@@ -106,7 +117,9 @@ async def main():
     print("SUMMARY")
     print("="*60)
     for name, count in stats.items():
-        if count > 0:
+        if name in failures:
+            status = "FAILED"
+        elif count > 0:
             status = "OK"
         elif name in MAY_BE_EMPTY:
             status = "OK (nothing on sale)"
