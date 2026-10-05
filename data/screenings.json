@@ -1,462 +1,6 @@
 {
   "screenings": [
     {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Knife: The Attempted Murder of Salman Rushdie",
-      "start_time": "2026-10-04T12:30:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6228476.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.372924+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Late Fame",
-      "start_time": "2026-10-04T13:10:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6306508.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.373136+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Sense and Sensibility",
-      "start_time": "2026-10-04T13:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3e3841d1-eefd-519f-b0c9-92a9098b9262",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757616+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "DIGGER",
-      "start_time": "2026-10-04T14:00:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2926196.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695829+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Digger (15) (AD)",
-      "start_time": "2026-10-04T14:15:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/digger-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180300+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Verity",
-      "start_time": "2026-10-04T14:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0e4a5c2b-284b-55f0-854d-d9961abfff98",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757576+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Sense and Sensibility",
-      "start_time": "2026-10-04T14:20:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/sense-and-sensibility-u",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150103+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "BLACK HISTORY MONTH: FEARLESS + Q&A",
-      "start_time": "2026-10-04T14:30:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2886858.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696000+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Madness: Take It or Leave It",
-      "start_time": "2026-10-04T14:45:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6306502.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.373336+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Suspiria [1977]",
-      "start_time": "2026-10-04T15:00:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627851",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-04T16:39:00+01:00",
-      "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.900994+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "La Femme Infid\u00e8le",
-      "start_time": "2026-10-04T15:15:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6306506.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.373551+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Heart Of The Beast",
-      "start_time": "2026-10-04T15:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c76c8dae-2a5d-5f74-a8ee-f2604df20725",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757628+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "London Latino Film Festival presents: Querido tr\u00f3pico (Beloved Tropic)",
-      "start_time": "2026-10-04T16:00:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6020644.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.373737+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Bad Apples",
-      "start_time": "2026-10-04T16:15:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8d88f8d3-0be4-5fa8-9677-6a74af9bb37c",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757634+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "SENSE AND SENSIBILITY",
-      "start_time": "2026-10-04T16:45:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2926198.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696025+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Portuguese House",
-      "start_time": "2026-10-04T16:45:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6148723.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.373949+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "DIGGER",
-      "start_time": "2026-10-04T17:00:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2903261.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695861+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Digger (15) (AD)",
-      "start_time": "2026-10-04T17:00:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/digger-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180314+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Digger",
-      "start_time": "2026-10-04T17:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c8c51b1e-87b9-5984-996a-563954a54028",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757604+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Sense and Sensibility",
-      "start_time": "2026-10-04T17:10:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/sense-and-sensibility-u",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150117+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Bad Apples",
-      "start_time": "2026-10-04T17:20:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6306504.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.374134+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Cabinet of Dr. Caligari with Live Score",
-      "start_time": "2026-10-04T17:45:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31626004",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-04T19:02:00+01:00",
-      "notes": "LIVE SCORE",
-      "scraped_at": "2026-10-04T12:44:06.902298+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Verity",
-      "start_time": "2026-10-04T17:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/44aa66ce-ce7e-5bc8-b8bd-17efb500134a",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757588+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "A Nightmare On Elm Street",
-      "start_time": "2026-10-04T18:25:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627533",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-04T19:54:00+01:00",
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.902883+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Resident Evil",
-      "start_time": "2026-10-04T18:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/bdd8d4c3-43b5-5edf-90b6-9a91a5826321",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757622+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Szamanka",
-      "start_time": "2026-10-04T19:00:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5889058.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.374319+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Madness: Take It or Leave It",
-      "start_time": "2026-10-04T19:15:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6148785.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.373367+01:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Extra Geography",
-      "start_time": "2026-10-04T19:30:00+01:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6270144.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.374501+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "SENSE AND SENSIBILITY",
-      "start_time": "2026-10-04T19:45:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2926200.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696040+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Sense and Sensibility",
-      "start_time": "2026-10-04T19:45:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/sense-and-sensibility-u",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150128+01:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "DIGGER",
-      "start_time": "2026-10-04T20:00:00+01:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2926194.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695879+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Shining [UK Version]",
-      "start_time": "2026-10-04T20:00:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627480",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-04T21:59:00+01:00",
-      "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.903709+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Knife: The Attempted Murder of Salman Rushdie (15) (AD)",
-      "start_time": "2026-10-04T20:00:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/knife-the-attempted-murder-of-salman-rushdie-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.270275+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Verity",
-      "start_time": "2026-10-04T20:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/f02f3adb-bda6-5d96-abf9-98df85d5afc7",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757595+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Digger (15) (AD)",
-      "start_time": "2026-10-04T20:15:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/04/digger-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180326+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Throwback: Casino Royale (20th Anniversary",
-      "start_time": "2026-10-04T20:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0e5ee33f-dc4b-5062-8c17-a431fe96212d",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757640+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Nadja \u2022 4K Restoration \u2022 London Premiere",
-      "start_time": "2026-10-04T20:35:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627714",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-04T22:08:00+01:00",
-      "notes": "PREMIERE",
-      "scraped_at": "2026-10-04T12:44:06.905826+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Digger",
-      "start_time": "2026-10-04T21:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/760396bf-a2c1-545b-810e-77b979ea00be",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:50.757609+01:00"
-    },
-    {
       "cinema_id": "rio",
       "cinema_name": "Rio Cinema",
       "film_title": "Carers & Babies: DIGGER",
@@ -466,67 +10,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Carers & Babies",
-      "scraped_at": "2026-10-04T12:43:59.696212+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Parent & Baby Screening: Sense and Sensibility",
-      "start_time": "2026-10-05T11:15:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/05/parent-baby-screening-sense-and-sensibility-u",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "U",
-      "scraped_at": "2026-10-04T12:44:52.593607+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Pressure",
-      "start_time": "2026-10-05T11:45:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/89d2cc66-2ac2-568a-ae92-15b7812d4f8b",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388195+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Verity",
-      "start_time": "2026-10-05T12:00:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d77c6fc8-f742-550c-ab6b-f977c264d1df",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388163+01:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Digger",
-      "start_time": "2026-10-05T12:30:00+01:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/6f730a79-e172-519b-8009-647e2440a537",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388170+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Cruising",
-      "start_time": "2026-10-05T12:45:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627538",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-05T14:27:00+01:00",
-      "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.906364+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303751+01:00"
     },
     {
       "cinema_id": "rio",
@@ -538,19 +22,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696067+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Howling",
-      "start_time": "2026-10-05T13:05:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627540",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-05T14:36:00+01:00",
-      "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.906926+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303819+01:00"
     },
     {
       "cinema_id": "rio",
@@ -562,7 +34,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695893+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303952+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -574,7 +46,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388211+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422552+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -586,7 +58,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388184+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422532+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T14:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/be59c385-5664-5cd4-be70-b65101a538b4",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131751+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -598,7 +82,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.375072+01:00"
+      "scraped_at": "2026-10-05T14:30:15.707212+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Social Reckoning",
+      "start_time": "2026-10-05T15:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/cf6feb1c-9812-5174-94b2-e4fba09cad04",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132221+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -610,19 +106,7 @@
       "screen": null,
       "end_time": "2026-10-05T17:03:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.907345+01:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Digger (15) (AD)",
-      "start_time": "2026-10-05T15:20:00+01:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/05/digger-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180335+01:00"
+      "scraped_at": "2026-10-05T14:29:24.218077+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -634,7 +118,7 @@
       "screen": null,
       "end_time": "2026-10-05T17:47:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.908020+01:00"
+      "scraped_at": "2026-10-05T14:29:24.218722+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -646,7 +130,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.375264+01:00"
+      "scraped_at": "2026-10-05T14:30:15.707383+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -658,7 +142,55 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388201+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422543+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T15:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3d33d552-4179-5304-91bb-a54ca1eb73be",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131928+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Resident Evil",
+      "start_time": "2026-10-05T15:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/77e7c0eb-1b60-55f2-a536-b44d5505a884",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132073+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Resident Evil",
+      "start_time": "2026-10-05T15:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d5036a21-2d1a-56c8-9510-b8f90dc91e5a",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132092+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Throwback: The Hunger Games",
+      "start_time": "2026-10-05T15:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/35aba4fb-1909-5a75-9664-f7ba0e0ca4f8",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132267+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -670,7 +202,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.375449+01:00"
+      "scraped_at": "2026-10-05T14:30:15.707542+01:00"
     },
     {
       "cinema_id": "rio",
@@ -682,7 +214,19 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": "Hard of Hearing",
-      "scraped_at": "2026-10-04T12:43:59.696238+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304042+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T16:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4c677f26-f45a-507d-96ac-27761dc7e3fa",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131852+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -694,7 +238,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388174+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422522+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T16:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/40c2a301-1789-5ac8-bed3-97413198bfdf",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131783+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T16:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3830e042-7c79-509e-9357-d643a4129335",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132002+01:00"
     },
     {
       "cinema_id": "rio",
@@ -706,7 +274,43 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695907+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303963+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Social Reckoning",
+      "start_time": "2026-10-05T17:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/65ebbb12-4284-5de7-9e2c-7f2389c72e2f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132204+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Sense and Sensibility",
+      "start_time": "2026-10-05T17:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ee5df7e4-b215-535b-b7d1-0bdf3d60a75d",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132044+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Other Mommy",
+      "start_time": "2026-10-05T17:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/955abbd8-b990-55c3-aafa-e310cb5999d1",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132240+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -718,7 +322,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.375633+01:00"
+      "scraped_at": "2026-10-05T14:30:15.707702+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T17:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/ba78ddc1-0f73-5dbe-987d-26148a882259",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131762+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -730,7 +346,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.375833+01:00"
+      "scraped_at": "2026-10-05T14:30:15.707850+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -742,7 +358,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388148+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422501+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T17:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c6896faa-d388-5371-bbd1-0d87423bb096",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131873+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T17:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5387f6a4-376d-57b1-ac64-40d2daea25e6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131965+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T17:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/575d6434-a598-5369-9fdd-961ddf884477",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131993+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -754,7 +406,7 @@
       "screen": null,
       "end_time": "2026-10-05T19:48:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.908500+01:00"
+      "scraped_at": "2026-10-05T14:29:24.219149+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -766,7 +418,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.376014+01:00"
+      "scraped_at": "2026-10-05T14:30:15.708001+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -778,7 +430,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180344+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263516+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -790,19 +442,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.270290+01:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Teen Wolf",
-      "start_time": "2026-10-05T18:30:00+01:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627536",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-10-05T20:01:00+01:00",
-      "notes": "\u00a31 Members",
-      "scraped_at": "2026-10-04T12:44:06.910072+01:00"
+      "scraped_at": "2026-10-05T14:30:09.425053+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -814,7 +454,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388206+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422547+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Resident Evil",
+      "start_time": "2026-10-05T18:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5847d8ec-c063-5b92-8837-cf9ed57bfa71",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132064+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Social Reckoning",
+      "start_time": "2026-10-05T18:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/82f84c3c-e6e7-513f-84ac-0283959e13f9",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132195+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Heart Of The Beast",
+      "start_time": "2026-10-05T18:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/078f6876-cd8f-50f5-b85c-99985143781e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132150+01:00"
     },
     {
       "cinema_id": "rio",
@@ -826,7 +502,43 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696094+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303843+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T19:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c7ed13ad-64cb-5f08-bb3d-beea1ffc1b73",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131937+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T19:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/a8e2c322-ee0f-55fb-a800-7e3a2f57dd04",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131984+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T19:40:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/25cf2362-526d-5187-a31f-a1e914234ed0",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131793+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -838,7 +550,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388178+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422526+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T19:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/800a3543-c3fc-5bb1-8ac3-79f81af9f08b",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131862+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Social Reckoning",
+      "start_time": "2026-10-05T19:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/6644fa9f-806d-513c-b850-101a512eea5d",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132229+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -850,7 +586,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.376190+01:00"
+      "scraped_at": "2026-10-05T14:30:15.708152+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -862,7 +598,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.376366+01:00"
+      "scraped_at": "2026-10-05T14:30:15.708301+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T20:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/65343b03-e07f-5665-a228-3c60400fc06e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131772+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Practical Magic 2",
+      "start_time": "2026-10-05T20:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/95c36445-deff-5ed3-a4ad-3ff9a2ba9fcb",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132112+01:00"
     },
     {
       "cinema_id": "rio",
@@ -874,7 +634,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695920+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303974+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -886,7 +646,7 @@
       "screen": null,
       "end_time": "2026-10-05T22:07:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.910474+01:00"
+      "scraped_at": "2026-10-05T14:29:24.220753+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -898,7 +658,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.376542+01:00"
+      "scraped_at": "2026-10-05T14:30:15.708446+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -910,7 +670,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388158+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422514+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T20:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/151acb80-888d-5086-9fed-c90c9bb4cbf6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131835+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -922,7 +694,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150137+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346065+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -934,7 +706,7 @@
       "screen": null,
       "end_time": "2026-10-05T23:03:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.911038+01:00"
+      "scraped_at": "2026-10-05T14:29:24.221671+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -946,7 +718,43 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180352+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263532+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-05T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c61e3ad9-b9c2-50cc-98c5-79bfba9e4f48",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131975+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Heart Of The Beast",
+      "start_time": "2026-10-05T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/6bd3eaef-178d-5204-9f03-42a9738db80a",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132132+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Other Mommy",
+      "start_time": "2026-10-05T20:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/cfa1985b-b662-59cb-803c-aadaa39228bf",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132257+01:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -958,7 +766,127 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:45:52.388189+01:00"
+      "scraped_at": "2026-10-05T14:31:17.422537+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-05T21:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8ec8cb6e-20d5-5b4e-bf45-0e9c86e28a45",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131883+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Resident Evil",
+      "start_time": "2026-10-05T21:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/010925c3-1c63-55ad-b821-e9369701be13",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132083+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "The Social Reckoning",
+      "start_time": "2026-10-05T21:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d7194d4f-c267-5582-8192-b6541e960516",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132213+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Other Mommy",
+      "start_time": "2026-10-05T22:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e99a8abe-6a11-503e-b530-8fe68a6f2c82",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132248+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "After Dark: Hokum",
+      "start_time": "2026-10-05T22:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/32ed412d-7a68-5908-9881-90a318f02c0f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132286+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "After Dark: Hokum",
+      "start_time": "2026-10-05T23:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d98b9b26-1d9e-5e09-b5ea-928109e3b6b9",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132278+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-06T11:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/29e9a87e-0e94-5cf4-965c-3d159c49f23e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131823+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Sense and Sensibility",
+      "start_time": "2026-10-06T11:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/6e790637-b540-5b7d-a87a-3b0f27e5cfd8",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132034+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-06T12:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5a863041-5fef-5822-808d-6db55eb7d749",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:19.060849+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Heart Of The Beast",
+      "start_time": "2026-10-06T12:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/02cf0e4f-38cf-5cd6-988a-fac412343bca",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132141+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -970,7 +898,31 @@
       "screen": null,
       "end_time": "2026-10-06T14:04:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.911543+01:00"
+      "scraped_at": "2026-10-05T14:29:24.222105+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-06T12:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/12c96276-48b9-5292-9647-2c75b599df1e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:19.060838+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-06T12:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9f6ce7ef-2aaf-52c0-bcd5-057e7b3228b3",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131947+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -982,7 +934,7 @@
       "screen": null,
       "end_time": "2026-10-06T14:44:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.912090+01:00"
+      "scraped_at": "2026-10-05T14:29:24.222542+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -994,7 +946,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.377147+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709001+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Sense and Sensibility",
+      "start_time": "2026-10-06T13:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/88b9a79a-6807-5462-93b5-86de08a1c688",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:19.060856+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Bad Apples",
+      "start_time": "2026-10-06T13:00:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/78fcf481-e126-5af3-83dd-7f6e7a4cdc68",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132171+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1006,7 +982,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.377327+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709150+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Hope",
+      "start_time": "2026-10-06T13:15:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/583a971d-232c-5141-90c5-17376fb250b5",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.132184+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1018,7 +1006,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.377513+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709299+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Digger",
+      "start_time": "2026-10-06T13:45:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9c292443-f55c-57d2-b619-34e532803f58",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131957+01:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Verity",
+      "start_time": "2026-10-06T14:30:00+01:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/64d35560-1ba5-525d-aa90-7339c516fccc",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:31:21.131805+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1030,7 +1042,7 @@
       "screen": null,
       "end_time": "2026-10-06T17:04:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.912820+01:00"
+      "scraped_at": "2026-10-05T14:29:24.223136+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1042,7 +1054,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.377690+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709448+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1054,7 +1066,7 @@
       "screen": null,
       "end_time": "2026-10-06T17:29:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.913963+01:00"
+      "scraped_at": "2026-10-05T14:29:24.224073+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1066,7 +1078,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.377897+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709596+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1078,7 +1090,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.378076+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709750+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1090,7 +1102,7 @@
       "screen": null,
       "end_time": "2026-10-06T19:48:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.914378+01:00"
+      "scraped_at": "2026-10-05T14:29:24.224414+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1102,7 +1114,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150146+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346078+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1114,7 +1126,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.378250+01:00"
+      "scraped_at": "2026-10-05T14:30:15.709897+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1126,7 +1138,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180361+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263543+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1138,7 +1150,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:55.314161+01:00"
+      "scraped_at": "2026-10-05T14:30:13.664136+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1150,7 +1162,7 @@
       "screen": null,
       "end_time": "2026-10-06T19:57:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.915048+01:00"
+      "scraped_at": "2026-10-05T14:29:24.224964+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1162,7 +1174,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.378433+01:00"
+      "scraped_at": "2026-10-05T14:30:15.710048+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1174,7 +1186,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695932+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303984+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1186,7 +1198,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696114+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303862+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1198,7 +1210,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.378630+01:00"
+      "scraped_at": "2026-10-05T14:30:15.710213+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1210,7 +1222,7 @@
       "screen": null,
       "end_time": "2026-10-06T22:42:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.915497+01:00"
+      "scraped_at": "2026-10-05T14:29:24.225349+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1222,7 +1234,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150156+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346088+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1234,7 +1246,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180370+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263552+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1246,7 +1258,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.270302+01:00"
+      "scraped_at": "2026-10-05T14:30:09.425070+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1258,7 +1270,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.378831+01:00"
+      "scraped_at": "2026-10-05T14:30:15.710358+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1270,7 +1282,7 @@
       "screen": null,
       "end_time": "2026-10-06T22:29:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.916711+01:00"
+      "scraped_at": "2026-10-05T14:29:24.226373+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1282,7 +1294,7 @@
       "screen": null,
       "end_time": "2026-10-07T14:08:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.917287+01:00"
+      "scraped_at": "2026-10-05T14:29:24.226838+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1294,7 +1306,7 @@
       "screen": null,
       "end_time": "2026-10-07T14:38:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.908622+01:00"
+      "scraped_at": "2026-10-05T14:29:24.219260+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1306,7 +1318,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.379334+01:00"
+      "scraped_at": "2026-10-05T14:30:15.710883+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1318,7 +1330,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.379508+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711031+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1330,7 +1342,7 @@
       "screen": null,
       "end_time": "2026-10-07T17:24:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.903862+01:00"
+      "scraped_at": "2026-10-05T14:29:24.227674+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1342,7 +1354,7 @@
       "screen": null,
       "end_time": "2026-10-07T17:12:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.918164+01:00"
+      "scraped_at": "2026-10-05T14:29:24.229235+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1354,7 +1366,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.379687+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711177+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1366,7 +1378,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.379887+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711322+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1378,7 +1390,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.380068+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711471+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1390,7 +1402,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150166+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346097+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1402,7 +1414,7 @@
       "screen": null,
       "end_time": "2026-10-07T19:35:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.918592+01:00"
+      "scraped_at": "2026-10-05T14:29:24.229621+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1414,7 +1426,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180378+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263561+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1426,7 +1438,7 @@
       "screen": null,
       "end_time": "2026-10-07T19:26:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.919368+01:00"
+      "scraped_at": "2026-10-05T14:29:24.230265+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1438,7 +1450,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.380248+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711625+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1450,7 +1462,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:48.733519+01:00"
+      "scraped_at": "2026-10-05T14:30:06.461197+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1462,7 +1474,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695945+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303995+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1474,7 +1486,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696133+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303883+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1486,7 +1498,7 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696255+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304072+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1498,7 +1510,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.380425+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711774+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1510,7 +1522,7 @@
       "screen": null,
       "end_time": "2026-10-07T21:59:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.919874+01:00"
+      "scraped_at": "2026-10-05T14:29:24.230661+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1522,7 +1534,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.380610+01:00"
+      "scraped_at": "2026-10-05T14:30:15.711923+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1534,7 +1546,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150175+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346106+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1546,7 +1558,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180388+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263571+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1558,7 +1570,7 @@
       "screen": null,
       "end_time": "2026-10-07T22:39:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.901126+01:00"
+      "scraped_at": "2026-10-05T14:29:24.231032+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1570,7 +1582,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.270313+01:00"
+      "scraped_at": "2026-10-05T14:30:09.425083+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1582,7 +1594,7 @@
       "screen": null,
       "end_time": "2026-10-08T14:08:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.920385+01:00"
+      "scraped_at": "2026-10-05T14:29:24.231975+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1594,7 +1606,7 @@
       "screen": null,
       "end_time": "2026-10-08T14:16:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.922284+01:00"
+      "scraped_at": "2026-10-05T14:29:24.233525+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1606,7 +1618,7 @@
       "screen": null,
       "end_time": "2026-10-08T17:05:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.922703+01:00"
+      "scraped_at": "2026-10-05T14:29:24.233882+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1618,7 +1630,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.381147+01:00"
+      "scraped_at": "2026-10-05T14:30:15.712380+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1630,7 +1642,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150184+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346114+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1642,7 +1654,7 @@
       "screen": null,
       "end_time": "2026-10-08T17:19:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.923148+01:00"
+      "scraped_at": "2026-10-05T14:29:24.234223+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1654,7 +1666,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180396+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263581+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1666,7 +1678,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.381324+01:00"
+      "scraped_at": "2026-10-05T14:30:15.712521+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1678,7 +1690,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.381501+01:00"
+      "scraped_at": "2026-10-05T14:30:15.712677+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1690,7 +1702,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.381675+01:00"
+      "scraped_at": "2026-10-05T14:30:15.712821+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1702,7 +1714,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.381877+01:00"
+      "scraped_at": "2026-10-05T14:30:15.712967+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1714,7 +1726,7 @@
       "screen": null,
       "end_time": "2026-10-08T19:29:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.923655+01:00"
+      "scraped_at": "2026-10-05T14:29:24.234657+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1726,7 +1738,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150193+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346122+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1738,7 +1750,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.382053+01:00"
+      "scraped_at": "2026-10-05T14:30:15.713111+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1750,7 +1762,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180404+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263590+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1762,7 +1774,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.270323+01:00"
+      "scraped_at": "2026-10-05T14:30:09.425094+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1774,7 +1786,7 @@
       "screen": null,
       "end_time": "2026-10-08T19:41:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.924087+01:00"
+      "scraped_at": "2026-10-05T14:29:24.235001+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1786,7 +1798,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.695957+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304006+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1798,7 +1810,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:43:59.696151+01:00"
+      "scraped_at": "2026-10-05T14:29:14.303907+01:00"
     },
     {
       "cinema_id": "rio",
@@ -1810,7 +1822,7 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696272+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304109+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1822,7 +1834,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.382227+01:00"
+      "scraped_at": "2026-10-05T14:30:15.713254+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1834,7 +1846,7 @@
       "screen": null,
       "end_time": "2026-10-08T22:02:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.924480+01:00"
+      "scraped_at": "2026-10-05T14:29:24.235328+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1846,7 +1858,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.382412+01:00"
+      "scraped_at": "2026-10-05T14:30:15.713404+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1858,7 +1870,7 @@
       "screen": null,
       "end_time": "2026-10-08T22:03:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.924990+01:00"
+      "scraped_at": "2026-10-05T14:29:24.235742+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1870,7 +1882,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:54.150201+01:00"
+      "scraped_at": "2026-10-05T14:30:12.346131+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1882,7 +1894,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:49.180412+01:00"
+      "scraped_at": "2026-10-05T14:30:07.263599+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1894,7 +1906,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:55.314176+01:00"
+      "scraped_at": "2026-10-05T14:30:13.664150+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1906,7 +1918,7 @@
       "screen": null,
       "end_time": "2026-10-09T14:12:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.915619+01:00"
+      "scraped_at": "2026-10-05T14:29:24.225455+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1918,7 +1930,7 @@
       "screen": null,
       "end_time": "2026-10-09T14:10:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.925379+01:00"
+      "scraped_at": "2026-10-05T14:29:24.236065+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1930,7 +1942,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.382927+01:00"
+      "scraped_at": "2026-10-05T14:30:15.713812+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1942,7 +1954,7 @@
       "screen": null,
       "end_time": "2026-10-09T16:59:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.903986+01:00"
+      "scraped_at": "2026-10-05T14:29:24.227779+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1954,7 +1966,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.383141+01:00"
+      "scraped_at": "2026-10-05T14:30:15.713982+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1966,7 +1978,7 @@
       "screen": null,
       "end_time": "2026-10-09T16:56:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.925805+01:00"
+      "scraped_at": "2026-10-05T14:29:24.236413+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1978,7 +1990,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.383319+01:00"
+      "scraped_at": "2026-10-05T14:30:15.714126+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1990,7 +2002,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.382959+01:00"
+      "scraped_at": "2026-10-05T14:30:15.713836+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2002,7 +2014,7 @@
       "screen": null,
       "end_time": "2026-10-09T19:29:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.903003+01:00"
+      "scraped_at": "2026-10-05T14:29:24.236943+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2014,7 +2026,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.383501+01:00"
+      "scraped_at": "2026-10-05T14:30:15.714271+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2026,7 +2038,7 @@
       "screen": null,
       "end_time": "2026-10-09T19:51:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.926543+01:00"
+      "scraped_at": "2026-10-05T14:29:24.237467+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2038,7 +2050,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514704+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814777+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-09T18:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949393.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304136+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2050,7 +2074,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:55.641842+01:00"
+      "scraped_at": "2026-10-05T14:30:13.982376+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "HOPE",
+      "start_time": "2026-10-09T19:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949397.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304294+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2062,7 +2098,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.383677+01:00"
+      "scraped_at": "2026-10-05T14:30:15.714416+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2074,7 +2110,19 @@
       "screen": null,
       "end_time": "2026-10-09T22:08:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.908781+01:00"
+      "scraped_at": "2026-10-05T14:29:24.219360+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Bitter Christmas",
+      "start_time": "2026-10-09T20:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6183290.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-10-05T14:30:15.714563+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2086,7 +2134,7 @@
       "screen": null,
       "end_time": "2026-10-09T22:15:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.926972+01:00"
+      "scraped_at": "2026-10-05T14:29:24.237826+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2098,7 +2146,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514719+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814791+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-09T20:50:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949395.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304147+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2110,7 +2170,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:52.278496+01:00"
+      "scraped_at": "2026-10-05T14:30:10.514216+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2122,7 +2182,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2026-10-04T12:44:49.852856+01:00"
+      "scraped_at": "2026-10-05T14:30:07.990576+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2134,7 +2194,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-10-04T12:44:57.384156+01:00"
+      "scraped_at": "2026-10-05T14:30:15.715058+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2146,7 +2206,7 @@
       "screen": null,
       "end_time": "2026-10-10T13:18:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.927489+01:00"
+      "scraped_at": "2026-10-05T14:29:24.238270+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2158,7 +2218,31 @@
       "screen": null,
       "end_time": "2026-10-10T14:03:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.927908+01:00"
+      "scraped_at": "2026-10-05T14:29:24.238600+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Everybody Digs Bill Evans",
+      "start_time": "2026-10-10T12:40:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5889113.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.715203+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "How Deep Is Your Love",
+      "start_time": "2026-10-10T14:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351458.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.715354+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2170,7 +2254,7 @@
       "screen": null,
       "end_time": "2026-10-10T17:50:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.928448+01:00"
+      "scraped_at": "2026-10-05T14:29:24.239051+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2182,7 +2266,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.384358+01:00"
+      "scraped_at": "2026-10-05T14:30:15.715515+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2194,7 +2278,7 @@
       "screen": null,
       "end_time": "2026-10-10T16:38:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.917403+01:00"
+      "scraped_at": "2026-10-05T14:29:24.226935+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2206,7 +2290,7 @@
       "screen": null,
       "end_time": null,
       "notes": "18",
-      "scraped_at": "2026-10-04T12:44:48.388624+01:00"
+      "scraped_at": "2026-10-05T14:30:06.050581+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2218,7 +2302,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.384569+01:00"
+      "scraped_at": "2026-10-05T14:30:15.715691+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2230,7 +2314,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.384770+01:00"
+      "scraped_at": "2026-10-05T14:30:15.715837+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2242,7 +2326,7 @@
       "screen": null,
       "end_time": "2026-10-10T19:49:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.912943+01:00"
+      "scraped_at": "2026-10-05T14:29:24.223233+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2254,7 +2338,31 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514731+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814800+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Extra Geography",
+      "start_time": "2026-10-10T18:10:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351460.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-10-05T14:30:15.715984+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-10T18:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949399.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304157+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2266,7 +2374,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.384959+01:00"
+      "scraped_at": "2026-10-05T14:30:15.716129+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2278,7 +2386,19 @@
       "screen": null,
       "end_time": "2026-10-10T20:12:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.928887+01:00"
+      "scraped_at": "2026-10-05T14:29:24.239392+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "HOPE",
+      "start_time": "2026-10-10T19:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949403.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304305+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2290,7 +2410,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.384386+01:00"
+      "scraped_at": "2026-10-05T14:30:15.715539+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2302,7 +2422,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514741+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814809+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2314,7 +2434,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.385138+01:00"
+      "scraped_at": "2026-10-05T14:30:15.716279+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2326,7 +2446,19 @@
       "screen": null,
       "end_time": "2026-10-10T22:39:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.904113+01:00"
+      "scraped_at": "2026-10-05T14:29:24.227881+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-10T20:50:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949401.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304167+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2338,7 +2470,7 @@
       "screen": null,
       "end_time": "2026-10-10T22:41:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.929313+01:00"
+      "scraped_at": "2026-10-05T14:29:24.239741+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2350,7 +2482,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.584822+01:00"
+      "scraped_at": "2026-10-05T14:30:09.739718+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2362,7 +2494,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-10-04T12:44:57.385561+01:00"
+      "scraped_at": "2026-10-05T14:30:15.716653+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2374,7 +2506,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:53.231889+01:00"
+      "scraped_at": "2026-10-05T14:30:11.248586+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2386,7 +2518,7 @@
       "screen": null,
       "end_time": "2026-10-11T14:45:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.929713+01:00"
+      "scraped_at": "2026-10-05T14:29:24.240064+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2398,7 +2530,7 @@
       "screen": null,
       "end_time": "2026-10-11T14:15:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.927089+01:00"
+      "scraped_at": "2026-10-05T14:29:24.237921+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2410,7 +2542,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.385763+01:00"
+      "scraped_at": "2026-10-05T14:30:15.716802+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2422,7 +2554,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.385974+01:00"
+      "scraped_at": "2026-10-05T14:30:15.716964+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2434,7 +2566,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.386182+01:00"
+      "scraped_at": "2026-10-05T14:30:15.717136+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2446,7 +2578,19 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696288+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304352+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-11T15:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949412.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304177+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2458,7 +2602,7 @@
       "screen": null,
       "end_time": "2026-10-11T16:58:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.930160+01:00"
+      "scraped_at": "2026-10-05T14:29:24.240417+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2470,7 +2614,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514776+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814817+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2482,7 +2626,7 @@
       "screen": null,
       "end_time": "2026-10-11T17:09:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.901252+01:00"
+      "scraped_at": "2026-10-05T14:29:24.231129+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2494,7 +2638,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.386364+01:00"
+      "scraped_at": "2026-10-05T14:30:15.717280+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-11T17:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949408.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304187+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "EXTRA GEOGRAPHY",
+      "start_time": "2026-10-11T17:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949414.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304385+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2506,7 +2674,7 @@
       "screen": null,
       "end_time": "2026-10-11T19:44:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.930557+01:00"
+      "scraped_at": "2026-10-05T14:29:24.240762+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2518,7 +2686,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:50.155681+01:00"
+      "scraped_at": "2026-10-05T14:30:08.326820+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2530,7 +2698,7 @@
       "screen": null,
       "end_time": "2026-10-11T19:48:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.930965+01:00"
+      "scraped_at": "2026-10-05T14:29:24.241085+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2542,7 +2710,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.386003+01:00"
+      "scraped_at": "2026-10-05T14:30:15.716988+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "HOPE",
+      "start_time": "2026-10-11T19:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949410.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304315+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "EXTRA GEOGRAPHY",
+      "start_time": "2026-10-11T20:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949416.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304397+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2554,7 +2746,7 @@
       "screen": null,
       "end_time": "2026-10-11T22:12:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.931369+01:00"
+      "scraped_at": "2026-10-05T14:29:24.241431+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2566,7 +2758,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514792+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814827+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2578,7 +2770,7 @@
       "screen": null,
       "end_time": "2026-10-11T22:06:00+01:00",
       "notes": "Subtitled; w/ Short",
-      "scraped_at": "2026-10-04T12:44:06.931896+01:00"
+      "scraped_at": "2026-10-05T14:29:24.241872+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2590,7 +2782,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:52.278511+01:00"
+      "scraped_at": "2026-10-05T14:30:10.514232+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Carers & Babies: EXTRA GEOGRAPHY ",
+      "start_time": "2026-10-12T11:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949427.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "Carers & Babies",
+      "scraped_at": "2026-10-05T14:29:14.304469+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2602,7 +2806,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-10-04T12:44:53.569442+01:00"
+      "scraped_at": "2026-10-05T14:30:11.673590+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2614,7 +2818,7 @@
       "screen": null,
       "end_time": "2026-10-12T14:27:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.933124+01:00"
+      "scraped_at": "2026-10-05T14:29:24.242886+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2626,7 +2830,7 @@
       "screen": null,
       "end_time": "2026-10-12T14:24:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.913059+01:00"
+      "scraped_at": "2026-10-05T14:29:24.223329+01:00"
     },
     {
       "cinema_id": "rio",
@@ -2638,7 +2842,31 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696311+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304486+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Extra Geography",
+      "start_time": "2026-10-12T14:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351470.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-10-05T14:30:15.717670+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Hard of Hearing: THE SOCIAL RECKONING",
+      "start_time": "2026-10-12T15:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949433.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": "Hard of Hearing; Hard of Hearing",
+      "scraped_at": "2026-10-05T14:29:14.304501+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2650,7 +2878,7 @@
       "screen": null,
       "end_time": "2026-10-12T17:07:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.933789+01:00"
+      "scraped_at": "2026-10-05T14:29:24.243426+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2662,7 +2890,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.386736+01:00"
+      "scraped_at": "2026-10-05T14:30:15.717825+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2674,7 +2902,7 @@
       "screen": null,
       "end_time": "2026-10-12T17:11:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.925926+01:00"
+      "scraped_at": "2026-10-05T14:29:24.236508+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2686,7 +2914,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.386978+01:00"
+      "scraped_at": "2026-10-05T14:30:15.717995+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2698,7 +2926,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.386787+01:00"
+      "scraped_at": "2026-10-05T14:30:15.717849+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Ukraine Ghost Ship",
+      "start_time": "2026-10-12T18:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6289514.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.718144+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2710,7 +2950,31 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514803+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814835+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "EXTRA GEOGRAPHY",
+      "start_time": "2026-10-12T18:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949429.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304407+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "HOPE",
+      "start_time": "2026-10-12T19:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949435.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304324+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2722,7 +2986,19 @@
       "screen": null,
       "end_time": "2026-10-12T22:03:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.939599+01:00"
+      "scraped_at": "2026-10-05T14:29:24.248245+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "The Portuguese House",
+      "start_time": "2026-10-12T20:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351472.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.718290+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2734,7 +3010,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.387151+01:00"
+      "scraped_at": "2026-10-05T14:30:15.718433+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2746,7 +3022,19 @@
       "screen": null,
       "end_time": "2026-10-12T22:35:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.940153+01:00"
+      "scraped_at": "2026-10-05T14:29:24.248687+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-12T20:40:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949431.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304197+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2758,7 +3046,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514812+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814844+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2770,7 +3058,7 @@
       "screen": null,
       "end_time": "2026-10-13T14:18:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.908913+01:00"
+      "scraped_at": "2026-10-05T14:29:24.219464+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2782,7 +3070,7 @@
       "screen": null,
       "end_time": "2026-10-13T14:39:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.901379+01:00"
+      "scraped_at": "2026-10-05T14:29:24.231228+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2794,7 +3082,7 @@
       "screen": null,
       "end_time": "2026-10-13T16:53:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.920509+01:00"
+      "scraped_at": "2026-10-05T14:29:24.232078+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2806,7 +3094,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.387594+01:00"
+      "scraped_at": "2026-10-05T14:30:15.718888+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2818,7 +3106,43 @@
       "screen": null,
       "end_time": "2026-10-13T17:12:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.940578+01:00"
+      "scraped_at": "2026-10-05T14:29:24.249049+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "How Deep Is Your Love",
+      "start_time": "2026-10-13T15:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351476.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.719060+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "The Portuguese House",
+      "start_time": "2026-10-13T15:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351474.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.719206+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Everybody Digs Bill Evans",
+      "start_time": "2026-10-13T17:45:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351478.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.719350+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2830,7 +3154,7 @@
       "screen": null,
       "end_time": "2026-10-13T19:27:00+01:00",
       "notes": "Intro",
-      "scraped_at": "2026-10-04T12:44:06.941140+01:00"
+      "scraped_at": "2026-10-05T14:29:24.249496+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2842,7 +3166,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.387827+01:00"
+      "scraped_at": "2026-10-05T14:30:15.719498+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2854,7 +3178,7 @@
       "screen": null,
       "end_time": "2026-10-13T19:56:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.941545+01:00"
+      "scraped_at": "2026-10-05T14:29:24.249848+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2866,7 +3190,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514821+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814851+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2878,7 +3202,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.388005+01:00"
+      "scraped_at": "2026-10-05T14:30:15.719651+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-13T18:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949444.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304207+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2890,7 +3226,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.387623+01:00"
+      "scraped_at": "2026-10-05T14:30:15.718912+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2902,7 +3238,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.388190+01:00"
+      "scraped_at": "2026-10-05T14:30:15.719797+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2914,7 +3250,19 @@
       "screen": null,
       "end_time": "2026-10-13T22:24:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.904243+01:00"
+      "scraped_at": "2026-10-05T14:29:24.227981+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-13T20:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949442.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304216+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2926,7 +3274,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.388364+01:00"
+      "scraped_at": "2026-10-05T14:30:15.719941+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "EXTRA GEOGRAPHY",
+      "start_time": "2026-10-13T20:45:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949446.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304417+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2938,7 +3298,7 @@
       "screen": null,
       "end_time": "2026-10-13T22:20:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.942087+01:00"
+      "scraped_at": "2026-10-05T14:29:24.250287+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2950,7 +3310,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514830+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814859+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2962,7 +3322,7 @@
       "screen": null,
       "end_time": "2026-10-14T13:21:00+01:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2026-10-04T12:44:06.932028+01:00"
+      "scraped_at": "2026-10-05T14:29:24.241980+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2974,7 +3334,7 @@
       "screen": null,
       "end_time": "2026-10-14T13:46:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.942534+01:00"
+      "scraped_at": "2026-10-05T14:29:24.250665+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2986,7 +3346,7 @@
       "screen": null,
       "end_time": "2026-10-14T17:15:00+01:00",
       "notes": "4K",
-      "scraped_at": "2026-10-04T12:44:06.943687+01:00"
+      "scraped_at": "2026-10-05T14:29:24.251613+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2998,7 +3358,7 @@
       "screen": null,
       "end_time": "2026-10-14T15:53:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.944156+01:00"
+      "scraped_at": "2026-10-05T14:29:24.251984+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3010,7 +3370,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.388794+01:00"
+      "scraped_at": "2026-10-05T14:30:15.720307+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3022,7 +3382,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.389010+01:00"
+      "scraped_at": "2026-10-05T14:30:15.720475+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3034,7 +3394,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.389184+01:00"
+      "scraped_at": "2026-10-05T14:30:15.720629+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3046,7 +3406,7 @@
       "screen": null,
       "end_time": "2026-10-14T19:31:00+01:00",
       "notes": "Intro",
-      "scraped_at": "2026-10-04T12:44:06.944969+01:00"
+      "scraped_at": "2026-10-05T14:29:24.252508+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3058,7 +3418,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.389362+01:00"
+      "scraped_at": "2026-10-05T14:30:15.720773+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3070,7 +3430,19 @@
       "screen": null,
       "end_time": "2026-10-14T20:09:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.945490+01:00"
+      "scraped_at": "2026-10-05T14:29:24.252954+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-14T18:15:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949450.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304226+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3082,7 +3454,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514839+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814867+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3094,7 +3466,31 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696326+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304515+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Extra Geography",
+      "start_time": "2026-10-14T20:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351480.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-10-05T14:30:15.720920+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "EXTRA GEOGRAPHY",
+      "start_time": "2026-10-14T20:40:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949452.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304427+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3106,7 +3502,7 @@
       "screen": null,
       "end_time": "2026-10-14T22:15:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.918707+01:00"
+      "scraped_at": "2026-10-05T14:29:24.229719+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3118,7 +3514,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514848+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814875+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3130,7 +3526,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.388825+01:00"
+      "scraped_at": "2026-10-05T14:30:15.720330+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-14T20:50:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949448.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304236+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3142,7 +3550,7 @@
       "screen": null,
       "end_time": "2026-10-14T22:09:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.945916+01:00"
+      "scraped_at": "2026-10-05T14:29:24.253295+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3154,7 +3562,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.389816+01:00"
+      "scraped_at": "2026-10-05T14:30:15.721338+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3166,7 +3574,7 @@
       "screen": null,
       "end_time": "2026-10-15T14:10:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.946315+01:00"
+      "scraped_at": "2026-10-05T14:29:24.253634+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3178,7 +3586,7 @@
       "screen": null,
       "end_time": "2026-10-15T14:10:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.946706+01:00"
+      "scraped_at": "2026-10-05T14:29:24.253959+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3190,7 +3598,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.389847+01:00"
+      "scraped_at": "2026-10-05T14:30:15.721362+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Extra Geography",
+      "start_time": "2026-10-15T14:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351484.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-10-05T14:30:15.721534+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3202,7 +3622,7 @@
       "screen": null,
       "end_time": "2026-10-15T17:15:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.947145+01:00"
+      "scraped_at": "2026-10-05T14:29:24.254306+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3214,7 +3634,7 @@
       "screen": null,
       "end_time": "2026-10-15T17:14:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.904361+01:00"
+      "scraped_at": "2026-10-05T14:29:24.228082+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3226,19 +3646,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.390053+01:00"
+      "scraped_at": "2026-10-05T14:30:15.721684+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Bitter Christmas",
+      "start_time": "2026-10-15T16:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6351486.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.721831+01:00"
     },
     {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
       "film_title": "24 Hour Party People - (24 Year Anniversary)",
-      "start_time": "2026-10-15T17:45:00+01:00",
+      "start_time": "2026-10-15T16:30:00+01:00",
       "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6270759.TcsSection_3060731",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.390234+01:00"
+      "scraped_at": "2026-10-05T14:30:15.721977+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-15T18:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949503.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304247+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3250,7 +3694,7 @@
       "screen": null,
       "end_time": "2026-10-15T20:00:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.947550+01:00"
+      "scraped_at": "2026-10-05T14:29:24.254681+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3262,7 +3706,7 @@
       "screen": null,
       "end_time": "2026-10-15T19:56:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.926041+01:00"
+      "scraped_at": "2026-10-05T14:29:24.236603+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3274,7 +3718,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514857+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814883+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "EXTRA GEOGRAPHY",
+      "start_time": "2026-10-15T18:30:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949505.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304436+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3286,7 +3742,7 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview",
-      "scraped_at": "2026-10-04T12:43:59.696341+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304529+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3298,7 +3754,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.389874+01:00"
+      "scraped_at": "2026-10-05T14:30:15.721386+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3310,7 +3766,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.390412+01:00"
+      "scraped_at": "2026-10-05T14:30:15.722121+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3322,7 +3778,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696357+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304542+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3334,7 +3790,7 @@
       "screen": null,
       "end_time": "2026-10-15T22:26:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.941661+01:00"
+      "scraped_at": "2026-10-05T14:29:24.249943+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3346,7 +3802,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:54.514866+01:00"
+      "scraped_at": "2026-10-05T14:30:12.814892+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3358,7 +3814,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.390594+01:00"
+      "scraped_at": "2026-10-05T14:30:15.722269+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE SOCIAL RECKONING",
+      "start_time": "2026-10-15T20:50:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949507.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304256+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3370,7 +3838,7 @@
       "screen": null,
       "end_time": "2026-10-15T23:09:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.948080+01:00"
+      "scraped_at": "2026-10-05T14:29:24.255104+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3382,7 +3850,7 @@
       "screen": null,
       "end_time": "2026-10-16T14:00:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.948482+01:00"
+      "scraped_at": "2026-10-05T14:29:24.255444+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3394,7 +3862,7 @@
       "screen": null,
       "end_time": "2026-10-16T14:22:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.948883+01:00"
+      "scraped_at": "2026-10-05T14:29:24.255773+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3406,7 +3874,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.391014+01:00"
+      "scraped_at": "2026-10-05T14:30:15.722596+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3418,7 +3886,7 @@
       "screen": null,
       "end_time": "2026-10-16T16:45:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.949283+01:00"
+      "scraped_at": "2026-10-05T14:29:24.256116+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3430,7 +3898,7 @@
       "screen": null,
       "end_time": "2026-10-16T16:49:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.949674+01:00"
+      "scraped_at": "2026-10-05T14:29:24.256453+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3442,7 +3910,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.391219+01:00"
+      "scraped_at": "2026-10-05T14:30:15.722778+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3454,7 +3922,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.391398+01:00"
+      "scraped_at": "2026-10-05T14:30:15.722925+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3466,7 +3934,7 @@
       "screen": null,
       "end_time": "2026-10-16T19:45:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.950239+01:00"
+      "scraped_at": "2026-10-05T14:29:24.256913+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3478,7 +3946,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.391042+01:00"
+      "scraped_at": "2026-10-05T14:30:15.722630+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-10-16T18:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949509.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304555+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3490,7 +3970,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696373+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304606+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3502,7 +3982,7 @@
       "screen": null,
       "end_time": "2026-10-16T22:28:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.950995+01:00"
+      "scraped_at": "2026-10-05T14:29:24.257526+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3514,7 +3994,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.391572+01:00"
+      "scraped_at": "2026-10-05T14:30:15.723069+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3526,7 +4006,7 @@
       "screen": null,
       "end_time": "2026-10-16T23:06:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.951385+01:00"
+      "scraped_at": "2026-10-05T14:29:24.257867+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3538,7 +4018,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696389+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304645+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3550,7 +4030,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U",
-      "scraped_at": "2026-10-04T12:44:49.507561+01:00"
+      "scraped_at": "2026-10-05T14:30:07.622997+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3562,7 +4042,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-10-04T12:44:57.392076+01:00"
+      "scraped_at": "2026-10-05T14:30:15.723472+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3574,7 +4054,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:52.918697+01:00"
+      "scraped_at": "2026-10-05T14:30:10.861157+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3586,7 +4066,7 @@
       "screen": null,
       "end_time": "2026-10-17T13:57:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.951802+01:00"
+      "scraped_at": "2026-10-05T14:29:24.258208+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3598,7 +4078,7 @@
       "screen": null,
       "end_time": "2026-10-17T13:51:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.952211+01:00"
+      "scraped_at": "2026-10-05T14:29:24.258558+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3610,7 +4090,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.392271+01:00"
+      "scraped_at": "2026-10-05T14:30:15.723634+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3622,7 +4102,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A*",
-      "scraped_at": "2026-10-04T12:44:50.856213+01:00"
+      "scraped_at": "2026-10-05T14:30:08.985918+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3634,7 +4114,7 @@
       "screen": null,
       "end_time": "2026-10-17T16:37:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.952893+01:00"
+      "scraped_at": "2026-10-05T14:29:24.259097+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3646,7 +4126,7 @@
       "screen": null,
       "end_time": "2026-10-17T16:54:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.953295+01:00"
+      "scraped_at": "2026-10-05T14:29:24.259442+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3658,7 +4138,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.392477+01:00"
+      "scraped_at": "2026-10-05T14:30:15.723802+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3670,7 +4150,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2026-10-04T12:44:50.482238+01:00"
+      "scraped_at": "2026-10-05T14:30:08.651830+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3682,7 +4162,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.392300+01:00"
+      "scraped_at": "2026-10-05T14:30:15.723658+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3694,7 +4174,7 @@
       "screen": null,
       "end_time": "2026-10-17T19:27:00+01:00",
       "notes": "35mm",
-      "scraped_at": "2026-10-04T12:44:06.953682+01:00"
+      "scraped_at": "2026-10-05T14:29:24.259782+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3706,7 +4186,7 @@
       "screen": null,
       "end_time": "2026-10-17T19:20:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.954120+01:00"
+      "scraped_at": "2026-10-05T14:29:24.260132+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3718,7 +4198,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.392654+01:00"
+      "scraped_at": "2026-10-05T14:30:15.723943+01:00"
     },
     {
       "cinema_id": "rio",
@@ -3730,7 +4210,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-10-04T12:43:59.696408+01:00"
+      "scraped_at": "2026-10-05T14:29:14.304662+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3742,7 +4222,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.392863+01:00"
+      "scraped_at": "2026-10-05T14:30:15.724090+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-10-17T18:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949511.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304565+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3754,7 +4246,7 @@
       "screen": null,
       "end_time": "2026-10-17T22:01:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.954499+01:00"
+      "scraped_at": "2026-10-05T14:29:24.260457+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3766,7 +4258,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.393041+01:00"
+      "scraped_at": "2026-10-05T14:30:15.724236+01:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3778,7 +4270,7 @@
       "screen": null,
       "end_time": "2026-10-17T22:30:00+01:00",
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:06.947664+01:00"
+      "scraped_at": "2026-10-05T14:29:24.254778+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3790,7 +4282,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.393221+01:00"
+      "scraped_at": "2026-10-05T14:30:15.724384+01:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3802,7 +4294,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-10-04T12:44:51.896950+01:00"
+      "scraped_at": "2026-10-05T14:30:10.115474+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3814,7 +4306,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-10-04T12:44:57.393704+01:00"
+      "scraped_at": "2026-10-05T14:30:15.724801+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "The Exorcist (Extended Cut)",
+      "start_time": "2026-10-18T11:50:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627591",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T14:02:00+01:00",
+      "notes": "35mm",
+      "scraped_at": "2026-10-05T14:29:24.225557+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3826,7 +4330,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.393922+01:00"
+      "scraped_at": "2026-10-05T14:30:15.724954+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Black Church Bay",
+      "start_time": "2026-10-18T12:20:00+01:00",
+      "booking_url": "https://whatson.bfi.org.uk/lff/Online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=E432AEAB-4740-44EC-9A88-F004B8E022C3&BOparam::WScontent::loadArticle::",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T14:07:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:24.260812+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE MAN WITH THE PLAN + Q&A",
+      "start_time": "2026-10-18T14:00:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2926280.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "Q&A after; Special Performance; No Ads",
+      "scraped_at": "2026-10-05T14:29:14.304679+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Dance Umbrella Sunday Shorts: Spaces of Encounter",
+      "start_time": "2026-10-18T14:00:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/18/dance-umbrella-sunday-shorts-spaces-of-encounter-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15*",
+      "scraped_at": "2026-10-05T14:30:06.789134+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3838,7 +4378,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.394145+01:00"
+      "scraped_at": "2026-10-05T14:30:15.725138+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "The Thing",
+      "start_time": "2026-10-18T14:45:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627592",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T16:33:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:24.219563+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Your Mother Your Mother Your Mother",
+      "start_time": "2026-10-18T15:00:00+01:00",
+      "booking_url": "https://whatson.bfi.org.uk/lff/Online/article/your-mother-your-mother-your-mother-lff26",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T16:51:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:24.261165+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3850,7 +4414,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.394321+01:00"
+      "scraped_at": "2026-10-05T14:30:15.725292+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3862,7 +4426,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.394492+01:00"
+      "scraped_at": "2026-10-05T14:30:15.725439+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "RETURN TO THE TATLER + VARIETY",
+      "start_time": "2026-10-18T17:20:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2796453.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "No Ads",
+      "scraped_at": "2026-10-05T14:29:14.304694+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "The Shining [UK Version]",
+      "start_time": "2026-10-18T17:30:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627593",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T19:29:00+01:00",
+      "notes": "35mm",
+      "scraped_at": "2026-10-05T14:29:24.228184+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3874,7 +4462,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.394662+01:00"
+      "scraped_at": "2026-10-05T14:30:15.725584+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-10-18T17:45:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949515.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304575+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Club Kid",
+      "start_time": "2026-10-18T17:50:00+01:00",
+      "booking_url": "https://whatson.bfi.org.uk/lff/Online/article/club-kid-lff26",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T19:52:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:24.261504+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3886,7 +4498,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-10-04T12:44:57.394866+01:00"
+      "scraped_at": "2026-10-05T14:30:15.725742+01:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3898,20 +4510,128 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-10-04T12:44:57.393951+01:00"
+      "scraped_at": "2026-10-05T14:30:15.724979+01:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-10-18T20:15:00+01:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2949513.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:14.304585+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Possession",
+      "start_time": "2026-10-18T20:15:00+01:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627594",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T22:19:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:24.223427+01:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "The Debut",
+      "start_time": "2026-10-18T20:45:00+01:00",
+      "booking_url": "https://whatson.bfi.org.uk/lff/Online/article/debut-lff26",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-10-18T22:30:00+01:00",
+      "notes": null,
+      "scraped_at": "2026-10-05T14:29:24.261857+01:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Parent & Baby Screening: The Social Reckoning",
+      "start_time": "2026-10-19T11:15:00+01:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/10/19/parent-baby-screening-the-social-reckoning-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-10-05T14:30:10.861174+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Case 137",
+      "start_time": "2026-10-19T15:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6183599.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.726071+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "The Social Reckoning",
+      "start_time": "2026-10-19T15:30:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6311859.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-10-05T14:30:15.726217+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "NazaRating",
+      "start_time": "2026-10-19T16:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6323581.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.726369+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "The Cremator",
+      "start_time": "2026-10-19T18:00:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_5956180.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.726536+01:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "NazaRating",
+      "start_time": "2026-10-19T18:15:00+01:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6323583.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-10-05T14:30:15.726392+01:00"
     }
   ],
-  "generated_at": "2026-10-04T11:46:54.994241",
-  "total_screenings": 325,
+  "generated_at": "2026-10-05T13:32:21.631649",
+  "total_screenings": 385,
   "cinemas": 8,
   "stats": {
-    "Rio Cinema": 29,
+    "Rio Cinema": 54,
     "Curzon Hoxton": 0,
     "Prince Charles Cinema": 106,
-    "Barbican Cinema": 61,
-    "Garden Cinema": 107,
+    "Barbican Cinema": 54,
+    "Garden Cinema": 115,
     "BFI IMAX": 0,
-    "Everyman Broadgate": 22,
+    "Everyman Broadgate": 56,
     "Vue Islington": 0
   }
 }
