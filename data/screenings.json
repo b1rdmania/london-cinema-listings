@@ -1,846 +1,6 @@
 {
   "screenings": [
     {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "Carers & Babies: WILD HORSE NINE",
-      "start_time": "2026-11-09T11:00:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3060705.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "Carers & Babies",
-      "scraped_at": "2026-11-09T15:01:34.569171+00:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "Classic Matinee: THE LUNCHBOX",
-      "start_time": "2026-11-09T14:30:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2927211.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569254+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Onwards and Sideways",
-      "start_time": "2026-11-09T14:30:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6511522.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.237082+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T14:50:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6307660.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.237326+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wildwood",
-      "start_time": "2026-11-09T15:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/90bd16a5-8461-5935-9d74-8adaff5b125e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382809+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Down by Law",
-      "start_time": "2026-11-09T15:15:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6402343.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.237541+00:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "PRIMETIME",
-      "start_time": "2026-11-09T15:30:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3061350.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569297+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T15:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/2566ba32-2d99-5f2f-9cf8-ac42453c7ea0",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382815+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T15:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b3af9e84-32aa-5ca7-ab95-092f433912f5",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248580+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wicker",
-      "start_time": "2026-11-09T15:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d6263091-08f8-5486-84ae-3023fe082358",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248657+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Wild Horse Nine (15) (AD)",
-      "start_time": "2026-11-09T15:45:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/wild-horse-nine-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.790945+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Primetime (15) (AD)",
-      "start_time": "2026-11-09T15:50:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/primetime-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.216814+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wicker",
-      "start_time": "2026-11-09T16:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c3b5a906-9639-5a32-80bd-b4f56568ceec",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248675+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "The Devils - director's cut",
-      "start_time": "2026-11-09T17:00:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6307656.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.237722+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T17:15:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6307658.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.237358+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T17:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4ea1bd92-0010-5192-92f5-22f60bda2fcc",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382797+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T17:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e211156c-59e4-56a3-9eaa-7b3b960cc9b1",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248718+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T17:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9cb00482-b456-55aa-9f7c-ca5ffe846987",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248734+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Raise the Red Lantern",
-      "start_time": "2026-11-09T17:30:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6270660.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.237909+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T17:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/f976b244-4e23-54f4-a919-f04a839f120e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248554+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "I Play Rocky",
-      "start_time": "2026-11-09T17:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/f0662cfb-b499-5efd-94b6-a816fcdd8e5f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248632+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wicker",
-      "start_time": "2026-11-09T18:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/6a80fbe8-78e6-5f87-8ca8-4635ab9b44b2",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382789+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T18:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4a090a65-afcd-5402-86f8-42fe9e2bbaf9",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248712+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T18:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/75ddb52e-e328-5db8-8f65-32d81369340a",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248816+00:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "WILD HORSE NINE",
-      "start_time": "2026-11-09T18:10:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3061348.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "Hard of Hearing",
-      "scraped_at": "2026-11-09T15:01:34.569406+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Primetime (15) (AD)",
-      "start_time": "2026-11-09T18:10:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/primetime-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.216829+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Wild Horse Nine (15) (AD)",
-      "start_time": "2026-11-09T18:10:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/wild-horse-nine-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.790960+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wicker",
-      "start_time": "2026-11-09T18:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9c172603-4d7f-5701-80a0-b4fc59238233",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248663+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "NAZA",
-      "start_time": "2026-11-09T18:20:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/naza-15",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:24.678612+00:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "PRIMETIME",
-      "start_time": "2026-11-09T18:25:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3061352.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569319+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "I Play Rocky",
-      "start_time": "2026-11-09T18:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c291c303-5b57-5763-8db6-d2acbc394e32",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248621+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Throwback: Rocky (50th Anniversary)",
-      "start_time": "2026-11-09T18:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b7059cee-ee14-5a27-8051-ffbd6b6c8a25",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248850+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T19:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/56da5da3-8649-5598-9c40-5ab7d94acffe",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382773+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T19:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/dc0a47c0-a67c-57f7-836b-20a922dfd65e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248586+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T19:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3698a514-df41-5237-b8d9-7f1a2d896388",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248811+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T19:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7c59c27a-b627-59a7-b1eb-a79c482f697f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248822+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T19:40:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6314430.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.238108+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Ramayana: Rise of a Legend (Directors Cut)",
-      "start_time": "2026-11-09T19:50:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/621f7f09-b7d3-5418-a4d3-8486bff11c12",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382824+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "I Play Rocky",
-      "start_time": "2026-11-09T19:50:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/2cd0db7e-4d5b-5ccb-b59d-80cdaaa0a779",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248626+00:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Short Cuts : 35mm Roadshow Tour",
-      "start_time": "2026-11-09T20:00:00+00:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628298",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-11-09T23:08:00+00:00",
-      "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.464893+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "LRB/London Reviewed: Spider (2002) with Peter Suschitzky",
-      "start_time": "2026-11-09T20:00:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6265917.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.238294+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T20:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/332dae46-3c84-5877-a6c8-133b22879a20",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248803+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Throwback: Almost Famous (25th Anniversary)",
-      "start_time": "2026-11-09T20:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3f61c130-c2ac-5bc6-967e-4d67976016c3",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248857+00:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Boyhood",
-      "start_time": "2026-11-09T20:15:00+00:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628304",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-11-09T23:00:00+00:00",
-      "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.465437+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "La Bola Negra (15) (AD)",
-      "start_time": "2026-11-09T20:15:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/la-bola-negra-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.895627+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Naza",
-      "start_time": "2026-11-09T20:15:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6542355.TcsSection_971",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.238467+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T20:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0bf9d06a-efba-5b3c-aa15-c9981dd7affc",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248784+00:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "Pink Palace: LA BOLA NEGRA",
-      "start_time": "2026-11-09T20:30:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3002563.TcsSection_936",
-      "format": null,
-      "screen": "Screen 1",
-      "end_time": null,
-      "notes": "Preview",
-      "scraped_at": "2026-11-09T15:01:34.569537+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-09T20:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/17d85eb9-78d0-5727-aee4-fb0b9c57173f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382819+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Fatherland (12A) (AD)",
-      "start_time": "2026-11-09T20:40:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/fatherland-12a-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "12A",
-      "scraped_at": "2026-11-09T15:03:20.239958+00:00"
-    },
-    {
-      "cinema_id": "rio",
-      "cinema_name": "Rio Cinema",
-      "film_title": "WILD HORSE NINE",
-      "start_time": "2026-11-09T20:45:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3061354.TcsSection_1299",
-      "format": null,
-      "screen": "Screen 2",
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569422+00:00"
-    },
-    {
-      "cinema_id": "barbican-cinema",
-      "cinema_name": "Barbican Cinema",
-      "film_title": "Wild Horse Nine (15) (AD)",
-      "start_time": "2026-11-09T20:45:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/09/wild-horse-nine-15-ad",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.790971+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "I Play Rocky",
-      "start_time": "2026-11-09T20:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b238dff7-a295-5efc-ad46-8c75574b34a6",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248609+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "I Play Rocky",
-      "start_time": "2026-11-09T20:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/18fde3ba-319e-5ca8-8419-94e1fab46bb0",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248615+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T21:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8e06f228-8b20-5548-a0d9-a58c60840989",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248560+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-09T21:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/addd1520-a2cb-5b4a-b29b-fad29f1bf07e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248592+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T21:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/44ef0620-4598-51d9-acae-9f62ebd5d69f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248729+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T21:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/840fc187-16ed-5591-b65a-b69129057c50",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:24.382802+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-09T21:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5a1f5165-62c8-54ae-ad88-b8a875bc248e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248723+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "After Dark: The Piano Teacher",
-      "start_time": "2026-11-09T22:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fcbe33e9-8f18-5952-87af-55fb9dc07e5e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248870+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "After Dark: The Piano Teacher",
-      "start_time": "2026-11-09T23:00:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e5b4d361-1fc1-59b8-97cc-c1387571795f",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248864+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Primetime",
-      "start_time": "2026-11-10T11:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8ff630d7-c498-5932-b97d-e5bf27a94f5c",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088456+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-10T11:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5c959af6-6998-5d63-ad0f-0352c77bc188",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248791+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "I Play Rocky",
-      "start_time": "2026-11-10T11:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/1dff226a-3d72-5608-87fe-5ad5f3d9646b",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248603+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wicker",
-      "start_time": "2026-11-10T11:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/a59f8bff-c942-5daa-a520-fd8b86b79d1e",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088427+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wicker",
-      "start_time": "2026-11-10T11:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/741f8ae4-fec8-5f06-85ee-9d7e9cb846c8",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248669+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "La Bola Negra",
-      "start_time": "2026-11-10T12:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/1d755634-f28e-54c0-be51-8c7e7901b0b0",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248797+00:00"
-    },
-    {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "The Holy Mountain",
-      "start_time": "2026-11-10T12:20:00+00:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628308",
-      "format": null,
-      "screen": null,
-      "end_time": "2026-11-10T14:15:00+00:00",
-      "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.465834+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Wicker",
-      "start_time": "2026-11-10T13:00:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6542399.TcsSection_638",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.239083+00:00"
-    },
-    {
-      "cinema_id": "garden-cinema",
-      "cinema_name": "The Garden Cinema",
-      "film_title": "Naza",
-      "start_time": "2026-11-10T13:15:00+00:00",
-      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6542353.TcsSection_3060731",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.239257+00:00"
-    },
-    {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
       "film_title": "Fatherland",
@@ -850,7 +10,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.239436+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668158+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -862,7 +22,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088386+00:00"
+      "scraped_at": "2026-11-10T14:17:15.151966+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -874,43 +34,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088487+00:00"
+      "scraped_at": "2026-11-10T14:17:15.152012+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
       "cinema_name": "Everyman Broadgate",
-      "film_title": "Wildwood",
-      "start_time": "2026-11-10T14:15:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c30fa122-8c82-5712-bf36-f8796ef7e380",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248755+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Ramayana: Rise of a Legend (Directors Cut)",
+      "film_title": "Wicker",
       "start_time": "2026-11-10T14:30:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4fa9621a-77d7-527f-8323-c93b0fc087df",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/43820cce-5948-54aa-81ea-9aa878c3ef50",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248843+00:00"
-    },
-    {
-      "cinema_id": "everyman-broadgate",
-      "cinema_name": "Everyman Broadgate",
-      "film_title": "Wild Horse Nine",
-      "start_time": "2026-11-10T14:45:00+00:00",
-      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5738a649-fd4a-59dd-91ce-0c4256681cdd",
-      "format": null,
-      "screen": null,
-      "end_time": null,
-      "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248568+00:00"
+      "scraped_at": "2026-11-10T14:17:18.858782+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -922,7 +58,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248681+00:00"
+      "scraped_at": "2026-11-10T14:17:18.858772+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -934,7 +70,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.239607+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668330+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -946,7 +82,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:28.248741+00:00"
+      "scraped_at": "2026-11-10T14:17:18.858534+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-10T15:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4d22d3c7-6606-5670-bdc1-f3eba37ee879",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858638+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -958,7 +106,19 @@
       "screen": null,
       "end_time": "2026-11-10T17:15:00+00:00",
       "notes": "35mm; Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.466305+00:00"
+      "scraped_at": "2026-11-10T14:15:26.450305+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T15:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fb8d004a-05f9-57b8-a496-4e02da184d0e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858299+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -970,7 +130,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.239802+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668494+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -982,7 +142,19 @@
       "screen": null,
       "end_time": "2026-11-10T17:19:00+00:00",
       "notes": "HOH",
-      "scraped_at": "2026-11-09T15:02:37.461486+00:00"
+      "scraped_at": "2026-11-10T14:15:26.451289+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T15:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b3af9e84-32aa-5ca7-ab95-092f433912f5",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858248+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -994,7 +166,43 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.240008+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668660+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Fjord",
+      "start_time": "2026-11-10T15:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c9498d6c-e324-568d-872f-2987dcfe0ea5",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858803+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Fjord",
+      "start_time": "2026-11-10T16:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/44a199c7-4bd3-5191-811f-eaf9cb397c41",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858812+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wicker",
+      "start_time": "2026-11-10T16:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c3b5a906-9639-5a32-80bd-b4f56568ceec",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858762+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1006,7 +214,55 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088467+00:00"
+      "scraped_at": "2026-11-10T14:17:15.151998+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T17:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/145a9fc3-0c69-5bd7-a4d9-e0fa96a2359e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858329+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Fjord",
+      "start_time": "2026-11-10T17:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8774ece9-1d10-5ecd-9b94-a7b10fffad47",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858793+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-10T17:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e211156c-59e4-56a3-9eaa-7b3b960cc9b1",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858476+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-10T17:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9cb00482-b456-55aa-9f7c-ca5ffe846987",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858514+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1018,19 +274,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.895641+00:00"
+      "scraped_at": "2026-11-10T14:16:09.299351+00:00"
     },
     {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Sunset Boulevard",
-      "start_time": "2026-11-10T18:00:00+00:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628309",
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-10T17:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/f0662cfb-b499-5efd-94b6-a816fcdd8e5f",
       "format": null,
       "screen": null,
-      "end_time": "2026-11-10T19:50:00+00:00",
+      "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.467077+00:00"
+      "scraped_at": "2026-11-10T14:17:18.858445+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1042,7 +298,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.240210+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668798+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1054,7 +310,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088435+00:00"
+      "scraped_at": "2026-11-10T14:17:15.152007+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-10T18:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/75ddb52e-e328-5db8-8f65-32d81369340a",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858668+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1066,7 +334,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.790981+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994433+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1078,7 +346,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.240389+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668954+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1090,7 +358,19 @@
       "screen": null,
       "end_time": "2026-11-10T19:57:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.467488+00:00"
+      "scraped_at": "2026-11-10T14:15:26.453807+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wicker",
+      "start_time": "2026-11-10T18:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/9c172603-4d7f-5701-80a0-b4fc59238233",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858733+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1102,7 +382,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569434+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847564+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1114,7 +394,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:24.678625+00:00"
+      "scraped_at": "2026-11-10T14:16:13.111580+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1126,7 +406,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088405+00:00"
+      "scraped_at": "2026-11-10T14:17:15.151979+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-10T18:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c291c303-5b57-5763-8db6-d2acbc394e32",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858405+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1138,7 +430,91 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569577+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847762+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T19:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/dc0a47c0-a67c-57f7-836b-20a922dfd65e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858258+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-10T19:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3698a514-df41-5237-b8d9-7f1a2d896388",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858647+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-10T19:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/7c59c27a-b627-59a7-b1eb-a79c482f697f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858691+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-10T19:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e8e9299d-885d-5167-b91d-8a09a322e75e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858702+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-10T19:50:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/2cd0db7e-4d5b-5ccb-b59d-80cdaaa0a779",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858425+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-10T20:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/332dae46-3c84-5877-a6c8-133b22879a20",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858629+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Throwback: Almost Famous (25th Anniversary)",
+      "start_time": "2026-11-10T20:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/3f61c130-c2ac-5bc6-967e-4d67976016c3",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858869+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1150,7 +526,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.240568+00:00"
+      "scraped_at": "2026-11-10T14:16:19.669108+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1162,7 +538,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.895652+00:00"
+      "scraped_at": "2026-11-10T14:16:09.299366+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1174,7 +550,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088476+00:00"
+      "scraped_at": "2026-11-10T14:17:15.152002+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T20:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c6a32609-8e91-5e6c-a0b8-82c6d24a8968",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858279+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Fjord",
+      "start_time": "2026-11-10T20:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/628aefe0-6e92-53be-9478-22077357ab18",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858822+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1186,7 +586,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569335+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847844+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1198,7 +598,7 @@
       "screen": null,
       "end_time": "2026-11-10T23:01:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.467868+00:00"
+      "scraped_at": "2026-11-10T14:15:26.454126+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1210,7 +610,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.239829+00:00"
+      "scraped_at": "2026-11-10T14:16:19.668516+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1222,7 +622,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569447+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847593+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1234,7 +634,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.790991+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994450+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1246,7 +646,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088448+00:00"
+      "scraped_at": "2026-11-10T14:17:15.151992+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-10T20:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/18fde3ba-319e-5ca8-8419-94e1fab46bb0",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858385+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-10T20:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/dbe8bc68-9717-5653-aef7-c89a046a0e2c",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858543+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1258,7 +682,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.216839+00:00"
+      "scraped_at": "2026-11-10T14:16:15.520276+00:00"
     },
     {
       "cinema_id": "everyman-broadgate",
@@ -1270,7 +694,223 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:04:26.088414+00:00"
+      "scraped_at": "2026-11-10T14:17:15.151984+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T21:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/31ab2bae-55e7-59a0-9aa8-203bb27e93bb",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858338+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T21:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/addd1520-a2cb-5b4a-b29b-fad29f1bf07e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858309+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-10T21:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/44ef0620-4598-51d9-acae-9f62ebd5d69f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858505+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-10T21:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5a1f5165-62c8-54ae-ad88-b8a875bc248e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858485+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "After Dark: The Piano Teacher",
+      "start_time": "2026-11-10T22:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fcbe33e9-8f18-5952-87af-55fb9dc07e5e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858890+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-10T22:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/12ca3569-cd73-5178-932c-9086b60f5ba6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858289+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-10T22:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e7957d36-caeb-5b8d-bc5c-2d2fc590841c",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858524+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "After Dark: The Piano Teacher",
+      "start_time": "2026-11-10T23:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e5b4d361-1fc1-59b8-97cc-c1387571795f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858881+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-11T11:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5c959af6-6998-5d63-ad0f-0352c77bc188",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787605+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-11T11:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/1dff226a-3d72-5608-87fe-5ad5f3d9646b",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787587+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Fatherland",
+      "start_time": "2026-11-11T11:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b8601f40-f851-5712-90c7-7fcb60c41e2b",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858353+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-11T11:40:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c99c32eb-03a4-5927-bef2-439556902e8e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858435+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-11T11:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/442108db-5e81-5528-ac2f-a978370bcd75",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858415+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wicker",
+      "start_time": "2026-11-11T11:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/741f8ae4-fec8-5f06-85ee-9d7e9cb846c8",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858743+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wicker",
+      "start_time": "2026-11-11T11:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/685990c6-cf5b-5bf2-9ab9-713c47d57802",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858752+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-11T12:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/e3e43c1e-1a76-52a4-94dc-3191a73375b6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858319+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-11T12:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/bf281745-20ce-589e-aff7-0d416a02061b",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858396+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wildwood",
+      "start_time": "2026-11-11T12:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/eea0951e-ac3b-5406-9bac-2e4eac5da8b4",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858566+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1282,7 +922,31 @@
       "screen": null,
       "end_time": "2026-11-11T13:35:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.468298+00:00"
+      "scraped_at": "2026-11-10T14:15:26.454450+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-11T12:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/1d755634-f28e-54c0-be51-8c7e7901b0b0",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858619+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-11T12:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c707ced1-0a8e-50c3-a5ac-85f56f632d1f",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858658+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1294,7 +958,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.241221+00:00"
+      "scraped_at": "2026-11-10T14:16:19.669603+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1306,7 +970,19 @@
       "screen": null,
       "end_time": "2026-11-11T13:53:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.468721+00:00"
+      "scraped_at": "2026-11-10T14:15:26.454781+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-11T12:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c3f0aa2f-a0fb-528a-9a78-84b6a074bf89",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858680+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1318,7 +994,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.241420+00:00"
+      "scraped_at": "2026-11-10T14:16:19.669766+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1330,7 +1006,43 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.241606+00:00"
+      "scraped_at": "2026-11-10T14:16:19.669933+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-11T13:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/fb260a36-73db-5b70-afba-9d2ec851a38e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858496+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-11T14:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/dc18dc32-12cc-5af9-8a8f-bc3179e0d536",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858270+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wildwood",
+      "start_time": "2026-11-11T14:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/c30fa122-8c82-5712-bf36-f8796ef7e380",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:18.858556+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1342,7 +1054,19 @@
       "screen": null,
       "end_time": "2026-11-11T17:28:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.465017+00:00"
+      "scraped_at": "2026-11-10T14:15:26.455114+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Ramayana: Rise of a Legend (Directors Cut)",
+      "start_time": "2026-11-11T14:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4fa9621a-77d7-527f-8323-c93b0fc087df",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787615+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1354,7 +1078,7 @@
       "screen": null,
       "end_time": "2026-11-11T16:39:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.461656+00:00"
+      "scraped_at": "2026-11-10T14:15:26.451410+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1366,7 +1090,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.241807+00:00"
+      "scraped_at": "2026-11-10T14:16:19.670100+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-11T14:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/5738a649-fd4a-59dd-91ce-0c4256681cdd",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787581+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wicker",
+      "start_time": "2026-11-11T15:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/d6263091-08f8-5486-84ae-3023fe082358",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787610+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1378,7 +1126,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.241974+00:00"
+      "scraped_at": "2026-11-10T14:16:19.670240+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1390,7 +1138,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.242168+00:00"
+      "scraped_at": "2026-11-10T14:16:19.670382+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-11T17:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/f976b244-4e23-54f4-a919-f04a839f120e",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787567+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1402,7 +1162,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.241632+00:00"
+      "scraped_at": "2026-11-10T14:16:19.669956+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1414,7 +1174,7 @@
       "screen": null,
       "end_time": "2026-11-11T19:07:00+00:00",
       "notes": "LIVE SCORE",
-      "scraped_at": "2026-11-09T15:02:37.469164+00:00"
+      "scraped_at": "2026-11-10T14:15:26.455456+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1426,7 +1186,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.242343+00:00"
+      "scraped_at": "2026-11-10T14:16:19.670520+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Primetime",
+      "start_time": "2026-11-11T18:00:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/4a090a65-afcd-5402-86f8-42fe9e2bbaf9",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787597+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1438,7 +1210,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569459+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847609+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1450,7 +1222,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.791001+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994461+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1462,7 +1234,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.187051+00:00"
+      "scraped_at": "2026-11-10T14:16:08.303209+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1474,7 +1246,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:24.678637+00:00"
+      "scraped_at": "2026-11-10T14:16:13.111594+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1486,7 +1258,19 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569617+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848043+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Throwback: Rocky (50th Anniversary)",
+      "start_time": "2026-11-11T18:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b7059cee-ee14-5a27-8051-ffbd6b6c8a25",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787621+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1498,7 +1282,7 @@
       "screen": null,
       "end_time": "2026-11-11T23:08:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.469849+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456025+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1510,7 +1294,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.895662+00:00"
+      "scraped_at": "2026-11-10T14:16:09.299377+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1522,7 +1306,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.242536+00:00"
+      "scraped_at": "2026-11-10T14:16:19.670669+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "La Bola Negra",
+      "start_time": "2026-11-11T20:15:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/0bf9d06a-efba-5b3c-aa15-c9981dd7affc",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787602+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1534,7 +1330,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.242707+00:00"
+      "scraped_at": "2026-11-10T14:16:19.670809+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1546,7 +1342,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569348+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847859+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1558,7 +1354,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.216849+00:00"
+      "scraped_at": "2026-11-10T14:16:15.520291+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1570,7 +1366,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.791011+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994472+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1582,7 +1378,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.241249+00:00"
+      "scraped_at": "2026-11-10T14:16:19.669626+00:00"
+    },
+    {
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "I Play Rocky",
+      "start_time": "2026-11-11T20:45:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/b238dff7-a295-5efc-ad46-8c75574b34a6",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787591+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1594,19 +1402,19 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569471+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847621+00:00"
     },
     {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "In The Mood For Love",
-      "start_time": "2026-11-11T20:50:00+00:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628566",
+      "cinema_id": "everyman-broadgate",
+      "cinema_name": "Everyman Broadgate",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-11T21:30:00+00:00",
+      "booking_url": "https://purchase.everymancinema.com/launch/ticketing/8e06f228-8b20-5548-a0d9-a58c60840989",
       "format": null,
       "screen": null,
-      "end_time": "2026-11-11T22:28:00+00:00",
-      "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.472341+00:00"
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:17:16.787576+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1618,7 +1426,7 @@
       "screen": null,
       "end_time": "2026-11-12T13:11:00+00:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.474187+00:00"
+      "scraped_at": "2026-11-10T14:15:26.459398+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1630,7 +1438,7 @@
       "screen": null,
       "end_time": "2026-11-12T14:31:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.475207+00:00"
+      "scraped_at": "2026-11-10T14:15:26.460216+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1642,7 +1450,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.243325+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671284+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1654,7 +1462,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.243517+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671447+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1666,7 +1474,7 @@
       "screen": null,
       "end_time": null,
       "notes": "12A",
-      "scraped_at": "2026-11-09T15:03:20.239974+00:00"
+      "scraped_at": "2026-11-10T14:16:07.132228+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1678,7 +1486,7 @@
       "screen": null,
       "end_time": "2026-11-12T17:10:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.475622+00:00"
+      "scraped_at": "2026-11-10T14:15:26.460547+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1690,7 +1498,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.243701+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671592+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1702,7 +1510,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.243872+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671729+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1714,7 +1522,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.895672+00:00"
+      "scraped_at": "2026-11-10T14:16:09.299386+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1726,7 +1534,7 @@
       "screen": null,
       "end_time": "2026-11-12T17:24:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.461809+00:00"
+      "scraped_at": "2026-11-10T14:15:26.451520+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1738,7 +1546,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.244092+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671880+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1750,7 +1558,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.791020+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994481+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1762,7 +1570,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.243351+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671306+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1774,7 +1582,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.244296+00:00"
+      "scraped_at": "2026-11-10T14:16:19.672054+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1786,7 +1594,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569482+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847632+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1798,7 +1606,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.791049+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994490+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1810,7 +1618,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:24.678646+00:00"
+      "scraped_at": "2026-11-10T14:16:13.111604+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1822,7 +1630,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.084306+00:00"
+      "scraped_at": "2026-11-10T14:16:16.560709+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1834,7 +1642,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569655+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848074+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1846,7 +1654,7 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview",
-      "scraped_at": "2026-11-09T15:01:34.569692+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848104+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1858,7 +1666,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.244480+00:00"
+      "scraped_at": "2026-11-10T14:16:19.672203+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1870,7 +1678,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.895682+00:00"
+      "scraped_at": "2026-11-10T14:16:09.299395+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1882,7 +1690,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.244120+00:00"
+      "scraped_at": "2026-11-10T14:16:19.671911+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1894,7 +1702,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569361+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847874+00:00"
     },
     {
       "cinema_id": "rio",
@@ -1906,7 +1714,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569493+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847642+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1918,7 +1726,7 @@
       "screen": null,
       "end_time": "2026-11-12T22:50:00+00:00",
       "notes": "35mm; Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.466432+00:00"
+      "scraped_at": "2026-11-10T14:15:26.450437+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1930,7 +1738,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.216858+00:00"
+      "scraped_at": "2026-11-10T14:16:15.520303+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -1942,7 +1750,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.791058+00:00"
+      "scraped_at": "2026-11-10T14:16:17.994500+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1954,7 +1762,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.244655+00:00"
+      "scraped_at": "2026-11-10T14:16:19.672347+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -1966,7 +1774,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.245255+00:00"
+      "scraped_at": "2026-11-10T14:16:19.672813+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1978,7 +1786,7 @@
       "screen": null,
       "end_time": "2026-11-13T14:17:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.477101+00:00"
+      "scraped_at": "2026-11-10T14:15:26.461639+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -1990,7 +1798,7 @@
       "screen": null,
       "end_time": "2026-11-13T14:48:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.477516+00:00"
+      "scraped_at": "2026-11-10T14:15:26.461968+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2002,7 +1810,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.245471+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673006+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2014,7 +1822,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.245638+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673147+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2026,7 +1834,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.245281+00:00"
+      "scraped_at": "2026-11-10T14:16:19.672834+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-13T14:25:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299406+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2038,7 +1858,31 @@
       "screen": null,
       "end_time": "2026-11-13T17:03:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.478270+00:00"
+      "scraped_at": "2026-11-10T14:15:26.462517+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-13T15:00:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994510+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Naza",
+      "start_time": "2026-11-13T15:50:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594093.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.673284+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2050,7 +1894,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.245813+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673423+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2062,7 +1906,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.245305+00:00"
+      "scraped_at": "2026-11-10T14:16:19.672855+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-13T17:35:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299415+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2074,7 +1930,19 @@
       "screen": null,
       "end_time": "2026-11-13T19:29:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.479256+00:00"
+      "scraped_at": "2026-11-10T14:15:26.463306+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-13T17:45:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994519+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2086,7 +1954,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.245980+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673562+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-13T18:00:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/naza-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111613+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-13T18:10:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118891.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847652+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2098,7 +1990,19 @@
       "screen": null,
       "end_time": "2026-11-13T19:39:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.479653+00:00"
+      "scraped_at": "2026-11-10T14:15:26.463622+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-13T18:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118893.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847773+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2110,7 +2014,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.246170+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673703+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2122,7 +2026,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.246337+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673840+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-13T20:10:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299425+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2134,7 +2050,7 @@
       "screen": null,
       "end_time": "2026-11-13T23:08:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.469968+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456125+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2146,19 +2062,43 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569729+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848132+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-13T20:45:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118895.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847887+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-13T20:45:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/13/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994527+00:00"
     },
     {
       "cinema_id": "garden-cinema",
       "cinema_name": "The Garden Cinema",
       "film_title": "Fatherland",
-      "start_time": "2026-11-13T20:45:00+00:00",
+      "start_time": "2026-11-13T20:50:00+00:00",
       "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594124.TcsSection_971",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.246507+00:00"
+      "scraped_at": "2026-11-10T14:16:19.673991+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2170,7 +2110,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U*",
-      "scraped_at": "2026-11-09T15:03:20.555145+00:00"
+      "scraped_at": "2026-11-10T14:16:07.528187+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2182,7 +2122,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-11-09T15:03:29.247105+00:00"
+      "scraped_at": "2026-11-10T14:16:19.674503+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2194,7 +2134,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:24.956164+00:00"
+      "scraped_at": "2026-11-10T14:16:13.458300+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2206,7 +2146,7 @@
       "screen": null,
       "end_time": "2026-11-14T14:27:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.480480+00:00"
+      "scraped_at": "2026-11-10T14:15:26.464270+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2218,7 +2158,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.247272+00:00"
+      "scraped_at": "2026-11-10T14:16:19.674643+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2230,7 +2170,7 @@
       "screen": null,
       "end_time": "2026-11-14T13:43:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.480875+00:00"
+      "scraped_at": "2026-11-10T14:15:26.464575+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2242,7 +2182,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.247438+00:00"
+      "scraped_at": "2026-11-10T14:16:19.674779+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-14T13:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/naza-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111622+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2254,7 +2206,19 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569826+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848320+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-14T14:00:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299435+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2266,7 +2230,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569742+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848151+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2278,7 +2242,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.247618+00:00"
+      "scraped_at": "2026-11-10T14:16:19.674936+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2290,7 +2254,7 @@
       "screen": null,
       "end_time": "2026-11-14T17:38:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.470105+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456224+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2302,7 +2266,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15*",
-      "scraped_at": "2026-11-09T15:03:23.353478+00:00"
+      "scraped_at": "2026-11-10T14:16:11.119360+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2314,7 +2278,7 @@
       "screen": null,
       "end_time": "2026-11-14T16:50:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.481384+00:00"
+      "scraped_at": "2026-11-10T14:15:26.464975+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2326,7 +2290,19 @@
       "screen": null,
       "end_time": null,
       "notes": "PG",
-      "scraped_at": "2026-11-09T15:03:23.948732+00:00"
+      "scraped_at": "2026-11-10T14:16:12.172187+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Naza",
+      "start_time": "2026-11-14T15:45:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594343.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.675094+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2338,7 +2314,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.247810+00:00"
+      "scraped_at": "2026-11-10T14:16:19.675233+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-14T16:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118914.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847792+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-14T17:15:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299444+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-14T17:30:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594199.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-11-10T14:16:19.675371+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2350,7 +2362,43 @@
       "screen": null,
       "end_time": "2026-11-14T19:27:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.481761+00:00"
+      "scraped_at": "2026-11-10T14:15:26.465283+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-14T17:45:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118918.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847661+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-14T17:55:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994536+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-14T18:15:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118916.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847920+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2362,7 +2410,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.247988+00:00"
+      "scraped_at": "2026-11-10T14:16:19.675517+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2374,7 +2422,19 @@
       "screen": null,
       "end_time": "2026-11-14T20:00:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.482172+00:00"
+      "scraped_at": "2026-11-10T14:15:26.465595+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-14T18:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/naza-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111631+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2386,7 +2446,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.248182+00:00"
+      "scraped_at": "2026-11-10T14:16:19.675657+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2398,7 +2458,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.248353+00:00"
+      "scraped_at": "2026-11-10T14:16:19.675796+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-14T20:15:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994545+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2410,7 +2482,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.248521+00:00"
+      "scraped_at": "2026-11-10T14:16:19.675941+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-14T20:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299453+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Primetime (15) (AD)",
+      "start_time": "2026-11-14T20:25:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/14/primetime-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:15.520314+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2422,7 +2518,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569753+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848168+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2434,7 +2530,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.247643+00:00"
+      "scraped_at": "2026-11-10T14:16:19.674958+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-14T20:45:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118920.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847670+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2446,7 +2554,7 @@
       "screen": null,
       "end_time": "2026-11-14T22:49:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.482693+00:00"
+      "scraped_at": "2026-11-10T14:15:26.466023+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2458,7 +2566,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:23.671153+00:00"
+      "scraped_at": "2026-11-10T14:16:11.451958+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2470,7 +2578,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-11-09T15:03:29.249104+00:00"
+      "scraped_at": "2026-11-10T14:16:19.676439+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2482,7 +2590,7 @@
       "screen": null,
       "end_time": "2026-11-15T13:56:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.483360+00:00"
+      "scraped_at": "2026-11-10T14:15:26.466542+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2494,7 +2602,7 @@
       "screen": null,
       "end_time": "2026-11-15T14:21:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.483835+00:00"
+      "scraped_at": "2026-11-10T14:15:26.466938+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2506,7 +2614,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.249279+00:00"
+      "scraped_at": "2026-11-10T14:16:19.676580+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2518,7 +2626,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.249456+00:00"
+      "scraped_at": "2026-11-10T14:16:19.676725+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2530,7 +2638,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:21.496838+00:00"
+      "scraped_at": "2026-11-10T14:16:08.675211+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2542,7 +2650,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.249652+00:00"
+      "scraped_at": "2026-11-10T14:16:19.676890+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-15T14:10:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994554+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2554,7 +2674,19 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569765+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848185+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-15T14:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299462+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2566,7 +2698,19 @@
       "screen": null,
       "end_time": "2026-11-15T16:56:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.484243+00:00"
+      "scraped_at": "2026-11-10T14:15:26.467248+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-15T15:20:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118928.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847805+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2578,7 +2722,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.249814+00:00"
+      "scraped_at": "2026-11-10T14:16:19.677043+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Wild Horse Nine",
+      "start_time": "2026-11-15T16:30:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594095.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-11-10T14:16:19.677183+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-15T16:45:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299471+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2590,7 +2758,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569863+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848349+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2602,7 +2770,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.249987+00:00"
+      "scraped_at": "2026-11-10T14:16:19.677324+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-15T17:15:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994563+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2614,7 +2794,19 @@
       "screen": null,
       "end_time": "2026-11-15T18:36:00+00:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.474311+00:00"
+      "scraped_at": "2026-11-10T14:15:26.459499+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-15T17:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118930.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847679+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2626,19 +2818,19 @@
       "screen": null,
       "end_time": "2026-11-15T19:14:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.484729+00:00"
+      "scraped_at": "2026-11-10T14:15:26.467631+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
       "cinema_name": "Barbican Cinema",
       "film_title": "Preview: Jean-Michel Basquiat",
       "start_time": "2026-11-15T17:45:00+00:00",
-      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/preview-jean-michel-basquiat-18",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/preview-jean-michel-basquiat-15",
       "format": null,
       "screen": null,
       "end_time": null,
       "notes": "18",
-      "scraped_at": "2026-11-09T15:03:25.792266+00:00"
+      "scraped_at": "2026-11-10T14:16:14.892328+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2650,7 +2842,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.249482+00:00"
+      "scraped_at": "2026-11-10T14:16:19.676747+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2662,7 +2854,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.250211+00:00"
+      "scraped_at": "2026-11-10T14:16:19.677462+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2674,7 +2866,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.250388+00:00"
+      "scraped_at": "2026-11-10T14:16:19.677601+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2686,7 +2878,19 @@
       "screen": null,
       "end_time": "2026-11-15T22:23:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.470230+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456319+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-15T19:50:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994572+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2698,19 +2902,55 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569776+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848203+00:00"
     },
     {
-      "cinema_id": "prince-charles-cinema",
-      "cinema_name": "Prince Charles Cinema",
-      "film_title": "Ken Russell's The Devils: The Director's Cut",
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
       "start_time": "2026-11-15T20:00:00+00:00",
-      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628575",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/naza-15",
       "format": null,
       "screen": null,
-      "end_time": "2026-11-15T21:54:00+00:00",
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111640+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-15T20:15:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118932.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.462087+00:00"
+      "scraped_at": "2026-11-10T14:14:21.847941+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-15T20:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/15/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299480+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Carers & Babies: LA BOLA NEGRA",
+      "start_time": "2026-11-16T11:00:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118993.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "Carers & Babies",
+      "scraped_at": "2026-11-10T14:14:21.848384+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2722,7 +2962,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:25.234566+00:00"
+      "scraped_at": "2026-11-10T14:16:13.772634+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2734,7 +2974,7 @@
       "screen": null,
       "end_time": "2026-11-16T13:54:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.462211+00:00"
+      "scraped_at": "2026-11-10T14:15:26.451736+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2746,7 +2986,7 @@
       "screen": null,
       "end_time": "2026-11-16T14:01:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.485116+00:00"
+      "scraped_at": "2026-11-10T14:15:26.467936+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2758,7 +2998,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.250889+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678071+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2770,7 +3010,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.251079+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678210+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-16T14:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/16/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299489+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "LA BOLA NEGRA",
+      "start_time": "2026-11-16T14:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3122036.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848220+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2782,7 +3046,7 @@
       "screen": null,
       "end_time": "2026-11-16T16:12:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.485487+00:00"
+      "scraped_at": "2026-11-10T14:15:26.468237+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2794,7 +3058,7 @@
       "screen": null,
       "end_time": "2026-11-16T16:43:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.485863+00:00"
+      "scraped_at": "2026-11-10T14:15:26.468544+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2806,7 +3070,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.251262+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678360+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-16T15:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/16/naza-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111649+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-16T15:40:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118956.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847688+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2818,7 +3106,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.251457+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678525+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2830,7 +3118,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.251287+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678382+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2842,7 +3130,31 @@
       "screen": null,
       "end_time": "2026-11-16T19:03:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.486588+00:00"
+      "scraped_at": "2026-11-10T14:15:26.469124+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-16T17:35:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/16/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299499+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-16T17:50:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/16/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994581+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2854,7 +3166,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.490721+00:00"
+      "scraped_at": "2026-11-10T14:16:15.877766+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2866,7 +3178,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.251621+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678660+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-16T18:10:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118954.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "Hard of Hearing; Hard of Hearing",
+      "scraped_at": "2026-11-10T14:14:21.847700+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-16T18:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118958.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847820+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2878,7 +3214,7 @@
       "screen": null,
       "end_time": "2026-11-16T23:00:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.487439+00:00"
+      "scraped_at": "2026-11-10T14:15:26.469805+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -2890,7 +3226,19 @@
       "screen": null,
       "end_time": null,
       "notes": "15*",
-      "scraped_at": "2026-11-09T15:03:23.055652+00:00"
+      "scraped_at": "2026-11-10T14:16:10.760361+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-16T20:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/16/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299508+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2902,7 +3250,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.251792+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678800+00:00"
     },
     {
       "cinema_id": "rio",
@@ -2914,7 +3262,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.569787+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848237+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2926,7 +3274,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.251962+00:00"
+      "scraped_at": "2026-11-10T14:16:19.678949+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-16T20:45:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118960.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847961+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-16T20:45:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/16/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994589+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Naza",
+      "start_time": "2026-11-16T21:00:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594122.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.679086+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2938,7 +3322,7 @@
       "screen": null,
       "end_time": "2026-11-17T13:10:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.488070+00:00"
+      "scraped_at": "2026-11-10T14:15:26.470342+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2950,7 +3334,7 @@
       "screen": null,
       "end_time": "2026-11-17T13:48:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.488551+00:00"
+      "scraped_at": "2026-11-10T14:15:26.470732+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2962,7 +3346,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.252572+00:00"
+      "scraped_at": "2026-11-10T14:16:19.679542+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2974,7 +3358,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.252746+00:00"
+      "scraped_at": "2026-11-10T14:16:19.679682+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -2986,7 +3370,7 @@
       "screen": null,
       "end_time": "2026-11-17T16:48:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.470348+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456417+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -2998,7 +3382,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.252956+00:00"
+      "scraped_at": "2026-11-10T14:16:19.679831+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3010,7 +3394,7 @@
       "screen": null,
       "end_time": "2026-11-17T16:24:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.488915+00:00"
+      "scraped_at": "2026-11-10T14:15:26.471040+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3022,7 +3406,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.253177+00:00"
+      "scraped_at": "2026-11-10T14:16:19.680000+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3034,7 +3418,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.253365+00:00"
+      "scraped_at": "2026-11-10T14:16:19.680140+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3046,7 +3430,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.252983+00:00"
+      "scraped_at": "2026-11-10T14:16:19.679852+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3058,7 +3442,7 @@
       "screen": null,
       "end_time": "2026-11-17T19:11:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.489327+00:00"
+      "scraped_at": "2026-11-10T14:15:26.471354+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3070,7 +3454,31 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.253549+00:00"
+      "scraped_at": "2026-11-10T14:16:19.680283+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-17T17:35:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/17/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299517+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-17T17:50:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/17/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994598+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3082,7 +3490,31 @@
       "screen": null,
       "end_time": "2026-11-17T19:51:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.489890+00:00"
+      "scraped_at": "2026-11-10T14:15:26.471787+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-17T18:20:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118975.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847710+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-17T18:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/17/naza-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111657+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3094,7 +3526,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.253725+00:00"
+      "scraped_at": "2026-11-10T14:16:19.680430+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3106,7 +3538,67 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.253904+00:00"
+      "scraped_at": "2026-11-10T14:16:19.680571+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-17T20:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/17/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299526+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Primetime (15) (AD)",
+      "start_time": "2026-11-17T20:25:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/17/primetime-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:15.520326+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "LA BOLA NEGRA",
+      "start_time": "2026-11-17T20:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118973.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848255+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-17T20:45:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118977.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847979+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-17T20:45:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/17/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994608+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3118,7 +3610,7 @@
       "screen": null,
       "end_time": "2026-11-18T14:09:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.490317+00:00"
+      "scraped_at": "2026-11-10T14:15:26.472098+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3130,7 +3622,7 @@
       "screen": null,
       "end_time": "2026-11-18T14:42:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.490712+00:00"
+      "scraped_at": "2026-11-10T14:15:26.472416+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3142,7 +3634,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.254406+00:00"
+      "scraped_at": "2026-11-10T14:16:19.680999+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3154,7 +3646,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.254581+00:00"
+      "scraped_at": "2026-11-10T14:16:19.681150+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3166,7 +3658,7 @@
       "screen": null,
       "end_time": "2026-11-18T17:09:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.462376+00:00"
+      "scraped_at": "2026-11-10T14:15:26.451862+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3178,7 +3670,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.254769+00:00"
+      "scraped_at": "2026-11-10T14:16:19.681308+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3190,7 +3682,7 @@
       "screen": null,
       "end_time": "2026-11-18T17:23:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.472472+00:00"
+      "scraped_at": "2026-11-10T14:15:26.458034+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3202,7 +3694,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.254940+00:00"
+      "scraped_at": "2026-11-10T14:16:19.681447+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-18T17:50:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/18/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994617+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3214,7 +3718,7 @@
       "screen": null,
       "end_time": "2026-11-18T19:57:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.491225+00:00"
+      "scraped_at": "2026-11-10T14:15:26.472813+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3226,19 +3730,43 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.255125+00:00"
+      "scraped_at": "2026-11-10T14:16:19.681583+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-18T18:10:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3122038.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847719+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "NAZA",
+      "start_time": "2026-11-18T18:15:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/18/naza-15",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:13.111666+00:00"
     },
     {
       "cinema_id": "rio",
       "cinema_name": "Rio Cinema",
       "film_title": "ITALIAN FOR BEGINNERS",
       "start_time": "2026-11-18T18:20:00+00:00",
-      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3002808.TcsSection_936",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3002808.TcsSection_1299",
       "format": null,
-      "screen": "Screen 1",
+      "screen": "Screen 2",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569900+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848418+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3250,7 +3778,7 @@
       "screen": null,
       "end_time": "2026-11-18T19:36:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.491603+00:00"
+      "scraped_at": "2026-11-10T14:15:26.473123+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3262,7 +3790,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:22.186209+00:00"
+      "scraped_at": "2026-11-10T14:16:09.655882+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3274,7 +3802,7 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview",
-      "scraped_at": "2026-11-09T15:01:34.569937+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848448+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3286,7 +3814,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.255293+00:00"
+      "scraped_at": "2026-11-10T14:16:19.681723+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3298,7 +3826,7 @@
       "screen": null,
       "end_time": null,
       "notes": "U*",
-      "scraped_at": "2026-11-09T15:03:22.768388+00:00"
+      "scraped_at": "2026-11-10T14:16:10.391591+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3310,7 +3838,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.254606+00:00"
+      "scraped_at": "2026-11-10T14:16:19.681171+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-18T20:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/18/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299535+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3322,7 +3862,31 @@
       "screen": null,
       "end_time": "2026-11-18T22:40:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.491973+00:00"
+      "scraped_at": "2026-11-10T14:15:26.473420+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "LA BOLA NEGRA",
+      "start_time": "2026-11-18T20:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118984.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848272+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-18T20:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/18/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994626+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3334,7 +3898,19 @@
       "screen": null,
       "end_time": "2026-11-18T22:17:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.492411+00:00"
+      "scraped_at": "2026-11-10T14:15:26.473753+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-18T20:50:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118982.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847995+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3346,7 +3922,7 @@
       "screen": null,
       "end_time": "2026-11-19T14:08:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.492919+00:00"
+      "scraped_at": "2026-11-10T14:15:26.474174+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3358,7 +3934,7 @@
       "screen": null,
       "end_time": "2026-11-19T13:34:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.479764+00:00"
+      "scraped_at": "2026-11-10T14:15:26.463712+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3370,7 +3946,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.255844+00:00"
+      "scraped_at": "2026-11-10T14:16:19.682185+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3382,7 +3958,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.256012+00:00"
+      "scraped_at": "2026-11-10T14:16:19.682325+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3394,7 +3970,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.256209+00:00"
+      "scraped_at": "2026-11-10T14:16:19.682472+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3406,7 +3982,31 @@
       "screen": null,
       "end_time": "2026-11-19T16:46:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.493437+00:00"
+      "scraped_at": "2026-11-10T14:15:26.474569+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-19T14:50:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299544+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-19T15:00:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994635+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3418,7 +4018,7 @@
       "screen": null,
       "end_time": "2026-11-19T16:56:00+00:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.493836+00:00"
+      "scraped_at": "2026-11-10T14:15:26.474889+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3430,7 +4030,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.256403+00:00"
+      "scraped_at": "2026-11-10T14:16:19.682631+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Naza",
+      "start_time": "2026-11-19T15:30:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6594120.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.682767+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3442,7 +4054,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.256567+00:00"
+      "scraped_at": "2026-11-10T14:16:19.682911+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-19T17:35:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299553+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3454,7 +4078,19 @@
       "screen": null,
       "end_time": "2026-11-19T19:39:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.462501+00:00"
+      "scraped_at": "2026-11-10T14:15:26.451971+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-19T17:50:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994644+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3466,7 +4102,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Q&A after; Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.569978+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848476+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3478,7 +4114,7 @@
       "screen": null,
       "end_time": "2026-11-19T19:58:00+00:00",
       "notes": "Intro",
-      "scraped_at": "2026-11-09T15:02:37.494260+00:00"
+      "scraped_at": "2026-11-10T14:15:26.475257+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3490,7 +4126,31 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.256736+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683053+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Primetime (15) (AD)",
+      "start_time": "2026-11-19T18:10:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/primetime-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:15.520336+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "WILD HORSE NINE",
+      "start_time": "2026-11-19T18:20:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118989.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.847728+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3502,7 +4162,7 @@
       "screen": "Ludski",
       "end_time": null,
       "notes": "Preview; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.570042+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848502+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3514,7 +4174,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.256913+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683193+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3526,7 +4186,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.256235+00:00"
+      "scraped_at": "2026-11-10T14:16:19.682494+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "La Bola Negra (15) (AD)",
+      "start_time": "2026-11-19T20:20:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/la-bola-negra-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:09.299563+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3538,7 +4210,31 @@
       "screen": null,
       "end_time": "2026-11-19T22:00:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.494688+00:00"
+      "scraped_at": "2026-11-10T14:15:26.475603+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "LA BOLA NEGRA",
+      "start_time": "2026-11-19T20:40:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118991.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848288+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Wild Horse Nine (15) (AD)",
+      "start_time": "2026-11-19T20:40:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/19/wild-horse-nine-15-ad",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:17.994653+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3550,7 +4246,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15*",
-      "scraped_at": "2026-11-09T15:03:22.476338+00:00"
+      "scraped_at": "2026-11-10T14:16:10.027557+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3562,7 +4258,19 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.257096+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683330+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "PRIMETIME",
+      "start_time": "2026-11-19T21:00:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3118987.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848012+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3574,7 +4282,7 @@
       "screen": null,
       "end_time": "2026-11-20T13:40:00+00:00",
       "notes": "4K",
-      "scraped_at": "2026-11-09T15:02:37.495578+00:00"
+      "scraped_at": "2026-11-10T14:15:26.476328+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3586,7 +4294,7 @@
       "screen": null,
       "end_time": "2026-11-20T14:14:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.462616+00:00"
+      "scraped_at": "2026-11-10T14:15:26.452063+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3598,7 +4306,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.257484+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683683+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3610,7 +4318,7 @@
       "screen": null,
       "end_time": "2026-11-20T17:18:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.470466+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456512+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3622,7 +4330,7 @@
       "screen": null,
       "end_time": "2026-11-20T17:20:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.495961+00:00"
+      "scraped_at": "2026-11-10T14:15:26.476638+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3634,7 +4342,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.257678+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683842+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3646,7 +4354,7 @@
       "screen": null,
       "end_time": "2026-11-20T19:46:00+00:00",
       "notes": "Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.496406+00:00"
+      "scraped_at": "2026-11-10T14:15:26.476986+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3658,7 +4366,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.257841+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683991+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3670,7 +4378,7 @@
       "screen": null,
       "end_time": "2026-11-20T19:43:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.497296+00:00"
+      "scraped_at": "2026-11-10T14:15:26.477705+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3682,7 +4390,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570085+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848525+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3694,7 +4402,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.257510+00:00"
+      "scraped_at": "2026-11-10T14:16:19.683705+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3706,7 +4414,19 @@
       "screen": null,
       "end_time": "2026-11-20T22:38:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.497892+00:00"
+      "scraped_at": "2026-11-10T14:15:26.478198+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "O Fantasma + Intro",
+      "start_time": "2026-11-20T20:30:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6597346.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.684127+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3718,7 +4438,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570233+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848670+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3730,7 +4450,7 @@
       "screen": null,
       "end_time": "2026-11-20T22:55:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.498293+00:00"
+      "scraped_at": "2026-11-10T14:15:26.478505+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3742,7 +4462,19 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance",
-      "scraped_at": "2026-11-09T15:01:34.570311+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848715+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Parent & Baby Screening: You Can See Everything (cert TBC)",
+      "start_time": "2026-11-21T10:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/21/parent-baby-screening-you-can-see-everything-cert-tbc",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:14.196645+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3754,7 +4486,7 @@
       "screen": null,
       "end_time": null,
       "notes": "PG*",
-      "scraped_at": "2026-11-09T15:03:20.898362+00:00"
+      "scraped_at": "2026-11-10T14:16:07.867529+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3766,7 +4498,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-11-09T15:03:29.258313+00:00"
+      "scraped_at": "2026-11-10T14:16:19.684503+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3778,7 +4510,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.258480+00:00"
+      "scraped_at": "2026-11-10T14:16:19.684641+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3790,7 +4522,7 @@
       "screen": null,
       "end_time": "2026-11-21T13:59:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.462731+00:00"
+      "scraped_at": "2026-11-10T14:15:26.452153+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3802,7 +4534,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.258675+00:00"
+      "scraped_at": "2026-11-10T14:16:19.684803+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3814,7 +4546,7 @@
       "screen": null,
       "end_time": "2026-11-21T14:09:00+00:00",
       "notes": "4K; Subtitled",
-      "scraped_at": "2026-11-09T15:02:37.498684+00:00"
+      "scraped_at": "2026-11-10T14:15:26.478819+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3826,7 +4558,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570101+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848543+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3838,7 +4570,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.258895+00:00"
+      "scraped_at": "2026-11-10T14:16:19.684992+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3850,7 +4582,7 @@
       "screen": null,
       "end_time": "2026-11-21T16:27:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.499071+00:00"
+      "scraped_at": "2026-11-10T14:15:26.479138+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3862,7 +4594,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.570349+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848728+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3874,7 +4606,7 @@
       "screen": null,
       "end_time": "2026-11-21T16:38:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.472591+00:00"
+      "scraped_at": "2026-11-10T14:15:26.458131+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3886,7 +4618,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.259077+00:00"
+      "scraped_at": "2026-11-10T14:16:19.685130+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -3898,7 +4630,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:27.371987+00:00"
+      "scraped_at": "2026-11-10T14:16:17.241245+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3910,7 +4642,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.259247+00:00"
+      "scraped_at": "2026-11-10T14:16:19.685271+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3922,7 +4654,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.258700+00:00"
+      "scraped_at": "2026-11-10T14:16:19.684824+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3934,7 +4666,7 @@
       "screen": null,
       "end_time": "2026-11-21T19:40:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.499450+00:00"
+      "scraped_at": "2026-11-10T14:15:26.479442+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3946,7 +4678,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570248+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848680+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3958,7 +4690,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570385+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848740+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -3970,7 +4702,7 @@
       "screen": null,
       "end_time": "2026-11-21T19:21:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.499817+00:00"
+      "scraped_at": "2026-11-10T14:15:26.479735+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -3982,7 +4714,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.258724+00:00"
+      "scraped_at": "2026-11-10T14:16:19.684844+00:00"
     },
     {
       "cinema_id": "rio",
@@ -3994,7 +4726,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570114+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848561+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4006,7 +4738,7 @@
       "screen": null,
       "end_time": "2026-11-21T22:58:00+00:00",
       "notes": "70mm",
-      "scraped_at": "2026-11-09T15:02:37.470582+00:00"
+      "scraped_at": "2026-11-10T14:15:26.456608+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4018,7 +4750,19 @@
       "screen": null,
       "end_time": "2026-11-21T22:26:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.500226+00:00"
+      "scraped_at": "2026-11-10T14:15:26.480060+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Members' Screening: You Can See Everything (cert TBC)",
+      "start_time": "2026-11-22T10:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/22/members-screening-you-can-see-everything-cert-tbc",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:11.833678+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4030,7 +4774,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Family Screening",
-      "scraped_at": "2026-11-09T15:03:29.259701+00:00"
+      "scraped_at": "2026-11-10T14:16:19.685640+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4042,7 +4786,7 @@
       "screen": null,
       "end_time": "2026-11-22T13:43:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.500710+00:00"
+      "scraped_at": "2026-11-10T14:15:26.480455+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4054,7 +4798,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.259869+00:00"
+      "scraped_at": "2026-11-10T14:16:19.685779+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4066,7 +4810,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.260067+00:00"
+      "scraped_at": "2026-11-10T14:16:19.685942+00:00"
     },
     {
       "cinema_id": "rio",
@@ -4078,7 +4822,7 @@
       "screen": "Screen 2",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570125+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848577+00:00"
     },
     {
       "cinema_id": "rio",
@@ -4090,7 +4834,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.570431+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848762+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4102,7 +4846,7 @@
       "screen": null,
       "end_time": "2026-11-22T16:28:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.501098+00:00"
+      "scraped_at": "2026-11-10T14:15:26.480749+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4114,7 +4858,7 @@
       "screen": null,
       "end_time": "2026-11-22T16:02:00+00:00",
       "notes": null,
-      "scraped_at": "2026-11-09T15:02:37.501478+00:00"
+      "scraped_at": "2026-11-10T14:15:26.481062+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4126,7 +4870,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:19.778076+00:00"
+      "scraped_at": "2026-11-10T14:16:06.610395+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4138,7 +4882,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.260262+00:00"
+      "scraped_at": "2026-11-10T14:16:19.686109+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4150,7 +4894,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.260430+00:00"
+      "scraped_at": "2026-11-10T14:16:19.686262+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4162,7 +4906,7 @@
       "screen": null,
       "end_time": "2026-11-22T19:13:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.501853+00:00"
+      "scraped_at": "2026-11-10T14:15:26.481362+00:00"
     },
     {
       "cinema_id": "rio",
@@ -4174,7 +4918,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": "Special Performance; No Ads",
-      "scraped_at": "2026-11-09T15:01:34.570468+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848774+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4186,7 +4930,7 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:25.518140+00:00"
+      "scraped_at": "2026-11-10T14:16:14.539026+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4198,7 +4942,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.260094+00:00"
+      "scraped_at": "2026-11-10T14:16:19.685965+00:00"
     },
     {
       "cinema_id": "rio",
@@ -4210,7 +4954,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570136+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848594+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4222,7 +4966,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.260597+00:00"
+      "scraped_at": "2026-11-10T14:16:19.686405+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4234,7 +4978,7 @@
       "screen": null,
       "end_time": "2026-11-22T22:43:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.502255+00:00"
+      "scraped_at": "2026-11-10T14:15:26.481666+00:00"
     },
     {
       "cinema_id": "prince-charles-cinema",
@@ -4246,7 +4990,19 @@
       "screen": null,
       "end_time": "2026-11-22T22:19:00+00:00",
       "notes": "35mm",
-      "scraped_at": "2026-11-09T15:02:37.502633+00:00"
+      "scraped_at": "2026-11-10T14:15:26.481978+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Parent & Baby Screening: You Can See Everything (cert TBC)",
+      "start_time": "2026-11-23T10:30:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/23/parent-baby-screening-you-can-see-everything-cert-tbc",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:14.196660+00:00"
     },
     {
       "cinema_id": "barbican-cinema",
@@ -4258,7 +5014,43 @@
       "screen": null,
       "end_time": null,
       "notes": "15",
-      "scraped_at": "2026-11-09T15:03:26.768006+00:00"
+      "scraped_at": "2026-11-10T14:16:16.231086+00:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Gandahar",
+      "start_time": "2026-11-23T12:15:00+00:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31627820",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-11-23T13:38:00+00:00",
+      "notes": null,
+      "scraped_at": "2026-11-10T14:15:26.477795+00:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Fallen Angels",
+      "start_time": "2026-11-23T12:30:00+00:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628397",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-11-23T14:09:00+00:00",
+      "notes": "4K",
+      "scraped_at": "2026-11-10T14:15:26.482297+00:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Ikiru",
+      "start_time": "2026-11-23T14:30:00+00:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628398",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-11-23T16:53:00+00:00",
+      "notes": "35mm",
+      "scraped_at": "2026-11-10T14:15:26.482814+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4270,7 +5062,19 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.261005+00:00"
+      "scraped_at": "2026-11-10T14:16:19.686738+00:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Speed Racer",
+      "start_time": "2026-11-23T14:55:00+00:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628396",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-11-23T17:10:00+00:00",
+      "notes": "35mm",
+      "scraped_at": "2026-11-10T14:15:26.483225+00:00"
     },
     {
       "cinema_id": "rio",
@@ -4282,7 +5086,7 @@
       "screen": "Screen 1",
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:01:34.570154+00:00"
+      "scraped_at": "2026-11-10T14:14:21.848609+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4294,7 +5098,7 @@
       "screen": null,
       "end_time": null,
       "notes": "Audio Description",
-      "scraped_at": "2026-11-09T15:03:29.261050+00:00"
+      "scraped_at": "2026-11-10T14:16:19.686760+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4306,7 +5110,7 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.261221+00:00"
+      "scraped_at": "2026-11-10T14:16:19.686909+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4318,7 +5122,67 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.261385+00:00"
+      "scraped_at": "2026-11-10T14:16:19.687047+00:00"
+    },
+    {
+      "cinema_id": "barbican-cinema",
+      "cinema_name": "Barbican Cinema",
+      "film_title": "Short Films by William Greaves 1981-1988 (",
+      "start_time": "2026-11-23T18:15:00+00:00",
+      "booking_url": "https://www.barbican.org.uk/whats-on/2026/11/23/short-films-by-william-greaves-1981-1988",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "15",
+      "scraped_at": "2026-11-10T14:16:16.886959+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "AMERICAN DOCTOR",
+      "start_time": "2026-11-23T18:20:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3061781.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848689+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "Rio Film Feminists: DAISIES",
+      "start_time": "2026-11-23T18:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_2968338.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": "Special Performance; No Ads",
+      "scraped_at": "2026-11-10T14:14:21.848786+00:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Yi Yi",
+      "start_time": "2026-11-23T20:10:00+00:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628393",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-11-23T23:03:00+00:00",
+      "notes": null,
+      "scraped_at": "2026-11-10T14:15:26.483792+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "THE DEVILS (4K Restoration)",
+      "start_time": "2026-11-23T20:30:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3061798.TcsSection_1299",
+      "format": null,
+      "screen": "Screen 2",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848750+00:00"
     },
     {
       "cinema_id": "garden-cinema",
@@ -4330,20 +5194,116 @@
       "screen": null,
       "end_time": null,
       "notes": null,
-      "scraped_at": "2026-11-09T15:03:29.261562+00:00"
+      "scraped_at": "2026-11-10T14:16:19.687188+00:00"
+    },
+    {
+      "cinema_id": "prince-charles-cinema",
+      "cinema_name": "Prince Charles Cinema",
+      "film_title": "Paris, Texas",
+      "start_time": "2026-11-23T20:35:00+00:00",
+      "booking_url": "https://princecharlescinema.com/prince-charles-cinema/booknow/31628392",
+      "format": null,
+      "screen": null,
+      "end_time": "2026-11-23T23:00:00+00:00",
+      "notes": "4K",
+      "scraped_at": "2026-11-10T14:15:26.484294+00:00"
+    },
+    {
+      "cinema_id": "rio",
+      "cinema_name": "Rio Cinema",
+      "film_title": "YOU CAN SEE EVERYTHING",
+      "start_time": "2026-11-23T20:45:00+00:00",
+      "booking_url": "https://riocinema.org.uk/Rio.dll/Booking?Booking=TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_3014460.TcsSection_936",
+      "format": null,
+      "screen": "Screen 1",
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:14:21.848633+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "You Can See EverythingRating",
+      "start_time": "2026-11-24T12:30:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6445918.TcsSection_3060731",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-11-10T14:16:19.687554+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Filipi\u00f1ana",
+      "start_time": "2026-11-24T13:30:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6400418.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.687716+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "100 Sunset",
+      "start_time": "2026-11-24T15:35:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6511729.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.687856+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "American Doctor",
+      "start_time": "2026-11-24T17:45:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6439593.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.688005+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "You Can See EverythingRating",
+      "start_time": "2026-11-24T19:45:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6445933.TcsSection_971",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": "Audio Description",
+      "scraped_at": "2026-11-10T14:16:19.687576+00:00"
+    },
+    {
+      "cinema_id": "garden-cinema",
+      "cinema_name": "The Garden Cinema",
+      "film_title": "Father + Q&A with director Tereza Nvotov\u00e1",
+      "start_time": "2026-11-24T20:00:00+00:00",
+      "booking_url": "https://bookings.thegardencinema.co.uk/TheGardenCinema.dll/TSelectItems.waSelectItemsPrompt.TcsWebMenuItem_0.TcsWebTab_0.TcsPerformance_6282623.TcsSection_638",
+      "format": null,
+      "screen": null,
+      "end_time": null,
+      "notes": null,
+      "scraped_at": "2026-11-10T14:16:19.688147+00:00"
     }
   ],
-  "generated_at": "2026-11-09T15:05:28.844794",
-  "total_screenings": 361,
+  "generated_at": "2026-11-10T14:18:19.354420",
+  "total_screenings": 441,
   "cinemas": 8,
   "stats": {
-    "Rio Cinema": 45,
+    "Rio Cinema": 67,
     "Curzon Hoxton": 0,
     "Prince Charles Cinema": 89,
-    "Barbican Cinema": 47,
-    "Garden Cinema": 126,
+    "Barbican Cinema": 88,
+    "Garden Cinema": 128,
     "BFI IMAX": 0,
-    "Everyman Broadgate": 54,
+    "Everyman Broadgate": 69,
     "Vue Islington": 0
   }
 }
